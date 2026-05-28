@@ -1,0 +1,17 @@
+﻿test,statistic,value,interpretation
+Bootstrap CI A,mean,74.4,
+Bootstrap CI A,95% CI,"[69.2, 79.2]",
+Bootstrap CI B,mean,67.2,
+Bootstrap CI B,95% CI,"[62.2, 72.0]",
+Paired t-test,"t=36.0000, p=1.0000",7.2,无显著差异
+Wilcoxon,"W=0, p=0.2933",7,无显著差异
+Cohens d,d=16.0997,大效应,A > B
+
+dimension,mean,ci_lower,ci_upper
+证据可追溯性,79.4,74.4,83.2
+行业判断准确性,85.2,80.0,88.8
+标准引用准确性,72.2,69.2,75.8
+污染因子完整性,68.0,64.8,70.4
+措施-批复对应性,72.4,66.0,77.4
+可操作性,71.0,69.2,73.0
+幻觉控制,79.4,74.4,83.0

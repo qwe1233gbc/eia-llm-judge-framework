@@ -6,7 +6,94 @@
 
 ---
 
-## Idea 1: Three-Tier Classification System
+## ELLE's Argumentation Structure (How They Justify Usefulness)
+
+This is the core rhetorical framework you should reference when writing your own paper. ELLE uses a **4-layer argument**:
+
+### Layer 1: Identify the Gap (Related Works §2)
+
+```
+Existing:
+  General LLM benchmarks (SuperCLUE, C-Eval, JioNLP)
+    → Test general capabilities, NOT domain expertise
+  Vertical benchmarks (OmniEval for finance, BioMistral for biomedical)
+    → Cover finance & medicine, but NOT ecological/environmental
+
+Gap:
+  "No unified or reliable framework currently exists to measure
+   the professional applicability and rigor of such models in
+   the ecological environment domain." (lines 144-147)
+```
+
+### Layer 2: What They Did (Introduction §1 + Data Collection §3)
+
+Claim: "the **first dedicated dataset** designed to evaluate LLMs in the ecological and environmental sciences"
+
+Supported by:
+- **1,130 QA pairs** (quantity)
+- **16 environmental subjects** (coverage)
+- **Expert questionnaire + open-source materials** (rigor)
+- **3-round expert cross-review** (quality)
+
+### Layer 3: The Classification Innovation (Data Collection §3.1)
+
+> "Every QA pair not only includes the question and its corresponding answer but also provides essential metadata detailing the content scope, difficulty level, and question type."
+
+This 3D classification (Domain × Difficulty × Type) is what transforms a simple list of questions into an **analytical instrument**. It allows them to measure *where* a model fails, not just *whether* it fails.
+
+### Layer 4: Why It Matters (Conclusion §6)
+
+Three value claims:
+1. **Standardization**: "addresses the critical need for a standardized and reliable evaluation framework"
+2. **Nuanced assessment**: "enables a detailed analysis of AI performance across different cognitive demands and specialized areas"
+3. **Practical impact**: "offering valuable feedback to enhance the models' capabilities"
+
+---
+
+## Your Equivalent Argument for the EIA Experience Base
+
+When writing your paper, you mirror this same 4-layer structure:
+
+### Your Layer 1: The Gap
+
+```
+Existing:
+  EIA review experience → implicit, in reviewers' heads, undocumented
+  Industry standards → listed in codebooks, but no quantitative data
+  on WHICH standards are ACTUALLY used in real approvals
+
+Gap:
+  "No systematic, data-driven experience base exists that
+   quantifies the审查规律 implicitly used by government
+   approval experts across thousands of historical decisions."
+```
+
+**你的创新点**：不是"又做了一个数据集"，而是"把隐性的审批经验变成显性的、可量化的规则库"。
+
+### Your Layer 2: What You Did
+
+Claim: "the **first industry-level EIA review experience base** constructed from historical government approval documents"
+
+Supported by:
+- **2,406 approval documents** (quantity)
+- **59 industries** (coverage)
+- **审批条件自动提取 + 统计频率分析** (method)
+- **报告vs审批对比验证** (validation)
+
+### Your Layer 3: The Classification Innovation
+
+Your 3D classification: **Industry × Element × Severity**
+
+This transforms a list of standards into a **diagnostic tool** for EIA report quality:
+- By Industry: know which standards matter for C2929 vs C3360
+- By Element: know whether the gap is in 废气 vs 固废
+- By Severity: know which omissions are high-risk (approval rate >80%) vs low-risk
+
+### Your Layer 4: Why It Matters
+
+1. **Standardization**: replaces implicit reviewer experience with quantified审查规则
+2. **Audit capability**: can diagnose a new EIA report's compliance rate per element
+3. **Practical impact**: directly applicable to real-world EIA review workflows
 
 ### What ELLE does
 

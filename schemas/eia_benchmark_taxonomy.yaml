@@ -1,0 +1,211 @@
+# EIA Review Benchmark Taxonomy
+# Inspired by ELLE-QA classification system (Guo et al., 2024)
+# Migrated for: Environmental Impact Assessment Report Review Domain
+
+# ============================================================
+# TASK DOMAINS (14 categories)
+# ============================================================
+task_domains:
+  - id: industry_identification
+    name: 行业识别
+    description: "Identify the GB/T 4754-2017 industry code and name for an EIA report"
+    elle_analogue: "Environmental subject classification"
+
+  - id: standard_citation
+    name: 标准引用
+    description: "Extract and verify national, provincial, and industry standards cited in the report"
+    elle_analogue: "Knowledge — factual accuracy"
+
+  - id: wastewater
+    name: 废水
+    description: "Wastewater pollutants, treatment measures, discharge standards, and receiving water bodies"
+    elle_analogue: "Water Environment"
+
+  - id: waste_gas
+    name: 废气
+    description: "Waste gas emission sources, pollutants (VOCs, particulates, SO2, NOx), treatment technologies"
+    elle_analogue: "Atmospheric Environment"
+
+  - id: noise
+    name: 噪声
+    description: "Noise sources, predicted levels, control measures (GB12348-2008 compliance)"
+    elle_analogue: "Environmental Engineering"
+
+  - id: solid_waste
+    name: 固废
+    description: "General industrial solid waste generation, storage, and disposal"
+    elle_analogue: "Environmental Engineering"
+
+  - id: hazardous_waste
+    name: 危废
+    description: "Hazardous waste classification (HW codes), storage requirements, qualified disposal contractors"
+    elle_analogue: "Environmental Toxicology / Environmental Management"
+
+  - id: environmental_risk
+    name: 环境风险
+    description: "Risk source identification, accident scenario analysis, emergency response plans"
+    elle_analogue: "Environmental Control"
+
+  - id: discharge_permit
+    name: 排污许可
+    description: "Permitted discharge volumes, monitoring requirements, compliance reporting"
+    elle_analogue: "Environmental Law / Environmental Management"
+
+  - id: total_control
+    name: 总量控制
+    description: "Total emission caps for COD, NH3-N, SO2, NOx, VOCs"
+    elle_analogue: "Environmental Management"
+
+  - id: completion_acceptance
+    name: 竣工环保验收
+    description: "Post-construction environmental acceptance check requirements and procedures"
+    elle_analogue: "Environmental Management"
+
+  - id: major_changes
+    name: 重大变动
+    description: "Determination of whether project changes constitute major variations requiring re-approval"
+    elle_analogue: "Environmental Law"
+
+  - id: report_approval_matching
+    name: 报告-批复对应
+    description: "Cross-referencing report content with approval decision conditions"
+    elle_analogue: "N/A — EIA-specific"
+
+  - id: industry_pattern_induction
+    name: 行业经验归纳
+    description: "Inducing cross-project review patterns and rules for specific industry categories"
+    elle_analogue: "Reasoning"
+
+# ============================================================
+# DIFFICULTY LEVELS
+# ============================================================
+difficulty_levels:
+  simple:
+    definition: "Single fact extraction or basic knowledge judgment — requires retrieving one piece of information from a single source"
+    domain_relevance: "L1-level tasks: extracting named entities, codes, and values from structured report sections"
+    elle_analogue: "Simple: Basic concepts and terminology with direct answers"
+    eia_examples:
+      - "Extract all GB/DB/HJ standard codes mentioned in the report"
+      - "Identify the industry code of the project according to GB/T 4754-2017"
+      - "List the wastewater pollutants identified in the report"
+      - "State the project's total investment amount"
+    typical_sources: 1
+    expected_cognitive_load: "Single-step retrieval"
+
+  medium:
+    definition: "Cross-field matching requiring comparison or alignment of information from 2+ sections or documents"
+    domain_relevance: "L2-L3 level tasks: verifying pollutant-treatment pairs, checking standard applicability, cross-referencing report and approval"
+    elle_analogue: "Medium: Integration of multiple concepts, basic data interpretation, or case studies"
+    eia_examples:
+      - "Does every identified waste gas pollutant have a corresponding treatment measure?"
+      - "Check whether the discharge standards cited match the industry and process type"
+      - "Verify if approval conditions (from the approval decision) are addressed in the report"
+      - "Compare the emission quantities in the report with the total control indicators in the approval"
+    typical_sources: "2-3"
+    expected_cognitive_load: "Multi-step comparison and matching"
+
+  hard:
+    definition: "Comprehensive audit reasoning requiring synthesis across report, approval, standards, and historical cases"
+    domain_relevance: "L4-level tasks: industry pattern induction, missing-review-point detection, risk prediction"
+    elle_analogue: "Hard: Complex issues requiring advanced analysis, interdisciplinary knowledge, and comprehensive solutions"
+    eia_examples:
+      - "Based on the historical review patterns of C2929 industry projects, identify potential missing review points in this new report"
+      - "Synthesize high-frequency approval requirements across all C2929 projects into 5-10 actionable review checkpoints"
+      - "Compare the treatment measure selection against industry best practices and identify deviations"
+      - "Given a specific pollutant emission scenario, determine whether additional monitoring or risk assessment is warranted"
+    typical_sources: "3+"
+    expected_cognitive_load: "Multi-source synthesis with industry knowledge inference"
+
+# ============================================================
+# QUESTION TYPES
+# ============================================================
+question_types:
+  knowledge:
+    name: 知识类
+    definition: "Questions testing domain knowledge: standards, terminology, industry classification, report structure, regulatory requirements"
+    elle_analogue: "Knowledge: Fundamental and advanced knowledge, terminology, historical and recent developments"
+    output_format: "Factual answer or short explanation"
+    eia_example: "What GB standards apply to wastewater discharge for plastic product manufacturing?"
+
+  extraction:
+    name: 抽取类
+    definition: "Structured fact extraction from unstructured or semi-structured EIA report and approval text"
+    elle_analogue: "N/A — EIA-specific (ELLE does not have extraction from long documents)"
+    output_format: "Structured JSON with evidence spans"
+    eia_example: "Extract all pollutant names, emission quantities, and treatment measures from Section 3 of the report"
+
+  matching:
+    name: 匹配类
+    definition: "Cross-referencing and alignment checking between report content and approval requirements"
+    elle_analogue: "N/A — EIA-specific"
+    output_format: "Boolean match result + explanation + evidence references"
+    eia_example: "For each condition in the approval decision, check if the report addresses it"
+
+  reasoning:
+    name: 推理类
+    definition: "Multi-evidence synthesis, industry pattern inference, risk assessment requiring analytical thinking"
+    elle_analogue: "Reasoning: Analytical and systemic thinking, conditional reasoning, causal and analogical reasoning"
+    output_format: "Reasoning chain with supporting evidence"
+    eia_example: "Based on the common standards across 10 C2929 projects, infer which standards are most likely missing from this new report"
+
+  evaluation:
+    name: 评价类
+    definition: "Assess whether a model-generated review opinion or audit comment is reliable, complete, and actionable"
+    elle_analogue: "N/A — meta-evaluation (evaluating the evaluator)"
+    output_format: "Score (10-100) + dimension breakdown + evidence for score"
+    eia_example: "Judge the quality of an AI-generated review comment on wastewater treatment measure adequacy"
+
+  calculation:
+    name: 计算类
+    definition: "Numerical verification: emission quantities, hazardous waste volumes, treatment efficiency, concentration calculations"
+    elle_analogue: "Calculation: Mathematical operations, data analysis, quantitative problem-solving"
+    output_format: "Numerical result + formula + assumptions"
+    eia_example: "Verify if the SO2 emission quantity calculation uses the correct formula and parameters"
+
+# ============================================================
+# EVALUATION DIMENSIONS
+# ============================================================
+evaluation_dimensions:
+  professionalism:
+    name: 专业性
+    definition: "Whether the industry judgment is correct, standard citations are accurate, and pollutant-treatment measure logic follows EIA professional norms"
+    elle_analogue: "Professionalism: Accuracy and domain-relevant content"
+    scoring_guide:
+      90-100: "All domain judgments correct, standards precisely cited, logic fully sound"
+      70-89: "Minor errors in judgment, one or two imprecise citations, but overall logical"
+      50-69: "Noticeable errors in domain knowledge, questionable citations, logic gaps"
+      30-49: "Major errors, clearly wrong citations, significant logic flaws"
+      10-29: "Fundamentally wrong domain understanding, fabricated citations, illogical"
+
+  clarity:
+    name: 清晰性
+    definition: "Whether the output is structured, concise, and enables reviewers to quickly locate issues"
+    elle_analogue: "Clarity: Clear, concise, and easily understandable articulation"
+    scoring_guide:
+      90-100: "Fully structured output, every item clearly labeled, zero ambiguity"
+      70-89: "Generally clear but some items could be more specific"
+      50-69: "Partially structured, some vagueness requiring re-reading"
+      30-49: "Poorly organized, difficult to extract actionable information"
+      10-29: "Incoherent, no structure, impossible to use for review"
+
+  feasibility:
+    name: 可行性
+    definition: "Whether review suggestions can be converted to actual report modifications or approval decisions"
+    elle_analogue: "Feasibility: Practical applicability in real-world contexts"
+    scoring_guide:
+      90-100: "All suggestions directly actionable, with specific modification instructions"
+      70-89: "Most suggestions actionable, a few need further specification"
+      50-69: "Some suggestions actionable, others too general to implement"
+      30-49: "Most suggestions vague, impractical for real review use"
+      10-29: "Suggestions unusable, no practical value"
+
+  evidence_grounding:
+    name: 证据可追溯性
+    definition: "Whether every conclusion can be traced back to specific report paragraphs, approval document sections, or standard clauses"
+    elle_analogue: "N/A — EIA-specific addition (ELLE does not require evidence tracing)"
+    scoring_guide:
+      90-100: "Every claim has explicit source reference with text span"
+      70-89: "Most claims have source references, a few missing"
+      50-69: "Some claims supported, others lack evidence"
+      30-49: "Few claims supported, most lack source attribution"
+      10-29: "No evidence provided, all claims unverifiable"

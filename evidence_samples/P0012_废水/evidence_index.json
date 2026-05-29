@@ -1,21 +1,17 @@
 {
-  "qa_id": "QA_P0012_废水",
+  "qa_id": "P0012_废水",
   "project_id": "P0012",
   "company": "佛山市顺德区顺志程塑胶制品有限公司改",
   "industry_code": "C3311",
   "element": "废水",
-  "report_md_source": "E:\\软件\\mineru_extracted\\2023_2023年10月23日建设项目环境影响报告书（表）受理公告（北滘）_2_mineru\\full.md",
-  "approval_pdf_source": "E:\\软件\\2023-2026年顺德批复文件\\2021_202111051628356682.3.公示版--佛山市顺德区金聚祥塑胶有限公司建设项目.pdf",
+  "report_md_source": "full.md",
+  "approval_pdf_source": "2021_202111051628356682.3.公示版--佛山市顺德区金聚祥塑胶有限公司建设项目.pdf",
   "answer": " （一）生活污水经预处理达到广东省《水污染物排放限值》 （DB44/26-2001）第二时段三级标准后排入乐从污水处理厂",
   "approval_evidence_text": "你单位应按照《报告表》内容组织实施，落实相应的污染防治措施。 （一）生活污水经预处理达到广东省《水污染物排放限值》 （DB44/26-2001）第二时段三级标准后排入乐从污水处理厂。 （二）落实《固定污染源挥发性有机物综合排放标准》（DB 44/2367-2022）中相应控制要求，做好物料储存、转移和输送等环节挥发性有机物无组织排放控制，并采取有效废气收集处理措施，最大限度减少废气排放影响。",
-  "report_evidence_text": "分</td><td>贮存方式</td><td>产废周期</td><td>危险特性</td><td>污染防治措施</td></tr><tr><td>1</td><td>废活性炭</td><td rowspan=\"2\">HW49其他废物</td><td>900-039-49</td><td>5.069</td><td>有机废气治理设施</td><td>固体</td><td>活性炭、有机化合物</td>",
-  "approval_evidence_found_in_pdf": false,
-  "report_evidence_found_in_md": true,
-  "evidence_char_offsets": {
-    "approval_start": 0,
-    "approval_end": 0,
-    "report_start": 0,
-    "report_end": 0
-  },
-  "audit_notes": ""
+  "report_evidence_text": "分</td><td>贮存方式</td><td>产废周期</td><td>危险特性</td><td>污染防治措施</td></tr><tr><td>1</td><; 理厂扩建,尾水应执行《城镇污水处理厂污染物排放标准》(GB18918-2002)一级A标准及《广东省水污染物排放限值》(DB44/26-2001)的较严值。</",
+  "company_in_report": true,
+  "company_in_approval": true,
+  "answer_in_approval": true,
+  "evidence_in_report": true,
+  "validation_errors": []
 }

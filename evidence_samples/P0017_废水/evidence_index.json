@@ -1,21 +1,20 @@
 {
-  "qa_id": "QA_P0017_废水",
+  "qa_id": "P0017_废水",
   "project_id": "P0017",
   "company": "广东钿源科技有限公司",
   "industry_code": "C3029",
   "element": "废水",
-  "report_md_source": "E:\\软件\\mineru_extracted\\2023_2023年10月26日项目环境影响报告受理公告（勒流）_mineru\\full.md",
-  "approval_pdf_source": "E:\\软件\\2023-2026年顺德批复文件\\2023_（佛环0304环审〔2023〕5号）佛山市生态环境局关于广东钿源科技有限公司新建项目环境影响报告表的批复.pdf",
+  "report_md_source": "full.md",
+  "approval_pdf_source": "2023_（佛环0304环审〔2023〕5号）佛山市生态环境局关于广东钿源科技有限公司新建项目环境影响报告表的批复.pdf",
   "answer": "项目产生的生活污水经处理达到《水污染物排放限值》（DB44/26-2001）中的第二时段三级标准后排入勒流生活污水处理厂",
   "approval_evidence_text": "你单位应按照报告表内容组织实施。项目产生的生活污水经处理达到《水污染物排放限值》（DB44/26-2001）中的第二时段三级标准后排入勒流生活污水处理厂。按照《挥发性有机物主动公开佛环0304 环审〔2023〕5 号佛山市生态环境局关于广东钿源科技有限公司新建项目环境影响报告表的批复无组织排放控制标准》（GB37822-2019）的有关要求，做好物料储存、转移和输送等环节挥发性有机",
-  "report_evidence_text": "理厂扩建,尾水应执行《城镇污水处理厂污染物排放标准》(GB18918-2002)一级A标准及《广东省水污染物排放限值》(DB44/26-2001)的较严值。</td><td>本项目不属于污水管网、污水处理设施等建设项目。</td><td>符合</td></tr><tr><td>3-4.【水/综合类】保留勒流社区百丈片区分散式农村污水处理设施,其余行政村(社区)通过市政污水管网,配合农村支管网建设,",
-  "approval_evidence_found_in_pdf": false,
-  "report_evidence_found_in_md": true,
-  "evidence_char_offsets": {
-    "approval_start": 0,
-    "approval_end": 0,
-    "report_start": 0,
-    "report_end": 0
-  },
-  "audit_notes": ""
+  "report_evidence_text": "理厂扩建,尾水应执行《城镇污水处理厂污染物排放标准》(GB18918-2002)一级A标准及《广东省水污染物排放限值》(DB44/26-2001)的较严值。</; 围，生活污水经三级化粪池预处理达到广东省地方标准《水污染物排放限值》（DB44/26-2001）第二时段三级标准后排入勒流污水处理厂，尾水执行《城镇污水处理厂污",
+  "company_in_report": false,
+  "company_in_approval": true,
+  "answer_in_approval": true,
+  "evidence_in_report": true,
+  "validation_errors": [
+    "company_not_in_report_md",
+    "company_mismatch_report"
+  ]
 }

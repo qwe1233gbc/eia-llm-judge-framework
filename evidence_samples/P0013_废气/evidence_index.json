@@ -1,21 +1,20 @@
 {
-  "qa_id": "QA_P0013_废气",
+  "qa_id": "P0013_废气",
   "project_id": "P0013",
   "company": "佛山市肽裕金属制品有限公司",
   "industry_code": "C1432",
   "element": "废气",
-  "report_md_source": "E:\\软件\\mineru_extracted\\2023_2023年10月24日项目环境影响报告受理公告（勒流）_mineru\\full.md",
-  "approval_pdf_source": "E:\\软件\\2023-2026年顺德批复文件\\2023_（佛环0304环审〔2023〕8号）佛山市生态环境局关于佛山市肽裕金属制品有限公司新建项目环境影响报告表的批复.pdf",
+  "report_md_source": "full.md",
+  "approval_pdf_source": "2023_（佛环0304环审〔2023〕8号）佛山市生态环境局关于佛山市肽裕金属制品有限公司新建项目环境影响报告表的批复.pdf",
   "answer": "按照《挥发性有机物无组织排放控制标准》（GB37822-2019）的有关要求，做好物料储存、转移和输送等环节挥发性有机物无组织排放控制，并采取有效废气收集处理措施，最大限度减少废气排放影响；项目打磨、擦拭和真空镀膜工序产生的颗粒物执行广东省地方标准《大气污染物排放限值》（DB44/27-2001）第二时段无组织排放标准；清洁、擦洗工序产生的有机废气执行执行广东省地方标准《固定污染源挥发性有机物综合",
   "approval_evidence_text": "你公司应按照报告表内容组织实施。项目生活污水经处理达到广东省《水污染物排放限值》（DB44/26-2001）第二时段三级标准后排入勒流污水处理厂。按照《挥发性有机物无组织排放控制标准》（GB37822-2019）的有关要求，做好物料储存、转移和输送等环节挥发性有机物无组织排放控制，并采取有效废气收集处理措施，最大限度减少废气排放影响。项目打磨、擦拭和真空镀膜工序产生的颗粒物执行广东省地",
-  "report_evidence_text": "向好,土壤环境风险得到管控。近岸海域水体质量稳步提升。本项目生活污水经三级化粪池预处理后达到广东省《水污染物排放限值》(DB44/26-2001)中第二时段三级标准后排入勒流污水处理厂,对水环境影响不大。本项目废气经收集处理后可达标排放,大气污染物对周围环境影响较小。本项目位于3类声环境功能区,根据声环境影响预测,项目正常生产时厂界噪声值很小,噪声对周围环境和环境敏感标影响不明显。本项目排放的污染",
-  "approval_evidence_found_in_pdf": false,
-  "report_evidence_found_in_md": true,
-  "evidence_char_offsets": {
-    "approval_start": 0,
-    "approval_end": 0,
-    "report_start": 0,
-    "report_end": 0
-  },
-  "audit_notes": ""
+  "report_evidence_text": "向好,土壤环境风险得到管控。近岸海域水体质量稳步提升。本项目生活污水经三级化粪池预处理后达到广东省《水污染物排放限值》(DB44/26-2001)中第二时段三级; 产业园区内,无生态环境保护目标。</td></tr><tr><td rowspan=\"6\">污染物排放控制标准</td><td colspan=\"7\">1、水污",
+  "company_in_report": false,
+  "company_in_approval": true,
+  "answer_in_approval": true,
+  "evidence_in_report": true,
+  "validation_errors": [
+    "company_not_in_report_md",
+    "company_mismatch_report"
+  ]
 }

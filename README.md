@@ -150,3 +150,17 @@ python scripts/build_eia_benchmark_dataset.py --dry-run
 
 - Chen et al. (2026). *Leveraging LLMs for Environmental Complexity: Structured Fine-Tuning Data Sets and Deployment Strategies*. Environmental Science & Technology. DOI: [10.1021/acs.est.5c09526](https://doi.org/10.1021/acs.est.5c09526)
 - Guo et al. (2024). *Environmental large language model Evaluation (ELLE) dataset: A Benchmark for Evaluating Generative AI applications in Eco-environment Domain*. [ELLE GitHub](https://github.com/CEEAI/elle)
+
+## QA 对管线
+
+QA 对生成管线脚本位于 `scripts/qa_pipeline/`：
+
+| 脚本 | 功能 |
+|------|------|
+| `connect_report_to_approval.py` | 报告-批复文件匹配（approval_title提取公司名） |
+| `extract_approval_review_rules.py` | 从批复中提取审查条件 |
+| `match_approval_to_industry.py` | 批复→行业代码映射 |
+| `qa_batch_full.py` | 全量条款级QA对生成 |
+| `cleanse_and_validate.py` | QA对清洗+≥2公司验证 |
+| `foshan_qa_generate.py` | 佛山市级QA对生成 |
+| `add_review_point_dimension.py` | 审核要点第5维度分类（生态部第14号令） |

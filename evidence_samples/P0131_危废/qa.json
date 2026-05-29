@@ -1,0 +1,106 @@
+{
+  "level": "区级",
+  "region": "佛山市顺德区",
+  "company": "佛山市顺德区振峰塑料模具制造有限公司分车间",
+  "project_id": "P0131",
+  "industry_code": "C2929",
+  "project_type": "新建",
+  "report_year": "2024",
+  "element": "危废",
+  "review_point": "污染防治措施",
+  "clause_index": 2,
+  "question": "【区级】佛山市顺德区振峰塑料模具制造有限公司分车间（C2929 新建项目）危险废物类别、暂存要求和委托处置要求是什么？",
+  "answer": "危险废物、一般工业固废在厂内暂存应分别符合《危险废物贮存污染控制标准》（GB18597-2001）、《一般工业固体废物贮存、处置场污染控制标准》（GB18599-2001）以及《关于发布<一般工业固体废物贮存、处置场污染控制标准>（GB18599-2001）等3 项国家污染物控制标准修改单的公告》（环境保护部公告2013 年第36 号）的要求",
+  "standards": [
+    "GB185992001",
+    "GB123482008",
+    "GB185972001"
+  ],
+  "approval_evidence": [
+    {
+      "source": "2021_（佛环0304环审[2021]第0032号）佛山市生态环境局关于斯特华（佛山）磁材有限公司分车间年产3500吨磁性材料粉料新建项目环境影响报告表的批复.pdf",
+      "text": "28 吨/年，VOCs 总量控制指标0.052 吨/年。项目噪声源主要是设备运转时产生的噪声，通过隔声、减振等措施确保噪声排放执行《工业企业厂界环境噪声排放标准》（GB12348-2008）3 类标准限值。危险废物、一般工业固废在厂内暂存应分别符合《危险废物贮存污染控制标准》（GB18597-2001）、《一般工业固体废物贮存、处置场污染控制标准》（GB18599-2001）以及《关于发"
+    }
+  ],
+  "report_evidence": [
+    {
+      "section": "report",
+      "text": "0</td></tr><tr><td colspan=\"5\">3.噪声排放标准项目厂界噪声执行《工业企业厂界环境噪声排放标准》(GB12348-2008)中的3类标准:昼间≤65dB(A),夜间≤55dB(A)。4.固体废物控制标准危险废物在厂区内暂存应符合《危险废物贮存污染控制标准》(GB18597-2023);一般工业固废在厂区内贮存过程应满足相应防渗漏、防雨淋、防扬尘等环境保护要求;同时危险废物、一般工业固废还需符"
+    }
+  ],
+  "behavior_rule": {
+    "trigger_condition": "项目产生危险废物（如废活性炭、废机油等）",
+    "review_checkpoints": [
+      "是否识别危废类别（HW代码）和产生量",
+      "是否说明暂存要求和委托处置资质"
+    ],
+    "expected_report_content": [
+      "危废名称",
+      "危废代码",
+      "产生量",
+      "危险特性",
+      "暂存设施",
+      "委托处置",
+      "转移联单"
+    ],
+    "common_approval_requirement": "危险废物、一般工业固废在厂内暂存应分别符合《危险废物贮存污染控制标准》（GB18597-2001）、《一般工业固体废物贮存、处置场污染控制标准》（GB18599-2001）以及《关于发布<一般工业固体废物贮存、处置场污染控制标准>（GB18599-2001）等3 项国家污染物控制标准修改单的公告》（",
+    "common_standards": [
+      "GB185992001",
+      "GB123482008",
+      "GB185972001"
+    ]
+  },
+  "quality_score": 75,
+  "quality_issues": [
+    "match_issues: company_mismatch: QA=佛山市顺德区振峰塑料 vs PROJ=法定代表人;approval_company_mismatch: 法定代表 not in 2021_202111051628356682.3.公示版-"
+  ],
+  "need_human_review": false,
+  "validation": "已验证",
+  "approval_file": "2021_202111051628356682.3.公示版--佛山市顺德区金聚祥塑胶有限公司建设项目.pdf",
+  "match_issues": [],
+  "evidence_alignment": {
+    "level": "medium",
+    "score": 25.0
+  },
+  "original_question": "【区级】佛山市顺德区振峰塑料模具制造有限公司分车间（C2929 新建项目）废气污染源有哪些？应识别哪些污染因子？执行什么标准？废气收集方式和治理措施？",
+  "question_rewritten": true,
+  "standards_normalized": [
+    {
+      "standard_code": "GB18599-2001",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "GB12348-2008",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "GB18597-2001",
+      "standard_name": "",
+      "source": "qa"
+    }
+  ],
+  "benchmark_metadata": {
+    "task_domain": "危废",
+    "difficulty": "medium",
+    "question_type": "extraction",
+    "cognitive_level": "L1_fact",
+    "evaluation_dimensions": [
+      "professionalism",
+      "clarity",
+      "feasibility",
+      "evidence_grounding"
+    ]
+  },
+  "rule_quality": {
+    "specificity": "medium",
+    "can_be_used_for_review": true,
+    "rule_issues": []
+  },
+  "corrected_quality_score": 100,
+  "corrected_quality_issues": [],
+  "corrected_validation": "verified",
+  "v4_issues": [],
+  "v4_final_validation": "verified"
+}

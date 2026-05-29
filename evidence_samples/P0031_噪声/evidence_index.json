@@ -1,0 +1,21 @@
+{
+  "qa_id": "QA_P0031_噪声",
+  "project_id": "P0031",
+  "company": "佛山市顺德区优菲电器科技有限公司迁",
+  "industry_code": "C2231",
+  "element": "噪声",
+  "report_md_source": "E:\\软件\\mineru_extracted\\2023_2023年11月1日建设项目环境影响报告书（表）受理公告（杏坛）_mineru\\full.md",
+  "approval_pdf_source": "E:\\软件\\2023-2026年顺德批复文件\\2021_202111051628356682.3.公示版--佛山市顺德区金聚祥塑胶有限公司建设项目.pdf",
+  "answer": "厂界噪声执行《工业企业厂界环境噪声排放标准》 （GB12348-2008）中的2 类标准",
+  "approval_evidence_text": "063 t/a。厂界噪声执行《工业企业厂界环境噪声排放标准》 （GB12348-2008）中的2 类标准。项目危险废物、一般工业固体废物贮存及处置应符合法律法规及国家污染物控制标准要求。一般工业固体废物贮存过程应满足相应防渗漏、防雨淋、防扬尘等环境保护要求，并依法处理处置；危险废物贮存场所须满足《危险废物贮存污染控制标准》（GB 18597-2023）相关要求，危险废物委托有资质的单位进",
+  "report_evidence_text": "及无组织排放标准。</td><td>是</td></tr><tr><td>噪声污染</td><td>厂界噪声执行《工业企业厂界环境噪声排放标准》(GB12348-2008)中的3类标准。</td><td>项目选用低噪声设备,厂界均设有围墙。经监测噪声达到《工业企业厂界环境噪声排放标准》(GB12348-2008)中的3类标准的要求。</td><td>是</td></tr><tr><td>固废污染<",
+  "approval_evidence_found_in_pdf": false,
+  "report_evidence_found_in_md": true,
+  "evidence_char_offsets": {
+    "approval_start": 0,
+    "approval_end": 0,
+    "report_start": 0,
+    "report_end": 0
+  },
+  "audit_notes": ""
+}

@@ -1,0 +1,127 @@
+{
+  "level": "区级",
+  "region": "佛山市顺德区",
+  "company": "佛山市顺德区顺盈达塑料五金厂",
+  "project_id": "P0003",
+  "industry_code": "C2922",
+  "project_type": "新建",
+  "report_year": "2023",
+  "element": "废水",
+  "review_point": "污染防治措施",
+  "clause_index": 1,
+  "question": "【区级】佛山市顺德区顺盈达塑料五金厂（C2922 新建项目）废水来源、主要污染因子、执行标准和排放去向是什么？",
+  "answer": "项目生活污水经三 — 2 — 级化粪池处理后，水质执行广东省地方标准《水污染物排放限值》 （DB44/26-2001）中的第二时段三级标准，然后通过污水管网排至杏坛镇生活污水处理厂处理",
+  "standards": [
+    "DB44/272001",
+    "GB123482008",
+    "GB14554",
+    "DB44/262001",
+    "DB44/23672022"
+  ],
+  "approval_evidence": [
+    {
+      "source": "2023_公示佛山市生态环境局关于佛山市顺德区顺盈达塑料五金厂新建项目环境影响报告表的批复.pdf",
+      "text": "你公司应按照报告表内容组织实施。项目生活污水经三 — 2 — 级化粪池处理后，水质执行广东省地方标准《水污染物排放限值》 （DB44/26-2001）中的第二时段三级标准，然后通过污水管网排至杏坛镇生活污水处理厂处理。投料搅拌、破碎、筛分工序产生的颗粒物执行广东省《大气污染物排放限值》（DB44/27-2001） 第二时段二级标准最高允许排放浓度及排放速率和无组织监控浓度限值要求。烘干工序产"
+    }
+  ],
+  "report_evidence": [
+    {
+      "section": "report",
+      "text": "理站扩建,尾水应执行《城镇污水处理厂污染物排放标准》(GB18918-2002)一级B标准及《广东省水污染物排放限值》(DB44/26-2001)的较严值。</td><td>本项目无生产废水外排,项目的生活污水经三级化粪池预处理后通过市政污水管网排入到逢简工业园污水处理站进行深度处理,尾水达到《城镇污水处理厂污染物排放标准》(GB18918-2002)一级B标准及《广东省水污染物排放限值》(DB44/26-200"
+    },
+    {
+      "section": "report",
+      "text": "气筒DA001排放。非甲烷总烃参照执行《合成树脂工业污染物排放标准》(GB31572-2015)表4大气污染物排放限值:非甲烷总烃最高允许排放浓度100mg/m3,无组织排放执行《合成树脂工业污染物排放标准》(GB31572-2015)表9企业边界大气污染物浓度限值,非甲烷总</td></tr></table> 烃无组织排放监控浓度限值为 4.0mg/m3。 表 3-6 项目废气执行标准 <table><tr"
+    }
+  ],
+  "behavior_rule": {
+    "trigger_condition": "项目产生工业废水或生活污水",
+    "review_checkpoints": [
+      "是否识别废水类别和主要污染因子",
+      "是否说明预处理措施及效率",
+      "是否明确排放去向（纳管/地表水/循环）",
+      "是否引用正确的排放标准"
+    ],
+    "expected_report_content": [
+      "废水产生来源和水量",
+      "主要污染因子（COD、NH3-N等）",
+      "预处理措施",
+      "排放去向",
+      "执行标准"
+    ],
+    "common_approval_requirement": "项目生活污水经三 — 2 — 级化粪池处理后，水质执行广东省地方标准《水污染物排放限值》 （DB44/26-2001）中的第二时段三级标准，然后通过污水管网排至杏坛镇生活污水处理厂处理",
+    "common_standards": [
+      "DB44/272001",
+      "GB123482008",
+      "GB14554",
+      "DB44/262001",
+      "DB44/23672022"
+    ]
+  },
+  "quality_score": 100,
+  "quality_issues": [],
+  "need_human_review": false,
+  "validation": "参考",
+  "approval_file": "2021_202111051628356682.3.公示版--佛山市顺德区金聚祥塑胶有限公司建设项目.pdf",
+  "match_issues": [],
+  "evidence_alignment": {
+    "level": "high",
+    "score": 50.0
+  },
+  "original_question": "【区级】佛山市顺德区顺盈达塑料五金厂（C2922 新建项目）废水主要污染因子有哪些？执行什么排放标准？废水经预处理后排放去向？",
+  "question_rewritten": true,
+  "standards_normalized": [
+    {
+      "standard_code": "DB44/27-2001",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "GB12348-2008",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "GB14554-93",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "DB44/26-2001",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "DB44/2367-2022",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "",
+      "standard_name": "",
+      "source": "answer"
+    }
+  ],
+  "benchmark_metadata": {
+    "task_domain": "废水",
+    "difficulty": "medium",
+    "question_type": "extraction",
+    "cognitive_level": "L1_fact",
+    "evaluation_dimensions": [
+      "professionalism",
+      "clarity",
+      "feasibility",
+      "evidence_grounding"
+    ]
+  },
+  "rule_quality": {
+    "specificity": "medium",
+    "can_be_used_for_review": true,
+    "rule_issues": []
+  },
+  "corrected_quality_score": 100,
+  "corrected_quality_issues": [],
+  "corrected_validation": "verified",
+  "v4_issues": [],
+  "v4_final_validation": "verified"
+}

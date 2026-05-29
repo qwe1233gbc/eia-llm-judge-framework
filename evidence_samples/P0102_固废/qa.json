@@ -1,0 +1,106 @@
+{
+  "level": "区级",
+  "region": "佛山市顺德区",
+  "company": "佛山市智龙科技有限公司迁",
+  "project_id": "P0102",
+  "industry_code": "C2929",
+  "project_type": "扩建",
+  "report_year": "2024",
+  "element": "固废",
+  "review_point": "污染防治措施",
+  "clause_index": 2,
+  "question": "【区级】佛山市智龙科技有限公司迁（C2929 扩建项目）一般工业固体废物如何暂存、综合利用或处置？批复中有哪些要求？",
+  "answer": "危险废物、一般工业固废在厂内暂存应分别符合《《危险废物贮存污染控制标准》（GB18597-2001）及2013 年修改单、《《一般工业固体废物贮存、处置场污染控制标准》 （GB18599-2020）",
+  "standards": [
+    "GB185992020",
+    "GB123482008",
+    "GB185972001"
+  ],
+  "approval_evidence": [
+    {
+      "source": "2021_佛环0304环审【2021】第0102号 佛山市生态环境局关于佛山市顺德区银熹电器科技有限公司迁扩项目环境影响报告表的批复.pdf",
+      "text": "36 吨/年。项目噪声源主要是设备运转时产生的噪声，通过隔声、 减振等措施确保厂界达到《工业企业厂界环境噪声排放标准》 （GB12348-2008）3 类标准。危险废物、一般工业固废在厂内暂存应分别符合《《危险废物贮存污染控制标准》（GB18597-2001）及2013 年修改单、《《一般工业固体废物贮存、处置场污染控制标准》 （GB18599-2020）。 四、环境影响报告表经批准后，该项目的"
+    }
+  ],
+  "report_evidence": [
+    {
+      "section": "report",
+      "text": "智龙科技有限公司新建项目竣工验收监测报告》(编号:R2105B013),原项目厂界环境噪声均能达到《工业企业厂界环境噪声排放标准》(GB12348-2008)中表1工业企业厂界环境噪声2类区排放限值。(4)固废原项目产生的生活垃圾交由环卫部门集中处理;塑料次品全部回用于生产,废包装材料定期外卖给回收商;废机油、废包装桶、含油废抹布、废活性炭收集后交由具有危废运营资质的单位统一处理。表2.14 原项目的固体废物产生和处置情况<"
+    },
+    {
+      "section": "report",
+      "text": "足相应防渗漏、防雨淋、防扬尘等环境保护要求(2)危险废物执行《国家危险废物名录》(2021年版)、《危险废物贮存污染控制标准》(GB18597-2023)、《危险废物识别标志设置技术规范》(HJ1276-2022)、《危险废物收集贮存运输技术规范》(HJ2025-2012),危险废物暂存于危险废物暂存间,暂存间应满足防渗漏、防雨淋、防扬尘等要求。</td></tr></table> <table><tr><td row"
+    }
+  ],
+  "behavior_rule": {
+    "trigger_condition": "项目产生一般工业固体废物",
+    "review_checkpoints": [
+      "是否识别一般固废类别和产生量",
+      "是否说明综合利用或处置去向"
+    ],
+    "expected_report_content": [
+      "一般固废种类",
+      "产生量",
+      "贮存位置",
+      "综合利用或处置去向",
+      "执行标准"
+    ],
+    "common_approval_requirement": "危险废物、一般工业固废在厂内暂存应分别符合《《危险废物贮存污染控制标准》（GB18597-2001）及2013 年修改单、《《一般工业固体废物贮存、处置场污染控制标准》 （GB18599-2020）",
+    "common_standards": [
+      "GB185992020",
+      "GB123482008",
+      "GB185972001"
+    ]
+  },
+  "quality_score": 100,
+  "quality_issues": [],
+  "need_human_review": false,
+  "validation": "参考",
+  "approval_file": "2021_（佛环0304环审[2021]第0002号）佛山市生态环境局关于佛山市智龙科技有限公司年产溜冰鞋轮300万个、滑板车轮300万个新建项目环境影响报告表的批复.pdf",
+  "match_issues": [],
+  "evidence_alignment": {
+    "level": "high",
+    "score": 55.6
+  },
+  "original_question": "【区级】佛山市智龙科技有限公司迁（C2929 扩建项目）噪声执行什么标准，3 类？厂界噪声限值是多少？",
+  "question_rewritten": true,
+  "standards_normalized": [
+    {
+      "standard_code": "GB18599-2020",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "GB12348-2008",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "GB18597-2001",
+      "standard_name": "",
+      "source": "qa"
+    }
+  ],
+  "benchmark_metadata": {
+    "task_domain": "固废",
+    "difficulty": "medium",
+    "question_type": "extraction",
+    "cognitive_level": "L1_fact",
+    "evaluation_dimensions": [
+      "professionalism",
+      "clarity",
+      "feasibility",
+      "evidence_grounding"
+    ]
+  },
+  "rule_quality": {
+    "specificity": "medium",
+    "can_be_used_for_review": true,
+    "rule_issues": []
+  },
+  "corrected_quality_score": 100,
+  "corrected_quality_issues": [],
+  "corrected_validation": "verified",
+  "v4_issues": [],
+  "v4_final_validation": "verified"
+}

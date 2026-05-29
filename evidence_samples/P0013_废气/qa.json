@@ -1,0 +1,122 @@
+{
+  "level": "区级",
+  "region": "佛山市顺德区",
+  "company": "佛山市肽裕金属制品有限公司",
+  "project_id": "P0013",
+  "industry_code": "C1432",
+  "project_type": "新建",
+  "report_year": "2023",
+  "element": "废气",
+  "review_point": "污染防治措施",
+  "clause_index": 1,
+  "question": "【区级】佛山市肽裕金属制品有限公司（C1432 新建项目）废气产生工序、主要污染因子、收集治理措施和执行标准是什么？",
+  "answer": "按照《挥发性有机物无组织排放控制标准》（GB37822-2019）的有关要求，做好物料储存、转移和输送等环节挥发性有机物无组织排放控制，并采取有效废气收集处理措施，最大限度减少废气排放影响；项目打磨、擦拭和真空镀膜工序产生的颗粒物执行广东省地方标准《大气污染物排放限值》（DB44/27-2001）第二时段无组织排放标准；清洁、擦洗工序产生的有机废气执行执行广东省地方标准《固定污染源挥发性有机物综合排放标准》(DB44/2367-2022)表1 挥发性有机物排放限值，厂区内挥发性有机物无组织排放监控点浓度应满足《固定污染源挥发性有机物综合排放标准》(DB44/2367-2022)表3 厂区内NMHC 无组织排放限值；项目VOCs 有组织年排放量为",
+  "standards": [
+    "GB378222019",
+    "DB44/23672022",
+    "DB44/272001",
+    "DB44/262001"
+  ],
+  "approval_evidence": [
+    {
+      "source": "2023_（佛环0304环审〔2023〕8号）佛山市生态环境局关于佛山市肽裕金属制品有限公司新建项目环境影响报告表的批复.pdf",
+      "text": "你公司应按照报告表内容组织实施。项目生活污水经处理达到广东省《水污染物排放限值》（DB44/26-2001）第二时段三级标准后排入勒流污水处理厂。按照《挥发性有机物无组织排放控制标准》（GB37822-2019）的有关要求，做好物料储存、转移和输送等环节挥发性有机物无组织排放控制，并采取有效废气收集处理措施，最大限度减少废气排放影响。项目打磨、擦拭和真空镀膜工序产生的颗粒物执行广东省地"
+    }
+  ],
+  "report_evidence": [
+    {
+      "section": "report",
+      "text": "向好,土壤环境风险得到管控。近岸海域水体质量稳步提升。本项目生活污水经三级化粪池预处理后达到广东省《水污染物排放限值》(DB44/26-2001)中第二时段三级标准后排入勒流污水处理厂,对水环境影响不大。本项目废气经收集处理后可达标排放,大气污染物对周围环境影响较小。本项目位于3类声环境功能区,根据声环境影响预测,项目正常生产时厂界噪声值很小,噪声对周围环境和环境敏感标影响不明显。本项目排放的污染物不会导致区域环"
+    },
+    {
+      "section": "report",
+      "text": "产业园区内,无生态环境保护目标。</td></tr><tr><td rowspan=\"6\">污染物排放控制标准</td><td colspan=\"7\">1、水污染物排放标准项目生活污水经三级化粪池处理后,达到广东省《水污染物排放限值》(DB44/26-2001)中第二时段三级标准后,经市政污水管网排入勒流污水处理厂处理,尾水排入顺德支流。项目生产废水经自建污水处理设施处理后,达到《肉类加工工业水污染物排放标"
+    }
+  ],
+  "behavior_rule": {
+    "trigger_condition": "项目存在工艺废气产生工序（如注塑、挤出、焊接等）",
+    "review_checkpoints": [
+      "是否识别废气污染因子和源强",
+      "是否说明收集方式（集气罩/密闭）和收集效率",
+      "是否说明治理工艺（活性炭/布袋/洗涤）",
+      "是否引用对应的排放标准"
+    ],
+    "expected_report_content": [
+      "废气产生工序和源强",
+      "污染因子（颗粒物、VOCs等）",
+      "收集方式和效率",
+      "治理工艺",
+      "排气筒高度"
+    ],
+    "common_approval_requirement": "按照《挥发性有机物无组织排放控制标准》（GB37822-2019）的有关要求，做好物料储存、转移和输送等环节挥发性有机物无组织排放控制，并采取有效废气收集处理措施，最大限度减少废气排放影响；项目打磨、擦拭和真空镀膜工序产生的颗粒物执行广东省地方标准《大气污染物排放限值》（DB44/27-2001）第",
+    "common_standards": [
+      "GB378222019",
+      "DB44/23672022",
+      "DB44/272001",
+      "DB44/262001"
+    ]
+  },
+  "quality_score": 75,
+  "quality_issues": [
+    "match_issues: approval_company_mismatch: 佛山市味 not in 2023_（佛环0304环审〔2023〕8号）佛山市生态环境"
+  ],
+  "need_human_review": false,
+  "validation": "参考",
+  "approval_file": "2023_（佛环0304环审〔2023〕8号）佛山市生态环境局关于佛山市肽裕金属制品有限公司新建项目环境影响报告表的批复.pdf",
+  "match_issues": [],
+  "evidence_alignment": {
+    "level": "medium",
+    "score": 36.4
+  },
+  "original_question": "【区级】佛山市肽裕金属制品有限公司（C1432 新建项目）废水主要污染因子有哪些？执行什么排放标准？废水经预处理后排放去向？",
+  "question_rewritten": true,
+  "standards_normalized": [
+    {
+      "standard_code": "GB37822-2019",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "DB44/2367-2022",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "DB44/27-2001",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "DB44/26-2001",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "",
+      "standard_name": "",
+      "source": "answer"
+    }
+  ],
+  "benchmark_metadata": {
+    "task_domain": "废气",
+    "difficulty": "medium",
+    "question_type": "extraction",
+    "cognitive_level": "L1_fact",
+    "evaluation_dimensions": [
+      "professionalism",
+      "clarity",
+      "feasibility",
+      "evidence_grounding"
+    ]
+  },
+  "rule_quality": {
+    "specificity": "medium",
+    "can_be_used_for_review": true,
+    "rule_issues": []
+  },
+  "corrected_quality_score": 100,
+  "corrected_quality_issues": [],
+  "corrected_validation": "verified",
+  "v4_issues": [],
+  "v4_final_validation": "verified"
+}

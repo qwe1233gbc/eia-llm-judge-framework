@@ -1,0 +1,137 @@
+{
+  "level": "区级",
+  "region": "佛山市顺德区",
+  "company": "佛山市银惠科技有限公司",
+  "project_id": "P0026",
+  "industry_code": "C3856",
+  "project_type": "新建",
+  "report_year": "2023",
+  "element": "废水",
+  "review_point": "污染防治措施",
+  "clause_index": 1,
+  "question": "【区级】佛山市银惠科技有限公司（C3856 新建项目）废水来源、主要污染因子、执行标准和排放去向是什么？",
+  "answer": "项目生活污水排放执行广东省地方标准《水污染物排放限值》（DB44/26-2001） 第二时段三级标准;项目投料、混料、破碎、焊接工序产生的粉尘（颗粒物）执行《合成树脂工业污染物排放标准》 （GB31572-2015）表9 企业边界大气污染物浓度限值与广东省地方标准《大气污染物排放限值》（DB44/27-2001）第二时段无组织排放监控点浓度限值的较严值",
+  "standards": [
+    "DB44/272001",
+    "GB12348",
+    "DB44/2367",
+    "GB315722015",
+    "GB14554",
+    "DB44/262001"
+  ],
+  "approval_evidence": [
+    {
+      "source": "2023_佛山市生态环境局关于佛山市银惠科技有限公司新建项目环境影响报告表的批复.pdf",
+      "text": "你单位应按照报告表内容组织实施。项目生活污水排放执行广东省地方标准《水污染物排放限值》（DB44/26-2001） 第二时段三级标准;项目投料、混料、破碎、焊接工序产生的粉尘（颗粒物）执行《合成树脂工业污染物排放标准》 （GB31572-2015）表9 企业边界大气污染物浓度限值与广东省地方标准《大气污染物排放限值》（DB44/27-2001）第二时段无组织排放监控点浓度限值的较严值；注塑"
+    }
+  ],
+  "report_evidence": [
+    {
+      "section": "report",
+      "text": "31572-2015)表4大气污染物排放限值和表9企业边界大气污染物浓度限值,厂区内有机废气无组织排放执行广东省地方标准《固定污染源挥发性有机物综合排放标准》(DB44/2367-2022)中表3厂区内VOCs无组织排放限值。</td><td colspan=\"2\">符合</td></tr><tr><td>4.6</td><td>VOCs治理设施应与生产工艺设备同步运行,VOCs治理设施发生故障或检修时,对应的生产工"
+    },
+    {
+      "section": "report",
+      "text": "理厂扩建,尾水应执行《城镇污水处理厂污染物排放标准》(GB18918-2002)一级A标准及《广东省水污染物排放限值》(DB44/26-2001)的较严值。</td><td rowspan=\"2\">项目已接驳市政管网。项目生活污水经三级化粪池预处理后由市政管网排入容桂第一污水处理厂,尾水排至鸡鸦水道;冷却水循环使用,定期排水可作为清净下水通过雨水管道排放。</td><td>符合</td></tr><tr><td>"
+    },
+    {
+      "section": "report",
+      "text": "物排放标准:生活污水经三级化粪池处理后,达到广东省《水污染物排放限值》(DB44/26-2001)中第二时段三级标准后通过市政污水管网排入容桂第一污水处理厂,尾水排入鸡鸦水道。容桂第一污水处理厂尾水排放执行《城镇污水处理厂污染物排放标准》(GB18918-2002)中的一级A标准及《水污染物排放限值》(DB44/26-2001)第二时段一级标准的较严者。表3-4水污染物排放限值(单位:mg/L,pH除外)</td"
+    }
+  ],
+  "behavior_rule": {
+    "trigger_condition": "项目产生工业废水或生活污水",
+    "review_checkpoints": [
+      "是否识别废水类别和主要污染因子",
+      "是否说明预处理措施及效率",
+      "是否明确排放去向（纳管/地表水/循环）",
+      "是否引用正确的排放标准"
+    ],
+    "expected_report_content": [
+      "废水产生来源和水量",
+      "主要污染因子（COD、NH3-N等）",
+      "预处理措施",
+      "排放去向",
+      "执行标准"
+    ],
+    "common_approval_requirement": "项目生活污水排放执行广东省地方标准《水污染物排放限值》（DB44/26-2001） 第二时段三级标准;项目投料、混料、破碎、焊接工序产生的粉尘（颗粒物）执行《合成树脂工业污染物排放标准》 （GB31572-2015）表9 企业边界大气污染物浓度限值与广东省地方标准《大气污染物排放限值》（DB44/2",
+    "common_standards": [
+      "DB44/272001",
+      "GB12348",
+      "DB44/2367",
+      "GB315722015",
+      "GB14554"
+    ]
+  },
+  "quality_score": 100,
+  "quality_issues": [],
+  "need_human_review": false,
+  "validation": "参考",
+  "approval_file": "2023_佛山市生态环境局关于佛山市银惠科技有限公司新建项目环境影响报告表的批复.pdf",
+  "match_issues": [],
+  "evidence_alignment": {
+    "level": "medium",
+    "score": 20.0
+  },
+  "original_question": "【区级】佛山市银惠科技有限公司（C3856 新建项目）废水主要污染因子有哪些？执行什么排放标准？废水经预处理后排放去向？",
+  "question_rewritten": true,
+  "standards_normalized": [
+    {
+      "standard_code": "DB44/27-2001",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "GB12348",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "DB44/2367",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "GB31572-2015",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "GB14554-93",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "DB44/26-2001",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "",
+      "standard_name": "",
+      "source": "answer"
+    }
+  ],
+  "benchmark_metadata": {
+    "task_domain": "废水",
+    "difficulty": "medium",
+    "question_type": "extraction",
+    "cognitive_level": "L1_fact",
+    "evaluation_dimensions": [
+      "professionalism",
+      "clarity",
+      "feasibility",
+      "evidence_grounding"
+    ]
+  },
+  "rule_quality": {
+    "specificity": "medium",
+    "can_be_used_for_review": true,
+    "rule_issues": []
+  },
+  "corrected_quality_score": 100,
+  "corrected_quality_issues": [],
+  "corrected_validation": "verified",
+  "v4_issues": [],
+  "v4_final_validation": "verified"
+}

@@ -1,0 +1,143 @@
+{
+  "level": "区级",
+  "region": "佛山市顺德区",
+  "company": "佛山市塑裕新材料科技有限公司",
+  "project_id": "P0002",
+  "industry_code": "C2929",
+  "project_type": "新建",
+  "report_year": "2023",
+  "element": "废水",
+  "review_point": "污染防治措施",
+  "clause_index": 1,
+  "question": "【区级】佛山市塑裕新材料科技有限公司（C2929 新建项目）废水来源、主要污染因子、执行标准和排放去向是什么？",
+  "answer": "项目生活污水、冷却废水均执行广东省地方标准《水污染物排放限值》 — 2 — （DB44/26-2001）第二时段三级标准，排入杏坛污水处理厂处理",
+  "standards": [
+    "DB44/272001",
+    "GB378222019",
+    "GB123482008",
+    "GB315722015",
+    "GB14554",
+    "DB44/262001",
+    "DB44/23672022"
+  ],
+  "approval_evidence": [
+    {
+      "source": "2023_公示佛山市生态环境局关于佛山市塑裕新材料科技有限公司新建项目环境影响报告表的批复.pdf",
+      "text": "你公司应按照报告表内容组织实施。项目生活污水、冷却废水均执行广东省地方标准《水污染物排放限值》 — 2 — （DB44/26-2001）第二时段三级标准，排入杏坛污水处理厂处理。 投料、破碎工序产生的颗粒物执行《合成树脂工业污染物排放标准》（GB31572-2015）表9 企业边界大气污染物浓度限值。挤出、 注塑工序产生的非甲烷总烃有组织排放执行广东省地方标准《固定污染源挥发性有机物综合排放"
+    }
+  ],
+  "report_evidence": [
+    {
+      "section": "report",
+      "text": "限值的执行标准相同。</td></tr></table> # 2、废水排放标准项目生活污水、冷却废水均执行广东省地方标准《水污染物排放限值》（DB44/26-2001）第二时段三级标准，排入杏坛污水处理厂处理。杏坛污水处理厂尾水排放标准执行《城镇污水处理厂污染物排放标准》（GB18918-2002）一级 A 标准及《水污染物排放限值》（DB44/26-2001）第二时段一级标准的较严值，具体排放浓度限值详见见表3-9"
+    },
+    {
+      "section": "report",
+      "text": "生产废水应立足于回用,不能回用的,可考虑委外处置,确需要外排的,应处理达到行业直接排放标准或广东省《水污染物排放限值》(DB44/26-2001)后排入政策法规允许排放且有环境容量的水域。5、向工业集聚区污水集中处理设施或者城镇污水集中处理设施排放工业废水的,应当按照有关规定进行预处理,达到集中处理设施处理工艺要求后方可以排入市政管网进入各片区污水处理厂。企业生活污水达到广东省《水污染物排放限值》(DB44/26"
+    },
+    {
+      "section": "report",
+      "text": "市政管网进入各片区污水处理厂。企业生活污水达到广东省《水污染物排放限值》(DB44/26-2001)第二时段三级标准后通过污水管线进入各片区所依托的城镇污水处理厂。6、规划区依托的集中式污水处理设施排放标准应达到或优于《城镇污水处理厂污染物排放标准》(GB18918-2002)一级标准的A标准和广东省《水污染物排放限值》(DB44/26-2001)第二时段一级标准的较严者。7、挤出等合成树脂加工生产环节和生产设备"
+    }
+  ],
+  "behavior_rule": {
+    "trigger_condition": "项目产生工业废水或生活污水",
+    "review_checkpoints": [
+      "是否识别废水类别和主要污染因子",
+      "是否说明预处理措施及效率",
+      "是否明确排放去向（纳管/地表水/循环）",
+      "是否引用正确的排放标准"
+    ],
+    "expected_report_content": [
+      "废水产生来源和水量",
+      "主要污染因子（COD、NH3-N等）",
+      "预处理措施",
+      "排放去向",
+      "执行标准"
+    ],
+    "common_approval_requirement": "项目生活污水、冷却废水均执行广东省地方标准《水污染物排放限值》 — 2 — （DB44/26-2001）第二时段三级标准，排入杏坛污水处理厂处理",
+    "common_standards": [
+      "DB44/272001",
+      "GB378222019",
+      "GB123482008",
+      "GB315722015",
+      "GB14554"
+    ]
+  },
+  "quality_score": 100,
+  "quality_issues": [],
+  "need_human_review": false,
+  "validation": "已验证",
+  "approval_file": "2023_公示佛山市生态环境局关于佛山市塑裕新材料科技有限公司新建项目环境影响报告表的批复.pdf",
+  "match_issues": [],
+  "evidence_alignment": {
+    "level": "high",
+    "score": 46.7
+  },
+  "original_question": "【区级】佛山市塑裕新材料科技有限公司（C2929 新建项目）废水主要污染因子有哪些？执行什么排放标准？废水经预处理后排放去向？",
+  "question_rewritten": true,
+  "standards_normalized": [
+    {
+      "standard_code": "DB44/27-2001",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "GB37822-2019",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "GB12348-2008",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "GB31572-2015",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "GB14554-93",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "DB44/26-2001",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "DB44/2367-2022",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "",
+      "standard_name": "",
+      "source": "answer"
+    }
+  ],
+  "benchmark_metadata": {
+    "task_domain": "废水",
+    "difficulty": "medium",
+    "question_type": "extraction",
+    "cognitive_level": "L1_fact",
+    "evaluation_dimensions": [
+      "professionalism",
+      "clarity",
+      "feasibility",
+      "evidence_grounding"
+    ]
+  },
+  "rule_quality": {
+    "specificity": "medium",
+    "can_be_used_for_review": true,
+    "rule_issues": []
+  },
+  "corrected_quality_score": 100,
+  "corrected_quality_issues": [],
+  "corrected_validation": "verified",
+  "v4_issues": [],
+  "v4_final_validation": "verified"
+}

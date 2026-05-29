@@ -21,6 +21,21 @@
 | `eia_error_case_analysis_template.md` | 文档 | 错误案例分析模板（12种错误类型） |
 | `eia_agent_workflow_design.md` | 文档 | Agent 工作流设计（6步审核流程） |
 | `final_summary.md` | 文档 | 最终总结 |
+| `data/qa_pairs/qa_batch_full.json` | 数据 | 区级（顺德）419条 QA 对（五维分类） |
+| `data/qa_pairs/foshan_qa.json` | 数据 | 市级（佛山）149条 QA 对 |
+| `prompts/eia_review_expert_prompt.md` | Prompt | **环评审核专家智能体 System Prompt** |
+
+### 五维分类体系
+
+每条 QA 对含五维标签：
+
+| 维度 | 字段 | 说明 |
+|------|------|------|
+| ① 层级 | `level` | 区级 / 市级 |
+| ② 行业 | `industry_code` | C2929 / C3360 / ... |
+| ③ 要素 | `element` | 废水/废气/噪声/固废/危废 |
+| ④ 项目类型 | `project_type` | 新建/扩建/迁建/技改 |
+| ⑤ 审核要点 | `review_point_primary` | 生态部第14号令十一项审查要点 RP01-RP11 |
 
 ## 使用方法
 

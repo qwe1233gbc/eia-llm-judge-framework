@@ -90,8 +90,7 @@ def call_llm_api(prompt_text, api_type, api_config):
             response = client.chat.completions.create(
                 model=os.environ.get('EVAL_MODEL', 'gpt-4'),
                 messages=[
-                    {"role": "system", "content": "You are an expert EIA review evaluator. Output ONLY valid JSON."},
-                    {"role": "user", "content": prompt_text}
+                    {"role": "user", "content": "[System]\nYou are an expert EIA review evaluator. Output ONLY valid JSON.\n\n" + prompt_text}
                 ],
                 temperature=0.0,
                 max_tokens=4096
@@ -137,13 +136,13 @@ def generate_mock_evaluation(sample):
     # Base scores differ by task level and difficulty
     base_scores = {
         ('L1_信息抽取', 'easy'):    {'overall': 78, 'evidence': 85, 'industry': 90, 'standard': 75,
-                                      'pollutant': 72, 'measure': 80, 'actionability': 75, 'hallucination': 85},
+                                      'pollutant': 72, 'measure': 80, 'actionability': 75, 'hallucination': 85, 'review_point': 80},
         ('L1_信息抽取', 'medium'):  {'overall': 72, 'evidence': 80, 'industry': 88, 'standard': 70,
-                                      'pollutant': 68, 'measure': 75, 'actionability': 70, 'hallucination': 80},
+                                      'pollutant': 68, 'measure': 75, 'actionability': 70, 'hallucination': 80, 'review_point': 75},
         ('L2_规则匹配', 'medium'):  {'overall': 75, 'evidence': 82, 'industry': 85, 'standard': 78,
-                                      'pollutant': 70, 'measure': 72, 'actionability': 72, 'hallucination': 82},
+                                      'pollutant': 70, 'measure': 72, 'actionability': 72, 'hallucination': 82, 'review_point': 78},
         ('L3_审核推理', 'hard'):    {'overall': 65, 'evidence': 70, 'industry': 75, 'standard': 68,
-                                      'pollutant': 62, 'measure': 60, 'actionability': 68, 'hallucination': 70},
+                                      'pollutant': 62, 'measure': 60, 'actionability': 68, 'hallucination': 70, 'review_point': 65},
     }
 
     key = (task_level, difficulty)
@@ -169,6 +168,7 @@ def generate_mock_evaluation(sample):
         "measure_approval_alignment": scores['measure'],
         "actionability": scores['actionability'],
         "hallucination_control": scores['hallucination'],
+        "review_point_compliance": scores['review_point'],
     }
 
     # Generate strengths and weaknesses based on dimension scores
@@ -279,7 +279,7 @@ def compute_summary(results):
 
     dims = ['evidence_grounding', 'industry_classification', 'standard_accuracy',
             'pollutant_completeness', 'measure_approval_alignment',
-            'actionability', 'hallucination_control']
+            'actionability', 'hallucination_control', 'review_point_compliance']
 
     for dim in dims:
         vals = [r['dimension_scores'].get(dim, 0) for r in results]

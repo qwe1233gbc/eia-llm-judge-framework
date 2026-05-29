@@ -78,6 +78,16 @@ CRITICAL RULES:
 - **30-49**: Significant fabricated content not present in any source
 - **10-29**: Response is mostly fabricated or hallucinated
 
+### 8. Review Point Compliance (审核要点合规性)
+评估AI回复是否完整覆盖生态环境部第14号令规定的十一项审查要点。审查要点包括：
+（一）产业政策与规划相符性、（二）区域环境质量、（三）污染防治措施、（四）生态保护措施、（五）改建扩建项目以新带老、（六）振动和电磁污染、（七）公众参与、（八）环境风险防范、（九）总量控制指标、（十）评价因子完整性、（十一）预测评价方法
+
+- **90-100**: 完整覆盖十一项审查要点中与当前任务相关的全部要点，每个要点均有实质性分析
+- **70-89**: 覆盖了大部分关联要点（≥80%），少量次要要点未涉及或分析较浅
+- **50-69**: 覆盖了主要审查要点（≥60%），但存在2-3个明显遗漏或分析明显不足的要点
+- **30-49**: 仅覆盖了不到一半的关联审查要点，存在多个要点完全未涉及
+- **10-29**: 几乎未从任何审查要点的角度进行分析，或分析完全偏离审查要求
+
 ---
 
 ## Overall Score Mapping
@@ -108,7 +118,8 @@ You MUST output ONLY a valid JSON object (no markdown, no code fences, no extra 
     "pollutant_completeness": <integer 10-100>,
     "measure_approval_alignment": <integer 10-100>,
     "actionability": <integer 10-100>,
-    "hallucination_control": <integer 10-100>
+    "hallucination_control": <integer 10-100>,
+    "review_point_compliance": <integer 10-100>
   },
   "strengths": ["<strength 1>", "<strength 2>", "..."],
   "weaknesses": ["<weakness 1>", "<weakness 2>", "..."],

@@ -42,7 +42,8 @@
         "pollutant_completeness",
         "measure_approval_alignment",
         "actionability",
-        "hallucination_control"
+        "hallucination_control",
+        "review_point_compliance"
       ],
       "properties": {
         "evidence_grounding": {
@@ -86,6 +87,12 @@
           "minimum": 10,
           "maximum": 100,
           "description": "幻觉控制：是否存在无原文依据的推断或编造内容"
+        },
+        "review_point_compliance": {
+          "type": "integer",
+          "minimum": 10,
+          "maximum": 100,
+          "description": "审核要点合规性：AI回复是否覆盖生态环境部第14号令规定的十一项审查要点"
         }
       }
     },

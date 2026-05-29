@@ -14,7 +14,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: no new 废水"
   },
   {
     "level": "市级",
@@ -31,7 +38,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: no new 废水"
   },
   {
     "level": "市级",
@@ -47,7 +61,14 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 总量 ?: see approval"
   },
   {
     "level": "市级",
@@ -63,7 +84,14 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 总量 ?: see approval"
   },
   {
     "level": "市级",
@@ -79,7 +107,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2641] 其他 ?: see approval"
   },
   {
     "level": "市级",
@@ -96,7 +131,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2110] 废水 ?: no new 废水"
   },
   {
     "level": "市级",
@@ -112,7 +154,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2110] 废水 ?: no new 废水"
   },
   {
     "level": "市级",
@@ -128,7 +177,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2319] 废水 ?: see approval"
   },
   {
     "level": "市级",
@@ -145,7 +201,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2319] 废水 ?: see approval"
   },
   {
     "level": "市级",
@@ -161,7 +224,14 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2319] 总量 ?: see approval"
   },
   {
     "level": "市级",
@@ -177,7 +247,14 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2319] 总量 ?: see approval"
   },
   {
     "level": "市级",
@@ -194,7 +271,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: no new 废水"
   },
   {
     "level": "市级",
@@ -212,7 +296,14 @@
       "改建扩建以新带老",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C3360] 废气 ?: see approval"
   },
   {
     "level": "市级",
@@ -229,7 +320,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2110] 废水 ?: no new 废水"
   },
   {
     "level": "市级",
@@ -245,7 +343,14 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 总量 ?: see approval"
   },
   {
     "level": "市级",
@@ -261,7 +366,14 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 总量 ?: see approval"
   },
   {
     "level": "市级",
@@ -278,7 +390,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2110] 废水 ?: no new 废水"
   },
   {
     "level": "市级",
@@ -295,7 +414,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2110] 废水 ?: no new 废水"
   },
   {
     "level": "市级",
@@ -312,7 +438,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: no new 废水"
   },
   {
     "level": "市级",
@@ -329,7 +462,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C3360] 废气 ?: see approval"
   },
   {
     "level": "市级",
@@ -346,7 +486,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2319] 废气 ?: see approval"
   },
   {
     "level": "市级",
@@ -363,7 +510,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2319] 废气 ?: see approval"
   },
   {
     "level": "市级",
@@ -379,7 +533,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 其他 ?: see approval"
   },
   {
     "level": "市级",
@@ -395,7 +556,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: no new 废水"
   },
   {
     "level": "市级",
@@ -412,7 +580,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 废水 ?: see approval"
   },
   {
     "level": "市级",
@@ -429,7 +604,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: no new 废水"
   },
   {
     "level": "市级",
@@ -446,7 +628,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C3360] 废气 ?: see approval"
   },
   {
     "level": "市级",
@@ -462,7 +651,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: no new 废水"
   },
   {
     "level": "市级",
@@ -479,7 +675,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 废水 ?: see approval"
   },
   {
     "level": "市级",
@@ -496,7 +699,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2319] 废气 ?: see approval"
   },
   {
     "level": "市级",
@@ -513,7 +723,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2319] 废气 ?: see approval"
   },
   {
     "level": "市级",
@@ -530,7 +747,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2319] 废气 ?: see approval"
   },
   {
     "level": "市级",
@@ -546,7 +770,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: no new 废水"
   },
   {
     "level": "市级",
@@ -563,7 +794,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 废水 ?: see approval"
   },
   {
     "level": "市级",
@@ -579,7 +817,14 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 其他 ?: see approval"
   },
   {
     "level": "市级",
@@ -595,7 +840,14 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 总量 ?: see approval"
   },
   {
     "level": "市级",
@@ -611,7 +863,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2319] 废水 ?: see approval"
   },
   {
     "level": "市级",
@@ -628,7 +887,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2319] 废水 ?: see approval"
   },
   {
     "level": "市级",
@@ -644,7 +910,14 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2319] 总量 ?: see approval"
   },
   {
     "level": "市级",
@@ -660,7 +933,14 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2319] 总量 ?: see approval"
   },
   {
     "level": "市级",
@@ -676,7 +956,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: no new 废水"
   },
   {
     "level": "市级",
@@ -692,7 +979,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 废水 ?: see approval"
   },
   {
     "level": "市级",
@@ -709,7 +1003,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: see approval"
   },
   {
     "level": "市级",
@@ -725,7 +1026,14 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 总量 ?: see approval"
   },
   {
     "level": "市级",
@@ -741,7 +1049,14 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 总量 ?: see approval"
   },
   {
     "level": "市级",
@@ -757,7 +1072,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: no new 废水"
   },
   {
     "level": "市级",
@@ -773,7 +1095,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 废水 ?: see approval"
   },
   {
     "level": "市级",
@@ -790,7 +1119,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: see approval"
   },
   {
     "level": "市级",
@@ -807,7 +1143,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2319] 废气 ?: see approval"
   },
   {
     "level": "市级",
@@ -823,7 +1166,14 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 总量 ?: see approval"
   },
   {
     "level": "市级",
@@ -839,7 +1189,14 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2319] 总量 ?: see approval"
   },
   {
     "level": "市级",
@@ -855,7 +1212,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2770] 其他 ?: see approval"
   },
   {
     "level": "市级",
@@ -871,7 +1235,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2641] 废水 ?: see approval"
   },
   {
     "level": "市级",
@@ -888,7 +1259,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2641] 废气 ?: see approval"
   },
   {
     "level": "市级",
@@ -904,7 +1282,14 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2641] 总量 ?: see approval"
   },
   {
     "level": "市级",
@@ -921,7 +1306,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废水 ?: see approval"
   },
   {
     "level": "市级",
@@ -938,7 +1330,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废气 ?: see approval"
   },
   {
     "level": "市级",
@@ -954,7 +1353,14 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 总量 ?: see approval"
   },
   {
     "level": "市级",
@@ -970,7 +1376,14 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 总量 ?: see approval"
   },
   {
     "level": "市级",
@@ -987,7 +1400,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废气 ?: see approval"
   },
   {
     "level": "市级",
@@ -1003,7 +1423,14 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 总量 ?: see approval"
   },
   {
     "level": "市级",
@@ -1019,7 +1446,14 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 总量 ?: see approval"
   },
   {
     "level": "市级",
@@ -1036,7 +1470,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废水 ?: no new 废水"
   },
   {
     "level": "市级",
@@ -1052,7 +1493,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 其他 ?: see approval"
   },
   {
     "level": "市级",
@@ -1068,7 +1516,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 其他 ?: see approval"
   },
   {
     "level": "市级",
@@ -1084,7 +1539,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 其他 ?: see approval"
   },
   {
     "level": "市级",
@@ -1100,7 +1562,14 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 总量 ?: see approval"
   },
   {
     "level": "市级",
@@ -1117,7 +1586,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 废水 ?: see approval"
   },
   {
     "level": "市级",
@@ -1133,7 +1609,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2319] 废水 ?: see approval"
   },
   {
     "level": "市级",
@@ -1150,7 +1633,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2319] 废水 ?: see approval"
   },
   {
     "level": "市级",
@@ -1167,7 +1657,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 废水 ?: see approval"
   },
   {
     "level": "市级",
@@ -1183,7 +1680,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 其他 ?: see approval"
   },
   {
     "level": "市级",
@@ -1199,7 +1703,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 废水 ?: see approval"
   },
   {
     "level": "市级",
@@ -1215,7 +1726,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 废水 ?: see approval"
   },
   {
     "level": "市级",
@@ -1231,7 +1749,14 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 总量 ?: see approval"
   },
   {
     "level": "市级",
@@ -1248,7 +1773,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 废水 ?: see approval"
   },
   {
     "level": "市级",
@@ -1264,7 +1796,14 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 总量 ?: see approval"
   },
   {
     "level": "市级",
@@ -1280,7 +1819,14 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 总量 ?: see approval"
   },
   {
     "level": "市级",
@@ -1296,7 +1842,14 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 总量 ?: see approval"
   },
   {
     "level": "市级",
@@ -1313,7 +1866,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 废气 ?: see approval"
   },
   {
     "level": "市级",
@@ -1329,7 +1889,14 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 总量 ?: see approval"
   },
   {
     "level": "市级",
@@ -1345,7 +1912,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 其他 ?: see approval"
   },
   {
     "level": "市级",
@@ -1361,7 +1935,14 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 总量 ?: see approval"
   },
   {
     "level": "市级",
@@ -1377,7 +1958,14 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 总量 ?: see approval"
   },
   {
     "level": "市级",
@@ -1394,7 +1982,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: see approval"
   },
   {
     "level": "市级",
@@ -1411,7 +2006,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: see approval"
   },
   {
     "level": "市级",
@@ -1427,7 +2029,14 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 总量 ?: see approval"
   },
   {
     "level": "市级",
@@ -1443,7 +2052,14 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 总量 ?: see approval"
   },
   {
     "level": "市级",
@@ -1459,7 +2075,14 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 总量 ?: see approval"
   },
   {
     "level": "市级",
@@ -1475,7 +2098,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 其他 ?: see approval"
   },
   {
     "level": "市级",
@@ -1491,7 +2121,14 @@
     "review_points": [
       "环境风险防范"
     ],
-    "review_point_primary": "环境风险防范"
+    "review_point_primary": "环境风险防范",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 其他 ?: see approval"
   },
   {
     "level": "市级",
@@ -1507,7 +2144,14 @@
     "review_points": [
       "环境风险防范"
     ],
-    "review_point_primary": "环境风险防范"
+    "review_point_primary": "环境风险防范",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 其他 ?: see approval"
   },
   {
     "level": "市级",
@@ -1524,7 +2168,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 废水 ?: see approval"
   },
   {
     "level": "市级",
@@ -1540,7 +2191,14 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 总量 ?: total 146t/a"
   },
   {
     "level": "市级",
@@ -1556,7 +2214,14 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 总量 ?: total 8.25t/a"
   },
   {
     "level": "市级",
@@ -1576,7 +2241,13 @@
       "污染防治措施",
       "振动和电磁污染"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 70,
+    "quality_issues": [
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 废水 ?: use GB30962008/GB123482008"
   },
   {
     "level": "市级",
@@ -1592,7 +2263,14 @@
     "review_points": [
       "环境风险防范"
     ],
-    "review_point_primary": "环境风险防范"
+    "review_point_primary": "环境风险防范",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C3021] 其他 ?: see approval"
   },
   {
     "level": "市级",
@@ -1608,7 +2286,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C3021] 其他 ?: see approval"
   },
   {
     "level": "市级",
@@ -1628,7 +2313,13 @@
       "污染防治措施",
       "振动和电磁污染"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 70,
+    "quality_issues": [
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C3831] 废水 ?: use GB30962008/GB123482008"
   },
   {
     "level": "市级",
@@ -1644,7 +2335,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: see approval"
   },
   {
     "level": "市级",
@@ -1666,7 +2364,13 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 70,
+    "quality_issues": [
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: use GB185992020/DB44/272001/DB44/23672022"
   },
   {
     "level": "市级",
@@ -1683,7 +2387,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废气 ?: see approval"
   },
   {
     "level": "市级",
@@ -1700,7 +2411,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: no new 废水"
   },
   {
     "level": "市级",
@@ -1720,7 +2438,13 @@
       "污染防治措施",
       "振动和电磁污染"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 70,
+    "quality_issues": [
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 废水 ?: use GB30962008/GB123482008"
   },
   {
     "level": "市级",
@@ -1736,7 +2460,14 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 总量 ?: see approval"
   },
   {
     "level": "市级",
@@ -1752,7 +2483,14 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 总量 ?: total 0.0448t/a"
   },
   {
     "level": "市级",
@@ -1769,7 +2507,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 废水 ?: total 0.0679t/a"
   },
   {
     "level": "市级",
@@ -1786,7 +2531,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 废水 ?: see approval"
   },
   {
     "level": "市级",
@@ -1802,7 +2554,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: see approval"
   },
   {
     "level": "市级",
@@ -1818,7 +2577,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 其他 ?: see approval"
   },
   {
     "level": "市级",
@@ -1840,7 +2606,13 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 70,
+    "quality_issues": [
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: use GB185992020/DB44/272001/DB44/23672022"
   },
   {
     "level": "市级",
@@ -1857,7 +2629,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废气 ?: see approval"
   },
   {
     "level": "市级",
@@ -1874,7 +2653,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: see approval"
   },
   {
     "level": "市级",
@@ -1891,7 +2677,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C3979] 废水 ?: see approval"
   },
   {
     "level": "市级",
@@ -1908,7 +2701,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C3979] 废气 ?: see approval"
   },
   {
     "level": "市级",
@@ -1928,7 +2728,13 @@
       "污染防治措施",
       "振动和电磁污染"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 70,
+    "quality_issues": [
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C3831] 废水 ?: use GB30962008/GB123482008"
   },
   {
     "level": "市级",
@@ -1945,7 +2751,14 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2110] 废水 ?: see approval"
   },
   {
     "level": "市级",
@@ -1961,7 +2774,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2110] 废气 ?: see approval"
   },
   {
     "level": "市级",
@@ -1977,7 +2797,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2110] 废气 ?: see approval"
   },
   {
     "level": "市级",
@@ -1993,7 +2820,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2110] 废气 ?: see approval"
   },
   {
     "level": "市级",
@@ -2009,7 +2843,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2110] 废气 ?: see approval"
   },
   {
     "level": "市级",
@@ -2025,7 +2866,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2110] 废气 ?: see approval"
   },
   {
     "level": "市级",
@@ -2041,7 +2889,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2110] 废气 ?: see approval"
   },
   {
     "level": "市级",
@@ -2057,7 +2912,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2110] 废气 ?: see approval"
   },
   {
     "level": "市级",
@@ -2073,7 +2935,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2110] 废气 ?: see approval"
   },
   {
     "level": "市级",
@@ -2089,7 +2958,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2110] 其他 ?: see approval"
   },
   {
     "level": "市级",
@@ -2105,7 +2981,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2110] 其他 ?: see approval"
   },
   {
     "level": "市级",
@@ -2123,7 +3006,14 @@
       "改建扩建以新带老",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2110] 废气 ?: see approval"
   },
   {
     "level": "市级",
@@ -2140,7 +3030,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2110] 废气 ?: see approval"
   },
   {
     "level": "市级",
@@ -2156,7 +3053,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废水 ?: see approval"
   },
   {
     "level": "市级",
@@ -2177,7 +3081,13 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 70,
+    "quality_issues": [
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废水 ?: use GB185992020/DB44/23672022/GB123482008"
   },
   {
     "level": "市级",
@@ -2194,7 +3104,14 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废气 ?: see approval"
   },
   {
     "level": "市级",
@@ -2219,7 +3136,13 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 70,
+    "quality_issues": [
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废水 ?: use DB44/262001/DB44/272001/DB44/7652019"
   },
   {
     "level": "市级",
@@ -2235,7 +3158,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废水 ?: see approval"
   },
   {
     "level": "市级",
@@ -2256,7 +3186,13 @@
       "污染防治措施",
       "产业政策与规划相符性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 70,
+    "quality_issues": [
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废水 ?: use GB185992020/GB185972023/GB123482008"
   },
   {
     "level": "市级",
@@ -2272,7 +3208,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: see approval"
   },
   {
     "level": "市级",
@@ -2288,7 +3231,14 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 总量 ?: see approval"
   },
   {
     "level": "市级",
@@ -2306,7 +3256,13 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 70,
+    "quality_issues": [
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废气 ?: use GB378242019"
   },
   {
     "level": "市级",
@@ -2328,7 +3284,13 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 70,
+    "quality_issues": [
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废水 ?: use DB44/262001/DB44/272001/GB378242019"
   },
   {
     "level": "市级",
@@ -2344,7 +3306,14 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废水 ?: see approval"
   },
   {
     "level": "市级",
@@ -2363,7 +3332,13 @@
       "污染防治措施",
       "产业政策与规划相符性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 70,
+    "quality_issues": [
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废水 ?: use GB123482008"
   },
   {
     "level": "市级",
@@ -2382,7 +3357,13 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 70,
+    "quality_issues": [
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废水 ?: use GB185972023/GB185992020"
   },
   {
     "level": "市级",
@@ -2399,7 +3380,14 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C3670] 废水 ?: see approval"
   },
   {
     "level": "市级",
@@ -2416,7 +3404,14 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C3670] 废气 ?: see approval"
   },
   {
     "level": "市级",
@@ -2433,7 +3428,14 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C3670] 废气 ?: see approval"
   },
   {
     "level": "市级",
@@ -2450,7 +3452,14 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C3670] 废气 ?: see approval"
   },
   {
     "level": "市级",
@@ -2467,7 +3476,14 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C3670] 废气 ?: see approval"
   },
   {
     "level": "市级",
@@ -2484,7 +3500,14 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C3670] 废气 ?: see approval"
   },
   {
     "level": "市级",
@@ -2500,6 +3523,13 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C3670] 总量 ?: see approval"
   }
 ]

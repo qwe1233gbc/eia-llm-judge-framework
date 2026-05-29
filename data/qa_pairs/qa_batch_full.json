@@ -28,7 +28,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 废水 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -60,7 +63,10 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 废水 新建: use GB315722015/DB44/262001/GB378222019"
   },
   {
     "level": "区级",
@@ -81,7 +87,13 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C2929] 总量 新建: total 2.8463t/a"
   },
   {
     "level": "区级",
@@ -108,7 +120,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 噪声 新建: use GB123482008"
   },
   {
     "level": "区级",
@@ -137,7 +152,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2922] 废水 新建: use DB44/272001/DB44/23672022/DB44/262001"
   },
   {
     "level": "区级",
@@ -158,7 +178,13 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C2922] 废气 新建: total 0.9372t/a"
   },
   {
     "level": "区级",
@@ -184,7 +210,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2922] 噪声 新建: use GB123482008"
   },
   {
     "level": "区级",
@@ -216,7 +245,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3561] 废水 新建: use GB185972023/GB315722015/GB123482008"
   },
   {
     "level": "区级",
@@ -239,7 +273,12 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3561] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -268,7 +307,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3392] 废水 迁建: use GB315722015/GB378222019/GB189182002"
   },
   {
     "level": "区级",
@@ -298,7 +342,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3392] 噪声 迁建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -328,7 +377,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3039] 废水 新建: use DB44/272001/DB44/23672022/DB44/262001"
   },
   {
     "level": "区级",
@@ -354,7 +408,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3039] 噪声 新建: use GB123482008"
   },
   {
     "level": "区级",
@@ -384,7 +443,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C3360] 废水 新建: use GB315722015/GB123482008/GB185992001"
   },
   {
     "level": "区级",
@@ -416,7 +478,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2913] 废水 新建: use GB315722015/GB123482008/GB185992001"
   },
   {
     "level": "区级",
@@ -443,7 +510,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3252] 废水 扩建: use DB44/262001"
   },
   {
     "level": "区级",
@@ -471,7 +543,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3252] 废气 扩建: use GB184832001/GB286652012"
   },
   {
     "level": "区级",
@@ -498,7 +575,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3252] 噪声 扩建: use GB123482008"
   },
   {
     "level": "区级",
@@ -528,7 +610,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3399] 废水 新建: use GB315722015/GB123482008/GB185992001"
   },
   {
     "level": "区级",
@@ -561,7 +648,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3311] 废水 新建: use GB315722015/GB123482008/GB185972023"
   },
   {
     "level": "区级",
@@ -582,7 +674,13 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3311] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -612,7 +710,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C1432] 废水 新建: use DB44/272001/GB378222019/DB44/23672022"
   },
   {
     "level": "区级",
@@ -637,7 +740,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C1432] 噪声 新建: see approval"
   },
   {
     "level": "区级",
@@ -667,7 +775,10 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2922] 废水 技改: use GB315722015/GB378222019/GB189182002"
   },
   {
     "level": "区级",
@@ -696,7 +807,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2922] 噪声 技改: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -727,7 +843,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 废水 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -758,7 +877,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 废水 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -786,7 +908,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3029] 废水 新建: use GB378222019/DB44/262001/GB145541993"
   },
   {
     "level": "区级",
@@ -813,7 +940,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3029] 废气 新建: use GB185992020"
   },
   {
     "level": "区级",
@@ -840,7 +972,12 @@
       "污染防治措施",
       "区域环境质量"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[130] 噪声 新建: use GB30962008/GB550162021"
   },
   {
     "level": "区级",
@@ -868,7 +1005,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 废水 新建: use DB44/272001/GB315722015/DB44/262001"
   },
   {
     "level": "区级",
@@ -897,7 +1037,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3399] 废水 迁建: use GB315722015/GB378222019/GB189182002"
   },
   {
     "level": "区级",
@@ -926,7 +1071,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3399] 噪声 迁建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -956,7 +1106,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[M7320] 废水 新建: use DB44272001/DB44/272001/DB44/262001"
   },
   {
     "level": "区级",
@@ -985,7 +1140,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3856] 废水 新建: use DB44/272001/GB315722015/DB44/262001"
   },
   {
     "level": "区级",
@@ -1016,7 +1176,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2456] 废水 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -1047,7 +1212,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[N7723] 废水 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -1077,7 +1247,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3831] 废水 迁建: use GB315722015/GB378222019/GB189182002"
   },
   {
     "level": "区级",
@@ -1107,7 +1282,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3831] 噪声 迁建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -1140,7 +1320,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2231] 废水 扩建: use GB184832001/DB44/8152010/DB44/262001"
   },
   {
     "level": "区级",
@@ -1168,7 +1353,10 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2231] 噪声 扩建: use GB123482008"
   },
   {
     "level": "区级",
@@ -1196,7 +1384,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2926] 废水 新建: use DB44/8162010/GB378222019/DB44/262001"
   },
   {
     "level": "区级",
@@ -1224,7 +1417,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2926] 噪声 新建: use GB123482008/GB185992020/GB185972001"
   },
   {
     "level": "区级",
@@ -1257,7 +1455,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3979] 废水 新建: use GB315722015/DB44/8142010/DB44/8152010"
   },
   {
     "level": "区级",
@@ -1285,7 +1488,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3979] 噪声 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -1315,7 +1523,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3525] 废水 新建: use DB44/272001/GB315722015/GB378222019"
   },
   {
     "level": "区级",
@@ -1344,7 +1557,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3525] 噪声 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -1373,7 +1591,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 废水 新建: use GB315722015/GB378222019/GB189182002"
   },
   {
     "level": "区级",
@@ -1401,7 +1622,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 噪声 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -1432,7 +1656,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 废水 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -1463,7 +1690,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3821] 废水 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -1493,7 +1725,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2922] 废水 新建: use GB315722015/GB378222019/DB44/8152010"
   },
   {
     "level": "区级",
@@ -1522,7 +1759,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2922] 噪声 新建: use GB123482008/GB185992020/GB185972001"
   },
   {
     "level": "区级",
@@ -1554,7 +1796,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3464] 废水 新建: use GB315722015/GB123482008/DB44/262001"
   },
   {
     "level": "区级",
@@ -1577,7 +1824,12 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3464] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -1610,7 +1862,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3464] 废水 新建: use GB315722015/GB123482008/DB44/262001"
   },
   {
     "level": "区级",
@@ -1634,7 +1891,12 @@
       "改建扩建以新带老",
       "总量控制指标"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3464] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -1656,7 +1918,13 @@
       "改建扩建以新带老",
       "环境风险防范"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3872] 其他 迁建: see approval"
   },
   {
     "level": "区级",
@@ -1687,7 +1955,10 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2926] 废水 新建: use DB44/272001/GB315722015/DB44/23672022"
   },
   {
     "level": "区级",
@@ -1712,7 +1983,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2926] 噪声 新建: use GB123482008"
   },
   {
     "level": "区级",
@@ -1740,7 +2014,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2921] 废水 新建: use DB44/272001/DB44/8152010"
   },
   {
     "level": "区级",
@@ -1767,7 +2046,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2921] 噪声 新建: use GB123482008"
   },
   {
     "level": "区级",
@@ -1796,7 +2080,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3489] 废水 新建: use DB44/272001/DB44/262001/GB397262020"
   },
   {
     "level": "区级",
@@ -1820,7 +2109,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3979] 废水 新建: see approval"
   },
   {
     "level": "区级",
@@ -1853,7 +2147,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废水 新建: use GB123482008/GB185992001/GB276322011"
   },
   {
     "level": "区级",
@@ -1885,7 +2184,10 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 废水 新建: use GB185972023/GB315722015/GB123482008"
   },
   {
     "level": "区级",
@@ -1908,7 +2210,12 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2929] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -1938,7 +2245,10 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 废水 迁建: use DB44/272001/GB315722015"
   },
   {
     "level": "区级",
@@ -1966,7 +2276,10 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 废水 新建: use GB315722015"
   },
   {
     "level": "区级",
@@ -1996,7 +2309,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 废水 新建: use DB44/272001/GB315722015/GB378222019"
   },
   {
     "level": "区级",
@@ -2024,7 +2340,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 噪声 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -2049,7 +2368,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3857] 废水 新建: see approval"
   },
   {
     "level": "区级",
@@ -2078,7 +2402,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3857] 废气 新建: use DB44/272001/DB44/23672022"
   },
   {
     "level": "区级",
@@ -2105,7 +2434,12 @@
       "改建扩建以新带老",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3857] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -2126,7 +2460,13 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3857] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -2147,7 +2487,13 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3857] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -2178,7 +2524,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3099] 废水 新建: use DB44/272001/GB185972023/GB123482008"
   },
   {
     "level": "区级",
@@ -2209,7 +2560,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[N7820] 废水 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -2231,7 +2587,13 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C2929] 其他 扩建: see approval"
   },
   {
     "level": "区级",
@@ -2255,7 +2617,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2929] 废水 扩建: see approval"
   },
   {
     "level": "区级",
@@ -2285,7 +2652,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废气 扩建: use DB44/272001/GB315722015/DB442367"
   },
   {
     "level": "区级",
@@ -2311,7 +2683,10 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 噪声 扩建: use GB123482008"
   },
   {
     "level": "区级",
@@ -2338,7 +2713,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 固废 扩建: use GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -2363,7 +2743,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3360] 废水 新建: see approval"
   },
   {
     "level": "区级",
@@ -2384,7 +2769,13 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3360] 其他 新建: total 0.072t/a"
   },
   {
     "level": "区级",
@@ -2405,7 +2796,13 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3360] 其他 新建: total 0.009t/a"
   },
   {
     "level": "区级",
@@ -2436,7 +2833,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C3831] 废水 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -2467,7 +2867,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2231] 废水 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -2501,7 +2904,10 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 废水 扩建: use GB315722015/GB123482008/GB185972023"
   },
   {
     "level": "区级",
@@ -2531,7 +2937,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废水 新建: use GB315722015/GB/T189202020/DB44/23672022"
   },
   {
     "level": "区级",
@@ -2557,7 +2968,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 噪声 新建: use GB123482008"
   },
   {
     "level": "区级",
@@ -2583,7 +2997,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3812] 废水 迁建: see approval"
   },
   {
     "level": "区级",
@@ -2608,7 +3027,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3812] 废气 迁建: see approval"
   },
   {
     "level": "区级",
@@ -2633,7 +3057,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3812] 废气 迁建: see approval"
   },
   {
     "level": "区级",
@@ -2663,7 +3092,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废水 新建: use GB378242019/DB44/272001/DB44/23672022"
   },
   {
     "level": "区级",
@@ -2690,7 +3124,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 噪声 新建: use GB123482008"
   },
   {
     "level": "区级",
@@ -2721,7 +3158,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 废水 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -2752,7 +3192,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2926] 废水 新建: use GB315722015/GB123482008/GB185992001"
   },
   {
     "level": "区级",
@@ -2778,7 +3223,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2511] 废水 新建: see approval"
   },
   {
     "level": "区级",
@@ -2799,7 +3249,13 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C2511] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -2823,7 +3279,12 @@
       "污染防治措施",
       "改建扩建以新带老"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2511] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -2853,7 +3314,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C1432] 废水 新建: use DB44/272001/GB378222019/DB44/23672022"
   },
   {
     "level": "区级",
@@ -2878,7 +3344,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C1432] 噪声 新建: see approval"
   },
   {
     "level": "区级",
@@ -2910,7 +3381,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 废水 新建: use GB315722015/GB123482008/GB185992001"
   },
   {
     "level": "区级",
@@ -2941,7 +3415,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 废水 新建: use GB315722015/GB123482008/GB185992001"
   },
   {
     "level": "区级",
@@ -2972,7 +3449,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C1789] 废水 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -2998,7 +3480,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3861] 废水 扩建: see approval"
   },
   {
     "level": "区级",
@@ -3025,7 +3512,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3861] 废气 扩建: see approval"
   },
   {
     "level": "区级",
@@ -3050,7 +3542,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3861] 废气 扩建: see approval"
   },
   {
     "level": "区级",
@@ -3073,7 +3570,13 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3861] 废气 扩建: see approval"
   },
   {
     "level": "区级",
@@ -3095,7 +3598,13 @@
       "改建扩建以新带老",
       "总量控制指标"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3861] 总量 扩建: see approval"
   },
   {
     "level": "区级",
@@ -3127,7 +3636,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2921] 废水 新建: use GB315722015/GB123482008/GB185992001"
   },
   {
     "level": "区级",
@@ -3157,7 +3669,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2922] 废水 新建: use GB315722015/GB378222019/DB44/8152010"
   },
   {
     "level": "区级",
@@ -3185,7 +3702,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2922] 噪声 新建: use GB123482008/GB185992020/GB185972001"
   },
   {
     "level": "区级",
@@ -3214,7 +3736,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C3360] 废水 新建: use GB123482008/GB185992001/DB44/262001"
   },
   {
     "level": "区级",
@@ -3247,7 +3772,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[O8222] 废水 新建: use GB18462005/GB123482008/GB185992001"
   },
   {
     "level": "区级",
@@ -3280,7 +3810,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3360] 废水 扩建: use GB315722015/DB44/8142010/DB44/262001"
   },
   {
     "level": "区级",
@@ -3302,7 +3837,13 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3360] 废气 扩建: see approval"
   },
   {
     "level": "区级",
@@ -3324,7 +3865,13 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3360] 废气 扩建: see approval"
   },
   {
     "level": "区级",
@@ -3350,7 +3897,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3360] 噪声 扩建: see approval"
   },
   {
     "level": "区级",
@@ -3381,7 +3933,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 废水 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -3412,7 +3967,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3829] 废水 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -3439,7 +3999,10 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C3360] 废水 扩建: use DB44/262001"
   },
   {
     "level": "区级",
@@ -3470,7 +4033,10 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C3360] 废水 扩建: use DB44/272001/GB123482008/GB185992001"
   },
   {
     "level": "区级",
@@ -3497,7 +4063,10 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C3360] 废水 扩建: use DB44/262001"
   },
   {
     "level": "区级",
@@ -3528,7 +4097,10 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C3360] 废水 扩建: use DB44/272001/GB123482008/GB185992001"
   },
   {
     "level": "区级",
@@ -3554,7 +4126,10 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C3831] 废水 新建: use DB44/262001"
   },
   {
     "level": "区级",
@@ -3581,7 +4156,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3831] 废气 新建: use DB44/272001/DB44/23672022"
   },
   {
     "level": "区级",
@@ -3606,7 +4186,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3831] 废气 新建: use DB44/272001"
   },
   {
     "level": "区级",
@@ -3629,7 +4214,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3831] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -3658,7 +4248,10 @@
       "改建扩建以新带老",
       "环境风险防范"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C3831] 噪声 新建: use GB123482008"
   },
   {
     "level": "区级",
@@ -3690,7 +4283,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2921] 废水 新建: use GB315722015/GB123482008/GB185992001"
   },
   {
     "level": "区级",
@@ -3721,7 +4317,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3854] 废水 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -3747,7 +4348,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2929] 废水 新建: see approval"
   },
   {
     "level": "区级",
@@ -3773,7 +4379,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2929] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -3800,7 +4411,12 @@
       "改建扩建以新带老",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2929] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -3823,7 +4439,12 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2929] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -3854,7 +4475,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3441] 废水 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -3885,7 +4511,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2770] 废水 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -3914,7 +4545,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废水 扩建: use DB44/8162010/GB378222019/DB44/262001"
   },
   {
     "level": "区级",
@@ -3943,7 +4579,10 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 噪声 扩建: use GB123482008/GB185992020/GB185972001"
   },
   {
     "level": "区级",
@@ -3973,7 +4612,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废水 新建: use DB44/T272001/GB315722015/GB378222019"
   },
   {
     "level": "区级",
@@ -3994,7 +4638,13 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C2929] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -4015,7 +4665,13 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C2929] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -4043,7 +4699,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 噪声 新建: use GB123482008/GB185992020/GB185972001"
   },
   {
     "level": "区级",
@@ -4072,7 +4731,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3483] 废水 扩建: use GB315722015/GB378222019/DB44/8152010"
   },
   {
     "level": "区级",
@@ -4102,7 +4766,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3483] 噪声 扩建: use GB123482008/GB185992020/GB185972001"
   },
   {
     "level": "区级",
@@ -4135,7 +4804,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3392] 废水 新建: use GB123482008/GB185992001/GB276322011"
   },
   {
     "level": "区级",
@@ -4166,7 +4840,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 废水 新建: use GB315722015/GB123482008/GB185992001"
   },
   {
     "level": "区级",
@@ -4197,7 +4874,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2130] 废水 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -4223,7 +4905,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2929] 废水 新建: see approval"
   },
   {
     "level": "区级",
@@ -4246,7 +4933,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2929] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -4269,7 +4961,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2929] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -4296,7 +4993,12 @@
       "改建扩建以新带老",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2929] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -4324,7 +5026,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C3360] 废水 新建: use GB315722015/GB378222019/GB189182002"
   },
   {
     "level": "区级",
@@ -4352,7 +5057,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3360] 噪声 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -4383,7 +5093,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[2929] 废水 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -4416,7 +5131,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3857] 废水 新建: use GB315722015/GB123482008/GB185972023"
   },
   {
     "level": "区级",
@@ -4438,7 +5158,13 @@
       "污染防治措施",
       "改建扩建以新带老"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3857] 废气 新建: total 6.332t/a"
   },
   {
     "level": "区级",
@@ -4471,7 +5197,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3059] 废水 新建: use GB123482008/GB185992001/GB276322011"
   },
   {
     "level": "区级",
@@ -4504,7 +5235,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3831] 废水 新建: use GB315722015/GB123482008/GB185992001"
   },
   {
     "level": "区级",
@@ -4529,7 +5265,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3360] 废水 迁建: see approval"
   },
   {
     "level": "区级",
@@ -4554,7 +5295,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3360] 废气 迁建: see approval"
   },
   {
     "level": "区级",
@@ -4578,7 +5324,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3360] 废气 迁建: see approval"
   },
   {
     "level": "区级",
@@ -4609,7 +5360,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2641] 废水 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -4640,7 +5396,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3979] 废水 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -4671,7 +5432,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3859] 废水 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -4697,7 +5463,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2034] 废水 新建: see approval"
   },
   {
     "level": "区级",
@@ -4723,7 +5494,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2034] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -4747,7 +5523,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2034] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -4773,7 +5554,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2034] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -4794,7 +5580,13 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C2034] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -4819,7 +5611,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3489] 废水 新建: see approval"
   },
   {
     "level": "区级",
@@ -4844,7 +5641,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3489] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -4870,7 +5672,12 @@
       "改建扩建以新带老",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3489] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -4903,7 +5710,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 废水 新建: use GB315722015/GB123482008/GB185992001"
   },
   {
     "level": "区级",
@@ -4929,7 +5739,10 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C3360] 废水 扩建: use DB44/262001"
   },
   {
     "level": "区级",
@@ -4958,7 +5771,12 @@
       "污染防治措施",
       "环境风险防范"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3360] 废气 扩建: use DB44/272001/GB123482008"
   },
   {
     "level": "区级",
@@ -4989,7 +5807,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3854] 废水 迁建: use GB315722015/GB378222019/DB44/8152010"
   },
   {
     "level": "区级",
@@ -5019,7 +5842,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3854] 噪声 迁建: use GB123482008/GB185992020/GB185972001"
   },
   {
     "level": "区级",
@@ -5049,7 +5877,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3854] 废水 迁建: use GB315722015/GB378222019/DB44/8152010"
   },
   {
     "level": "区级",
@@ -5077,7 +5910,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3854] 噪声 迁建: use GB123482008/GB185992020/GB185972001"
   },
   {
     "level": "区级",
@@ -5108,7 +5946,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 废水 新建: use GB315722015/GB123482008/GB185992001"
   },
   {
     "level": "区级",
@@ -5139,7 +5980,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2662] 废水 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -5170,7 +6016,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废水 新建: use DB44/8142010/GB2522015/DB44/262001"
   },
   {
     "level": "区级",
@@ -5198,7 +6049,12 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 总量 新建: use DB44/272001/GB184832001"
   },
   {
     "level": "区级",
@@ -5220,7 +6076,13 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C2929] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -5247,7 +6109,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 噪声 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -5278,7 +6143,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 废水 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -5300,7 +6168,13 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C2231] 其他 扩建: see approval"
   },
   {
     "level": "区级",
@@ -5325,7 +6199,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2231] 废水 扩建: see approval"
   },
   {
     "level": "区级",
@@ -5352,7 +6231,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2231] 废气 扩建: use GB315722015"
   },
   {
     "level": "区级",
@@ -5376,7 +6260,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2231] 噪声 扩建: see approval"
   },
   {
     "level": "区级",
@@ -5401,7 +6290,13 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 70,
+    "quality_issues": [
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2231] 固废 扩建: use GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -5432,7 +6327,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3990] 废水 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -5462,7 +6362,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C3360] 废水 新建: use GB315722015/GB123482008/GB185992001"
   },
   {
     "level": "区级",
@@ -5491,7 +6394,10 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 废水 迁建: use GB315722015/GB378222019/GB189182002"
   },
   {
     "level": "区级",
@@ -5521,7 +6427,10 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 噪声 迁建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -5552,7 +6461,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3982] 废水 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -5583,7 +6497,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C3360] 废水 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -5606,7 +6523,13 @@
       "环境风险防范",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3031] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -5637,7 +6560,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2927] 废水 新建: use GB315722015/GB123482008/GB185992001"
   },
   {
     "level": "区级",
@@ -5663,7 +6591,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2922] 废水 新建: see approval"
   },
   {
     "level": "区级",
@@ -5684,7 +6617,13 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C2922] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -5710,7 +6649,12 @@
       "污染防治措施",
       "改建扩建以新带老"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2922] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -5742,7 +6686,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C1432] 废水 新建: use GB315722015/GB123482008/GB185972023"
   },
   {
     "level": "区级",
@@ -5765,7 +6714,12 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C1432] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -5796,7 +6750,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3990] 废水 新建: use GB315722015/DB44/8152010/GB189182002"
   },
   {
     "level": "区级",
@@ -5824,7 +6783,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3990] 噪声 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -5855,7 +6819,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2542] 废水 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -5884,7 +6853,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C3360] 废水 新建: use DB44/272001/GB378222019/DB44/262001"
   },
   {
     "level": "区级",
@@ -5910,7 +6882,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3360] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -5941,7 +6918,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C3360] 废水 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -5972,7 +6952,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3351] 废水 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -5999,7 +6984,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3670] 废水 扩建: see approval"
   },
   {
     "level": "区级",
@@ -6023,7 +7013,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3670] 废气 扩建: see approval"
   },
   {
     "level": "区级",
@@ -6048,7 +7043,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3670] 废气 扩建: see approval"
   },
   {
     "level": "区级",
@@ -6074,7 +7074,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3311] 废水 新建: see approval"
   },
   {
     "level": "区级",
@@ -6098,7 +7103,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3311] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -6122,7 +7132,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3311] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -6148,7 +7163,12 @@
       "改建扩建以新带老",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3311] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -6169,7 +7189,13 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3311] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -6198,7 +7224,10 @@
       "污染防治措施",
       "改建扩建以新带老"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 废水 新建: use GB315722015/DB44/262001"
   },
   {
     "level": "区级",
@@ -6227,7 +7256,12 @@
       "改建扩建以新带老",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废气 新建: use GB378222019"
   },
   {
     "level": "区级",
@@ -6256,7 +7290,10 @@
       "污染防治措施",
       "改建扩建以新带老"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 噪声 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -6286,7 +7323,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2770] 废水 迁建: use GB315722015/GB378222019/GB189182002"
   },
   {
     "level": "区级",
@@ -6316,7 +7358,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2770] 噪声 迁建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -6347,7 +7394,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3382] 废水 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -6377,7 +7429,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3670] 废水 新建: use DB44/T272001/GB315722015/GB378222019"
   },
   {
     "level": "区级",
@@ -6398,7 +7455,13 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3670] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -6419,7 +7482,13 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3670] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -6447,7 +7516,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3670] 噪声 新建: use GB123482008/GB185992020/GB185972001"
   },
   {
     "level": "区级",
@@ -6472,7 +7546,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3360] 废水 新建: see approval"
   },
   {
     "level": "区级",
@@ -6498,7 +7577,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3360] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -6523,7 +7607,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3360] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -6544,7 +7633,13 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3360] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -6567,7 +7662,13 @@
       "环境风险防范",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3360] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -6598,7 +7699,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 废水 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -6629,7 +7733,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 废水 新建: use GB315722015/GB123482008/GB185992001"
   },
   {
     "level": "区级",
@@ -6660,7 +7767,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 废水 新建: use GB315722015/GB123482008/GB185992001"
   },
   {
     "level": "区级",
@@ -6692,7 +7802,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 新建: use GB90781996/DB44/8142010/GB42872012"
   },
   {
     "level": "区级",
@@ -6713,7 +7828,13 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C1713] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -6742,7 +7863,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 噪声 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -6774,7 +7900,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2646] 废水 新建: use GB315722015/GB123482008/GB185992001"
   },
   {
     "level": "区级",
@@ -6805,7 +7936,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 废水 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -6833,7 +7967,10 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 废水 扩建: use DB44/262001"
   },
   {
     "level": "区级",
@@ -6855,7 +7992,13 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C2929] 废气 扩建: see approval"
   },
   {
     "level": "区级",
@@ -6881,7 +8024,10 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 废气 扩建: use DB44/272001"
   },
   {
     "level": "区级",
@@ -6910,7 +8056,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废气 扩建: use GB378242019/GB123482008"
   },
   {
     "level": "区级",
@@ -6937,7 +8088,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3311] 废水 扩建: see approval"
   },
   {
     "level": "区级",
@@ -6959,7 +8115,13 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3311] 废气 扩建: see approval"
   },
   {
     "level": "区级",
@@ -6985,7 +8147,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3311] 废气 扩建: see approval"
   },
   {
     "level": "区级",
@@ -7007,7 +8174,13 @@
       "改建扩建以新带老",
       "总量控制指标"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3311] 总量 扩建: see approval"
   },
   {
     "level": "区级",
@@ -7035,7 +8208,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3443] 废水 新建: use GB315722015/GB378222019/DB44/262001"
   },
   {
     "level": "区级",
@@ -7063,7 +8241,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3443] 噪声 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -7096,7 +8279,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 废水 新建: use GB315722015/GB123482008/GB185992001"
   },
   {
     "level": "区级",
@@ -7125,7 +8311,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C3360] 废水 新建: use DB44/272001/GB378222019/DB44/262001"
   },
   {
     "level": "区级",
@@ -7151,7 +8340,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3360] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -7183,7 +8377,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2913] 废水 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -7209,7 +8408,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2926] 废水 新建: see approval"
   },
   {
     "level": "区级",
@@ -7232,7 +8436,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2926] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -7255,7 +8464,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2926] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -7282,7 +8496,12 @@
       "改建扩建以新带老",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2926] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -7303,7 +8522,13 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C2926] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -7332,7 +8557,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2926] 废水 新建: use DB44/8162010/GB378222019/DB44/262001"
   },
   {
     "level": "区级",
@@ -7361,7 +8591,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2926] 噪声 新建: use GB123482008/GB185992020/GB185972001"
   },
   {
     "level": "区级",
@@ -7385,7 +8620,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2929] 废水 扩建: see approval"
   },
   {
     "level": "区级",
@@ -7421,7 +8661,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废水 扩建: use GB185972023/GB123482008/GB184832001"
   },
   {
     "level": "区级",
@@ -7449,7 +8694,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C1499] 废水 新建: use DB44/262001"
   },
   {
     "level": "区级",
@@ -7481,7 +8731,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C1499] 废气 新建: use GB185972023/GB123482008/GB184832001"
   },
   {
     "level": "区级",
@@ -7511,7 +8766,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C3360] 废水 新建: use GB315722015/GB123482008/GB185992001"
   },
   {
     "level": "区级",
@@ -7543,7 +8801,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2926] 废水 新建: use GB315722015/GB123482008/GB185992001"
   },
   {
     "level": "区级",
@@ -7569,7 +8832,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2921] 废水 新建: see approval"
   },
   {
     "level": "区级",
@@ -7592,7 +8860,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2921] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -7616,7 +8889,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2921] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -7642,7 +8920,12 @@
       "污染防治措施",
       "改建扩建以新带老"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2921] 其他 新建: see approval"
   },
   {
     "level": "区级",
@@ -7668,7 +8951,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2921] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -7689,7 +8977,13 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C2921] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -7710,7 +9004,13 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C2921] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -7743,7 +9043,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2926] 废水 新建: use GB315722015/GB123482008/GB185972023"
   },
   {
     "level": "区级",
@@ -7764,7 +9069,13 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C2926] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -7798,7 +9109,10 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 废水 扩建: use GB315722015/GB123482008/GB185972023"
   },
   {
     "level": "区级",
@@ -7822,7 +9136,12 @@
       "改建扩建以新带老",
       "总量控制指标"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2929] 总量 扩建: see approval"
   },
   {
     "level": "区级",
@@ -7847,7 +9166,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3824] 废水 新建: see approval"
   },
   {
     "level": "区级",
@@ -7869,7 +9193,13 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3824] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -7893,7 +9223,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3824] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -7919,7 +9254,12 @@
       "改建扩建以新带老",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3824] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -7940,7 +9280,13 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3824] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -7963,7 +9309,12 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3824] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -7985,7 +9336,13 @@
       "污染防治措施",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3824] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -8011,7 +9368,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3392] 废水 新建: see approval"
   },
   {
     "level": "区级",
@@ -8032,7 +9394,13 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3392] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -8057,7 +9425,12 @@
       "改建扩建以新带老",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3392] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -8078,7 +9451,13 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3392] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -8102,7 +9481,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3874] 废水 新建: see approval"
   },
   {
     "level": "区级",
@@ -8128,7 +9512,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3874] 废气 新建: use DB44/272001"
   },
   {
     "level": "区级",
@@ -8151,7 +9540,13 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 70,
+    "quality_issues": [
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C3874] 废气 新建: use GB315722015"
   },
   {
     "level": "区级",
@@ -8178,7 +9573,12 @@
       "改建扩建以新带老",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3874] 废气 新建: use GB145541993"
   },
   {
     "level": "区级",
@@ -8199,7 +9599,13 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3874] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -8220,7 +9626,13 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3874] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -8244,7 +9656,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3392] 废水 新建: see approval"
   },
   {
     "level": "区级",
@@ -8271,7 +9688,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3392] 废气 新建: use DB44/272001"
   },
   {
     "level": "区级",
@@ -8294,7 +9716,13 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 70,
+    "quality_issues": [
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C3392] 废气 新建: use GB315722015"
   },
   {
     "level": "区级",
@@ -8321,7 +9749,12 @@
       "改建扩建以新带老",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3392] 废气 新建: use GB315722015"
   },
   {
     "level": "区级",
@@ -8342,7 +9775,13 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3392] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -8363,7 +9802,13 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3392] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -8395,7 +9840,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3857] 废水 新建: use GB315722015/GB123482008/DB44/262001"
   },
   {
     "level": "区级",
@@ -8418,7 +9868,12 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3857] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -8443,7 +9898,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2926] 废水 新建: see approval"
   },
   {
     "level": "区级",
@@ -8464,7 +9924,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2926] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -8485,7 +9950,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2926] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -8510,7 +9980,12 @@
       "改建扩建以新带老",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2926] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -8533,7 +10008,13 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C2926] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -8559,7 +10040,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2926] 废水 新建: see approval"
   },
   {
     "level": "区级",
@@ -8584,7 +10070,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2926] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -8611,7 +10102,12 @@
       "改建扩建以新带老",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2926] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -8634,7 +10130,12 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2926] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -8665,7 +10166,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 废水 新建: use GB315722015/GB123482008/GB185992001"
   },
   {
     "level": "区级",
@@ -8699,7 +10203,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废水 扩建: use GB315722015/GB123482008/GB185992001"
   },
   {
     "level": "区级",
@@ -8725,7 +10234,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2929] 废水 新建: see approval"
   },
   {
     "level": "区级",
@@ -8746,7 +10260,13 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C2929] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -8771,7 +10291,12 @@
       "污染防治措施",
       "改建扩建以新带老"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2929] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -8794,7 +10319,12 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2929] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -8819,7 +10349,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3857] 废水 新建: see approval"
   },
   {
     "level": "区级",
@@ -8845,7 +10380,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3857] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -8872,7 +10412,12 @@
       "改建扩建以新带老",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3857] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -8895,7 +10440,12 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3857] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -8917,7 +10467,13 @@
       "污染防治措施",
       "环境风险防范"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3857] 其他 新建: see approval"
   },
   {
     "level": "区级",
@@ -8943,7 +10499,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3352] 废水 扩建: see approval"
   },
   {
     "level": "区级",
@@ -8965,7 +10526,13 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3352] 废气 扩建: see approval"
   },
   {
     "level": "区级",
@@ -8991,7 +10558,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3352] 废气 扩建: see approval"
   },
   {
     "level": "区级",
@@ -9013,7 +10585,13 @@
       "改建扩建以新带老",
       "总量控制指标"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3352] 总量 扩建: see approval"
   },
   {
     "level": "区级",
@@ -9039,7 +10617,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2929] 废水 新建: see approval"
   },
   {
     "level": "区级",
@@ -9065,7 +10648,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2929] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -9092,7 +10680,12 @@
       "改建扩建以新带老",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2929] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -9115,7 +10708,12 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2929] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -9139,7 +10737,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3462] 废水 新建: see approval"
   },
   {
     "level": "区级",
@@ -9165,7 +10768,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3462] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -9187,7 +10795,13 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3462] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -9208,7 +10822,13 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3462] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -9229,7 +10849,13 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3462] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -9252,7 +10878,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3462] 废水 新建: see approval"
   },
   {
     "level": "区级",
@@ -9273,7 +10904,13 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3462] 其他 新建: see approval"
   },
   {
     "level": "区级",
@@ -9299,7 +10936,12 @@
       "污染防治措施",
       "改建扩建以新带老"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3462] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -9320,7 +10962,13 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3462] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -9341,7 +10989,13 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3462] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -9364,7 +11018,13 @@
       "环境风险防范",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3462] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -9395,7 +11055,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 废水 新建: use GB315722015/GB123482008/GB185992001"
   },
   {
     "level": "区级",
@@ -9426,7 +11089,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 废水 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -9452,7 +11118,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2929] 废水 新建: see approval"
   },
   {
     "level": "区级",
@@ -9478,7 +11149,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2929] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -9505,7 +11181,12 @@
       "改建扩建以新带老",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2929] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -9528,7 +11209,12 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2929] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -9552,7 +11238,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3462] 废水 新建: see approval"
   },
   {
     "level": "区级",
@@ -9578,7 +11269,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3462] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -9602,7 +11298,13 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3462] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -9623,7 +11325,13 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3462] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -9644,7 +11352,13 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3462] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -9667,7 +11381,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3462] 废水 新建: see approval"
   },
   {
     "level": "区级",
@@ -9688,7 +11407,13 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3462] 其他 新建: see approval"
   },
   {
     "level": "区级",
@@ -9714,7 +11439,12 @@
       "污染防治措施",
       "改建扩建以新带老"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3462] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -9735,7 +11465,13 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3462] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -9756,7 +11492,13 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3462] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -9779,7 +11521,13 @@
       "环境风险防范",
       "总量控制指标"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3462] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -9809,7 +11557,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3099] 废水 新建: use DB44/272001/GB185972023/GB123482008"
   },
   {
     "level": "区级",
@@ -9833,7 +11586,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3360] 废水 新建: see approval"
   },
   {
     "level": "区级",
@@ -9857,7 +11615,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3360] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -9882,7 +11645,12 @@
       "污染防治措施",
       "改建扩建以新带老"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3360] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -9913,7 +11681,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3099] 废水 新建: use DB44/272001/GB185972023/GB123482008"
   },
   {
     "level": "区级",
@@ -9939,7 +11712,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3464] 废水 新建: see approval"
   },
   {
     "level": "区级",
@@ -9962,7 +11740,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3464] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -9987,7 +11770,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3464] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -10014,7 +11802,12 @@
       "改建扩建以新带老",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3464] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -10035,7 +11828,13 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3464] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -10061,7 +11860,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2239] 废水 新建: see approval"
   },
   {
     "level": "区级",
@@ -10084,7 +11888,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2239] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -10111,7 +11920,12 @@
       "改建扩建以新带老",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2239] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -10134,7 +11948,12 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2239] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -10156,7 +11975,13 @@
       "污染防治措施",
       "环境风险防范"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C2239] 其他 新建: see approval"
   },
   {
     "level": "区级",
@@ -10187,7 +12012,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3099] 废水 新建: use DB44/272001/GB185972023/GB123482008"
   },
   {
     "level": "区级",
@@ -10218,7 +12048,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3099] 废水 新建: use DB44/272001/GB185972023/GB123482008"
   },
   {
     "level": "区级",
@@ -10249,7 +12084,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 90,
+    "quality_issues": [
+      "not validated"
+    ],
+    "behavior_rule": "[C3099] 废水 新建: use DB44/272001/GB185972023/GB123482008"
   },
   {
     "level": "区级",
@@ -10275,7 +12115,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2919] 废水 新建: see approval"
   },
   {
     "level": "区级",
@@ -10300,7 +12145,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2919] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -10327,7 +12177,12 @@
       "改建扩建以新带老",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2919] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -10348,7 +12203,13 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C2919] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -10375,7 +12236,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2913] 废水 扩建: see approval"
   },
   {
     "level": "区级",
@@ -10400,7 +12266,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2913] 废气 扩建: see approval"
   },
   {
     "level": "区级",
@@ -10426,7 +12297,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2913] 废气 扩建: see approval"
   },
   {
     "level": "区级",
@@ -10453,7 +12329,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2913] 废气 扩建: see approval"
   },
   {
     "level": "区级",
@@ -10478,7 +12359,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2929] 废水 新建: see approval"
   },
   {
     "level": "区级",
@@ -10505,7 +12391,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 废气 新建: use DB44/272001"
   },
   {
     "level": "区级",
@@ -10532,7 +12421,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 废气 新建: use GB315722015"
   },
   {
     "level": "区级",
@@ -10560,7 +12452,10 @@
       "改建扩建以新带老",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2929] 废气 新建: use GB315722015"
   },
   {
     "level": "区级",
@@ -10581,7 +12476,13 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C2929] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -10602,7 +12503,13 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C2929] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -10627,7 +12534,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3360] 废水 新建: see approval"
   },
   {
     "level": "区级",
@@ -10652,7 +12564,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3360] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -10675,7 +12592,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3360] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -10699,7 +12621,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3360] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -10724,7 +12651,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3360] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -10745,7 +12677,13 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3360] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -10766,7 +12704,13 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3360] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -10787,7 +12731,13 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3360] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -10818,7 +12768,10 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 100,
+    "quality_issues": [],
+    "behavior_rule": "[C2231] 废水 新建: use GB123482008/GB185992001/GB185972001"
   },
   {
     "level": "区级",
@@ -10844,7 +12797,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3311] 废水 新建: see approval"
   },
   {
     "level": "区级",
@@ -10869,7 +12827,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3311] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -10894,7 +12857,12 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3311] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -10921,7 +12889,12 @@
       "改建扩建以新带老",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3311] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -10942,7 +12915,13 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3311] 总量 新建: see approval"
   },
   {
     "level": "区级",
@@ -10968,7 +12947,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3389] 废水 扩建: see approval"
   },
   {
     "level": "区级",
@@ -10991,7 +12975,13 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C3389] 废气 扩建: see approval"
   },
   {
     "level": "区级",
@@ -11016,7 +13006,12 @@
       "改建扩建以新带老",
       "污染防治措施"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3389] 废气 扩建: see approval"
   },
   {
     "level": "区级",
@@ -11041,7 +13036,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3389] 废气 扩建: see approval"
   },
   {
     "level": "区级",
@@ -11065,7 +13065,12 @@
       "改建扩建以新带老",
       "总量控制指标"
     ],
-    "review_point_primary": "改建扩建以新带老"
+    "review_point_primary": "改建扩建以新带老",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C3389] 总量 扩建: see approval"
   },
   {
     "level": "区级",
@@ -11091,7 +13096,12 @@
       "污染防治措施",
       "评价因子完整性"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2929] 废水 新建: see approval"
   },
   {
     "level": "区级",
@@ -11112,7 +13122,13 @@
     "review_points": [
       "污染防治措施"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 60,
+    "quality_issues": [
+      "no standards",
+      "no evidence"
+    ],
+    "behavior_rule": "[C2929] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -11134,7 +13150,12 @@
       "污染防治措施",
       "改建扩建以新带老"
     ],
-    "review_point_primary": "污染防治措施"
+    "review_point_primary": "污染防治措施",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2929] 废气 新建: see approval"
   },
   {
     "level": "区级",
@@ -11157,6 +13178,11 @@
     "review_points": [
       "总量控制指标"
     ],
-    "review_point_primary": "总量控制指标"
+    "review_point_primary": "总量控制指标",
+    "quality_score": 80,
+    "quality_issues": [
+      "no standards"
+    ],
+    "behavior_rule": "[C2929] 总量 新建: see approval"
   }
 ]

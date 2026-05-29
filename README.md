@@ -25,6 +25,35 @@
 | `data/qa_pairs/foshan_qa.json` | 数据 | 市级（佛山）149条 QA 对 |
 | `prompts/eia_review_expert_prompt.md` | Prompt | **环评审核专家智能体 System Prompt** |
 
+### 数据集质量层级
+
+```
+qa_v3 (963) → qa_v4_all_scored (自动质检)
+              ├── qa_v4_verified (自动质检通过, 92条)
+              └── qa_v4_demoted (自动质检未通过)
+              
+qa_v4_verified (92) → qa_v4_final_verified (原文证据审计通过, 62条)
+                        └── evidence_samples/ (16条论文附录样本, 含 report.md + approval.md)
+```
+
+- **qa_v3**: 原始自动生成，含 behavioral_rule、quality_score、evidence_alignment
+- **qa_v4_all_scored**: 经 schema 规范化、标准归一化、benchmark 分类后的全量数据
+- **qa_v4_verified**: 自动质检通过的候选集（含匹配校验、要素拆分、严格评分）
+- **qa_v4_final_verified**: 经原文证据审计后的最终 verified 集（每条与 report.md + approval.md 原文核对）
+- **evidence_samples/**: 20条代表性样本，含完整原文证据，可用于论文附录或开源示例
+
+### 数据集文件
+
+| 文件 | 数量 | 说明 |
+|------|------|------|
+| `data/qa_v3/qa_v3.json` | 963 | 原始增强数据 |
+| `data/qa_v4/qa_v4_all_scored.jsonl` | 963 | 全量评分数据 |
+| `data/qa_v4/qa_v4_verified.jsonl` | 62 | 自动质检通过 |
+| `data/qa_v4/qa_v4_final_verified.jsonl` | 62 | 原文证据审计通过 |
+| `data/qa_v4/qa_v4_demoted.jsonl` | 37 | 自动质检+审计降级 |
+| `data/qa_v4/qa_v4_rejected.jsonl` | 498 | 不合格样本 |
+| `evidence_samples/` | 20 | 论文证据包（含原文） |
+
 ### 五维分类体系
 
 每条 QA 对含五维标签：

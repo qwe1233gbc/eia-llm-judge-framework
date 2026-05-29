@@ -1,0 +1,104 @@
+﻿id,label,properties
+RULE_C1432_危废_新建,Rule,"{'status': 'case_observation', 'level': 'C'}"
+C1432,Industry,{}
+危废,EnvironmentElement,{}
+P0013,Project,{}
+RULE_C1432_噪声_新建,Rule,"{'status': 'case_observation', 'level': 'C'}"
+噪声,EnvironmentElement,{}
+P0144,Project,{}
+DB44/2367-2022,Standard,{}
+DB44/26-2001,Standard,{}
+DB44/27-2001,Standard,{}
+RULE_C1432_废气_新建,Rule,"{'status': 'candidate_rule', 'level': 'C'}"
+废气,EnvironmentElement,{}
+DB44,Standard,{}
+RULE_C1432_废水_新建,Rule,"{'status': 'candidate_rule', 'level': 'B'}"
+废水,EnvironmentElement,{}
+RULE_C1499_废气_新建,Rule,"{'status': 'case_observation', 'level': 'C'}"
+C1499,Industry,{}
+P0191,Project,{}
+RULE_C1499_废水_新建,Rule,"{'status': 'case_observation', 'level': 'C'}"
+RULE_C1953_噪声_新建,Rule,"{'status': 'case_observation', 'level': 'C'}"
+C1953,Industry,{}
+P0185,Project,{}
+GB14554-1993,Standard,{}
+RULE_C1953_废气_新建,Rule,"{'status': 'case_observation', 'level': 'C'}"
+RULE_C1953_废水_新建,Rule,"{'status': 'case_observation', 'level': 'C'}"
+RULE_C2034_危废_新建,Rule,"{'status': 'case_observation', 'level': 'C'}"
+C2034,Industry,{}
+P0123,Project,{}
+RULE_C2034_噪声_新建,Rule,"{'status': 'case_observation', 'level': 'C'}"
+RULE_C2034_废气_新建,Rule,"{'status': 'case_observation', 'level': 'A'}"
+DA001,Standard,{}
+DA002,Standard,{}
+DA003,Standard,{}
+RULE_C2231_危废_扩建,Rule,"{'status': 'case_observation', 'level': 'C'}"
+C2231,Industry,{}
+P0031,Project,{}
+GB12348-2008,Standard,{}
+RULE_C2231_噪声_扩建,Rule,"{'status': 'case_observation', 'level': 'C'}"
+RULE_C2231_固废_扩建,Rule,"{'status': 'case_observation', 'level': 'C'}"
+固废,EnvironmentElement,{}
+RULE_C2231_废气_扩建,Rule,"{'status': 'case_observation', 'level': 'C'}"
+RULE_C2231_废水_扩建,Rule,"{'status': 'case_observation', 'level': 'C'}"
+RULE_C2231_环境管理_扩建,Rule,"{'status': 'case_observation', 'level': 'C'}"
+环境管理,EnvironmentElement,{}
+RULE_C2239_危废_新建,Rule,"{'status': 'case_observation', 'level': 'C'}"
+C2239,Industry,{}
+P0222,Project,{}
+RULE_C2239_噪声_新建,Rule,"{'status': 'case_observation', 'level': 'C'}"
+RULE_C2239_废气_新建,Rule,"{'status': 'case_observation', 'level': 'B'}"
+RULE_C2641_危废_新建,Rule,"{'status': 'case_observation', 'level': 'C'}"
+C2641,Industry,{}
+P0224,Project,{}
+RULE_C2641_噪声_新建,Rule,"{'status': 'case_observation', 'level': 'C'}"
+RULE_C2641_固废_新建,Rule,"{'status': 'case_observation', 'level': 'C'}"
+RULE_C2641_废气_新建,Rule,"{'status': 'case_observation', 'level': 'C'}"
+RULE_C2641_废水_新建,Rule,"{'status': 'case_observation', 'level': 'C'}"
+RULE_C2642_危废_新建,Rule,"{'status': 'candidate_rule', 'level': 'C'}"
+C2642,Industry,{}
+P0203,Project,{}
+P0220,Project,{}
+RULE_C2642_噪声_新建,Rule,"{'status': 'candidate_rule', 'level': 'C'}"
+RULE_C2642_固废_新建,Rule,"{'status': 'case_observation', 'level': 'C'}"
+RULE_C2642_废气_新建,Rule,"{'status': 'candidate_rule', 'level': 'C'}"
+RULE_C2642_废水_新建,Rule,"{'status': 'case_observation', 'level': 'C'}"
+RULE_C2913_危废_扩建,Rule,"{'status': 'case_observation', 'level': 'C'}"
+C2913,Industry,{}
+P0227,Project,{}
+RULE_C2913_噪声_扩建,Rule,"{'status': 'case_observation', 'level': 'C'}"
+RULE_C2913_噪声_新建,Rule,"{'status': 'case_observation', 'level': 'C'}"
+P0187,Project,{}
+GB12348-200,Standard,{}
+RULE_C2913_废气_扩建,Rule,"{'status': 'case_observation', 'level': 'B'}"
+RULE_C2913_废气_新建,Rule,"{'status': 'case_observation', 'level': 'C'}"
+RULE_C2913_废水_新建,Rule,"{'status': 'case_observation', 'level': 'C'}"
+RULE_C2919_危废_新建,Rule,"{'status': 'case_observation', 'level': 'C'}"
+C2919,Industry,{}
+P0226,Project,{}
+RULE_C2919_噪声_新建,Rule,"{'status': 'case_observation', 'level': 'C'}"
+RULE_C2919_废气_新建,Rule,"{'status': 'case_observation', 'level': 'C'}"
+RULE_C2921_危废_新建,Rule,"{'status': 'case_observation', 'level': 'C'}"
+C2921,Industry,{}
+P0194,Project,{}
+RULE_C2921_噪声_新建,Rule,"{'status': 'case_observation', 'level': 'C'}"
+RULE_C2921_废气_新建,Rule,"{'status': 'candidate_rule', 'level': 'A'}"
+P0046,Project,{}
+RULE_C2921_废水_新建,Rule,"{'status': 'case_observation', 'level': 'C'}"
+DB44/815-2010,Standard,{}
+RULE_C2922_危废_技改,Rule,"{'status': 'case_observation', 'level': 'C'}"
+C2922,Industry,{}
+P0014,Project,{}
+GB14554,Standard,{}
+GB18597-2001,Standard,{}
+RULE_C2922_危废_新建,Rule,"{'status': 'candidate_rule', 'level': 'C'}"
+P0143,Project,{}
+P0225,Project,{}
+RULE_C2922_噪声_技改,Rule,"{'status': 'case_observation', 'level': 'C'}"
+GB14554-93,Standard,{}
+RULE_C2922_噪声_新建,Rule,"{'status': 'common_rule', 'level': 'C'}"
+P0040,Project,{}
+P0084,Project,{}
+P0003,Project,{}
+RULE_C2922_固废_技改,Rule,"{'status': 'case_observation', 'level': 'C'}"
+RULE_C2922_固废_新建,Rule,"{'status': 'case_observation', 'level': 'C'}"

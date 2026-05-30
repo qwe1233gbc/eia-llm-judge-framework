@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Step 6: build strict experience rules from verified QA only."""
+"""Step 6: build strict experience rules from high-alignment QA only."""
 from __future__ import annotations
 
 import csv
@@ -22,7 +22,7 @@ def rule_level(support_count: int) -> str:
 
 def main() -> None:
     ensure_dirs(RULE_OUT)
-    qas = read_jsonl(QA_OUT / "qa_strict_verified.jsonl")
+    qas = read_jsonl(QA_OUT / "qa_strict_high.jsonl")
     groups: dict[tuple[str, str, str], list[dict]] = defaultdict(list)
     for qa in qas:
         groups[(qa.get("industry_code", ""), qa.get("element", ""), qa.get("project_type", ""))].append(qa)
@@ -61,7 +61,7 @@ def main() -> None:
                 "source_pair_ids": pair_ids,
                 "source_qa_ids": [q.get("qa_id", "") for q in items[:20]],
                 "support_count": len(pair_ids),
-                "sample_counts": {"verified": len(items)},
+                "sample_counts": {"high_alignment": len(items)},
                 "limitations": [] if level == "A" else ["样本数不足，需人工复核后再作为稳定规则使用"],
                 "need_human_review": level != "A",
             }

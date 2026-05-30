@@ -17,16 +17,18 @@ This pipeline classifies files by body text, extracts project/company fields aga
 5. clean_pairs: 65
 6. candidate_pairs: 5303
 7. unmatched/mismatch sampled: 1000
-8. strict QA: 327
-9. strict verified QA: 84
-10. strict experience rules: 40
-11. A rules: 8
-12. B rules: 6
-13. C rules: 26
+8. strict QA: 253
+9. strict high QA: 44
+10. strict medium QA: 107
+11. strict review QA: 102
+12. strict experience rules from high QA: 22
+13. A rules: 4
+14. B rules: 5
+15. C rules: 13
 
 ## 4. Remaining manual review
 
-Candidate pairs and QA with low evidence alignment remain outside verified outputs and require manual review before use.
+Candidate pairs and QA outside `qa_strict_high.jsonl` remain outside the experience library and require manual review before use.
 
 ## 5. Data expansion
 

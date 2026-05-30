@@ -1,0 +1,20 @@
+{
+  "pair_id": "pair_00041",
+  "match_score": 98.5,
+  "company": "佛山罗斯夫科技有限公司",
+  "project_name": "佛山罗斯夫科技有限公司深料研发实验室迁扩建项目",
+  "industry_code": "M7320",
+  "industry_name": "",
+  "project_type": "迁扩建",
+  "report_type": "报告表",
+  "report_file_original": "E:\\软件\\mineru_extracted\\2024_2024年7月24日建设项目环境影响报告表受理公告（容桂）_3_mineru\\full.md",
+  "approval_file_original": "E:\\软件\\环评原始数据\\顺德区批复\\2024_佛山市生态环境局关于佛山纳膜新材料有限公司新建项目建设项目环境影响报告表的批复.pdf",
+  "approval_doc_no": "佛山市生态环境局关于佛山纳膜新材料有限公司新建项目建设项目环境影响报告表的批复",
+  "approval_date": "2024-09-05",
+  "match_basis": [
+    "company_similarity=100.0",
+    "project_name_similarity=95.7",
+    "match_score=98.5"
+  ],
+  "warnings": []
+}

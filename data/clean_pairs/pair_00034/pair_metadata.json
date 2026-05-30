@@ -1,0 +1,20 @@
+{
+  "pair_id": "pair_00034",
+  "match_score": 100.0,
+  "company": "佛山市顺德区乐从镇远格家具厂",
+  "project_name": "佛山市顺德区乐从镇远格家具厂扩建项目",
+  "industry_code": "C2130",
+  "industry_name": "",
+  "project_type": "扩建",
+  "report_type": "报告表",
+  "report_file_original": "E:\\软件\\环评原始数据\\顺德区受理报告\\2021_2021年4月25日建设项目环境影响报告受理公告（乐从）_4778858.pdf",
+  "approval_file_original": "E:\\软件\\环评原始数据\\顺德区批复\\2021_佛山市生态环境局关于广东维通利华实验动物技术有限公司建设项目环境影响报告表的批复.pdf",
+  "approval_doc_no": "佛山市生态环境局关于广东维通利华实验动物技术有限公司建设项目环境影响报告表的批复",
+  "approval_date": "2021-05-26",
+  "match_basis": [
+    "company_similarity=100.0",
+    "project_name_similarity=100.0",
+    "match_score=100.0"
+  ],
+  "warnings": []
+}

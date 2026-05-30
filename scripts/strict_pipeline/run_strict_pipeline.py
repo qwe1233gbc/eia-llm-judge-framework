@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 import subprocess
 import sys
+from collections import Counter
 from pathlib import Path
 
 sys.path.append(str(Path(__file__).resolve().parent))
@@ -53,17 +54,44 @@ def count_rules(name: str) -> int:
     return len(json.loads(path.read_text(encoding="utf-8")))
 
 
+def count_lines_csv(path: Path) -> int:
+    if not path.exists():
+        return 0
+    return max(0, len(path.read_text(encoding="utf-8-sig").splitlines()) - 1)
+
+
+def format_counter(counter: Counter) -> str:
+    if not counter:
+        return "- none\n"
+    return "".join(f"- {key or '未知'}: {value}\n" for key, value in sorted(counter.items(), key=lambda item: (-item[1], item[0])))
+
+
+def sample_qa_line(qa: dict) -> str:
+    standards = ", ".join(s.get("standard_code", "") for s in qa.get("standards_normalized", []) if s.get("standard_code")) or "无"
+    answer = qa.get("answer", "").replace("\n", " ")[:160].rstrip()
+    issues = ", ".join(qa.get("quality_issues", [])) or "none"
+    return (
+        f"- {qa.get('qa_id', '')} | {qa.get('element', '')} | {qa.get('project_type', '')} | "
+        f"standards: {standards} | issues: {issues} | {answer}\n"
+    )
+
+
 def write_final_report() -> None:
     classified = read_jsonl(SCAN_OUT / "file_classification.jsonl")
     clean_pairs = count_jsonl(PAIR_OUT / "clean_pairs.jsonl")
-    candidate_pairs = 0
-    cand_csv = PAIR_OUT / "candidate_pairs_needs_review.csv"
-    if cand_csv.exists():
-        candidate_pairs = max(0, len(cand_csv.read_text(encoding="utf-8-sig").splitlines()) - 1)
-    mismatch = 0
-    mismatch_csv = PAIR_OUT / "mismatch_pairs.csv"
-    if mismatch_csv.exists():
-        mismatch = max(0, len(mismatch_csv.read_text(encoding="utf-8-sig").splitlines()) - 1)
+    high_qas = read_jsonl(QA_OUT / "qa_strict_high.jsonl")
+    medium_qas = read_jsonl(QA_OUT / "qa_strict_medium.jsonl")
+    review_qas = read_jsonl(QA_OUT / "qa_strict_review.jsonl")
+    all_qas = read_jsonl(QA_OUT / "qa_strict_all.jsonl")
+    downgraded = medium_qas + review_qas
+    downgrade_reasons = Counter(issue for qa in downgraded for issue in qa.get("quality_issues", []))
+    high_element_dist = Counter(qa.get("element", "") for qa in high_qas)
+    high_project_type_dist = Counter(qa.get("project_type", "") for qa in high_qas)
+    recommendation = (
+        "建议进入经验库生成：仅使用 `qa_strict_high.jsonl`。"
+        if high_qas and count_rules("rules_all.json") > 0
+        else "不建议进入经验库生成：当前 high QA 或规则数量不足。"
+    )
 
     counts = {
         "scanned": len(classified),
@@ -71,12 +99,12 @@ def write_final_report() -> None:
         "approval": sum(1 for r in classified if r.get("detected_file_type") == "approval"),
         "public_participation": sum(1 for r in classified if r.get("detected_file_type") == "public_participation"),
         "clean_pairs": clean_pairs,
-        "candidate_pairs": candidate_pairs,
-        "mismatch_sample": mismatch,
-        "qa_all": count_jsonl(QA_OUT / "qa_strict_all.jsonl"),
-        "qa_high": count_jsonl(QA_OUT / "qa_strict_high.jsonl"),
-        "qa_medium": count_jsonl(QA_OUT / "qa_strict_medium.jsonl"),
-        "qa_review": count_jsonl(QA_OUT / "qa_strict_review.jsonl"),
+        "candidate_pairs": count_lines_csv(PAIR_OUT / "candidate_pairs_needs_review.csv"),
+        "mismatch_sample": count_lines_csv(PAIR_OUT / "mismatch_pairs.csv"),
+        "qa_all": len(all_qas),
+        "qa_high": len(high_qas),
+        "qa_medium": len(medium_qas),
+        "qa_review": len(review_qas),
         "rules_all": count_rules("rules_all.json"),
         "rules_a": count_rules("rules_A_verified.json"),
         "rules_b": count_rules("rules_B_candidate.json"),
@@ -107,9 +135,21 @@ def write_final_report() -> None:
         f"13. A rules: {counts['rules_a']}\n",
         f"14. B rules: {counts['rules_b']}\n",
         f"15. C rules: {counts['rules_c']}\n",
-        "\n## 4. Remaining manual review\n\n",
+        "\n## 4. High QA Element Distribution\n\n",
+        format_counter(high_element_dist),
+        "\n## 5. High QA Project Type Distribution\n\n",
+        format_counter(high_project_type_dist),
+        "\n## 6. Downgrade Reason Statistics\n\n",
+        format_counter(downgrade_reasons),
+        "\n## 7. Typical High QA Samples\n\n",
+        "".join(sample_qa_line(qa) for qa in high_qas[:5]) or "- none\n",
+        "\n## 8. Typical Downgraded Samples\n\n",
+        "".join(sample_qa_line(qa) for qa in downgraded[:5]) or "- none\n",
+        "\n## 9. Experience Library Recommendation\n\n",
+        recommendation + "\n\n",
+        "## 10. Remaining Manual Review\n\n",
         "Candidate pairs and QA outside `qa_strict_high.jsonl` remain outside the experience library and require manual review before use.\n\n",
-        "## 5. Data expansion\n\n",
+        "## 11. Data Expansion\n\n",
         "Add more MinerU parsed reports and authoritative approval PDFs, then rerun this strict pipeline. "
         "Prefer more verified pairs over looser matching thresholds.\n",
     ]

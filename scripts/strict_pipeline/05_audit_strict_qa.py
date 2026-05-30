@@ -9,7 +9,7 @@ from pathlib import Path
 from typing import Any
 
 sys.path.append(str(Path(__file__).resolve().parent))
-from strict_utils import CLEAN_PAIRS_DIR, QA_OUT, clean_text, read_jsonl, read_text, write_jsonl  # noqa: E402
+from strict_utils import CLEAN_PAIRS_DIR, QA_OUT, clean_text, extract_standards, read_jsonl, read_text, write_jsonl  # noqa: E402
 
 
 ELEMENT_KEYWORDS = {
@@ -69,17 +69,50 @@ def standard_codes(qa: dict[str, Any]) -> list[str]:
     return [s.get("standard_code", "") for s in qa.get("standards_normalized", []) if s.get("standard_code")]
 
 
+def standards_in_text(text: str) -> set[str]:
+    return {s.get("standard_code", "") for s in extract_standards(text) if s.get("standard_code")}
+
+
+def element_standards(element: str, answer: str) -> list[str]:
+    codes = []
+    for std in extract_standards(answer):
+        code = std.get("standard_code", "")
+        if element == "危废" and not code.startswith("GB18597-"):
+            continue
+        if element == "噪声" and not (code.startswith("GB12348-") or code.startswith("GB/T3096-")):
+            continue
+        if code and code not in codes:
+            codes.append(code)
+    return codes
+
+
+def canonical_answer_terms(element: str, answer: str) -> list[str]:
+    if element not in ELEMENT_KEYWORDS:
+        return []
+    standards = element_standards(element, answer)
+    terms = [term for term in ELEMENT_KEYWORDS[element] + SUPPORT_TERMS[element] if term in answer]
+    return list(dict.fromkeys(standards + terms))
+
+
+def qa_id_element(qa_id: str) -> str:
+    return qa_id.rsplit("_", 1)[-1] if "_" in qa_id else ""
+
+
 def relevant_standards_in_scope(qa: dict[str, Any], answer: str) -> bool:
     codes = standard_codes(qa)
     if not codes:
         return False
-    return all(code in answer for code in codes)
+    answer_codes = standards_in_text(answer)
+    return all(code in answer_codes for code in codes)
 
 
 def standard_alignment(codes: list[str], answer: str, approval_ev: str, report_ev: str) -> bool:
     if not codes:
         return False
-    return all(code in answer and code in approval_ev and code in report_ev for code in codes)
+    answer_codes = standards_in_text(answer)
+    approval_codes = standards_in_text(approval_ev)
+    report_codes = standards_in_text(report_ev)
+    return all(code in answer_codes and code in approval_codes and code in report_codes for code in codes)
 
 
 def support_overlap(element: str, answer: str, report_ev: str) -> list[str]:
@@ -121,6 +154,10 @@ def audit_one(qa: dict[str, Any]) -> tuple[str, list[str], int, dict[str, str]]:
     approval_ev = qa.get("approval_evidence", [{}])[0].get("text", "")
     report_ev = qa.get("report_evidence", [{}])[0].get("text", "")
     codes = standard_codes(qa)
+    task_domain = qa.get("benchmark_metadata", {}).get("task_domain", "")
+    id_element = qa_id_element(qa.get("qa_id", ""))
+    canonical_terms = canonical_answer_terms(element, answer)
+    canonical_codes = element_standards(element, answer)
 
     if meta.get("company") and meta.get("company") != company:
         issues.append("metadata_company_mismatch")
@@ -139,6 +176,19 @@ def audit_one(qa: dict[str, Any]) -> tuple[str, list[str], int, dict[str, str]]:
         issues.append("answer_supported_by_approval_failed")
     if not answer_is_trimmed(answer):
         issues.append("answer_not_trimmed_to_element")
+
+    if not id_element or id_element != element:
+        issues.append("qa_id_element_mismatch")
+    if task_domain != element:
+        issues.append("task_domain_element_mismatch")
+    if qa.get("answer_terms", []) != canonical_terms:
+        issues.append("answer_terms_not_current_answer_element")
+    if codes != canonical_codes:
+        issues.append("standards_not_current_answer_element")
+    if element == "噪声" and any(term in qa.get("answer_terms", []) for term in ELEMENT_KEYWORDS["危废"] + SUPPORT_TERMS["危废"]):
+        issues.append("noise_contains_hazard_terms")
+    if element == "危废" and task_domain == "噪声":
+        issues.append("hazard_metadata_noise_mismatch")
 
     if element not in ELEMENT_KEYWORDS:
         issues.append("unsupported_element")
@@ -161,24 +211,7 @@ def audit_one(qa: dict[str, Any]) -> tuple[str, list[str], int, dict[str, str]]:
     if not overlap:
         issues.append("same_destination_or_measure_failed")
 
-    high_blockers = {
-        "pair_id_missing",
-        "metadata_company_mismatch",
-        "company_in_approval_failed",
-        "company_in_report_failed",
-        "project_name_match_failed",
-        "approval_evidence_found_failed",
-        "report_evidence_found_failed",
-        "answer_not_trimmed_to_element",
-        "answer_element_missing",
-        "approval_element_missing",
-        "report_element_missing",
-        "report_evidence_not_specific_or_excluded",
-        "standards_missing_or_out_of_answer_scope",
-        "same_standard_alignment_failed",
-        "same_destination_or_measure_failed",
-    }
-    if not any(issue in high_blockers for issue in issues):
+    if not issues:
         return (
             "high",
             issues,
@@ -197,6 +230,12 @@ def audit_one(qa: dict[str, Any]) -> tuple[str, list[str], int, dict[str, str]]:
         "answer_supported_by_approval_failed",
         "answer_not_trimmed_to_element",
         "unsupported_element",
+        "qa_id_element_mismatch",
+        "task_domain_element_mismatch",
+        "answer_terms_not_current_answer_element",
+        "standards_not_current_answer_element",
+        "noise_contains_hazard_terms",
+        "hazard_metadata_noise_mismatch",
     }
     if not any(issue in medium_blockers for issue in issues) and evidence_is_specific(element, report_ev):
         return (

@@ -216,9 +216,25 @@ def find_approval_evidence(approval_text: str, answer: str, element: str) -> dic
     return {"source_file": "approval.md", "text": flat[start:end], "char_start": start, "char_end": end}
 
 
-def build_question(meta: dict, element: str) -> str:
+def infer_project_type(project_name: str, fallback: str = "") -> str:
+    name = project_name or ""
+    if re.search(r"重新报批|重大变动重新报批|重新审核", name):
+        return "重新报批"
+    if "迁扩建" in name or "迁改扩建" in name:
+        return "迁扩建"
+    if "改扩建" in name:
+        return "改扩建"
+    if "技改" in name or "技术改造" in name:
+        return "技改"
+    if "新建项目" in name or "新建" in name:
+        return "新建"
+    if "扩建项目" in name or "扩建" in name:
+        return "扩建"
+    return fallback or ""
+
+
+def build_question(meta: dict, element: str, project_type: str) -> str:
     company = meta.get("company", "")[:28]
-    project_type = meta.get("project_type", "")
     return f"【区级】{company}（{project_type}项目）{ELEMENTS[element]['question']}"
 
 
@@ -238,6 +254,8 @@ def main() -> None:
     for pair_dir in sorted(CLEAN_PAIRS_DIR.glob("pair_*")):
         report_text, approval_text, meta = load_pair_text(pair_dir)
         approval_sentences = split_sentences(approval_text)
+        project_name = meta.get("project_name", "")
+        project_type = infer_project_type(project_name, meta.get("project_type", ""))
         for element in ELEMENTS:
             answer = build_element_answer(element, approval_sentences)
             if not answer:
@@ -252,14 +270,14 @@ def main() -> None:
                 "level": "区级",
                 "region": "佛山市顺德区",
                 "company": meta.get("company", ""),
-                "project_name": meta.get("project_name", ""),
+                "project_name": project_name,
                 "industry_code": meta.get("industry_code", ""),
                 "industry_name": meta.get("industry_name", ""),
-                "project_type": meta.get("project_type", ""),
+                "project_type": project_type,
                 "report_type": meta.get("report_type", ""),
                 "element": element,
                 "review_point": "审批要求与报告支撑核查",
-                "question": build_question(meta, element),
+                "question": build_question(meta, element, project_type),
                 "answer": answer,
                 "standards_normalized": standards,
                 "approval_evidence": [approval_ev],

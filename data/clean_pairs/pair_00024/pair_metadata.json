@@ -1,0 +1,20 @@
+{
+  "pair_id": "pair_00024",
+  "match_score": 100.0,
+  "company": "佛山市顺德区马甲科技有限公司",
+  "project_name": "佛山市顺德区马甲科技有限公司迁扩建项目",
+  "industry_code": "",
+  "industry_name": "",
+  "project_type": "迁扩建",
+  "report_type": "报告表",
+  "report_file_original": "E:\\软件\\mineru_extracted\\2025_2025年2月12日建设项目环境影响报告书（表）受理公告（佛山市生态环境局顺德分局）_1_mineru\\full.md",
+  "approval_file_original": "E:\\软件\\环评原始数据\\顺德区批复\\2025_佛环03环审〔2025〕106号.pdf",
+  "approval_doc_no": "佛环03环审〔2025〕106号",
+  "approval_date": "2025-03-27",
+  "match_basis": [
+    "company_similarity=100.0",
+    "project_name_similarity=100.0",
+    "match_score=100.0"
+  ],
+  "warnings": []
+}

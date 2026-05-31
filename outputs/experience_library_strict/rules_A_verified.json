@@ -226,7 +226,6 @@
       "pair_00013",
       "pair_00022",
       "pair_00024",
-      "pair_00030",
       "pair_00046"
     ],
     "source_qa_ids": [
@@ -237,12 +236,11 @@
       "QA_pair_00013_废水",
       "QA_pair_00022_废水",
       "QA_pair_00024_废水",
-      "QA_pair_00030_废水",
       "QA_pair_00046_废水"
     ],
-    "support_count": 9,
+    "support_count": 8,
     "sample_counts": {
-      "high_alignment": 9
+      "high_alignment": 8
     },
     "limitations": [],
     "need_human_review": false

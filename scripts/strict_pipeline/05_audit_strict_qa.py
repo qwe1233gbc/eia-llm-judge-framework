@@ -5,11 +5,15 @@ from __future__ import annotations
 import json
 import re
 import sys
+import csv
 from pathlib import Path
 from typing import Any
 
 sys.path.append(str(Path(__file__).resolve().parent))
 from strict_utils import CLEAN_PAIRS_DIR, QA_OUT, clean_text, extract_standards, read_jsonl, read_text, write_jsonl  # noqa: E402
+
+
+FIELD_AUDIT_OUT = Path(__file__).resolve().parents[2] / "outputs" / "framework_audit" / "field_consistency_audit.csv"
 
 
 ELEMENT_KEYWORDS = {
@@ -46,6 +50,10 @@ DISALLOWED_QA_MARKERS = {
     "噪声": ["GB18597", "危废", "危险废物", "暂存"],
     "危废": ["GB12348", "厂界噪声", "环境噪声"],
 }
+
+NOISE_FORBIDDEN_ANSWER_TERMS = ["DB44/26-2001", "污水", "生活污水", "水污染物", "预处理", "排入"]
+WATER_FORBIDDEN_MARKERS = ["GB12348", "厂界噪声", "GB18597", "危险废物"]
+HAZARD_FORBIDDEN_MARKERS = ["GB12348", "厂界噪声"]
 
 WATER_DISALLOWED_STANDARD_PREFIXES = [
     "GB12348-",
@@ -141,6 +149,66 @@ def water_has_cross_element_standards(*texts: str) -> bool:
 
 def qa_id_element(qa_id: str) -> str:
     return qa_id.rsplit("_", 1)[-1] if "_" in qa_id else ""
+
+
+def field_consistency_issues(qa: dict[str, Any]) -> list[dict[str, str]]:
+    """Hard-field checks for high QA. Any issue here demotes a sample to review."""
+    qa_id = qa.get("qa_id", "")
+    element = qa.get("element", "")
+    task_domain = qa.get("benchmark_metadata", {}).get("task_domain", "")
+    answer = qa.get("answer", "")
+    answer_terms = qa.get("answer_terms", [])
+    codes = standard_codes(qa)
+    rows: list[dict[str, str]] = []
+
+    def add(error_field: str, reason: str) -> None:
+        rows.append(
+            {
+                "qa_id": qa_id,
+                "element": element,
+                "错误字段": error_field,
+                "错误原因": reason,
+            }
+        )
+
+    id_element = qa_id_element(qa_id)
+    if not id_element or id_element != element:
+        add("qa_id/element", f"qa_id最后要素={id_element or '空'}，element={element}")
+    if task_domain != element:
+        add("benchmark_metadata.task_domain", f"task_domain={task_domain}，element={element}")
+
+    canonical_terms = canonical_answer_terms(element, answer)
+    if answer_terms != canonical_terms:
+        add(
+            "answer_terms",
+            "answer_terms 必须只来自当前 answer 和当前 element；"
+            f"actual={answer_terms}; expected={canonical_terms}",
+        )
+
+    canonical_codes = element_standards(element, answer)
+    if codes != canonical_codes:
+        add(
+            "standards_normalized",
+            "standards_normalized 必须只保留当前 QA 要素相关标准；"
+            f"actual={codes}; expected={canonical_codes}",
+        )
+
+    if element == "噪声":
+        for marker in NOISE_FORBIDDEN_ANSWER_TERMS:
+            if marker in answer_terms:
+                add("answer_terms", f"噪声 QA answer_terms 不得出现 {marker}")
+
+    blob = qa_field_blob(qa)
+    if element == "废水":
+        for marker in WATER_FORBIDDEN_MARKERS:
+            if has_marker(blob, marker):
+                add("cross_element_marker", f"废水 QA 不得出现 {marker}")
+    if element == "危废":
+        for marker in HAZARD_FORBIDDEN_MARKERS:
+            if has_marker(blob, marker):
+                add("cross_element_marker", f"危废 QA 不得出现 {marker}")
+
+    return rows
 
 
 def relevant_standards_in_scope(qa: dict[str, Any], answer: str) -> bool:
@@ -309,10 +377,29 @@ def audit_one(qa: dict[str, Any]) -> tuple[str, list[str], int, dict[str, str]]:
 
 
 def main() -> None:
+    previous_high = read_jsonl(QA_OUT / "qa_strict_high.jsonl")
+    field_issue_rows = []
+    forced_review_ids: set[str] = set()
+    for qa in previous_high:
+        rows = field_consistency_issues(qa)
+        if rows:
+            field_issue_rows.extend(rows)
+            forced_review_ids.add(qa.get("qa_id", ""))
+
     qas = read_jsonl(QA_OUT / "qa_strict_all.jsonl")
     high, medium, review = [], [], []
     for qa in qas:
         status, issues, score, alignment = audit_one(qa)
+        qa_id = qa.get("qa_id", "")
+        hard_rows = field_consistency_issues(qa)
+        if qa_id in forced_review_ids or (status == "high" and hard_rows):
+            if qa_id not in forced_review_ids:
+                field_issue_rows.extend(hard_rows)
+                forced_review_ids.add(qa_id)
+            issues = list(dict.fromkeys(issues + ["field_consistency_failed"]))
+            score = min(score, 40)
+            alignment = {"level": "review", "reason": "field_consistency_failed"}
+            status = "review"
         qa["quality_issues"] = issues
         qa["quality_score"] = score
         qa["evidence_alignment"] = alignment
@@ -334,7 +421,16 @@ def main() -> None:
     write_jsonl(medium + review, QA_OUT / "qa_strict_needs_review.jsonl")
     write_jsonl([], QA_OUT / "qa_strict_rejected.jsonl")
 
-    print(f"high={len(high)} medium={len(medium)} review={len(review)}")
+    FIELD_AUDIT_OUT.parent.mkdir(parents=True, exist_ok=True)
+    with FIELD_AUDIT_OUT.open("w", encoding="utf-8-sig", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=["qa_id", "element", "错误字段", "错误原因"])
+        writer.writeheader()
+        writer.writerows(field_issue_rows)
+
+    print(
+        f"high={len(high)} medium={len(medium)} review={len(review)} "
+        f"field_consistency_downgraded={len(forced_review_ids)}"
+    )
 
 
 if __name__ == "__main__":

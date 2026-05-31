@@ -63,7 +63,7 @@
 ## STRICT_RULE_0007 |  | 废水
 
 - level: A
-- support_count: 9
+- support_count: 8
 - standards: DB44/26-2001
 - checkpoints:
   - 是否识别并说明废水相关污染源或管理要求

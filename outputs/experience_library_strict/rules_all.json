@@ -3,51 +3,6 @@
     "rule_id": "STRICT_RULE_0001",
     "industry_code": "",
     "industry_name": "",
-    "element": "危废",
-    "project_type": "迁扩建",
-    "rule_status": "observation",
-    "evidence_level": "C",
-    "confidence": 0.3333333333333333,
-    "trigger_condition": [
-      "项目属于  行业",
-      "项目涉及危废审查事项"
-    ],
-    "review_checkpoints": [
-      "是否识别并说明危废相关污染源或管理要求",
-      "是否引用与该要素对应的有效标准",
-      "报告内容是否能支撑批复中的审批要求"
-    ],
-    "expected_report_content": [
-      "危废来源或管理对象",
-      "治理/处置/管理措施",
-      "执行标准",
-      "排放去向或管理要求"
-    ],
-    "common_approval_requirement": [
-      "批复要求：危险废物、一般工业固废在厂内暂存应分别符合《危险废物贮存 污染控制标准》（GB18597-2001）、《一般工业固体废物贮存和 填埋污染控制标准》（GB 18599-2020）以及等 3 项国家污染物控制标准修改单的公告》（环境保护部公告 2013 年第 36 号）的要求。危险废物、一般工业固废在厂内暂存应分别符合《危险废物贮存 污染控制标准》（GB18597-2001）、《一般工业固体废物贮存和 填埋污染控制标准》（GB 18599-2020）以及等 3 项国家污染物控制标准修改单的。"
-    ],
-    "common_standards": [
-      "GB18597-2001"
-    ],
-    "source_pair_ids": [
-      "pair_00046"
-    ],
-    "source_qa_ids": [
-      "QA_pair_00046_危废"
-    ],
-    "support_count": 1,
-    "sample_counts": {
-      "high_alignment": 1
-    },
-    "limitations": [
-      "样本数不足，需人工复核后再作为稳定规则使用"
-    ],
-    "need_human_review": true
-  },
-  {
-    "rule_id": "STRICT_RULE_0002",
-    "industry_code": "",
-    "industry_name": "",
     "element": "噪声",
     "project_type": "扩建",
     "rule_status": "verified",
@@ -72,8 +27,8 @@
       "批复要求：（三）厂界噪声执行《工业企业厂界环境噪声排放标准》（GB 12348—2008）3 类标准。",
       "批复要求：噪声排放执行《工业企业厂界环境噪声排放标准》（GB 12348—2008）3 类标准。",
       "批复要求：噪声排放执行《工业企业厂界环境噪声排放标准》（GB 12348—2008）3 类标准。",
-      "批复要求：（三）项目厂界噪声执行《工业企业厂界环境噪声排放标准》 （GB 12348—2008）3 类标准。",
-      "批复要求：（三）本项目营运期噪声执行《工业企业厂界环境噪声排放 标准》（GB12348-2008）中的 3、4 类标准，其中厂界南面、西面、 北面执行《工业企业厂界环境噪声排放标准》（GB12348-2008） 中 3 类标准。厂界东面执行《工业企业厂界环境噪声排放标准》 （GB12348-2008）中 4 类标准。"
+      "批复要求：（三）项目南面厂界执行《工业企业厂界环境噪声排放标准》 （GB 12348—2008）中的 4 类标准，其余厂界执行《工业企业厂 界环境噪声排放标准》（GB 12348—2008）中的 3 类标准。",
+      "批复要求：（三）项目营运期厂界噪声执行《工业企业厂界环境噪声排 放标准》（GB12348-2008）3 类标准。"
     ],
     "common_standards": [
       "GB12348-2008"
@@ -82,9 +37,6 @@
       "pair_00003",
       "pair_00004",
       "pair_00007",
-      "pair_00012",
-      "pair_00015",
-      "pair_00016",
       "pair_00020",
       "pair_00025",
       "pair_00026",
@@ -95,24 +47,21 @@
       "QA_pair_00003_噪声",
       "QA_pair_00004_噪声",
       "QA_pair_00007_噪声",
-      "QA_pair_00012_噪声",
-      "QA_pair_00015_噪声",
-      "QA_pair_00016_噪声",
       "QA_pair_00020_噪声",
       "QA_pair_00025_噪声",
       "QA_pair_00026_噪声",
       "QA_pair_00029_噪声",
       "QA_pair_00031_噪声"
     ],
-    "support_count": 11,
+    "support_count": 8,
     "sample_counts": {
-      "high_alignment": 11
+      "high_alignment": 8
     },
     "limitations": [],
     "need_human_review": false
   },
   {
-    "rule_id": "STRICT_RULE_0003",
+    "rule_id": "STRICT_RULE_0002",
     "industry_code": "",
     "industry_name": "",
     "element": "噪声",
@@ -160,7 +109,7 @@
     "need_human_review": true
   },
   {
-    "rule_id": "STRICT_RULE_0004",
+    "rule_id": "STRICT_RULE_0003",
     "industry_code": "",
     "industry_name": "",
     "element": "噪声",
@@ -223,66 +172,11 @@
     "need_human_review": false
   },
   {
-    "rule_id": "STRICT_RULE_0005",
+    "rule_id": "STRICT_RULE_0004",
     "industry_code": "",
     "industry_name": "",
     "element": "废气",
     "project_type": "扩建",
-    "rule_status": "verified",
-    "evidence_level": "A",
-    "confidence": 1.0,
-    "trigger_condition": [
-      "项目属于  行业",
-      "项目涉及废气审查事项"
-    ],
-    "review_checkpoints": [
-      "是否识别并说明废气相关污染源或管理要求",
-      "是否引用与该要素对应的有效标准",
-      "报告内容是否能支撑批复中的审批要求"
-    ],
-    "expected_report_content": [
-      "废气来源或管理对象",
-      "治理/处置/管理措施",
-      "执行标准",
-      "排放去向或管理要求"
-    ],
-    "common_approval_requirement": [
-      "批复要求：（二）落实《固定污染源挥发性有机物综合排放标准》（DB 44/2367—2022）中相应控制要求，做好物料储存、转移和输送等 环节挥发性有机物无组织排放控制，并采取有效废气收集处理措 施，最大限度减少废气排放影响。1．注塑废气经集气罩收集后通过活性炭吸附处理后经排气筒 高空排放。其中，非甲烷总烃有组织排放执行《合成树脂工业污 染物排放标准》（GB 31572—2015，2024 修改单）中表 4 大气污 染物排放限值。臭气浓度有组织排放执行《恶臭污染物排放标准》 （GB 14554—93）表 2 恶臭污染",
-      "批复要求：（二）落实《固定污染源挥发性有机物综合排放标准》（DB 44/2367-2022）中相应控制要求，做好物料储存、转移和输送等 环节挥发性有机物无组织排放控制，并采取有效废气收集处理措 施，最大限度减少废气排放影响。1.项目 A 栋厂房喷金工序产生的废气经“废气排口直连管道” 收集，通过楼顶的“布袋除尘器”装置处理后引至排气筒 FQ-11623 高空排放。其中：颗粒物有组织排放执行广东省地方标准《大气 污染物排放限值》（DB44/27-2001）第二时段二级标准。2.项目 B 栋厂房喷金工序产生的废气经“废",
-      "批复要求：（二）落实《固定污染源挥发性有机物综合排放标准》（DB 44/2367—2022）中相应控制要求，做好物料储存、转移和输 送等环节挥发性有机物无组织排放控制，并采取有效废气收集 处理措施，最大限度减少废气排放影响。1.项目小型破碎机破碎工序产生的粉尘（颗粒物）在车间 内无组织排放。项目大型破碎机破碎工序产生的粉尘（颗粒物） 经“旋风+布袋”装置进行除尘处理后在车间内无组织排放。厂界颗粒物无组织排放执行广东省《大气污染物排放限值》 （DB44/27-2001）表 2 工艺废气大气污染物排放限值（第二时 段）",
-      "批复要求：（二）落实《固定污染源挥发性有机物综合排放标准》（DB 44/2367-2022）中相应控制要求，做好物料储存、转移和输送等 环节挥发性有机物无组织排放控制，并采取有效废气收集处理措 施，最大限度减少废气排放影响。1.项目 A 栋厂房喷金工序产生的废气经“废气排口直连管道” 收集，通过楼顶的“布袋除尘器”装置处理后引至排气筒 FQ-11623 高空排放。其中：颗粒物有组织排放执行广东省地方标准《大气 污染物排放限值》（DB44/27-2001）第二时段二级标准。2.项目 B 栋厂房喷金工序产生的废气经“废"
-    ],
-    "common_standards": [
-      "DB44/2367-2022",
-      "DB44/27-2001",
-      "GB14554-1993",
-      "GB31572-2015"
-    ],
-    "source_pair_ids": [
-      "pair_00012",
-      "pair_00025",
-      "pair_00026",
-      "pair_00029"
-    ],
-    "source_qa_ids": [
-      "QA_pair_00012_废气",
-      "QA_pair_00025_废气",
-      "QA_pair_00026_废气",
-      "QA_pair_00029_废气"
-    ],
-    "support_count": 4,
-    "sample_counts": {
-      "high_alignment": 4
-    },
-    "limitations": [],
-    "need_human_review": false
-  },
-  {
-    "rule_id": "STRICT_RULE_0006",
-    "industry_code": "",
-    "industry_name": "",
-    "element": "废气",
-    "project_type": "迁扩建",
     "rule_status": "candidate",
     "evidence_level": "B",
     "confidence": 0.6666666666666666,
@@ -302,23 +196,20 @@
       "排放去向或管理要求"
     ],
     "common_approval_requirement": [
-      "批复要求：项目印刷工序产生的有机废气经活性炭吸附处理后排气 筒排放。非甲烷总烃废气有组织排放执行《印刷工业大气污 染物排放标准》（GB41616-2022）表 1 大气污染物排放限值。总 VOCs 废气有组织排放执行《印刷行业挥发性有机化合物排 放标准》（DB44/815-2010）表 2 排放限值（不含以金属、陶 瓷、玻璃为承载物的平版印刷，第二时段）。臭气浓度执行 《恶臭污染物排放标准》（GB14554-93）表 2 标准（排气筒 高 15 米）和表 1 二级标准（新扩改建）。有机废气无组织排 放执行《印刷工业",
-      "批复要求：（二）落实《固定污染源挥发性有机物综合排放标准》（DB 44/2367-2022）中相应控制要求，做好物料储存、转移和输送等 环节挥发性有机物无组织排放控制，并采取有效废气收集处理措 施，最大限度减少废气排放影响。项目印刷工序产生的有机废气 经单层密闭负压整室收集后，引至“活性炭吸附”装置处理后通 过排气筒高空排放。其中：总 VOCs 有组织排放执行广东省《印刷 行业挥发性有机化合物排放标准》（DB44/815-2010）中表 2“平 版印刷(不含以金属、陶瓷、玻璃为承印物的平版印刷)、柔性版 印刷”的第"
+      "批复要求：（二）落实《固定污染源挥发性有机物综合排放标准》（DB 44/2367-2022）中相应控制要求，做好物料储存、转移和输送等 环节挥发性有机物无组织排放控制，并采取有效废气收集处理措 施，最大限度减少废气排放影响。1.项目 A 栋厂房喷金工序产生的废气经“废气排口直连管道” 收集，通过楼顶的“布袋除尘器”装置处理后引至排气筒 FQ-11623 高空排放。其中：颗粒物有组织排放执行广东省地方标准《大气 污染物排放限值》（DB44/27-2001）第二时段二级标准。2.项目 B 栋厂房喷金工序产生的废气经“废",
+      "批复要求：（二）落实《固定污染源挥发性有机物综合排放标准》（DB 44/2367-2022）中相应控制要求，做好物料储存、转移和输送等 环节挥发性有机物无组织排放控制，并采取有效废气收集处理措 施，最大限度减少废气排放影响。1.项目 A 栋厂房喷金工序产生的废气经“废气排口直连管道” 收集，通过楼顶的“布袋除尘器”装置处理后引至排气筒 FQ-11623 高空排放。其中：颗粒物有组织排放执行广东省地方标准《大气 污染物排放限值》（DB44/27-2001）第二时段二级标准。2.项目 B 栋厂房喷金工序产生的废气经“废"
     ],
     "common_standards": [
       "DB44/2367-2022",
-      "DB44/27-2001",
-      "DB44/815-2010",
-      "GB14554-1993",
-      "GB41616-2022"
+      "DB44/27-2001"
     ],
     "source_pair_ids": [
-      "pair_00011",
-      "pair_00022"
+      "pair_00025",
+      "pair_00029"
     ],
     "source_qa_ids": [
-      "QA_pair_00011_废气",
-      "QA_pair_00022_废气"
+      "QA_pair_00025_废气",
+      "QA_pair_00029_废气"
     ],
     "support_count": 2,
     "sample_counts": {
@@ -330,7 +221,7 @@
     "need_human_review": true
   },
   {
-    "rule_id": "STRICT_RULE_0007",
+    "rule_id": "STRICT_RULE_0005",
     "industry_code": "",
     "industry_name": "",
     "element": "废水",
@@ -391,7 +282,7 @@
     "need_human_review": false
   },
   {
-    "rule_id": "STRICT_RULE_0008",
+    "rule_id": "STRICT_RULE_0006",
     "industry_code": "",
     "industry_name": "",
     "element": "废水",
@@ -436,7 +327,7 @@
     "need_human_review": true
   },
   {
-    "rule_id": "STRICT_RULE_0009",
+    "rule_id": "STRICT_RULE_0007",
     "industry_code": "",
     "industry_name": "",
     "element": "废水",
@@ -462,9 +353,9 @@
     "common_approval_requirement": [
       "批复要求：项目生活污水经三 — 2 — 级化粪预处理后达到广东省地方标准《水污染物排放限值》 （DB44/26-2001）第二时段三级标准后排入龙潭安教农村污水处 理设施。",
       "批复要求：1.生活污水经预处理达标后经市政管网排入北滘污水处理 厂处理，排放标准执行广东省《水污染物排放限值》（DB44/26- 2001）的第二时段三级标准。",
-      "批复要求：项目生活污水经三 级化粪池处理达到广东省《水污染物排放限值》（DB44/26-2001） 第二时段三级标准后排至陈村污水处理厂作进一步处理。项目湿 磨清洗废水经沉淀后循环使用，定期整池更换并全部回用于湿式 磨砂工序中，不外排。湿式磨砂废水（含乳化液）循环使用，定 期更换的湿式磨砂废水作为危险废物交由有资质单位处置，不外 排。",
       "批复要求：项目产生的生活污 水经处理达到《水污染物排放限值》（DB44/26-2001）中的第二 时段三级标准后排入勒流生活污水处理厂。",
-      "批复要求：项目生活 污水经预处理达到《水污染物排放限值》（DB44/26-2001） 第二时段三级标准后排至生活污水管网。"
+      "批复要求：项目生活 污水经预处理达到《水污染物排放限值》（DB44/26-2001） 第二时段三级标准后排至生活污水管网。",
+      "批复要求：（一）项目生活污水经预处理达到广东省《水污染物排放 限值》（DB 44/26—2001）第二时段三级标准后排入均安污水处 理厂处理。项目玻璃加工废水经自建废水处理设施（混凝、沉 淀）处理后回用于生产，定期更换，定期更换的玻璃加工废水 和直接冷却水委托有处理能力单位处理，做好废水转移过程台 账记录，确保合法、妥善处理。"
     ],
     "common_standards": [
       "DB44/26-2001"
@@ -472,7 +363,6 @@
     "source_pair_ids": [
       "pair_00001",
       "pair_00002",
-      "pair_00006",
       "pair_00008",
       "pair_00011",
       "pair_00013",
@@ -484,7 +374,6 @@
     "source_qa_ids": [
       "QA_pair_00001_废水",
       "QA_pair_00002_废水",
-      "QA_pair_00006_废水",
       "QA_pair_00008_废水",
       "QA_pair_00011_废水",
       "QA_pair_00013_废水",
@@ -493,108 +382,15 @@
       "QA_pair_00030_废水",
       "QA_pair_00046_废水"
     ],
-    "support_count": 10,
+    "support_count": 9,
     "sample_counts": {
-      "high_alignment": 10
+      "high_alignment": 9
     },
     "limitations": [],
     "need_human_review": false
   },
   {
-    "rule_id": "STRICT_RULE_0010",
-    "industry_code": "C2231",
-    "industry_name": "",
-    "element": "噪声",
-    "project_type": "扩建",
-    "rule_status": "candidate",
-    "evidence_level": "B",
-    "confidence": 0.6666666666666666,
-    "trigger_condition": [
-      "项目属于 C2231 行业",
-      "项目涉及噪声审查事项"
-    ],
-    "review_checkpoints": [
-      "是否识别并说明噪声相关污染源或管理要求",
-      "是否引用与该要素对应的有效标准",
-      "报告内容是否能支撑批复中的审批要求"
-    ],
-    "expected_report_content": [
-      "噪声来源或管理对象",
-      "治理/处置/管理措施",
-      "执行标准",
-      "排放去向或管理要求"
-    ],
-    "common_approval_requirement": [
-      "批复要求：噪声排放执行《工业企业厂界环境噪声排放标准》（GB12348 －2008）3 类标准。",
-      "批复要求：噪声排放执行《工业企业厂界环境噪声排放标准》（GB12348 －2008）3 类标准。"
-    ],
-    "common_standards": [
-      "GB12348-2008"
-    ],
-    "source_pair_ids": [
-      "pair_00032",
-      "pair_00033"
-    ],
-    "source_qa_ids": [
-      "QA_pair_00032_噪声",
-      "QA_pair_00033_噪声"
-    ],
-    "support_count": 2,
-    "sample_counts": {
-      "high_alignment": 2
-    },
-    "limitations": [
-      "样本数不足，需人工复核后再作为稳定规则使用"
-    ],
-    "need_human_review": true
-  },
-  {
-    "rule_id": "STRICT_RULE_0011",
-    "industry_code": "C2231",
-    "industry_name": "",
-    "element": "噪声",
-    "project_type": "迁扩建",
-    "rule_status": "observation",
-    "evidence_level": "C",
-    "confidence": 0.3333333333333333,
-    "trigger_condition": [
-      "项目属于 C2231 行业",
-      "项目涉及噪声审查事项"
-    ],
-    "review_checkpoints": [
-      "是否识别并说明噪声相关污染源或管理要求",
-      "是否引用与该要素对应的有效标准",
-      "报告内容是否能支撑批复中的审批要求"
-    ],
-    "expected_report_content": [
-      "噪声来源或管理对象",
-      "治理/处置/管理措施",
-      "执行标准",
-      "排放去向或管理要求"
-    ],
-    "common_approval_requirement": [
-      "批复要求：厂界噪声执行《工业企业厂界环境噪声排放标准》 （GB12348-2008）中的 2 类标准。"
-    ],
-    "common_standards": [
-      "GB12348-2008"
-    ],
-    "source_pair_ids": [
-      "pair_00035"
-    ],
-    "source_qa_ids": [
-      "QA_pair_00035_噪声"
-    ],
-    "support_count": 1,
-    "sample_counts": {
-      "high_alignment": 1
-    },
-    "limitations": [
-      "样本数不足，需人工复核后再作为稳定规则使用"
-    ],
-    "need_human_review": true
-  },
-  {
-    "rule_id": "STRICT_RULE_0012",
+    "rule_id": "STRICT_RULE_0008",
     "industry_code": "C2319",
     "industry_name": "",
     "element": "噪声",
@@ -639,7 +435,7 @@
     "need_human_review": true
   },
   {
-    "rule_id": "STRICT_RULE_0013",
+    "rule_id": "STRICT_RULE_0009",
     "industry_code": "C2319",
     "industry_name": "",
     "element": "废水",
@@ -684,7 +480,7 @@
     "need_human_review": true
   },
   {
-    "rule_id": "STRICT_RULE_0014",
+    "rule_id": "STRICT_RULE_0010",
     "industry_code": "C2641",
     "industry_name": "",
     "element": "噪声",
@@ -729,7 +525,7 @@
     "need_human_review": true
   },
   {
-    "rule_id": "STRICT_RULE_0015",
+    "rule_id": "STRICT_RULE_0011",
     "industry_code": "C2641",
     "industry_name": "",
     "element": "废水",
@@ -774,7 +570,7 @@
     "need_human_review": true
   },
   {
-    "rule_id": "STRICT_RULE_0016",
+    "rule_id": "STRICT_RULE_0012",
     "industry_code": "C2922",
     "industry_name": "",
     "element": "废水",
@@ -819,7 +615,7 @@
     "need_human_review": true
   },
   {
-    "rule_id": "STRICT_RULE_0017",
+    "rule_id": "STRICT_RULE_0013",
     "industry_code": "C2927",
     "industry_name": "",
     "element": "噪声",
@@ -864,7 +660,7 @@
     "need_human_review": true
   },
   {
-    "rule_id": "STRICT_RULE_0018",
+    "rule_id": "STRICT_RULE_0014",
     "industry_code": "C2927",
     "industry_name": "",
     "element": "废水",
@@ -909,7 +705,7 @@
     "need_human_review": true
   },
   {
-    "rule_id": "STRICT_RULE_0019",
+    "rule_id": "STRICT_RULE_0015",
     "industry_code": "C2929",
     "industry_name": "",
     "element": "噪声",
@@ -954,7 +750,7 @@
     "need_human_review": true
   },
   {
-    "rule_id": "STRICT_RULE_0020",
+    "rule_id": "STRICT_RULE_0016",
     "industry_code": "C2929",
     "industry_name": "",
     "element": "噪声",
@@ -1002,52 +798,7 @@
     "need_human_review": true
   },
   {
-    "rule_id": "STRICT_RULE_0021",
-    "industry_code": "C2929",
-    "industry_name": "",
-    "element": "废水",
-    "project_type": "扩建",
-    "rule_status": "observation",
-    "evidence_level": "C",
-    "confidence": 0.3333333333333333,
-    "trigger_condition": [
-      "项目属于 C2929 行业",
-      "项目涉及废水审查事项"
-    ],
-    "review_checkpoints": [
-      "是否识别并说明废水相关污染源或管理要求",
-      "是否引用与该要素对应的有效标准",
-      "报告内容是否能支撑批复中的审批要求"
-    ],
-    "expected_report_content": [
-      "废水来源或管理对象",
-      "治理/处置/管理措施",
-      "执行标准",
-      "排放去向或管理要求"
-    ],
-    "common_approval_requirement": [
-      "批复要求：项目生活污水经三 级化粪池处理后，达到广东省《水污染物排放限值》（DB 44/26 —2001）中第二时段三级标准后，经市政污水管网排入大门污水 处理厂处理，尾水排入顺德支流。"
-    ],
-    "common_standards": [
-      "DB44/26-2001"
-    ],
-    "source_pair_ids": [
-      "pair_00010"
-    ],
-    "source_qa_ids": [
-      "QA_pair_00010_废水"
-    ],
-    "support_count": 1,
-    "sample_counts": {
-      "high_alignment": 1
-    },
-    "limitations": [
-      "样本数不足，需人工复核后再作为稳定规则使用"
-    ],
-    "need_human_review": true
-  },
-  {
-    "rule_id": "STRICT_RULE_0022",
+    "rule_id": "STRICT_RULE_0017",
     "industry_code": "C2929",
     "industry_name": "",
     "element": "废水",
@@ -1095,7 +846,7 @@
     "need_human_review": true
   },
   {
-    "rule_id": "STRICT_RULE_0023",
+    "rule_id": "STRICT_RULE_0018",
     "industry_code": "C3057",
     "industry_name": "",
     "element": "噪声",
@@ -1140,7 +891,7 @@
     "need_human_review": true
   },
   {
-    "rule_id": "STRICT_RULE_0024",
+    "rule_id": "STRICT_RULE_0019",
     "industry_code": "C3057",
     "industry_name": "",
     "element": "废水",
@@ -1185,7 +936,7 @@
     "need_human_review": true
   },
   {
-    "rule_id": "STRICT_RULE_0025",
+    "rule_id": "STRICT_RULE_0020",
     "industry_code": "C3360",
     "industry_name": "",
     "element": "噪声",
@@ -1230,52 +981,7 @@
     "need_human_review": true
   },
   {
-    "rule_id": "STRICT_RULE_0026",
-    "industry_code": "C3360",
-    "industry_name": "",
-    "element": "废水",
-    "project_type": "迁扩建",
-    "rule_status": "observation",
-    "evidence_level": "C",
-    "confidence": 0.3333333333333333,
-    "trigger_condition": [
-      "项目属于 C3360 行业",
-      "项目涉及废水审查事项"
-    ],
-    "review_checkpoints": [
-      "是否识别并说明废水相关污染源或管理要求",
-      "是否引用与该要素对应的有效标准",
-      "报告内容是否能支撑批复中的审批要求"
-    ],
-    "expected_report_content": [
-      "废水来源或管理对象",
-      "治理/处置/管理措施",
-      "执行标准",
-      "排放去向或管理要求"
-    ],
-    "common_approval_requirement": [
-      "批复要求：项目生活污水经三 级化粪池处理达到广东省《水污染物排放限值》（DB44/26-2001） 第二时段三级标准后排至陈村污水处理厂作进一步处理。项目湿 磨清洗废水经沉淀后循环使用，定期整池更换并全部回用于湿式 磨砂工序中，不外排。湿式磨砂废水（含乳化液）循环使用，定 期更换的湿式磨砂废水作为危险废物交由有资质单位处置，不外 排。"
-    ],
-    "common_standards": [
-      "DB44/26-2001"
-    ],
-    "source_pair_ids": [
-      "pair_00037"
-    ],
-    "source_qa_ids": [
-      "QA_pair_00037_废水"
-    ],
-    "support_count": 1,
-    "sample_counts": {
-      "high_alignment": 1
-    },
-    "limitations": [
-      "样本数不足，需人工复核后再作为稳定规则使用"
-    ],
-    "need_human_review": true
-  },
-  {
-    "rule_id": "STRICT_RULE_0027",
+    "rule_id": "STRICT_RULE_0021",
     "industry_code": "C3464",
     "industry_name": "",
     "element": "噪声",
@@ -1320,52 +1026,7 @@
     "need_human_review": true
   },
   {
-    "rule_id": "STRICT_RULE_0028",
-    "industry_code": "C3464",
-    "industry_name": "",
-    "element": "废水",
-    "project_type": "改扩建",
-    "rule_status": "observation",
-    "evidence_level": "C",
-    "confidence": 0.3333333333333333,
-    "trigger_condition": [
-      "项目属于 C3464 行业",
-      "项目涉及废水审查事项"
-    ],
-    "review_checkpoints": [
-      "是否识别并说明废水相关污染源或管理要求",
-      "是否引用与该要素对应的有效标准",
-      "报告内容是否能支撑批复中的审批要求"
-    ],
-    "expected_report_content": [
-      "废水来源或管理对象",
-      "治理/处置/管理措施",
-      "执行标准",
-      "排放去向或管理要求"
-    ],
-    "common_approval_requirement": [
-      "批复要求：（一）项目生活污水经处理达到广东省《水污染物排放限值》 （DB 44/26—2001）第二时段三级标准后排入勒流污水处理厂处 理。除油、防锈废槽液经混凝沉淀预处理后与其他废水一并经“pH 调节+絮凝沉淀+压榨过滤”处理达到广东省《水污染物排放限值》 （DB 44/26—2001）第二时段三级标准后排入勒流污水处理厂处 理。COD 排放量为 0.193 吨/年，氨氮排放量为 0.016 吨/年，二氧化硫 排放量为 0.02 吨/年，氮氧化物排放量为 0.18 吨/年。"
-    ],
-    "common_standards": [
-      "DB44/26-2001"
-    ],
-    "source_pair_ids": [
-      "pair_00027"
-    ],
-    "source_qa_ids": [
-      "QA_pair_00027_废水"
-    ],
-    "support_count": 1,
-    "sample_counts": {
-      "high_alignment": 1
-    },
-    "limitations": [
-      "样本数不足，需人工复核后再作为稳定规则使用"
-    ],
-    "need_human_review": true
-  },
-  {
-    "rule_id": "STRICT_RULE_0029",
+    "rule_id": "STRICT_RULE_0022",
     "industry_code": "C3561",
     "industry_name": "",
     "element": "噪声",
@@ -1410,7 +1071,7 @@
     "need_human_review": true
   },
   {
-    "rule_id": "STRICT_RULE_0030",
+    "rule_id": "STRICT_RULE_0023",
     "industry_code": "C3561",
     "industry_name": "",
     "element": "废水",
@@ -1455,7 +1116,7 @@
     "need_human_review": true
   },
   {
-    "rule_id": "STRICT_RULE_0031",
+    "rule_id": "STRICT_RULE_0024",
     "industry_code": "C3831",
     "industry_name": "",
     "element": "危废",
@@ -1500,7 +1161,7 @@
     "need_human_review": true
   },
   {
-    "rule_id": "STRICT_RULE_0032",
+    "rule_id": "STRICT_RULE_0025",
     "industry_code": "C3831",
     "industry_name": "",
     "element": "噪声",
@@ -1545,62 +1206,14 @@
     "need_human_review": true
   },
   {
-    "rule_id": "STRICT_RULE_0033",
-    "industry_code": "C3854",
-    "industry_name": "",
-    "element": "危废",
-    "project_type": "新建",
-    "rule_status": "candidate",
-    "evidence_level": "B",
-    "confidence": 0.6666666666666666,
-    "trigger_condition": [
-      "项目属于 C3854 行业",
-      "项目涉及危废审查事项"
-    ],
-    "review_checkpoints": [
-      "是否识别并说明危废相关污染源或管理要求",
-      "是否引用与该要素对应的有效标准",
-      "报告内容是否能支撑批复中的审批要求"
-    ],
-    "expected_report_content": [
-      "危废来源或管理对象",
-      "治理/处置/管理措施",
-      "执行标准",
-      "排放去向或管理要求"
-    ],
-    "common_approval_requirement": [
-      "批复要求：危险废物、一般工业固废在厂区内暂存应符合《危 险废物贮存污染控制标准》（GB18597-2001）、《关于发布 〈 一 般 工 业 固 体 废 物 贮 存 、 处 置 场 污 染 控 制 标 准 〉 （）等 3 项国家污染物控制标准修改单的公告》 （环境保护部公告 2013 年第 36 号）以及《广东省固体废物 污染环境防治条例》等要求。危险废物、一般工业固废在厂区内暂存应符合《危 险废物贮存污染控制标准》（GB18597-2001）、《关于发布 〈 一 般 工 业 固 体 废 物 贮 存 、 处 置 场",
-      "批复要求：危险废物、一般工业固废在厂区内暂存应符合《危 险废物贮存污染控制标准》（GB18597-2001）、《关于发布 〈 一 般 工 业 固 体 废 物 贮 存 、 处 置 场 污 染 控 制 标 准 〉 （）等 3 项国家污染物控制标准修改单的公告》 （环境保护部公告 2013 年第 36 号）以及《广东省固体废物 污染环境防治条例》等要求。危险废物、一般工业固废在厂区内暂存应符合《危 险废物贮存污染控制标准》（GB18597-2001）、《关于发布 〈 一 般 工 业 固 体 废 物 贮 存 、 处 置 场"
-    ],
-    "common_standards": [
-      "GB18597-2001"
-    ],
-    "source_pair_ids": [
-      "pair_00005",
-      "pair_00036"
-    ],
-    "source_qa_ids": [
-      "QA_pair_00005_危废",
-      "QA_pair_00036_危废"
-    ],
-    "support_count": 2,
-    "sample_counts": {
-      "high_alignment": 2
-    },
-    "limitations": [
-      "样本数不足，需人工复核后再作为稳定规则使用"
-    ],
-    "need_human_review": true
-  },
-  {
-    "rule_id": "STRICT_RULE_0034",
+    "rule_id": "STRICT_RULE_0026",
     "industry_code": "C3854",
     "industry_name": "",
     "element": "噪声",
     "project_type": "新建",
-    "rule_status": "candidate",
-    "evidence_level": "B",
-    "confidence": 0.6666666666666666,
+    "rule_status": "observation",
+    "evidence_level": "C",
+    "confidence": 0.3333333333333333,
     "trigger_condition": [
       "项目属于 C3854 行业",
       "项目涉及噪声审查事项"
@@ -1617,23 +1230,20 @@
       "排放去向或管理要求"
     ],
     "common_approval_requirement": [
-      "批复要求：噪声排放执行《工 业企业厂界环境噪声排放标准》（GB12348-2008）中的 3 类 标准要求。",
       "批复要求：噪声排放执行《工 业企业厂界环境噪声排放标准》（GB12348-2008）中的 3 类 标准要求。"
     ],
     "common_standards": [
       "GB12348-2008"
     ],
     "source_pair_ids": [
-      "pair_00005",
-      "pair_00036"
+      "pair_00005"
     ],
     "source_qa_ids": [
-      "QA_pair_00005_噪声",
-      "QA_pair_00036_噪声"
+      "QA_pair_00005_噪声"
     ],
-    "support_count": 2,
+    "support_count": 1,
     "sample_counts": {
-      "high_alignment": 2
+      "high_alignment": 1
     },
     "limitations": [
       "样本数不足，需人工复核后再作为稳定规则使用"
@@ -1641,14 +1251,14 @@
     "need_human_review": true
   },
   {
-    "rule_id": "STRICT_RULE_0035",
+    "rule_id": "STRICT_RULE_0027",
     "industry_code": "C3854",
     "industry_name": "",
     "element": "废水",
     "project_type": "新建",
-    "rule_status": "candidate",
-    "evidence_level": "B",
-    "confidence": 0.6666666666666666,
+    "rule_status": "observation",
+    "evidence_level": "C",
+    "confidence": 0.3333333333333333,
     "trigger_condition": [
       "项目属于 C3854 行业",
       "项目涉及废水审查事项"
@@ -1665,23 +1275,20 @@
       "排放去向或管理要求"
     ],
     "common_approval_requirement": [
-      "批复要求：项目生活 2 污水经预处理达到《水污染物排放限值》（DB44/26-2001） 第二时段三级标准后排至生活污水管网。",
       "批复要求：项目生活 2 污水经预处理达到《水污染物排放限值》（DB44/26-2001） 第二时段三级标准后排至生活污水管网。"
     ],
     "common_standards": [
       "DB44/26-2001"
     ],
     "source_pair_ids": [
-      "pair_00005",
-      "pair_00036"
+      "pair_00005"
     ],
     "source_qa_ids": [
-      "QA_pair_00005_废水",
-      "QA_pair_00036_废水"
+      "QA_pair_00005_废水"
     ],
-    "support_count": 2,
+    "support_count": 1,
     "sample_counts": {
-      "high_alignment": 2
+      "high_alignment": 1
     },
     "limitations": [
       "样本数不足，需人工复核后再作为稳定规则使用"
@@ -1689,7 +1296,7 @@
     "need_human_review": true
   },
   {
-    "rule_id": "STRICT_RULE_0036",
+    "rule_id": "STRICT_RULE_0028",
     "industry_code": "C3879",
     "industry_name": "",
     "element": "噪声",
@@ -1734,7 +1341,7 @@
     "need_human_review": true
   },
   {
-    "rule_id": "STRICT_RULE_0037",
+    "rule_id": "STRICT_RULE_0029",
     "industry_code": "C3879",
     "industry_name": "",
     "element": "废水",
@@ -1779,108 +1386,7 @@
     "need_human_review": true
   },
   {
-    "rule_id": "STRICT_RULE_0038",
-    "industry_code": "T4754",
-    "industry_name": "",
-    "element": "噪声",
-    "project_type": "迁扩建",
-    "rule_status": "candidate",
-    "evidence_level": "B",
-    "confidence": 0.6666666666666666,
-    "trigger_condition": [
-      "项目属于 T4754 行业",
-      "项目涉及噪声审查事项"
-    ],
-    "review_checkpoints": [
-      "是否识别并说明噪声相关污染源或管理要求",
-      "是否引用与该要素对应的有效标准",
-      "报告内容是否能支撑批复中的审批要求"
-    ],
-    "expected_report_content": [
-      "噪声来源或管理对象",
-      "治理/处置/管理措施",
-      "执行标准",
-      "排放去向或管理要求"
-    ],
-    "common_approval_requirement": [
-      "批复要求：（三）项目厂界噪声执行《工业企业厂界环境噪声排放标准》 （GB 12348—2008）3 类标准。",
-      "批复要求：（三）项目厂界噪声执行《工业企业厂界环境噪声排放标准》 （GB 12348—2008）3 类标准。"
-    ],
-    "common_standards": [
-      "GB12348-2008"
-    ],
-    "source_pair_ids": [
-      "pair_00023",
-      "pair_00055"
-    ],
-    "source_qa_ids": [
-      "QA_pair_00023_噪声",
-      "QA_pair_00055_噪声"
-    ],
-    "support_count": 2,
-    "sample_counts": {
-      "high_alignment": 2
-    },
-    "limitations": [
-      "样本数不足，需人工复核后再作为稳定规则使用"
-    ],
-    "need_human_review": true
-  },
-  {
-    "rule_id": "STRICT_RULE_0039",
-    "industry_code": "T4754",
-    "industry_name": "",
-    "element": "废气",
-    "project_type": "迁扩建",
-    "rule_status": "candidate",
-    "evidence_level": "B",
-    "confidence": 0.6666666666666666,
-    "trigger_condition": [
-      "项目属于 T4754 行业",
-      "项目涉及废气审查事项"
-    ],
-    "review_checkpoints": [
-      "是否识别并说明废气相关污染源或管理要求",
-      "是否引用与该要素对应的有效标准",
-      "报告内容是否能支撑批复中的审批要求"
-    ],
-    "expected_report_content": [
-      "废气来源或管理对象",
-      "治理/处置/管理措施",
-      "执行标准",
-      "排放去向或管理要求"
-    ],
-    "common_approval_requirement": [
-      "批复要求：项目印刷工序产生的有机废气经活性炭吸附处理后排气 筒排放。非甲烷总烃废气有组织排放执行《印刷工业大气污 染物排放标准》（GB41616-2022）表 1 大气污染物排放限值。总 VOCs 废气有组织排放执行《印刷行业挥发性有机化合物排 放标准》（DB44/815-2010）表 2 排放限值（不含以金属、陶 瓷、玻璃为承载物的平版印刷，第二时段）。臭气浓度执行 《恶臭污染物排放标准》（GB14554-93）表 2 标准（排气筒 高 15 米）和表 1 二级标准（新扩改建）。有机废气无组织排 放执行《印刷工业",
-      "批复要求：（二）落实《固定污染源挥发性有机物综合排放标准》（DB 44/2367—2022）中相应控制要求，做好物料储存、转移和输送等 环节挥发性有机物无组织排放控制，并采取有效废气收集处理措 施，最大限度减少废气排放影响。1．注塑、超声波焊接、焊锡、浸锡、组装等工序产生的废 气经集气罩收集后通过活性炭吸附处理后经排气筒高空排放，其 中，非甲烷总烃有组织排放执行《合成树脂工业污染物排放标准》 （GB 31572—2015 及 2024 年修改单）中表 4 大气污染物排放限 值和广东省《固定污染源挥发性有机物综合排放"
-    ],
-    "common_standards": [
-      "DB44/2367-2022",
-      "DB44/27-2001",
-      "DB44/815-2010",
-      "GB14554-1993",
-      "GB31572-2015",
-      "GB41616-2022"
-    ],
-    "source_pair_ids": [
-      "pair_00048",
-      "pair_00055"
-    ],
-    "source_qa_ids": [
-      "QA_pair_00048_废气",
-      "QA_pair_00055_废气"
-    ],
-    "support_count": 2,
-    "sample_counts": {
-      "high_alignment": 2
-    },
-    "limitations": [
-      "样本数不足，需人工复核后再作为稳定规则使用"
-    ],
-    "need_human_review": true
-  },
-  {
-    "rule_id": "STRICT_RULE_0040",
+    "rule_id": "STRICT_RULE_0030",
     "industry_code": "T4754",
     "industry_name": "",
     "element": "废水",

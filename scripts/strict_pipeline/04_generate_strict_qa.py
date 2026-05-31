@@ -204,6 +204,14 @@ def find_report_evidence(report_text: str, element: str, terms: list[str]) -> di
 def find_approval_evidence(approval_text: str, answer: str, element: str) -> dict[str, Any]:
     flat = clean_text(approval_text)
     body = answer.replace("批复要求：", "").strip("。")
+    exact_idx = flat.find(body)
+    if exact_idx >= 0 and "..." not in body:
+        return {
+            "source_file": "approval.md",
+            "text": body,
+            "char_start": exact_idx,
+            "char_end": exact_idx + len(body),
+        }
     anchor = body[:60]
     idx = flat.find(anchor) if anchor else -1
     if idx < 0:
@@ -211,8 +219,8 @@ def find_approval_evidence(approval_text: str, answer: str, element: str) -> dic
         idx = min([flat.find(t) for t in terms if t and flat.find(t) >= 0] or [-1])
     if idx < 0:
         return {"source_file": "approval.md", "text": body[:360], "char_start": -1, "char_end": -1}
-    start = max(0, idx - 80)
-    end = min(len(flat), idx + 520)
+    start = max(0, idx - 50)
+    end = min(len(flat), idx + min(360, max(160, len(body) + 80)))
     return {"source_file": "approval.md", "text": flat[start:end], "char_start": start, "char_end": end}
 
 

@@ -42,6 +42,23 @@ BAD_REPORT_EVIDENCE_MARKERS = [
     "评价结论",
 ]
 
+DISALLOWED_QA_MARKERS = {
+    "噪声": ["GB18597", "危废", "危险废物", "暂存"],
+    "危废": ["GB12348", "厂界噪声", "环境噪声"],
+}
+
+WATER_DISALLOWED_STANDARD_PREFIXES = [
+    "GB12348-",
+    "GB/T3096-",
+    "GB18597-",
+    "GB31572-",
+    "GB14554-",
+    "GB41616-",
+    "DB44/27-",
+    "DB44/2367-",
+    "DB44/815-",
+]
+
 
 def text_found(needle: str, haystack: str) -> bool:
     return bool(needle and needle.strip() in haystack)
@@ -73,6 +90,27 @@ def standards_in_text(text: str) -> set[str]:
     return {s.get("standard_code", "") for s in extract_standards(text) if s.get("standard_code")}
 
 
+def qa_field_blob(qa: dict[str, Any]) -> str:
+    parts = [
+        qa.get("qa_id", ""),
+        qa.get("element", ""),
+        qa.get("question", ""),
+        qa.get("answer", ""),
+        qa.get("benchmark_metadata", {}).get("task_domain", ""),
+        " ".join(qa.get("answer_terms", [])),
+        " ".join(s.get("standard_code", "") for s in qa.get("standards_normalized", [])),
+    ]
+    for ev in qa.get("approval_evidence", []) + qa.get("report_evidence", []):
+        parts.append(ev.get("text", ""))
+    return " ".join(str(part) for part in parts)
+
+
+def has_marker(text: str, marker: str) -> bool:
+    if marker.startswith("GB"):
+        return marker.replace(" ", "") in re.sub(r"\s+", "", text)
+    return marker in text
+
+
 def element_standards(element: str, answer: str) -> list[str]:
     codes = []
     for std in extract_standards(answer):
@@ -92,6 +130,13 @@ def canonical_answer_terms(element: str, answer: str) -> list[str]:
     standards = element_standards(element, answer)
     terms = [term for term in ELEMENT_KEYWORDS[element] + SUPPORT_TERMS[element] if term in answer]
     return list(dict.fromkeys(standards + terms))
+
+
+def water_has_cross_element_standards(*texts: str) -> bool:
+    codes = set()
+    for text in texts:
+        codes.update(standards_in_text(text))
+    return any(any(code.startswith(prefix) for prefix in WATER_DISALLOWED_STANDARD_PREFIXES) for code in codes)
 
 
 def qa_id_element(qa_id: str) -> str:
@@ -189,6 +234,13 @@ def audit_one(qa: dict[str, Any]) -> tuple[str, list[str], int, dict[str, str]]:
         issues.append("noise_contains_hazard_terms")
     if element == "危废" and task_domain == "噪声":
         issues.append("hazard_metadata_noise_mismatch")
+    blob = qa_field_blob(qa)
+    for marker in DISALLOWED_QA_MARKERS.get(element, []):
+        if has_marker(blob, marker):
+            issues.append(f"{element}_qa_contains_forbidden_marker:{marker}")
+            break
+    if element == "废水" and water_has_cross_element_standards(answer, approval_ev, report_ev, " ".join(codes)):
+        issues.append("water_qa_contains_cross_element_standard")
 
     if element not in ELEMENT_KEYWORDS:
         issues.append("unsupported_element")
@@ -236,6 +288,14 @@ def audit_one(qa: dict[str, Any]) -> tuple[str, list[str], int, dict[str, str]]:
         "standards_not_current_answer_element",
         "noise_contains_hazard_terms",
         "hazard_metadata_noise_mismatch",
+        "噪声_qa_contains_forbidden_marker:GB18597",
+        "噪声_qa_contains_forbidden_marker:危废",
+        "噪声_qa_contains_forbidden_marker:危险废物",
+        "噪声_qa_contains_forbidden_marker:暂存",
+        "危废_qa_contains_forbidden_marker:GB12348",
+        "危废_qa_contains_forbidden_marker:厂界噪声",
+        "危废_qa_contains_forbidden_marker:环境噪声",
+        "water_qa_contains_cross_element_standard",
     }
     if not any(issue in medium_blockers for issue in issues) and evidence_is_specific(element, report_ev):
         return (

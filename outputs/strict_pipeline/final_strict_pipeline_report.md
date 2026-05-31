@@ -18,37 +18,42 @@ This pipeline classifies files by body text, extracts project/company fields aga
 6. candidate_pairs: 5303
 7. unmatched/mismatch sampled: 1000
 8. strict QA: 253
-9. strict high QA: 88
-10. strict medium QA: 49
-11. strict review QA: 116
-12. strict experience rules from high QA: 40
-13. A rules: 5
-14. B rules: 11
-15. C rules: 24
+9. strict high QA: 65
+10. strict medium QA: 48
+11. strict review QA: 140
+12. strict experience rules from high QA: 30
+13. A rules: 4
+14. B rules: 5
+15. C rules: 21
 
 ## 4. High QA Element Distribution
 
-- 噪声: 41
-- 废水: 35
-- 废气: 8
-- 危废: 4
+- 噪声: 32
+- 废水: 30
+- 废气: 2
+- 危废: 1
 
 ## 5. High QA Project Type Distribution
 
-- 迁扩建: 40
-- 扩建: 33
-- 改扩建: 9
-- 新建: 6
+- 迁扩建: 30
+- 扩建: 25
+- 改扩建: 8
+- 新建: 2
 
 ## 6. Downgrade Reason Statistics
 
+- same_standard_alignment_failed: 74
 - answer_supported_by_approval_failed: 66
-- same_standard_alignment_failed: 60
+- 危废_qa_contains_forbidden_marker:GB12348: 59
 - company_in_approval_failed: 56
 - project_name_match_failed: 52
 - same_destination_or_measure_failed: 48
 - answer_terms_not_current_answer_element: 15
+- water_qa_contains_cross_element_standard: 15
+- 噪声_qa_contains_forbidden_marker:危险废物: 8
 - standards_missing_or_out_of_answer_scope: 4
+- 噪声_qa_contains_forbidden_marker:GB18597: 4
+- 噪声_qa_contains_forbidden_marker:危废: 4
 - approval_element_missing: 2
 - answer_not_trimmed_to_element: 1
 

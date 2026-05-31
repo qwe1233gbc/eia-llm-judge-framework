@@ -1,41 +1,43 @@
 [
   {
-    "rule_id": "STRICT_RULE_0002",
+    "rule_id": "STRICT_RULE_0006",
     "industry_code": "",
     "industry_name": "",
-    "element": "废气",
+    "element": "废水",
     "project_type": "改扩建",
     "rule_status": "observation",
     "evidence_level": "C",
     "confidence": 0.3333333333333333,
     "trigger_condition": [
       "项目属于  行业",
-      "项目涉及废气审查事项"
+      "项目涉及废水审查事项"
     ],
     "review_checkpoints": [
-      "是否识别并说明废气相关污染源或管理要求",
+      "是否识别并说明废水相关污染源或管理要求",
       "是否引用与该要素对应的有效标准",
       "报告内容是否能支撑批复中的审批要求"
     ],
     "expected_report_content": [
-      "废气来源或管理对象",
+      "废水来源或管理对象",
       "治理/处置/管理措施",
       "执行标准",
       "排放去向或管理要求"
     ],
     "common_approval_requirement": [
-      "本项目 VOCs 年排放量为 0.2556 吨，其中有组织年排 放量为 0.1364 吨，无组织年排放量为 0.1192 吨"
+      "批复要求：（一）项目生活污水经处理达到广东省《水污染物排放限值》 （DB 44/26—2001）第二时段三级标准后排入大门污水处理厂处 理。项目晒版废水收集后定期交有处理能力单位回收处理，并应 做好转移过程台账记录，确保合法、妥善处理。"
     ],
-    "common_standards": [],
+    "common_standards": [
+      "DB44/26-2001"
+    ],
     "source_pair_ids": [
-      "pair_00009"
+      "pair_00042"
     ],
     "source_qa_ids": [
-      "QA_pair_00009_004"
+      "QA_pair_00042_废水"
     ],
     "support_count": 1,
     "sample_counts": {
-      "verified": 1
+      "high_alignment": 1
     },
     "limitations": [
       "样本数不足，需人工复核后再作为稳定规则使用"
@@ -43,42 +45,44 @@
     "need_human_review": true
   },
   {
-    "rule_id": "STRICT_RULE_0004",
-    "industry_code": "",
+    "rule_id": "STRICT_RULE_0008",
+    "industry_code": "C2319",
     "industry_name": "",
-    "element": "排污许可",
-    "project_type": "改扩建",
+    "element": "噪声",
+    "project_type": "迁扩建",
     "rule_status": "observation",
     "evidence_level": "C",
     "confidence": 0.3333333333333333,
     "trigger_condition": [
-      "项目属于  行业",
-      "项目涉及排污许可审查事项"
+      "项目属于 C2319 行业",
+      "项目涉及噪声审查事项"
     ],
     "review_checkpoints": [
-      "是否识别并说明排污许可相关污染源或管理要求",
+      "是否识别并说明噪声相关污染源或管理要求",
       "是否引用与该要素对应的有效标准",
       "报告内容是否能支撑批复中的审批要求"
     ],
     "expected_report_content": [
-      "排污许可来源或管理对象",
+      "噪声来源或管理对象",
       "治理/处置/管理措施",
       "执行标准",
       "排放去向或管理要求"
     ],
     "common_approval_requirement": [
-      "项目建设应严格执行配套建设的环境保护设施与主体 工程同时设计、同时施工、同时投产使用的“三同时”制度。 项目竣工后，你单位应当按照有关规定向所在地生态环境部门 申请领取排污许可证，并在配套建设的环境保护设施验收合格 后，方可投入生产或者使用。 佛山市生态环境局 2023 年 7 月 18 日 抄送：东莞市利加环保有限公司"
+      "批复要求：（三）项目厂界噪声执行《工业企业厂界环境噪声排放标准》 （GB 12348—2008）噪声 3 类标准。"
     ],
-    "common_standards": [],
+    "common_standards": [
+      "GB12348-2008"
+    ],
     "source_pair_ids": [
-      "pair_00009"
+      "pair_00021"
     ],
     "source_qa_ids": [
-      "QA_pair_00009_007"
+      "QA_pair_00021_噪声"
     ],
     "support_count": 1,
     "sample_counts": {
-      "verified": 1
+      "high_alignment": 1
     },
     "limitations": [
       "样本数不足，需人工复核后再作为稳定规则使用"
@@ -86,42 +90,44 @@
     "need_human_review": true
   },
   {
-    "rule_id": "STRICT_RULE_0007",
-    "industry_code": "",
+    "rule_id": "STRICT_RULE_0009",
+    "industry_code": "C2319",
     "industry_name": "",
-    "element": "环境风险",
-    "project_type": "改扩建",
+    "element": "废水",
+    "project_type": "迁扩建",
     "rule_status": "observation",
     "evidence_level": "C",
     "confidence": 0.3333333333333333,
     "trigger_condition": [
-      "项目属于  行业",
-      "项目涉及环境风险审查事项"
+      "项目属于 C2319 行业",
+      "项目涉及废水审查事项"
     ],
     "review_checkpoints": [
-      "是否识别并说明环境风险相关污染源或管理要求",
+      "是否识别并说明废水相关污染源或管理要求",
       "是否引用与该要素对应的有效标准",
       "报告内容是否能支撑批复中的审批要求"
     ],
     "expected_report_content": [
-      "环境风险来源或管理对象",
+      "废水来源或管理对象",
       "治理/处置/管理措施",
       "执行标准",
       "排放去向或管理要求"
     ],
     "common_approval_requirement": [
-      "佛山市顺德区康琳电器实业有限公司改扩建项目选址 于佛山市顺德区容桂华口居委会顺德高新区（容桂）华天路 18 号之一。拟年产电热水器 20 万台、抽油烟机 10 万台、灶台 6 万台、塑料配件 100 万件。项目的规模和工艺见报告表内容。 根据报告表的评价结论，在全面落实报告表提出的各项污 染防治和环境风险防范等环境保护措施，并确保污染物排放稳 定达标且符合总量控制要求的前提下，项目按照报告表中所列 佛 山 市 生 态 环 境 局 主动公开 佛环 0302 环审〔2023〕49 号 佛山市生态环境局关于佛山市顺德区康"
+      "批复要求：（一）项目生活污水经处理达到广东省《水污染物排放限值》 （DB 44/26—2001）第二时段三级标准后排入大门污水处理厂处 理。"
     ],
-    "common_standards": [],
+    "common_standards": [
+      "DB44/26-2001"
+    ],
     "source_pair_ids": [
-      "pair_00009"
+      "pair_00021"
     ],
     "source_qa_ids": [
-      "QA_pair_00009_002"
+      "QA_pair_00021_废水"
     ],
     "support_count": 1,
     "sample_counts": {
-      "verified": 1
+      "high_alignment": 1
     },
     "limitations": [
       "样本数不足，需人工复核后再作为稳定规则使用"
@@ -130,41 +136,88 @@
   },
   {
     "rule_id": "STRICT_RULE_0010",
-    "industry_code": "",
+    "industry_code": "C2641",
     "industry_name": "",
-    "element": "重大变动",
-    "project_type": "改扩建",
+    "element": "噪声",
+    "project_type": "扩建",
     "rule_status": "observation",
     "evidence_level": "C",
     "confidence": 0.3333333333333333,
     "trigger_condition": [
-      "项目属于  行业",
-      "项目涉及重大变动审查事项"
+      "项目属于 C2641 行业",
+      "项目涉及噪声审查事项"
     ],
     "review_checkpoints": [
-      "是否识别并说明重大变动相关污染源或管理要求",
+      "是否识别并说明噪声相关污染源或管理要求",
       "是否引用与该要素对应的有效标准",
       "报告内容是否能支撑批复中的审批要求"
     ],
     "expected_report_content": [
-      "重大变动来源或管理对象",
+      "噪声来源或管理对象",
       "治理/处置/管理措施",
       "执行标准",
       "排放去向或管理要求"
     ],
     "common_approval_requirement": [
-      "环境影响报告表经批准后，该工程的性质、规模、地 点、生产工艺和环境保护措施发生重大变动，且可能导致环境 影响显著变化（特别是不利环境影响加重）的，应当重新报批 环境影响报告表。自环境影响报告表批复文件批准之日起，工 程超过 5 年方决定开工建设的，环境影响报告表应当报我局重 新审核"
+      "批复要求：（三）项目厂界噪声执行《工业企业厂界环境噪声排放标准》 （GB 12348—2008）3 类标准。"
     ],
-    "common_standards": [],
+    "common_standards": [
+      "GB12348-2008"
+    ],
     "source_pair_ids": [
-      "pair_00009"
+      "pair_00043"
     ],
     "source_qa_ids": [
-      "QA_pair_00009_006"
+      "QA_pair_00043_噪声"
     ],
     "support_count": 1,
     "sample_counts": {
-      "verified": 1
+      "high_alignment": 1
+    },
+    "limitations": [
+      "样本数不足，需人工复核后再作为稳定规则使用"
+    ],
+    "need_human_review": true
+  },
+  {
+    "rule_id": "STRICT_RULE_0011",
+    "industry_code": "C2641",
+    "industry_name": "",
+    "element": "废水",
+    "project_type": "扩建",
+    "rule_status": "observation",
+    "evidence_level": "C",
+    "confidence": 0.3333333333333333,
+    "trigger_condition": [
+      "项目属于 C2641 行业",
+      "项目涉及废水审查事项"
+    ],
+    "review_checkpoints": [
+      "是否识别并说明废水相关污染源或管理要求",
+      "是否引用与该要素对应的有效标准",
+      "报告内容是否能支撑批复中的审批要求"
+    ],
+    "expected_report_content": [
+      "废水来源或管理对象",
+      "治理/处置/管理措施",
+      "执行标准",
+      "排放去向或管理要求"
+    ],
+    "common_approval_requirement": [
+      "批复要求：（一）项目生活污水经处理达到广东省《水污染物排放限值》 （DB 44/26—2001）第二时段三级标准后排入勒流污水处理厂处 理。测试、设备清洗废水收集后定期交有处理能力单位回收处理， 并应做好转移过程台账记录，确保合法、妥善处理。"
+    ],
+    "common_standards": [
+      "DB44/26-2001"
+    ],
+    "source_pair_ids": [
+      "pair_00043"
+    ],
+    "source_qa_ids": [
+      "QA_pair_00043_废水"
+    ],
+    "support_count": 1,
+    "sample_counts": {
+      "high_alignment": 1
     },
     "limitations": [
       "样本数不足，需人工复核后再作为稳定规则使用"
@@ -173,41 +226,88 @@
   },
   {
     "rule_id": "STRICT_RULE_0012",
-    "industry_code": "C2130",
+    "industry_code": "C2922",
     "industry_name": "",
-    "element": "重大变动",
-    "project_type": "扩建",
+    "element": "废水",
+    "project_type": "迁扩建",
     "rule_status": "observation",
     "evidence_level": "C",
     "confidence": 0.3333333333333333,
     "trigger_condition": [
-      "项目属于 C2130 行业",
-      "项目涉及重大变动审查事项"
+      "项目属于 C2922 行业",
+      "项目涉及废水审查事项"
     ],
     "review_checkpoints": [
-      "是否识别并说明重大变动相关污染源或管理要求",
+      "是否识别并说明废水相关污染源或管理要求",
       "是否引用与该要素对应的有效标准",
       "报告内容是否能支撑批复中的审批要求"
     ],
     "expected_report_content": [
-      "重大变动来源或管理对象",
+      "废水来源或管理对象",
       "治理/处置/管理措施",
       "执行标准",
       "排放去向或管理要求"
     ],
     "common_approval_requirement": [
-      "环境影响报告表经批准后，该项目的性质、规模、地点、 生产工艺和环境保护措施发生重大变动，且可能导致环境影响显 著变化（特别是不利环境影响加重）的，应当重新报批环境影响 — 3 — 报告表。自环境影响报告表批复文件批准之日起，项目超过 5 年 方决定开工建设的，环境影响报告表应当报我局重新审核"
+      "批复要求：项目生活 污水经预处理达到《水污染物排放限值》（DB44/26-2001） 第二时段三级标准后排至生活污水管网。"
     ],
-    "common_standards": [],
+    "common_standards": [
+      "DB44/26-2001"
+    ],
     "source_pair_ids": [
-      "pair_00034"
+      "pair_00018"
     ],
     "source_qa_ids": [
-      "QA_pair_00034_005"
+      "QA_pair_00018_废水"
     ],
     "support_count": 1,
     "sample_counts": {
-      "verified": 1
+      "high_alignment": 1
+    },
+    "limitations": [
+      "样本数不足，需人工复核后再作为稳定规则使用"
+    ],
+    "need_human_review": true
+  },
+  {
+    "rule_id": "STRICT_RULE_0013",
+    "industry_code": "C2927",
+    "industry_name": "",
+    "element": "噪声",
+    "project_type": "改扩建",
+    "rule_status": "observation",
+    "evidence_level": "C",
+    "confidence": 0.3333333333333333,
+    "trigger_condition": [
+      "项目属于 C2927 行业",
+      "项目涉及噪声审查事项"
+    ],
+    "review_checkpoints": [
+      "是否识别并说明噪声相关污染源或管理要求",
+      "是否引用与该要素对应的有效标准",
+      "报告内容是否能支撑批复中的审批要求"
+    ],
+    "expected_report_content": [
+      "噪声来源或管理对象",
+      "治理/处置/管理措施",
+      "执行标准",
+      "排放去向或管理要求"
+    ],
+    "common_approval_requirement": [
+      "批复要求：（三）本项目营运期厂界噪声执行《工业企业厂界环境噪声 排放标准》（GB12348-2008）中的 3 类标准。"
+    ],
+    "common_standards": [
+      "GB12348-2008"
+    ],
+    "source_pair_ids": [
+      "pair_00028"
+    ],
+    "source_qa_ids": [
+      "QA_pair_00028_噪声"
+    ],
+    "support_count": 1,
+    "sample_counts": {
+      "high_alignment": 1
     },
     "limitations": [
       "样本数不足，需人工复核后再作为稳定规则使用"
@@ -216,41 +316,43 @@
   },
   {
     "rule_id": "STRICT_RULE_0014",
-    "industry_code": "C2231",
+    "industry_code": "C2927",
     "industry_name": "",
-    "element": "排污许可",
-    "project_type": "迁扩建",
+    "element": "废水",
+    "project_type": "改扩建",
     "rule_status": "observation",
     "evidence_level": "C",
     "confidence": 0.3333333333333333,
     "trigger_condition": [
-      "项目属于 C2231 行业",
-      "项目涉及排污许可审查事项"
+      "项目属于 C2927 行业",
+      "项目涉及废水审查事项"
     ],
     "review_checkpoints": [
-      "是否识别并说明排污许可相关污染源或管理要求",
+      "是否识别并说明废水相关污染源或管理要求",
       "是否引用与该要素对应的有效标准",
       "报告内容是否能支撑批复中的审批要求"
     ],
     "expected_report_content": [
-      "排污许可来源或管理对象",
+      "废水来源或管理对象",
       "治理/处置/管理措施",
       "执行标准",
       "排放去向或管理要求"
     ],
     "common_approval_requirement": [
-      "项目建设应严格执行配套建设的环境保护设施与主体工 程同时设计、同时施工、同时投产使用的环境保护“三同时”制 度。项目竣工后，你单位应当依照有关规定申请领取排污许可证， 并在配套建设的环境保护设施验收合格后，方可投入生产或者使 用。 佛山市生态环境局 2023 年 11 月 21 日"
+      "批复要求：（一）生活污水经预处理达到广东省《水污染物排放限值》 （DB44/26-2001）第二时段三级标准后排入北滘污水处理厂处理。"
     ],
-    "common_standards": [],
+    "common_standards": [
+      "DB44/26-2001"
+    ],
     "source_pair_ids": [
-      "pair_00035"
+      "pair_00028"
     ],
     "source_qa_ids": [
-      "QA_pair_00035_004"
+      "QA_pair_00028_废水"
     ],
     "support_count": 1,
     "sample_counts": {
-      "verified": 1
+      "high_alignment": 1
     },
     "limitations": [
       "样本数不足，需人工复核后再作为稳定规则使用"
@@ -259,127 +361,43 @@
   },
   {
     "rule_id": "STRICT_RULE_0015",
-    "industry_code": "C2231",
+    "industry_code": "C2929",
     "industry_name": "",
-    "element": "环境风险",
-    "project_type": "迁扩建",
+    "element": "噪声",
+    "project_type": "扩建",
     "rule_status": "observation",
     "evidence_level": "C",
     "confidence": 0.3333333333333333,
     "trigger_condition": [
-      "项目属于 C2231 行业",
-      "项目涉及环境风险审查事项"
+      "项目属于 C2929 行业",
+      "项目涉及噪声审查事项"
     ],
     "review_checkpoints": [
-      "是否识别并说明环境风险相关污染源或管理要求",
+      "是否识别并说明噪声相关污染源或管理要求",
       "是否引用与该要素对应的有效标准",
       "报告内容是否能支撑批复中的审批要求"
     ],
     "expected_report_content": [
-      "环境风险来源或管理对象",
+      "噪声来源或管理对象",
       "治理/处置/管理措施",
       "执行标准",
       "排放去向或管理要求"
     ],
     "common_approval_requirement": [
-      "根据报告表的评价结论，在全面落实报告表提出的各项 污染防治和环境风险防范等环境保护措施，并确保污染物排放稳 定达标且符合总量控制要求的前提下，项目按照报告表中所列的 性质、规模、地点进行建设，从环境保护角度可行"
+      "批复要求：厂界噪声执行《工业企业厂界环境噪声排放标准》（GB 12348 —2008）中的 3 类标准。"
     ],
-    "common_standards": [],
+    "common_standards": [
+      "GB12348-2008"
+    ],
     "source_pair_ids": [
-      "pair_00035"
+      "pair_00010"
     ],
     "source_qa_ids": [
-      "QA_pair_00035_002"
+      "QA_pair_00010_噪声"
     ],
     "support_count": 1,
     "sample_counts": {
-      "verified": 1
-    },
-    "limitations": [
-      "样本数不足，需人工复核后再作为稳定规则使用"
-    ],
-    "need_human_review": true
-  },
-  {
-    "rule_id": "STRICT_RULE_0016",
-    "industry_code": "C2231",
-    "industry_name": "",
-    "element": "重大变动",
-    "project_type": "迁扩建",
-    "rule_status": "observation",
-    "evidence_level": "C",
-    "confidence": 0.3333333333333333,
-    "trigger_condition": [
-      "项目属于 C2231 行业",
-      "项目涉及重大变动审查事项"
-    ],
-    "review_checkpoints": [
-      "是否识别并说明重大变动相关污染源或管理要求",
-      "是否引用与该要素对应的有效标准",
-      "报告内容是否能支撑批复中的审批要求"
-    ],
-    "expected_report_content": [
-      "重大变动来源或管理对象",
-      "治理/处置/管理措施",
-      "执行标准",
-      "排放去向或管理要求"
-    ],
-    "common_approval_requirement": [
-      "环境影响报告表经批准后，该项目的性质、规模、地点、 生产工艺和环境保护措施发生重大变动，且可能导致环境影响显 著变化（特别是不利环境影响加重）的，应当重新报批环境影响 报告表。自环境影响报告表批复文件批准之日起，项目超过 5 年 方决定开工建设的，环境影响报告表应当报我局重新审核"
-    ],
-    "common_standards": [],
-    "source_pair_ids": [
-      "pair_00035"
-    ],
-    "source_qa_ids": [
-      "QA_pair_00035_003"
-    ],
-    "support_count": 1,
-    "sample_counts": {
-      "verified": 1
-    },
-    "limitations": [
-      "样本数不足，需人工复核后再作为稳定规则使用"
-    ],
-    "need_human_review": true
-  },
-  {
-    "rule_id": "STRICT_RULE_0017",
-    "industry_code": "C2319",
-    "industry_name": "",
-    "element": "环境风险",
-    "project_type": "迁扩建",
-    "rule_status": "observation",
-    "evidence_level": "C",
-    "confidence": 0.3333333333333333,
-    "trigger_condition": [
-      "项目属于 C2319 行业",
-      "项目涉及环境风险审查事项"
-    ],
-    "review_checkpoints": [
-      "是否识别并说明环境风险相关污染源或管理要求",
-      "是否引用与该要素对应的有效标准",
-      "报告内容是否能支撑批复中的审批要求"
-    ],
-    "expected_report_content": [
-      "环境风险来源或管理对象",
-      "治理/处置/管理措施",
-      "执行标准",
-      "排放去向或管理要求"
-    ],
-    "common_approval_requirement": [
-      "广东顺德锦美智能识别科技股份有限公司迁扩建项目 （以下简称项目）位于广东省佛山市顺德区大良街道古鉴村金翔 路 6 号一栋，主要从事说明书和不干胶标签生产。项目计划年产 说明书 460 万本、不干胶标签 10700 万张。项目的规模及工艺见 《报告表》。 佛 山 市 生 态 环 境 局 主动公开 佛环 03 环审〔2024〕399 号 佛山市生态环境局关于广东顺德锦美智能识别 科技股份有限公司迁扩建项目建设项目环境影 响报告表的批复 —2 — 根据《报告表》的评价结论，结合佛山市生态环境局顺德分 局大良监督管理所对《"
-    ],
-    "common_standards": [],
-    "source_pair_ids": [
-      "pair_00021"
-    ],
-    "source_qa_ids": [
-      "QA_pair_00021_002"
-    ],
-    "support_count": 1,
-    "sample_counts": {
-      "verified": 1
+      "high_alignment": 1
     },
     "limitations": [
       "样本数不足，需人工复核后再作为稳定规则使用"
@@ -388,41 +406,43 @@
   },
   {
     "rule_id": "STRICT_RULE_0018",
-    "industry_code": "C2319",
+    "industry_code": "C3057",
     "industry_name": "",
-    "element": "重大变动",
+    "element": "噪声",
     "project_type": "迁扩建",
     "rule_status": "observation",
     "evidence_level": "C",
     "confidence": 0.3333333333333333,
     "trigger_condition": [
-      "项目属于 C2319 行业",
-      "项目涉及重大变动审查事项"
+      "项目属于 C3057 行业",
+      "项目涉及噪声审查事项"
     ],
     "review_checkpoints": [
-      "是否识别并说明重大变动相关污染源或管理要求",
+      "是否识别并说明噪声相关污染源或管理要求",
       "是否引用与该要素对应的有效标准",
       "报告内容是否能支撑批复中的审批要求"
     ],
     "expected_report_content": [
-      "重大变动来源或管理对象",
+      "噪声来源或管理对象",
       "治理/处置/管理措施",
       "执行标准",
       "排放去向或管理要求"
     ],
     "common_approval_requirement": [
-      "《报告表》经批准后，项目的性质、规模、地点、生产工 —4 — 艺和环境保护措施发生重大变动，且可能导致环境影响显著变化 （特别是不利环境影响加重）的，应当重新报批建设项目环境影 响评价文件。自《报告表》批复文件批准之日起，项目超过 5 年 方决定开工建设的，《报告表》应当报我局重新审核"
+      "批复要求：厂界噪声执行《工业 企业厂界环境噪声排放标准》（GB12348-2008）中的 3 类标准。"
     ],
-    "common_standards": [],
+    "common_standards": [
+      "GB12348-2008"
+    ],
     "source_pair_ids": [
-      "pair_00021"
+      "pair_00047"
     ],
     "source_qa_ids": [
-      "QA_pair_00021_006"
+      "QA_pair_00047_噪声"
     ],
     "support_count": 1,
     "sample_counts": {
-      "verified": 1
+      "high_alignment": 1
     },
     "limitations": [
       "样本数不足，需人工复核后再作为稳定规则使用"
@@ -431,49 +451,43 @@
   },
   {
     "rule_id": "STRICT_RULE_0019",
-    "industry_code": "C2922",
+    "industry_code": "C3057",
     "industry_name": "",
-    "element": "废气",
+    "element": "废水",
     "project_type": "迁扩建",
     "rule_status": "observation",
     "evidence_level": "C",
     "confidence": 0.3333333333333333,
     "trigger_condition": [
-      "项目属于 C2922 行业",
-      "项目涉及废气审查事项"
+      "项目属于 C3057 行业",
+      "项目涉及废水审查事项"
     ],
     "review_checkpoints": [
-      "是否识别并说明废气相关污染源或管理要求",
+      "是否识别并说明废水相关污染源或管理要求",
       "是否引用与该要素对应的有效标准",
       "报告内容是否能支撑批复中的审批要求"
     ],
     "expected_report_content": [
-      "废气来源或管理对象",
+      "废水来源或管理对象",
       "治理/处置/管理措施",
       "执行标准",
       "排放去向或管理要求"
     ],
     "common_approval_requirement": [
-      "你单位应按照《报告表》内容组织实施。项目生活 污水经预处理达到《水污染物排放限值》（DB44/26-2001） 第二时段三级标准后排至生活污水管网；直接冷却水交由有 处理能力单位处理，不外排。 项目生产过程中产生的非甲烷总烃废气、苯乙烯、臭气 浓度，经有效收集再统一通过活性炭处理后排气筒排放。非 甲烷总烃废气有组织排放执行《合成树脂工业污染物排放标 准》（GB 31572-2015，含 2024 年修改单）表 4 大气污染物 排放限值，无组织排放执行《固定污染源挥发性有机物综合 排放标准》（DB44/2367-20"
+      "批复要求：项目产生的生活污 水 经 三 级 化 粪 池 预 处 理 达 到 广 东 省 《 水 污 染 物 排 放 限 值 》 （DB44/26-2001）第二时段三级标准（适用范围为“其他排污单 位”）后，由市政污水管网引至杏坛污水处理厂。项目产生的玻 璃清洗废水经三级沉淀过滤处理达到广东省《水污染物排放限值》 （DB44/26-2001）第二时段三级标准（适用范围为“其他排污单 位”）后，由市政污水管网引至杏坛污水处理厂。"
     ],
     "common_standards": [
-      "DB44/2367-2022",
-      "DB44/26-2001",
-      "DB44/27-2001",
-      "GB12348-2008",
-      "GB14554-1993",
-      "GB18597-2023",
-      "GB31572-2015"
+      "DB44/26-2001"
     ],
     "source_pair_ids": [
-      "pair_00018"
+      "pair_00047"
     ],
     "source_qa_ids": [
-      "QA_pair_00018_003"
+      "QA_pair_00047_废水"
     ],
     "support_count": 1,
     "sample_counts": {
-      "verified": 1
+      "high_alignment": 1
     },
     "limitations": [
       "样本数不足，需人工复核后再作为稳定规则使用"
@@ -482,41 +496,43 @@
   },
   {
     "rule_id": "STRICT_RULE_0020",
-    "industry_code": "C2922",
+    "industry_code": "C3360",
     "industry_name": "",
-    "element": "排污许可",
+    "element": "噪声",
     "project_type": "迁扩建",
     "rule_status": "observation",
     "evidence_level": "C",
     "confidence": 0.3333333333333333,
     "trigger_condition": [
-      "项目属于 C2922 行业",
-      "项目涉及排污许可审查事项"
+      "项目属于 C3360 行业",
+      "项目涉及噪声审查事项"
     ],
     "review_checkpoints": [
-      "是否识别并说明排污许可相关污染源或管理要求",
+      "是否识别并说明噪声相关污染源或管理要求",
       "是否引用与该要素对应的有效标准",
       "报告内容是否能支撑批复中的审批要求"
     ],
     "expected_report_content": [
-      "排污许可来源或管理对象",
+      "噪声来源或管理对象",
       "治理/处置/管理措施",
       "执行标准",
       "排放去向或管理要求"
     ],
     "common_approval_requirement": [
-      "项目建设必须严格执行配套建设的环境保护设施与 主体工程同时设计、同时施工、同时投入使用的环境保护“三 同时”制度。项目竣工后，应当按照有关规定落实排污许可 管理，并在配套建设的环境保护设施验收合格后，方可投入 生产或者使用。 佛山市生态环境局 2024 年 8 月 12 日"
+      "批复要求：项目项目东面边界噪声执行《工业企业厂界环境噪声排放标 准》(GB12348-2008)中的 4 类标准，其他厂界执行《工业企业厂 界环境噪声排放标准》(GB12348-2008)中的 2 类标准。"
     ],
-    "common_standards": [],
+    "common_standards": [
+      "GB12348-2008"
+    ],
     "source_pair_ids": [
-      "pair_00018"
+      "pair_00037"
     ],
     "source_qa_ids": [
-      "QA_pair_00018_006"
+      "QA_pair_00037_噪声"
     ],
     "support_count": 1,
     "sample_counts": {
-      "verified": 1
+      "high_alignment": 1
     },
     "limitations": [
       "样本数不足，需人工复核后再作为稳定规则使用"
@@ -525,41 +541,43 @@
   },
   {
     "rule_id": "STRICT_RULE_0021",
-    "industry_code": "C2922",
+    "industry_code": "C3464",
     "industry_name": "",
-    "element": "环境风险",
-    "project_type": "迁扩建",
+    "element": "噪声",
+    "project_type": "改扩建",
     "rule_status": "observation",
     "evidence_level": "C",
     "confidence": 0.3333333333333333,
     "trigger_condition": [
-      "项目属于 C2922 行业",
-      "项目涉及环境风险审查事项"
+      "项目属于 C3464 行业",
+      "项目涉及噪声审查事项"
     ],
     "review_checkpoints": [
-      "是否识别并说明环境风险相关污染源或管理要求",
+      "是否识别并说明噪声相关污染源或管理要求",
       "是否引用与该要素对应的有效标准",
       "报告内容是否能支撑批复中的审批要求"
     ],
     "expected_report_content": [
-      "环境风险来源或管理对象",
+      "噪声来源或管理对象",
       "治理/处置/管理措施",
       "执行标准",
       "排放去向或管理要求"
     ],
     "common_approval_requirement": [
-      "广东顺德铁夫汽车配件有限公司迁扩建项目位于佛 山市顺德区均安镇均安社区居民委员会乾安路 1 号国际物流 园 A 区 10-17 卷闸。按照《报告表》，项目主要从事 ABS 板 材、汽车车顶旅行箱、汽车后备箱垫子的加工生产，年产 ABS 板材 1500 吨，汽车车顶旅行箱 1 万套，汽车后备箱垫子 1 万 套。原项目位于均安镇均安居委会生安路 2 号之九，环评批 复编号为：均 20150080。迁扩建后项目的规模及工艺见《报 告表》内容。 根据《报告表》的评价结论，在全面落实《报告表》提 出的各项污染防治和环境风险防"
+      "批复要求：（三）项目厂界噪声执行《工业企业厂界环境噪声排放标准》 （GB 12348—2008）3 类标准。"
     ],
-    "common_standards": [],
+    "common_standards": [
+      "GB12348-2008"
+    ],
     "source_pair_ids": [
-      "pair_00018"
+      "pair_00027"
     ],
     "source_qa_ids": [
-      "QA_pair_00018_002"
+      "QA_pair_00027_噪声"
     ],
     "support_count": 1,
     "sample_counts": {
-      "verified": 1
+      "high_alignment": 1
     },
     "limitations": [
       "样本数不足，需人工复核后再作为稳定规则使用"
@@ -568,41 +586,43 @@
   },
   {
     "rule_id": "STRICT_RULE_0022",
-    "industry_code": "C2922",
+    "industry_code": "C3561",
     "industry_name": "",
-    "element": "重大变动",
-    "project_type": "迁扩建",
+    "element": "噪声",
+    "project_type": "扩建",
     "rule_status": "observation",
     "evidence_level": "C",
     "confidence": 0.3333333333333333,
     "trigger_condition": [
-      "项目属于 C2922 行业",
-      "项目涉及重大变动审查事项"
+      "项目属于 C3561 行业",
+      "项目涉及噪声审查事项"
     ],
     "review_checkpoints": [
-      "是否识别并说明重大变动相关污染源或管理要求",
+      "是否识别并说明噪声相关污染源或管理要求",
       "是否引用与该要素对应的有效标准",
       "报告内容是否能支撑批复中的审批要求"
     ],
     "expected_report_content": [
-      "重大变动来源或管理对象",
+      "噪声来源或管理对象",
       "治理/处置/管理措施",
       "执行标准",
       "排放去向或管理要求"
     ],
     "common_approval_requirement": [
-      "环境影响报告表经批准后，该工程的性质、规模、 地点、生产工艺和环境保护措施发生重大变动，且可能导致 环境影响显著变化（特别是不利环境影响加重）的，应当重 新报批环境影响评价文件。自环境影响报告表批复文件批准 之日起，工程超过 5 年方决定开工建设的，环境影响报告表 应当报我局重新审核"
+      "批复要求：项目厂界噪声执行《工业企业厂界环境噪声排放标准》（GB 12348—2008）3 类标准。"
     ],
-    "common_standards": [],
+    "common_standards": [
+      "GB12348-2008"
+    ],
     "source_pair_ids": [
-      "pair_00018"
+      "pair_00065"
     ],
     "source_qa_ids": [
-      "QA_pair_00018_005"
+      "QA_pair_00065_噪声"
     ],
     "support_count": 1,
     "sample_counts": {
-      "verified": 1
+      "high_alignment": 1
     },
     "limitations": [
       "样本数不足，需人工复核后再作为稳定规则使用"
@@ -611,41 +631,43 @@
   },
   {
     "rule_id": "STRICT_RULE_0023",
-    "industry_code": "C2927",
+    "industry_code": "C3561",
     "industry_name": "",
-    "element": "环境风险",
-    "project_type": "改扩建",
+    "element": "废水",
+    "project_type": "扩建",
     "rule_status": "observation",
     "evidence_level": "C",
     "confidence": 0.3333333333333333,
     "trigger_condition": [
-      "项目属于 C2927 行业",
-      "项目涉及环境风险审查事项"
+      "项目属于 C3561 行业",
+      "项目涉及废水审查事项"
     ],
     "review_checkpoints": [
-      "是否识别并说明环境风险相关污染源或管理要求",
+      "是否识别并说明废水相关污染源或管理要求",
       "是否引用与该要素对应的有效标准",
       "报告内容是否能支撑批复中的审批要求"
     ],
     "expected_report_content": [
-      "环境风险来源或管理对象",
+      "废水来源或管理对象",
       "治理/处置/管理措施",
       "执行标准",
       "排放去向或管理要求"
     ],
     "common_approval_requirement": [
-      "佛山市柏川日用品制造有限公司改扩建项目位于广东省 佛山市顺德区北滘镇顺江社区三乐东路 25 号集成科创园 9 栋 301、302 室。按照《报告表》，本项目改扩建后预计年产日用塑 料制品 1555.868 吨（其中置物架 1269 吨/年、衣架 200 吨/年， 无痕贴挂钩 86.868 吨/年）。项目的规模及工艺见《报告表》。 主动公开 佛环 0306 环审〔2025〕36 号 佛山市生态环境局关于佛山市柏川日用品制造 有限公司改扩建项目环境影响报告表的批复 —2 — 根据《报告表》的评价结论，在全面落实《报告表"
+      "批复要求：项目生活污水经三级化粪池预处理达到广东省地方标准 《水污染物排放限值》（DB 44/26—2001）第二时段三级标准后排 入大疆库卡生活污水分散式处理系统处理。清洗废水定期交由有 资质的单位外运处理，做好废水外运处理的台账管理。"
     ],
-    "common_standards": [],
+    "common_standards": [
+      "DB44/26-2001"
+    ],
     "source_pair_ids": [
-      "pair_00028"
+      "pair_00065"
     ],
     "source_qa_ids": [
-      "QA_pair_00028_002"
+      "QA_pair_00065_废水"
     ],
     "support_count": 1,
     "sample_counts": {
-      "verified": 1
+      "high_alignment": 1
     },
     "limitations": [
       "样本数不足，需人工复核后再作为稳定规则使用"
@@ -654,41 +676,43 @@
   },
   {
     "rule_id": "STRICT_RULE_0024",
-    "industry_code": "C2927",
+    "industry_code": "C3831",
     "industry_name": "",
-    "element": "重大变动",
-    "project_type": "改扩建",
+    "element": "危废",
+    "project_type": "扩建",
     "rule_status": "observation",
     "evidence_level": "C",
     "confidence": 0.3333333333333333,
     "trigger_condition": [
-      "项目属于 C2927 行业",
-      "项目涉及重大变动审查事项"
+      "项目属于 C3831 行业",
+      "项目涉及危废审查事项"
     ],
     "review_checkpoints": [
-      "是否识别并说明重大变动相关污染源或管理要求",
+      "是否识别并说明危废相关污染源或管理要求",
       "是否引用与该要素对应的有效标准",
       "报告内容是否能支撑批复中的审批要求"
     ],
     "expected_report_content": [
-      "重大变动来源或管理对象",
+      "危废来源或管理对象",
       "治理/处置/管理措施",
       "执行标准",
       "排放去向或管理要求"
     ],
     "common_approval_requirement": [
-      "《报告表》经批准后，项目的性质、规模、地点、生产工 —4 — 艺和环境保护措施发生重大变动，且可能导致环境影响显著变化 （特别是不利环境影响加重）的，应当重新报批建设项目环境影 响评价文件。自《报告表》批复文件批准之日起，项目超过 5 年 方决定开工建设的，《报告表》应当报我局重新审核"
+      "批复要求：危险废 物、一般工业固废在厂区内暂存应符合《危险废物贮存污染控 制标准》 （GB18597-2023）以及《广东省固体废物污染环境防 治条例》等要求。"
     ],
-    "common_standards": [],
+    "common_standards": [
+      "GB18597-2023"
+    ],
     "source_pair_ids": [
-      "pair_00028"
+      "pair_00039"
     ],
     "source_qa_ids": [
-      "QA_pair_00028_003"
+      "QA_pair_00039_危废"
     ],
     "support_count": 1,
     "sample_counts": {
-      "verified": 1
+      "high_alignment": 1
     },
     "limitations": [
       "样本数不足，需人工复核后再作为稳定规则使用"
@@ -697,41 +721,88 @@
   },
   {
     "rule_id": "STRICT_RULE_0025",
-    "industry_code": "C2929",
+    "industry_code": "C3831",
     "industry_name": "",
-    "element": "环境风险",
+    "element": "噪声",
     "project_type": "扩建",
     "rule_status": "observation",
     "evidence_level": "C",
     "confidence": 0.3333333333333333,
     "trigger_condition": [
-      "项目属于 C2929 行业",
-      "项目涉及环境风险审查事项"
+      "项目属于 C3831 行业",
+      "项目涉及噪声审查事项"
     ],
     "review_checkpoints": [
-      "是否识别并说明环境风险相关污染源或管理要求",
+      "是否识别并说明噪声相关污染源或管理要求",
       "是否引用与该要素对应的有效标准",
       "报告内容是否能支撑批复中的审批要求"
     ],
     "expected_report_content": [
-      "环境风险来源或管理对象",
+      "噪声来源或管理对象",
       "治理/处置/管理措施",
       "执行标准",
       "排放去向或管理要求"
     ],
     "common_approval_requirement": [
-      "根据报告表的评价结论，华南环境科学研究所对报告表 —2 — 技术评估意见，结合佛山市生态环境局顺德分局大良监督管理所 对报告表的初审意见，在全面落实报告表提出的各项污染防治和 环境风险防范等环境保护措施，并确保污染物排放稳定达标且符 合总量控制要求的前提下，项目按照报告表中所列的性质、规模、 地点进行建设，从生态环境保护角度可行"
+      "批复要求：噪声排放执行《工业企业厂界环境噪声排放标准》 （GB12348－ 2008）表 1 工业企业厂界环境噪声排放限值 3 类标准。"
     ],
-    "common_standards": [],
+    "common_standards": [
+      "GB12348-2008"
+    ],
     "source_pair_ids": [
-      "pair_00010"
+      "pair_00039"
     ],
     "source_qa_ids": [
-      "QA_pair_00010_003"
+      "QA_pair_00039_噪声"
     ],
     "support_count": 1,
     "sample_counts": {
-      "verified": 1
+      "high_alignment": 1
+    },
+    "limitations": [
+      "样本数不足，需人工复核后再作为稳定规则使用"
+    ],
+    "need_human_review": true
+  },
+  {
+    "rule_id": "STRICT_RULE_0026",
+    "industry_code": "C3854",
+    "industry_name": "",
+    "element": "噪声",
+    "project_type": "新建",
+    "rule_status": "observation",
+    "evidence_level": "C",
+    "confidence": 0.3333333333333333,
+    "trigger_condition": [
+      "项目属于 C3854 行业",
+      "项目涉及噪声审查事项"
+    ],
+    "review_checkpoints": [
+      "是否识别并说明噪声相关污染源或管理要求",
+      "是否引用与该要素对应的有效标准",
+      "报告内容是否能支撑批复中的审批要求"
+    ],
+    "expected_report_content": [
+      "噪声来源或管理对象",
+      "治理/处置/管理措施",
+      "执行标准",
+      "排放去向或管理要求"
+    ],
+    "common_approval_requirement": [
+      "批复要求：噪声排放执行《工 业企业厂界环境噪声排放标准》（GB12348-2008）中的 3 类 标准要求。"
+    ],
+    "common_standards": [
+      "GB12348-2008"
+    ],
+    "source_pair_ids": [
+      "pair_00005"
+    ],
+    "source_qa_ids": [
+      "QA_pair_00005_噪声"
+    ],
+    "support_count": 1,
+    "sample_counts": {
+      "high_alignment": 1
     },
     "limitations": [
       "样本数不足，需人工复核后再作为稳定规则使用"
@@ -740,41 +811,43 @@
   },
   {
     "rule_id": "STRICT_RULE_0027",
-    "industry_code": "C2929",
+    "industry_code": "C3854",
     "industry_name": "",
-    "element": "重大变动",
-    "project_type": "扩建",
+    "element": "废水",
+    "project_type": "新建",
     "rule_status": "observation",
     "evidence_level": "C",
     "confidence": 0.3333333333333333,
     "trigger_condition": [
-      "项目属于 C2929 行业",
-      "项目涉及重大变动审查事项"
+      "项目属于 C3854 行业",
+      "项目涉及废水审查事项"
     ],
     "review_checkpoints": [
-      "是否识别并说明重大变动相关污染源或管理要求",
+      "是否识别并说明废水相关污染源或管理要求",
       "是否引用与该要素对应的有效标准",
       "报告内容是否能支撑批复中的审批要求"
     ],
     "expected_report_content": [
-      "重大变动来源或管理对象",
+      "废水来源或管理对象",
       "治理/处置/管理措施",
       "执行标准",
       "排放去向或管理要求"
     ],
     "common_approval_requirement": [
-      "环境影响报告表经批准后，该项目的性质、规模、地点、 生产工艺和环境保护措施发生重大变动，且可能导致环境影响显 著变化（特别是不利环境影响加重）的，应当重新报批环境影响 报告表。自环境影响报告表批复文件批准之日起，项目超过 5 年 方决定开工建设的，环境影响报告表应当报我局重新审核"
+      "批复要求：项目生活 2 污水经预处理达到《水污染物排放限值》（DB44/26-2001） 第二时段三级标准后排至生活污水管网。"
     ],
-    "common_standards": [],
+    "common_standards": [
+      "DB44/26-2001"
+    ],
     "source_pair_ids": [
-      "pair_00010"
+      "pair_00005"
     ],
     "source_qa_ids": [
-      "QA_pair_00010_005"
+      "QA_pair_00005_废水"
     ],
     "support_count": 1,
     "sample_counts": {
-      "verified": 1
+      "high_alignment": 1
     },
     "limitations": [
       "样本数不足，需人工复核后再作为稳定规则使用"
@@ -783,41 +856,43 @@
   },
   {
     "rule_id": "STRICT_RULE_0028",
-    "industry_code": "C2929",
+    "industry_code": "C3879",
     "industry_name": "",
-    "element": "重大变动",
-    "project_type": "迁扩建",
+    "element": "噪声",
+    "project_type": "改扩建",
     "rule_status": "observation",
     "evidence_level": "C",
     "confidence": 0.3333333333333333,
     "trigger_condition": [
-      "项目属于 C2929 行业",
-      "项目涉及重大变动审查事项"
+      "项目属于 C3879 行业",
+      "项目涉及噪声审查事项"
     ],
     "review_checkpoints": [
-      "是否识别并说明重大变动相关污染源或管理要求",
+      "是否识别并说明噪声相关污染源或管理要求",
       "是否引用与该要素对应的有效标准",
       "报告内容是否能支撑批复中的审批要求"
     ],
     "expected_report_content": [
-      "重大变动来源或管理对象",
+      "噪声来源或管理对象",
       "治理/处置/管理措施",
       "执行标准",
       "排放去向或管理要求"
     ],
     "common_approval_requirement": [
-      "《报告表》经批准后，项目的性质、规模、地点、生产 工艺和环境保护措施发生重大变动，且可能导致环境影响显著变 化（特别是不利环境影响加重）的，应当重新报批建设项目环境 影响评价文件。自《报告表》批复文件批准之日起，项目超过 5 年方决定开工建设的，《报告表》应当报我局重新审核"
+      "批复要求：（三）项目厂界噪声执行《工业企业厂界环境噪声排放标准》 （GB 12348—2008）3 类标准。"
     ],
-    "common_standards": [],
+    "common_standards": [
+      "GB12348-2008"
+    ],
     "source_pair_ids": [
-      "pair_00017"
+      "pair_00045"
     ],
     "source_qa_ids": [
-      "QA_pair_00017_006"
+      "QA_pair_00045_噪声"
     ],
     "support_count": 1,
     "sample_counts": {
-      "verified": 1
+      "high_alignment": 1
     },
     "limitations": [
       "样本数不足，需人工复核后再作为稳定规则使用"
@@ -826,309 +901,43 @@
   },
   {
     "rule_id": "STRICT_RULE_0029",
-    "industry_code": "C3057",
+    "industry_code": "C3879",
     "industry_name": "",
-    "element": "排污许可",
-    "project_type": "迁扩建",
-    "rule_status": "observation",
-    "evidence_level": "C",
-    "confidence": 0.3333333333333333,
-    "trigger_condition": [
-      "项目属于 C3057 行业",
-      "项目涉及排污许可审查事项"
-    ],
-    "review_checkpoints": [
-      "是否识别并说明排污许可相关污染源或管理要求",
-      "是否引用与该要素对应的有效标准",
-      "报告内容是否能支撑批复中的审批要求"
-    ],
-    "expected_report_content": [
-      "排污许可来源或管理对象",
-      "治理/处置/管理措施",
-      "执行标准",
-      "排放去向或管理要求"
-    ],
-    "common_approval_requirement": [
-      "项目建设应严格执行配套建设的环境保护设施与主体工 程同时设计、同时施工、同时投产使用的环境保护“三同时”制 度。项目竣工后，你单位应当依照有关规定申请领取排污许可证， 并在配套建设的环境保护设施验收合格后，方可投入生产或者使 用。 佛山市生态环境局 2024 年 2 月 9 日"
-    ],
-    "common_standards": [],
-    "source_pair_ids": [
-      "pair_00047"
-    ],
-    "source_qa_ids": [
-      "QA_pair_00047_004"
-    ],
-    "support_count": 1,
-    "sample_counts": {
-      "verified": 1
-    },
-    "limitations": [
-      "样本数不足，需人工复核后再作为稳定规则使用"
-    ],
-    "need_human_review": true
-  },
-  {
-    "rule_id": "STRICT_RULE_0030",
-    "industry_code": "C3057",
-    "industry_name": "",
-    "element": "重大变动",
-    "project_type": "迁扩建",
-    "rule_status": "observation",
-    "evidence_level": "C",
-    "confidence": 0.3333333333333333,
-    "trigger_condition": [
-      "项目属于 C3057 行业",
-      "项目涉及重大变动审查事项"
-    ],
-    "review_checkpoints": [
-      "是否识别并说明重大变动相关污染源或管理要求",
-      "是否引用与该要素对应的有效标准",
-      "报告内容是否能支撑批复中的审批要求"
-    ],
-    "expected_report_content": [
-      "重大变动来源或管理对象",
-      "治理/处置/管理措施",
-      "执行标准",
-      "排放去向或管理要求"
-    ],
-    "common_approval_requirement": [
-      "环境影响报告表经批准后，该项目的性质、规模、地点、 生产工艺和环境保护措施发生重大变动，且可能导致环境影响显 著变化（特别是不利环境影响加重）的，应当重新报批环境影响 报告表。自环境影响报告表批复文件批准之日起，项目超过 5 年 方决定开工建设的，环境影响报告表应当报我局重新审核"
-    ],
-    "common_standards": [],
-    "source_pair_ids": [
-      "pair_00047"
-    ],
-    "source_qa_ids": [
-      "QA_pair_00047_003"
-    ],
-    "support_count": 1,
-    "sample_counts": {
-      "verified": 1
-    },
-    "limitations": [
-      "样本数不足，需人工复核后再作为稳定规则使用"
-    ],
-    "need_human_review": true
-  },
-  {
-    "rule_id": "STRICT_RULE_0031",
-    "industry_code": "C3464",
-    "industry_name": "",
-    "element": "排污许可",
+    "element": "废水",
     "project_type": "改扩建",
     "rule_status": "observation",
     "evidence_level": "C",
     "confidence": 0.3333333333333333,
     "trigger_condition": [
-      "项目属于 C3464 行业",
-      "项目涉及排污许可审查事项"
+      "项目属于 C3879 行业",
+      "项目涉及废水审查事项"
     ],
     "review_checkpoints": [
-      "是否识别并说明排污许可相关污染源或管理要求",
+      "是否识别并说明废水相关污染源或管理要求",
       "是否引用与该要素对应的有效标准",
       "报告内容是否能支撑批复中的审批要求"
     ],
     "expected_report_content": [
-      "排污许可来源或管理对象",
+      "废水来源或管理对象",
       "治理/处置/管理措施",
       "执行标准",
       "排放去向或管理要求"
     ],
     "common_approval_requirement": [
-      "项目建设应严格执行配套建设的环境保护设施与主体工 程同时设计、同时施工、同时投产使用的“三同时”制度。项目 竣工后，你单位应当按照有关规定向我局申请领取排污许可证（如 需要申领排污许可证的），并在配套建设的环境保护设施验收合 格后，方可投入生产或者使用。 佛山市生态环境局 2026 年 1 月 8 日 抄送： 佛山市生态环境局顺德分局勒流监督管理所，广东祥和环保科 技有限公司。"
-    ],
-    "common_standards": [],
-    "source_pair_ids": [
-      "pair_00027"
-    ],
-    "source_qa_ids": [
-      "QA_pair_00027_008"
-    ],
-    "support_count": 1,
-    "sample_counts": {
-      "verified": 1
-    },
-    "limitations": [
-      "样本数不足，需人工复核后再作为稳定规则使用"
-    ],
-    "need_human_review": true
-  },
-  {
-    "rule_id": "STRICT_RULE_0032",
-    "industry_code": "C3464",
-    "industry_name": "",
-    "element": "环境风险",
-    "project_type": "改扩建",
-    "rule_status": "observation",
-    "evidence_level": "C",
-    "confidence": 0.3333333333333333,
-    "trigger_condition": [
-      "项目属于 C3464 行业",
-      "项目涉及环境风险审查事项"
-    ],
-    "review_checkpoints": [
-      "是否识别并说明环境风险相关污染源或管理要求",
-      "是否引用与该要素对应的有效标准",
-      "报告内容是否能支撑批复中的审批要求"
-    ],
-    "expected_report_content": [
-      "环境风险来源或管理对象",
-      "治理/处置/管理措施",
-      "执行标准",
-      "排放去向或管理要求"
-    ],
-    "common_approval_requirement": [
-      "佛山拓球明新科技有限公司改扩建项目（以下简称项目） 位于顺德区勒流连杜村富安工业区（一期）25—2 号地块，主要 从事热交换器、钣金件、不锈钢件的生产。项目计划年产热交换 器 18 万套、钣金件 30 万套、不锈钢件 10 万件。项目的规模及工 艺见《报告表》。 佛 山 市 生 态 环 境 局 主动公开 佛环 03 环审〔2026〕5 号 佛山市生态环境局关于佛山拓球明新科技 有限公司改扩建项目建设项目环境 影响报告表的批复 —2 — 根据《报告表》的评价结论，结合佛山市生态环境局顺德分 局勒流监督管理所对《报告表"
-    ],
-    "common_standards": [],
-    "source_pair_ids": [
-      "pair_00027"
-    ],
-    "source_qa_ids": [
-      "QA_pair_00027_002"
-    ],
-    "support_count": 1,
-    "sample_counts": {
-      "verified": 1
-    },
-    "limitations": [
-      "样本数不足，需人工复核后再作为稳定规则使用"
-    ],
-    "need_human_review": true
-  },
-  {
-    "rule_id": "STRICT_RULE_0033",
-    "industry_code": "C3464",
-    "industry_name": "",
-    "element": "重大变动",
-    "project_type": "改扩建",
-    "rule_status": "observation",
-    "evidence_level": "C",
-    "confidence": 0.3333333333333333,
-    "trigger_condition": [
-      "项目属于 C3464 行业",
-      "项目涉及重大变动审查事项"
-    ],
-    "review_checkpoints": [
-      "是否识别并说明重大变动相关污染源或管理要求",
-      "是否引用与该要素对应的有效标准",
-      "报告内容是否能支撑批复中的审批要求"
-    ],
-    "expected_report_content": [
-      "重大变动来源或管理对象",
-      "治理/处置/管理措施",
-      "执行标准",
-      "排放去向或管理要求"
-    ],
-    "common_approval_requirement": [
-      "《报告表》经批准后，项目的性质、规模、地点、生产 —5 — 工艺和环境保护措施发生重大变动，且可能导致环境影响显著变 化（特别是不利环境影响加重）的，应当重新报批建设项目环境 影响评价文件。自《报告表》批复文件批准之日起，项目超过 5 年方决定开工建设的，《报告表》应当报我局重新审核"
-    ],
-    "common_standards": [],
-    "source_pair_ids": [
-      "pair_00027"
-    ],
-    "source_qa_ids": [
-      "QA_pair_00027_007"
-    ],
-    "support_count": 1,
-    "sample_counts": {
-      "verified": 1
-    },
-    "limitations": [
-      "样本数不足，需人工复核后再作为稳定规则使用"
-    ],
-    "need_human_review": true
-  },
-  {
-    "rule_id": "STRICT_RULE_0037",
-    "industry_code": "T4754",
-    "industry_name": "",
-    "element": "废气",
-    "project_type": "迁扩建",
-    "rule_status": "observation",
-    "evidence_level": "C",
-    "confidence": 0.3333333333333333,
-    "trigger_condition": [
-      "项目属于 T4754 行业",
-      "项目涉及废气审查事项"
-    ],
-    "review_checkpoints": [
-      "是否识别并说明废气相关污染源或管理要求",
-      "是否引用与该要素对应的有效标准",
-      "报告内容是否能支撑批复中的审批要求"
-    ],
-    "expected_report_content": [
-      "废气来源或管理对象",
-      "治理/处置/管理措施",
-      "执行标准",
-      "排放去向或管理要求"
-    ],
-    "common_approval_requirement": [
-      "你单位应按照《报告表》内容组织实施。项目生活 污水经预处理达到《水污染物排放限值》（DB44/26-2001） 第二时段三级标准后排至生活污水管网。 项目印刷工序产生的有机废气经活性炭吸附处理后排气 筒排放。非甲烷总烃废气有组织排放执行《印刷工业大气污 染物排放标准》（GB41616-2022）表 1 大气污染物排放限值； 总 VOCs 废气有组织排放执行《印刷行业挥发性有机化合物排 放标准》（DB44/815-2010）表 2 排放限值（不含以金属、陶 瓷、玻璃为承载物的平版印刷，第二时段）；臭气浓度执行 《恶臭",
-      "项目 VOCs 废气有组织排放量为：0.016 吨/年，无 组织排放量为：0.032 吨/年，总量控制指标为：0.048 吨/ 年；原项目“归真”总量为 0.048 吨/年；因此，因此，迁扩 建后项目不需另外分配 VOCs 总量"
+      "批复要求：（一）项目生活污水经处理达到广东省《水污染物排放限值》 （DB 44/26—2001）第二时段三级标准后排入勒流污水处理厂处 理。"
     ],
     "common_standards": [
-      "DB44/26-2001",
-      "DB44/27-2001",
-      "DB44/815-2010",
-      "GB12348-2008",
-      "GB14554-1993",
-      "GB18597-2023",
-      "GB41616-2022"
+      "DB44/26-2001"
     ],
     "source_pair_ids": [
-      "pair_00048"
+      "pair_00045"
     ],
     "source_qa_ids": [
-      "QA_pair_00048_003",
-      "QA_pair_00048_004"
+      "QA_pair_00045_废水"
     ],
     "support_count": 1,
     "sample_counts": {
-      "verified": 2
-    },
-    "limitations": [
-      "样本数不足，需人工复核后再作为稳定规则使用"
-    ],
-    "need_human_review": true
-  },
-  {
-    "rule_id": "STRICT_RULE_0038",
-    "industry_code": "T4754",
-    "industry_name": "",
-    "element": "排污许可",
-    "project_type": "迁扩建",
-    "rule_status": "observation",
-    "evidence_level": "C",
-    "confidence": 0.3333333333333333,
-    "trigger_condition": [
-      "项目属于 T4754 行业",
-      "项目涉及排污许可审查事项"
-    ],
-    "review_checkpoints": [
-      "是否识别并说明排污许可相关污染源或管理要求",
-      "是否引用与该要素对应的有效标准",
-      "报告内容是否能支撑批复中的审批要求"
-    ],
-    "expected_report_content": [
-      "排污许可来源或管理对象",
-      "治理/处置/管理措施",
-      "执行标准",
-      "排放去向或管理要求"
-    ],
-    "common_approval_requirement": [
-      "项目建设必须严格执行配套建设的环境保护设施与 主体工程同时设计、同时施工、同时投入使用的环境保护“三 同时”制度。项目竣工后，应当按照有关规定落实排污许可 管理，并在配套建设的环境保护设施验收合格后，方可投入 生产或者使用。 佛山市生态环境局 2025 年 1 月 27 日"
-    ],
-    "common_standards": [],
-    "source_pair_ids": [
-      "pair_00048"
-    ],
-    "source_qa_ids": [
-      "QA_pair_00048_006"
-    ],
-    "support_count": 1,
-    "sample_counts": {
-      "verified": 1
+      "high_alignment": 1
     },
     "limitations": [
       "样本数不足，需人工复核后再作为稳定规则使用"

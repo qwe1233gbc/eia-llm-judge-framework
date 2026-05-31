@@ -54,6 +54,31 @@ qa_v4_verified (92) → qa_v4_final_verified (原文证据审计通过, 62条)
 | `data/qa_v4/qa_v4_rejected.jsonl` | 498 | 不合格样本 |
 | `evidence_samples/` | 20 | 论文证据包（含原文） |
 
+> `qa_v3` / `qa_v4` 是历史版本数据层级，保留用于方法追溯和对照。当前主线是下面的 strict clean-pairs pipeline。
+
+## Strict Clean-Pairs Pipeline
+
+数据流：
+
+```text
+原始报告 MinerU md
+→ 批复 approval.md
+→ clean_pairs
+→ qa_strict_all
+→ qa_strict_high / medium / review
+→ experience_library_strict
+```
+
+说明：
+
+- `data/clean_pairs/` 是可信数据入口，每个 `pair_id` 包含 `report.md`、`approval.md` 和 `pair_metadata.json`。
+- `data/qa_strict/qa_strict_all.jsonl` 只从 `data/clean_pairs/` 生成，不复用旧 `qa_v3` / `qa_v4`。
+- `qa_strict_high` 是高可信 benchmark 候选，要求同项目、同要素、同标准、同证据。
+- `qa_strict_medium` 是可人工复核候选。
+- `qa_strict_review` 是待复核或降级样本。
+- `outputs/experience_library_strict/` 只能从 `qa_strict_high` 生成。
+- `outputs/framework_audit/` 记录 strict pipeline、clean pairs、QA、经验库、README/docs 的一致性审计结果。
+
 ### 五维分类体系
 
 每条 QA 对含五维标签：

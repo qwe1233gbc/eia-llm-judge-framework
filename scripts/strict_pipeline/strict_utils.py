@@ -203,12 +203,24 @@ def extract_report_type(text: str) -> str:
 
 
 def extract_project_type(text: str) -> str:
-    head = text[:10000]
-    for item in ["迁扩建", "改扩建", "技改", "扩建", "迁建", "搬迁", "改建", "新建"]:
-        if item in head:
-            if item == "搬迁":
-                return "迁建"
-            return item
+    project_name = extract_project_name(text)
+    for source in [project_name, text[:10000]]:
+        if re.search(r"重新报批|重大变动重新报批|重新审核", source):
+            return "重新报批"
+        if "迁扩建" in source or "迁改扩建" in source:
+            return "迁扩建"
+        if "改扩建" in source:
+            return "改扩建"
+        if "技改" in source or "技术改造" in source:
+            return "技改"
+        if "新建项目" in source or "新建" in source:
+            return "新建"
+        if "扩建项目" in source or "扩建" in source:
+            return "扩建"
+        if "搬迁" in source or "迁建" in source:
+            return "迁建"
+        if "改建" in source:
+            return "改建"
     return ""
 
 
@@ -254,7 +266,7 @@ def extract_industry_code(text: str) -> str:
 
 
 def extract_standards(text: str) -> list[dict[str, str]]:
-    pattern = re.compile(r"\b((?:GB/T|GB|HJ/T|HJ|DB\d{2}/T|DB\d{2})\s*/?\s*\d{1,6}\s*[-—－]?\s*\d{2,4})\b")
+    pattern = re.compile(r"\b((?:GB/T|GB|HJ/T|HJ|DB\s*\d{2}/T|DB\s*\d{2})\s*/?\s*\d{1,6}\s*[-—－]?\s*\d{2,4})\b")
     seen: set[str] = set()
     standards = []
     for match in pattern.finditer(text):

@@ -34,10 +34,10 @@ data/historical_db/
   "element": "废气",
   "review_point": "审批要求与报告支撑核查",
   "question": "【区级】某公司该项目废气的收集形式、治理设施、排放标准和排放参数是什么？",
-  "answer": "批复要求：...",
-  "standards_normalized": [...],
-  "approval_evidence": [...],
-  "benchmark_metadata": {"task_domain": "废气", "difficulty": "simple", ...},
+  "answer": "批复要求：……",
+  "standards_normalized": [],
+  "approval_evidence": [],
+  "benchmark_metadata": {"task_domain": "废气", "difficulty": "simple"},
   "quality_score": 80,
   "need_human_review": true
 }

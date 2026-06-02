@@ -469,21 +469,71 @@ function renderStandardsContent() {
   const container = document.getElementById('standardsContentList');
   
   container.innerHTML = data.map((std, idx) => {
-    const provisions = (std.key_provisions || []).map(p => 
-      `<div style="font-size:.82em;padding:3px 8px;margin:2px 0;background:#f8f9ff;border-left:3px solid var(--primary);border-radius:2px">${p}</div>`
-    ).join('');
+    const githubUrl = 'https://raw.githubusercontent.com/qwe1233gbc/eia-llm-judge-framework/main/data/standards_content/' + std.file_name;
     
-    return '<div style="border:1px solid var(--border);border-radius:8px;margin-bottom:12px;overflow:hidden">' +
-      '<div onclick="toggleStdContent('+idx+')" style="padding:14px 18px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;background:#f8faff;hover:background:#eef3ff">' +
-      '<div><strong style="color:var(--primary);font-size:.95em">' + std.code + '</strong>' +
-      '<span style="margin-left:10px;font-size:.88em;color:#333">' + std.title.slice(0, 60) + '</span>' +
-      '<span style="margin-left:8px;font-size:.78em;color:#999">' + std.size_kb + 'KB</span></div>' +
-      '<span id="stdToggle_'+idx+'" style="font-size:.9em;color:#888">▶</span></div>' +
-      '<div id="stdBody_'+idx+'" style="display:none;padding:16px 18px;border-top:1px solid var(--border);max-height:500px;overflow-y:auto;font-size:.85em;line-height:1.7">' +
-      '<div style="margin-bottom:10px;color:#555">' + std.intro.slice(0, 300) + '</div>' +
-      '<div style="font-weight:600;color:#333;margin:8px 0 4px">📋 关键条款：</div>' +
-      provisions + '</div></div>';
+    return '<div style="border:1px solid var(--border);border-radius:8px;margin-bottom:14px;overflow:hidden">' +
+      '<div onclick="toggleStdContent('+idx+')" style="padding:14px 20px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;background:#f8faff">' +
+      '<div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">' +
+      '<strong style="color:var(--primary);font-size:.95em">' + std.code + '</strong>' +
+      '<span style="font-size:.88em;color:#333">' + (std.title||'').slice(0, 80) + '</span>' +
+      '<span style="font-size:.75em;color:#999;background:#eee;padding:1px 8px;border-radius:8px">' + std.size_kb + ' KB</span></div>' +
+      '<span id="stdToggle_'+idx+'" style="font-size:.9em;color:#888;flex-shrink:0">&#9660; 展开</span></div>' +
+      '<div id="stdBody_'+idx+'" style="display:none;padding:4px 20px 16px;border-top:1px solid var(--border);font-size:.82em;line-height:1.6">' +
+      '<div style="margin-bottom:10px;text-align:right"><a href="'+githubUrl+'" target="_blank" style="color:var(--primary);font-size:.85em">📥 查看完整Markdown文件</a></div>' +
+      '<div id="stdLoading_'+idx+'" style="padding:16px;text-align:center;color:#999">加载中...</div>' +
+      '<div id="stdContent_'+idx+'" style="display:none"></div></div></div>';
   }).join('');
+}
+
+function toggleStdContent(idx) {
+  const body = document.getElementById('stdBody_'+idx);
+  const toggle = document.getElementById('stdToggle_'+idx);
+  const content = document.getElementById('stdContent_'+idx);
+  const loading = document.getElementById('stdLoading_'+idx);
+  
+  if (body.style.display === 'none') {
+    body.style.display = 'block';
+    toggle.textContent = '▲ 收起';
+    
+    // 如果还没加载内容，尝试抓取
+    if (content.style.display === 'none') {
+      const std = STANDARDS_CONTENT[idx];
+      const githubUrl = 'https://raw.githubusercontent.com/qwe1233gbc/eia-llm-judge-framework/main/data/standards_content/' + std.file_name;
+      
+      fetch(githubUrl)
+        .then(res => res.ok ? res.text() : Promise.reject('fetch failed'))
+        .then(text => {
+          // 简化显示：显示全文，只隐藏过于重复的目录
+          let display = text;
+          // 移除目录部分（目次到正文之间）
+          const tocMatch = display.match(/目 次[\s\S]*?(?=^[123456789] )/m);
+          if (tocMatch) display = display.replace(tocMatch[0], '[目录已省略]
+
+');
+          // 限制太长的连续文本
+          if (display.length > 50000) display = display.slice(0, 50000) + '
+
+...（内容过长已截断，请查看完整文件）';
+          
+          loading.style.display = 'none';
+          content.style.display = 'block';
+          content.innerHTML = '<pre style="white-space:pre-wrap;font-family:inherit;margin:0;padding:8px;background:#f9fafb;border-radius:4px;max-height:600px;overflow-y:auto">' + 
+            escapeHtml(display) + '</pre>';
+        })
+        .catch(err => {
+          // 抓取失败时，显示嵌入的intro内容
+          loading.innerHTML = '⚠️ 无法加载完整内容（' + err + '），显示预览：<br><br><div style="text-align:left;color:#555;padding:8px;background:#f9fafb;border-radius:4px">' + 
+            std.key_provisions.map(p => '<div style="padding:4px 0">• ' + p + '</div>').join('') + '</div>';
+        });
+    }
+  } else {
+    body.style.display = 'none';
+    toggle.textContent = '▶ 展开';
+  }
+}
+
+function escapeHtml(text) {
+  return text.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 }
 
 function toggleStdContent(idx) {

@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EIA Historical QA Dataset — 环评历史问答数据集浏览器</title>
+<script src="qa_data.js"></script>
+<style>
+  :root { --primary: #1a73e8; --primary-dark: #0d47a1; --bg: #f0f2f5;
+           --card: #fff; --border: #e2e5e9; --text: #1f2a44; --text-light: #5f6b7a; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans SC', sans-serif;
+         background: var(--bg); color: var(--text); line-height:1.5; }
+
+  /* Header */
+  .header { background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color:#fff; padding:0; }
+  .header-top { max-width:1400px; margin:0 auto; padding:32px 24px 24px; }
+  .header h1 { font-size: 1.6em; font-weight: 700; }
+  .header .subtitle { opacity:.85; margin:6px 0 14px; font-size:.95em; }
+  .header .links { display:flex; gap:16px; font-size:.85em; }
+  .header .links a { color:#fff; opacity:.8; text-decoration:none; }
+  .header .links a:hover { opacity:1; text-decoration:underline; }
+
+  /* Nav tabs */
+  .nav-tabs { display:flex; gap:0; padding:0 24px; max-width:1400px; margin:0 auto; }
+  .nav-tab { padding:12px 24px; cursor:pointer; color:rgba(255,255,255,.7); border-bottom:3px solid transparent;
+             font-size:.9em; font-weight:500; transition:.2s; }
+  .nav-tab:hover { color:#fff; }
+  .nav-tab.active { color:#fff; border-bottom-color:#fff; }
+
+  /* Main */
+  .main { max-width:1400px; margin:0 auto; padding:20px 24px; display:none; }
+  .main.active { display:block; }
+
+  /* Stats Dashboard */
+  .stats-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:14px; margin-bottom:24px; }
+  .stat-card { background:var(--card); border-radius:10px; padding:18px 16px; text-align:center;
+               box-shadow:0 1px 4px rgba(0,0,0,.06); }
+  .stat-card .num { font-size:1.8em; font-weight:700; color:var(--primary); }
+  .stat-card .label { font-size:.82em; color:var(--text-light); margin-top:2px; }
+
+  .row { display:flex; gap:14px; margin-bottom:20px; flex-wrap:wrap; }
+  .col { flex:1; min-width:300px; }
+  .card { background:var(--card); border-radius:10px; padding:20px; box-shadow:0 1px 4px rgba(0,0,0,.06); margin-bottom:14px; }
+  .card h3 { font-size:.95em; margin-bottom:12px; color:var(--text); display:flex; align-items:center; gap:8px; }
+
+  /* Tables */
+  table { width:100%; border-collapse:collapse; font-size:.85em; }
+  th { background:#f5f7fa; padding:8px 10px; text-align:left; font-weight:600; color:var(--text); border-bottom:2px solid var(--border); }
+  td { padding:7px 10px; border-bottom:1px solid var(--border); color:var(--text); }
+  tr:hover { background:#f8faff; }
+
+  /* Bar chart */
+  .bar-wrap { display:flex; align-items:center; gap:8px; margin:3px 0; }
+  .bar-label { width:120px; font-size:.82em; color:var(--text-light); text-align:right; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .bar-track { flex:1; height:18px; background:#eef1f5; border-radius:4px; overflow:hidden; }
+  .bar-fill { height:100%; background:var(--primary); border-radius:4px; transition:width .6s ease; min-width:4px; }
+  .bar-val { width:40px; font-size:.78em; color:var(--text-light); }
+
+  /* Search & Filters */
+  .toolbar { display:flex; gap:10px; margin-bottom:14px; flex-wrap:wrap; }
+  .toolbar input, .toolbar select { padding:8px 12px; border:1px solid var(--border); border-radius:6px;
+               font-size:.85em; background:#fff; outline:none; }
+  .toolbar input:focus, .toolbar select:focus { border-color:var(--primary); }
+  .toolbar input { flex:1; min-width:200px; }
+
+  .pagination { display:flex; justify-content:center; align-items:center; gap:8px; margin-top:16px; font-size:.85em; }
+  .pagination button { padding:6px 14px; border:1px solid var(--border); border-radius:6px; background:#fff;
+                       cursor:pointer; font-size:.85em; }
+  .pagination button:hover { background:var(--primary); color:#fff; border-color:var(--primary); }
+  .pagination button:disabled { opacity:.4; cursor:default; }
+  .pagination span { color:var(--text-light); }
+
+  /* QA Detail Modal */
+  .modal-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,.4); z-index:1000;
+                   justify-content:center; align-items:center; padding:20px; }
+  .modal-overlay.show { display:flex; }
+  .modal { background:#fff; border-radius:12px; max-width:720px; width:100%; max-height:80vh;
+           overflow-y:auto; padding:28px; position:relative; box-shadow:0 8px 40px rgba(0,0,0,.15); }
+  .modal-close { position:absolute; top:12px; right:16px; font-size:1.3em; cursor:pointer; color:#999; border:none; background:none; }
+  .modal-close:hover { color:#333; }
+  .modal .field { margin:8px 0; }
+  .modal .field-label { font-size:.8em; color:var(--text-light); text-transform:uppercase; letter-spacing:.5px; margin-bottom:2px; }
+  .modal .field-val { font-size:.92em; color:var(--text); white-space:pre-wrap; word-break:break-word; }
+  .modal .tag { display:inline-block; padding:2px 8px; border-radius:4px; font-size:.78em;
+               background:#e8eaf6; color:#283593; margin:2px; }
+
+  .result-count { font-size:.82em; color:var(--text-light); margin-bottom:10px; }
+
+  .chip { display:inline-block; padding:3px 10px; border-radius:12px; font-size:.75em; font-weight:500; }
+  .chip-blue { background:#e3f2fd; color:#1565c0; }
+  .chip-orange { background:#fff3e0; color:#e65100; }
+
+  .clickable { cursor:pointer; }
+  .clickable:hover { color:var(--primary); }
+
+  .empty { text-align:center; padding:40px; color:var(--text-light); }
+
+  /* Source pie */
+  .pie-grid { display:flex; gap:24px; align-items:center; justify-content:center; flex-wrap:wrap; }
+
+  footer { text-align:center; padding:24px; color:var(--text-light); font-size:.82em; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-top">
+    <h1>🌿 EIA Historical QA Dataset</h1>
+    <div class="subtitle">环评历史问答数据集 · 基于佛山市环评审批平台数据库 · 536 条废气领域 QA 对</div>
+    <div class="links">
+      <a href="https://github.com/qwe1233gbc/eia-llm-judge-framework" target="_blank">📦 GitHub</a>
+      <a href="qa_experience_base.jsonl" target="_blank">📥 下载 JSONL</a>
+      <a href="README.md" target="_blank">📖 文档</a>
+    </div>
+  </div>
+  <div class="nav-tabs">
+    <div class="nav-tab active" onclick="switchTab('overview')">📊 数据集概览</div>
+    <div class="nav-tab" onclick="switchTab('browse')">🔍 数据浏览</div>
+    <div class="nav-tab" onclick="switchTab('standards')">📐 标准索引</div>
+    <div class="nav-tab" onclick="switchTab('stats')">📈 统计分析</div>
+  </div>
+</div>
+
+<!-- Tab 1: 概览 -->
+<div id="tab-overview" class="main active">
+  <div class="stats-grid" id="statsGrid"></div>
+  <div class="row">
+    <div class="col">
+      <div class="card">
+        <h3>📋 数据来源分布</h3>
+        <div id="sourceDist"></div>
+      </div>
+      <div class="card">
+        <h3>🏗️ 项目类型分布</h3>
+        <div id="projectTypeDist"></div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <h3>🏛️ 区域 Top 10</h3>
+        <div id="regionDist"></div>
+      </div>
+      <div class="card">
+        <h3>⭐ 质量评分分布</h3>
+        <div id="scoreDist"></div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <h3>📄 数据格式</h3>
+    <table>
+      <tr><th>字段</th><th>类型</th><th>说明</th></tr>
+      <tr><td>id</td><td>string</td><td>唯一标识（DB_QA_=审批意见 / DB_TECH_=技术审查）</td></tr>
+      <tr><td>source</td><td>string</td><td>数据来源分类</td></tr>
+      <tr><td>region</td><td>string</td><td>行政区划</td></tr>
+      <tr><td>company</td><td>string</td><td>建设单位</td></tr>
+      <tr><td>project_type</td><td>string</td><td>项目类型</td></tr>
+      <tr><td>review_point</td><td>string</td><td>审查维度</td></tr>
+      <tr><td>question</td><td>string</td><td>自然语言问题</td></tr>
+      <tr><td>answer</td><td>string</td><td>批复要求/审查意见原文</td></tr>
+      <tr><td>standards</td><td>array</td><td>引用的排放标准</td></tr>
+      <tr><td>score</td><td>int</td><td>质量评分</td></tr>
+    </table>
+  </div>
+</div>
+
+<!-- Tab 2: 数据浏览 -->
+<div id="tab-browse" class="main">
+  <div class="card">
+    <div class="toolbar">
+      <input id="searchInput" placeholder="🔍 搜索问题、答案、公司名称..." oninput="applyFilters()">
+      <select id="sourceFilter" onchange="applyFilters()">
+        <option value="">全部来源</option>
+        <option value="审批意见">审批意见</option>
+        <option value="技术审查">技术审查</option>
+      </select>
+      <select id="scoreFilter" onchange="applyFilters()">
+        <option value="">全部评分</option>
+        <option value="80">80 分（自动提取）</option>
+        <option value="85">85 分（技术审查）</option>
+      </select>
+    </div>
+    <div class="result-count" id="resultCount"></div>
+    <div style="overflow-x:auto">
+      <table>
+        <thead><tr>
+          <th style="width:35%">问题</th>
+          <th style="width:35%">答案摘要</th>
+          <th>类型</th>
+          <th>来源</th>
+          <th>评分</th>
+        </tr></thead>
+        <tbody id="qaTableBody"></tbody>
+      </table>
+    </div>
+    <div class="pagination" id="pagination"></div>
+  </div>
+</div>
+
+<!-- Tab 3: 标准索引 -->
+<div id="tab-standards" class="main">
+  <div class="card">
+    <h3>📐 引用标准总览</h3>
+    <p style="margin-bottom:12px;color:var(--text-light);font-size:.85em">总计 <span id="stdTotal"></span> 个标准引用</p>
+    <table>
+      <thead><tr><th>标准编号</th><th>引用次数</th><th>占比</th></tr></thead>
+      <tbody id="stdTableBody"></tbody>
+    </table>
+  </div>
+</div>
+
+<!-- Tab 4: 统计分析 -->
+<div id="tab-stats" class="main">
+  <div class="row">
+    <div class="col"><div class="card"><h3>🏛️ 镇街分布</h3><div id="statsRegion"></div></div></div>
+    <div class="col"><div class="card"><h3>📋 审查点分布</h3><div id="statsReviewPoint"></div></div></div>
+  </div>
+  <div class="card">
+    <h3>🔢 全部数据统计详情</h3>
+    <div id="fullStats"></div>
+  </div>
+</div>
+
+<!-- QA Detail Modal -->
+<div class="modal-overlay" id="qaModal" onclick="if(event.target===this)closeModal()">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal()">✕</button>
+    <div id="modalContent"></div>
+  </div>
+</div>
+
+<footer>
+  环评智能审核研究 · 数据仅供学术参考 · <a href="https://github.com/qwe1233gbc/eia-llm-judge-framework">GitHub Repo</a>
+</footer>
+
+<script>
+const ITEMS_PER_PAGE = 20;
+let currentPage = 1;
+let filteredData = [];
+
+function switchTab(name) {
+  document.querySelectorAll('.main').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+  document.getElementById('tab-'+name).classList.add('active');
+  document.querySelector(`.nav-tab[onclick*="${name}"]`).classList.add('active');
+  if(name==='overview') renderOverview();
+  if(name==='browse') { currentPage=1; applyFilters(); }
+  if(name==='standards') renderStandards();
+  if(name==='stats') renderStats();
+}
+
+// ====== Overview ======
+function renderOverview() {
+  const data = QA_DATA;
+  const sources = {};
+  const types = {};
+  const regions = {};
+  const scores = {};
+
+  data.forEach(d => {
+    sources[d.source] = (sources[d.source]||0)+1;
+    types[d.project_type] = (types[d.project_type]||0)+1;
+    const reg = d.region.replace('广东省佛山市顺德区','顺德').replace('广东省佛山市','佛山');
+    regions[reg] = (regions[reg]||0)+1;
+    const sc = Math.floor(d.score/10)*10;
+    scores[sc] = (scores[sc]||0)+1;
+  });
+
+  // Stats grid
+  document.getElementById('statsGrid').innerHTML = `
+    <div class="stat-card"><div class="num">${data.length}</div><div class="label">QA 总数</div></div>
+    <div class="stat-card"><div class="num">${(sources['审批意见']||0)}</div><div class="label">审批意见</div></div>
+    <div class="stat-card"><div class="num">${(sources['技术审查']||0)}</div><div class="label">技术审查</div></div>
+    <div class="stat-card"><div class="num">${Object.keys(types).length}</div><div class="label">项目类型</div></div>
+    <div class="stat-card"><div class="num">${Object.keys(regions).length}</div><div class="label">覆盖镇街</div></div>
+    <div class="stat-card"><div class="num">${new Set(data.map(d=>d.company)).size}</div><div class="label">涉及企业</div></div>
+  `;
+
+  // Source distribution
+  const srcTotal = data.length;
+  document.getElementById('sourceDist').innerHTML = Object.entries(sources).map(([k,v]) =>
+    `<div class="bar-wrap">
+      <span class="bar-label">${k}</span>
+      <div class="bar-track"><div class="bar-fill" style="width:${v/srcTotal*100}%"></div></div>
+      <span class="bar-val">${v}</span>
+    </div>`
+  ).join('');
+
+  // Project type distribution
+  const ptTotal = data.length;
+  document.getElementById('projectTypeDist').innerHTML = Object.entries(types).map(([k,v]) =>
+    `<div class="bar-wrap">
+      <span class="bar-label">${k}</span>
+      <div class="bar-track"><div class="bar-fill" style="width:${v/ptTotal*100}%"></div></div>
+      <span class="bar-val">${v}</span>
+    </div>`
+  ).join('');
+
+  // Region distribution (top 10)
+  const regSorted = Object.entries(regions).sort((a,b)=>b[1]-a[1]).slice(0,10);
+  const regMax = regSorted[0][1];
+  document.getElementById('regionDist').innerHTML = regSorted.map(([k,v]) =>
+    `<div class="bar-wrap">
+      <span class="bar-label">${k}</span>
+      <div class="bar-track"><div class="bar-fill" style="width:${v/regMax*100}%"></div></div>
+      <span class="bar-val">${v}</span>
+    </div>`
+  ).join('');
+
+  // Score distribution
+  document.getElementById('scoreDist').innerHTML = Object.entries(scores).sort((a,b)=>a[0]-b[0]).map(([k,v]) =>
+    `<div class="bar-wrap">
+      <span class="bar-label">${k} - ${+k+9}分</span>
+      <div class="bar-track"><div class="bar-fill" style="width:${v/srcTotal*100}%"></div></div>
+      <span class="bar-val">${v}</span>
+    </div>`
+  ).join('');
+}
+
+// ====== Browse ======
+function applyFilters() {
+  const search = document.getElementById('searchInput').value.toLowerCase();
+  const source = document.getElementById('sourceFilter').value;
+  const score = document.getElementById('scoreFilter').value;
+
+  filteredData = QA_DATA.filter(d => {
+    if(source && d.source !== source) return false;
+    if(score && d.score !== parseInt(score)) return false;
+    if(search) {
+      const q = d.question.toLowerCase();
+      const a = d.answer.toLowerCase();
+      const c = d.company.toLowerCase();
+      const s = d.standards.join(' ').toLowerCase();
+      if(!q.includes(search) && !a.includes(search) && !c.includes(search) && !s.includes(search)) return false;
+    }
+    return true;
+  });
+
+  currentPage = 1;
+  renderTable();
+}
+
+function renderTable() {
+  const start = (currentPage - 1) * ITEMS_PER_PAGE;
+  const end = Math.min(start + ITEMS_PER_PAGE, filteredData.length);
+  const pageData = filteredData.slice(start, end);
+
+  document.getElementById('resultCount').textContent =
+    `共 ${filteredData.length} 条结果 (显示 ${start+1}-${end})`;
+
+  const tbody = document.getElementById('qaTableBody');
+  if(pageData.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="5" class="empty">无匹配数据</td></tr>';
+    document.getElementById('pagination').innerHTML = '';
+    return;
+  }
+
+  tbody.innerHTML = pageData.map(d => `
+    <tr class="clickable" onclick="showDetail('${d.id}')">
+      <td>${d.question.length > 60 ? d.question.slice(0,60)+'…' : d.question}</td>
+      <td>${d.answer.length > 60 ? d.answer.slice(0,60)+'…' : d.answer}</td>
+      <td><span class="chip ${d.source==='审批意见'?'chip-blue':'chip-orange'}">${d.source}</span></td>
+      <td style="font-size:.8em;color:var(--text-light)">${d.company||'—'}</td>
+      <td style="font-weight:600;color:${d.score>=85?'var(--primary)':'#e65100'}">${d.score}</td>
+    </tr>
+  `).join('');
+
+  // Pagination
+  const totalPages = Math.ceil(filteredData.length / ITEMS_PER_PAGE);
+  let p = `<button onclick="goPage(${currentPage-1})" ${currentPage<=1?'disabled':''}>‹</button>`;
+  for(let i=Math.max(1,currentPage-2); i<=Math.min(totalPages,currentPage+2); i++) {
+    p += `<button onclick="goPage(${i})" ${i===currentPage?'style="background:var(--primary);color:#fff;border-color:var(--primary)"':''}>${i}</button>`;
+  }
+  p += `<button onclick="goPage(${currentPage+1})" ${currentPage>=totalPages?'disabled':''}>›</button>`;
+  p += `<span>${totalPages} 页</span>`;
+  document.getElementById('pagination').innerHTML = p;
+}
+
+function goPage(page) {
+  currentPage = page;
+  renderTable();
+}
+
+function showDetail(id) {
+  const d = QA_DATA.find(x => x.id === id);
+  if(!d) return;
+  document.getElementById('modalContent').innerHTML = `
+    <div style="margin-bottom:12px">
+      <span class="chip ${d.source==='审批意见'?'chip-blue':'chip-orange'}">${d.source}</span>
+      <span style="font-size:.82em;color:var(--text-light);margin-left:8px">评分: ${d.score}</span>
+    </div>
+    <div class="field"><div class="field-label">ID</div><div class="field-val">${d.id}</div></div>
+    <div class="field"><div class="field-label">企业</div><div class="field-val">${d.company||'—'}</div></div>
+    <div class="field"><div class="field-label">地区</div><div class="field-val">${d.region||'—'}</div></div>
+    <div class="field"><div class="field-label">项目类型</div><div class="field-val">${d.project_type||'—'}</div></div>
+    <div class="field"><div class="field-label">审查维度</div><div class="field-val">${d.review_point||'—'}</div></div>
+    <div class="field"><div class="field-label" style="color:var(--primary)">❓ 问题</div>
+      <div class="field-val" style="font-size:1em">${d.question}</div></div>
+    <div class="field"><div class="field-label" style="color:#2e7d32">💡 答案</div>
+      <div class="field-val" style="font-size:.95em;background:#f5f8ff;padding:12px;border-radius:6px;margin-top:4px">${d.answer}</div></div>
+    <div class="field"><div class="field-label">📐 引用标准</div>
+      <div class="field-val">${d.standards.map(s=>`<span class="tag">${s}</span>`).join(' ')||'无'}</div></div>
+  `;
+  document.getElementById('qaModal').classList.add('show');
+}
+
+function closeModal() {
+  document.getElementById('qaModal').classList.remove('show');
+}
+
+// ====== Standards ======
+function renderStandards() {
+  const stdCount = {};
+  QA_DATA.forEach(d => d.standards.forEach(s => { stdCount[s] = (stdCount[s]||0)+1; }));
+  const sorted = Object.entries(stdCount).filter(([k])=>k).sort((a,b)=>b[1]-a[1]);
+  const total = sorted.reduce((s,[,v])=>s+v,0);
+  document.getElementById('stdTotal').textContent = total;
+
+  document.getElementById('stdTableBody').innerHTML = sorted.map(([k,v]) =>
+    `<tr><td><code>${k}</code></td><td>${v}</td><td>${(v/total*100).toFixed(1)}%</td></tr>`
+  ).join('');
+}
+
+// ====== Stats ======
+function renderStats() {
+  const regions = {};
+  const points = {};
+  QA_DATA.forEach(d => {
+    const reg = d.region.replace('广东省佛山市顺德区','顺德').replace('广东省佛山市','佛山');
+    regions[reg] = (regions[reg]||0)+1;
+    points[d.review_point] = (points[d.review_point]||0)+1;
+  });
+
+  const regSorted = Object.entries(regions).sort((a,b)=>b[1]-a[1]);
+  const regMax = regSorted[0][1];
+  document.getElementById('statsRegion').innerHTML = regSorted.map(([k,v]) =>
+    `<div class="bar-wrap">
+      <span class="bar-label">${k}</span>
+      <div class="bar-track"><div class="bar-fill" style="width:${v/regMax*100}%"></div></div>
+      <span class="bar-val">${v}</span>
+    </div>`
+  ).join('');
+
+  const ptMax = Math.max(...Object.values(points));
+  document.getElementById('statsReviewPoint').innerHTML =
+    `<div style="margin:8px 0"><span class="chip chip-blue">审批要求与报告支撑核查</span> → ${points['审批要求与报告支撑核查']||points['审批要求与报告支撑核查']||0} 条</div>
+     <div style="margin:8px 0"><span class="chip chip-orange">技术审查意见与整改要求</span> → ${points['技术审查意见与整改要求']||0} 条</div>`;
+
+  document.getElementById('fullStats').innerHTML = `
+    <table>
+      <tr><th>指标</th><th>数值</th></tr>
+      <tr><td>QA 总条数</td><td>${QA_DATA.length}</td></tr>
+      <tr><td>审批意见 QA</td><td>${QA_DATA.filter(d=>d.source==='审批意见').length}</td></tr>
+      <tr><td>技术审查 QA</td><td>${QA_DATA.filter(d=>d.source==='技术审查').length}</td></tr>
+      <tr><td>涉及企业数</td><td>${new Set(QA_DATA.map(d=>d.company)).size}</td></tr>
+      <tr><td>覆盖镇街</td><td>${new Set(QA_DATA.map(d=>d.region)).size}</td></tr>
+      <tr><td>项目类型数</td><td>${new Set(QA_DATA.map(d=>d.project_type)).size}</td></tr>
+      <tr><td>项目类型</td><td>${[...new Set(QA_DATA.map(d=>d.project_type))].join('、')}</td></tr>
+      <tr><td>平均评分</td><td>${(QA_DATA.reduce((s,d)=>s+d.score,0)/QA_DATA.length).toFixed(1)}</td></tr>
+      <tr><td>引用标准总数</td><td>${new Set(QA_DATA.flatMap(d=>d.standards).filter(Boolean)).size}</td></tr>
+    </table>
+  `;
+}
+
+// Init
+renderOverview();
+</script>
+</body>
+</html>

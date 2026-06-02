@@ -1,0 +1,515 @@
+app:
+  description: 环评审核10qwen3：32b
+  icon: 🤖
+  icon_background: '#FFEAD5'
+  icon_type: emoji
+  mode: workflow
+  name: 10.运营期间产污环节污染物产污系数使用合理性与定量核算准确性判定
+  use_icon_as_answer_icon: false
+dependencies:
+- current_identifier: null
+  type: marketplace
+  value:
+    marketplace_plugin_unique_identifier: langgenius/tongyi:0.0.30@c8acdf4467408345fc51d3d9e45484614295b9f7c4d20ff0ce03940368bf286a
+    version: null
+kind: app
+version: 0.6.0
+workflow:
+  conversation_variables: []
+  environment_variables: []
+  features:
+    file_upload:
+      allowed_file_extensions:
+      - .JPG
+      - .JPEG
+      - .PNG
+      - .GIF
+      - .WEBP
+      - .SVG
+      allowed_file_types:
+      - image
+      allowed_file_upload_methods:
+      - local_file
+      - remote_url
+      enabled: false
+      fileUploadConfig:
+        attachment_image_file_size_limit: 2
+        audio_file_size_limit: 50
+        batch_count_limit: 10
+        file_size_limit: 150
+        file_upload_limit: 20
+        image_file_batch_limit: 10
+        image_file_size_limit: 10
+        single_chunk_attachment_limit: 10
+        video_file_size_limit: 100
+        workflow_file_upload_limit: 30
+      image:
+        enabled: false
+        number_limits: 3
+        transfer_methods:
+        - local_file
+        - remote_url
+      number_limits: 3
+    opening_statement: ''
+    retriever_resource:
+      enabled: true
+    sensitive_word_avoidance:
+      enabled: false
+    speech_to_text:
+      enabled: false
+    suggested_questions: []
+    suggested_questions_after_answer:
+      enabled: false
+    text_to_speech:
+      enabled: false
+      language: ''
+      voice: ''
+  graph:
+    edges:
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: iteration
+        targetType: end
+      id: 1755484784408-source-1755484926464-target
+      source: '1755484784408'
+      sourceHandle: source
+      target: '1755484926464'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInLoop: false
+        sourceType: start
+        targetType: code
+      id: 1755484564067-source-1755484732186-target
+      source: '1755484564067'
+      sourceHandle: source
+      target: '1755484732186'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInLoop: false
+        sourceType: code
+        targetType: iteration
+      id: 1755484732186-source-1755484784408-target
+      source: '1755484732186'
+      sourceHandle: source
+      target: '1755484784408'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1755484784408'
+        sourceType: iteration-start
+        targetType: code
+      id: 1755484784408start-source-1758078847211-target
+      source: 1755484784408start
+      sourceHandle: source
+      target: '1758078847211'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1755484784408'
+        sourceType: code
+        targetType: llm
+      id: 1758078847211-source-1755484787016-target
+      source: '1758078847211'
+      sourceHandle: source
+      target: '1755484787016'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1755484784408'
+        sourceType: llm
+        targetType: code
+      id: 1755484787016-source-1758078851988-target
+      source: '1755484787016'
+      sourceHandle: source
+      target: '1758078851988'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1755484784408'
+        sourceType: code
+        targetType: llm
+      id: 1758078851988-source-1758078856325-target
+      source: '1758078851988'
+      sourceHandle: source
+      target: '1758078856325'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    nodes:
+    - data:
+        desc: ''
+        selected: false
+        title: 开始
+        type: start
+        variables:
+        - label: html
+          max_length: 100000
+          options: []
+          required: true
+          type: paragraph
+          variable: html
+      height: 109
+      id: '1755484564067'
+      position:
+        x: 30
+        y: 304.5
+      positionAbsolute:
+        x: 30
+        y: 304.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+    - data:
+        code: "def main() -> dict:\n    prompt1 = {\n        'step1': \"\"\"\n请从环评报告中完成以下信息提取任务：\n\
+          \n### 任务一：定位章节内容\n1. **查找范围**：请严格限定在报告中的以下路径章节（若标题表述略有差异，以语义匹配为准）：\n   >\
+          \ “四、主要环境影响和保护措施” → “运营期环境影响和保护措施” → “（2）废气” → “1、废气源强分析”  \n   （也可能表述为“废气产排污核算”“有机废气源强分析”“有组织废气核算”等）\n\
+          \n2. **输出要求**：\n   - 若找到相关内容，按原文顺序完整输出该小节全部文字，包括段落、表格、公式、注释、引用标准、参数说明等；\n\
+          \   - 若未找到，直接输出：“无废气源强核算内容相关资料”。\n\n3. **禁止行为**：\n   - 不得自行总结、缩写、改写或解释原文；\n\
+          \   - 不得添加任何非原文内容；\n   - 必须保留原文中的数字、单位、公式（如 Q = W×H×Vx）、参数符号、表格编号、标准引用（如\
+          \ HJ 2026-2013）、控制风速、效率值等所有细节。\n\n---\n\n### 任务二：提取废气收集信息\n从上述章节中，逐项提取以下字段（若某字段未明确提及，填写“未提及”）：\n\
+          \n- **产污环节**（如：注塑、挤出、投料、破碎、烘干等，需具体到工序）\n- **主要污染物**（如：非甲烷总烃、颗粒物、臭气浓度、VOCs等）\n\
+          - **废气收集形式**（如：点对点局部密闭集气罩、整室负压、外部集气罩等；若提及控制风速、换气次数、罩口尺寸等，需一并写出）\n- **收集效率(%)**（仅提取明确给出的数值，如“65%”）\n\
+          - **收集效率参考文件**（如：《广东省工业源挥发性有机物减排量核算方法（2023年修订版）》）\n- **收集风量计算参考文件**（如：《废气处理工程技术手册》）\n\
+          - **收集风量计算公式**（完整公式，如 Q = W×H×Vx，保留原始符号）\n- **公式中参数说明**（对公式中每个参数的定义及取值说明，如\
+          \ W=0.5m, Vx=1.0m/s）\n- **设计风量冗余（比例）**（如：设计风量7500 m³/h，理论风量5400 m³/h，冗余39%；或引用“按120%设计”等描述）\n\
+          - **适用技术规范**（如：HJ 2026-2013、DB44/2367-2022、佛环函〔2024〕70号等）\n\n**输出格式**：\n\
+          废气收集信息汇总：\n产污环节：XXX\n主要污染物：XXX\n废气收集形式：XXX\n收集效率(%)：XX\n收集效率参考文件：XXX\n收集风量计算参考文件：XXX\n\
+          收集风量计算公式：XXX\n公式中参数说明：XXX\n设计风量冗余：XX%\n适用技术规范：XXX\n（若有多个有组织废气污染源，按污染源顺序重复上述结构）\n\
+          \n---\n\n### 任务三：提取总体合理性判断\n1. **提取内容**（仅限原文明确表述的判断语句）：\n   - 废气收集合理性（如：“本项目集气罩收集效率取65%，符合……要求”）\n\
+          \   - 风量计算合理性（如：“设计风量按理论风量120%取值，满足规范要求”）\n   - 改进建议（如有，如“建议加强密闭性”等）\n\n\
+          2. **输出格式**：\n总体合理性判断：\n废气收集合理性：XXX\n风量计算合理性：XXX\n改进建议：XXX\n\n---\n\n\n\
+          ### 任务四：提取审核要点依据\n1. **提取内容**（仅限原文引用或明确依据的标准/条款）：\n   - 收集效率合理性判断依据（如：参照《XX方法》表3.3-2中“半密闭型集气设备……”）\n\
+          \   - 风量计算合理性判断依据（如：控制风速≥0.3m/s，符合DB44/2367-2022第4.2条）\n   - 排放达标性判断依据（如：执行GB31572-2015表4标准）\n\
+          \   - 其他要求（如：活性炭碘值≥800mg/g，依据佛环函〔2024〕70号）\n\n2. **输出格式**：\n审核要点依据：\n收集效率合理性：XXX\n\
+          风量计算合理性：XXX\n排放达标性：XXX\n其他要求：XXX\n\n/no_think\n\"\"\",\n        'step2':\
+          \ \"\"\"\n根据 step1 提取的内容，整理并结构化输出如下信息：\n\n### 任务一：结构化废气收集信息\n1. 若未提取到“废气收集信息汇总”，此任务不输出。\n\
+          2. 若已提取，按以下 JSON 格式输出（字段必须完整，无内容填“未提及”）：\n\n{\n  \"key\": \"废气收集信息汇总\",\n\
+          \  \"format\": {\n    \"废气收集信息\": [\n      {\n        \"产污环节\": \"XXX\"\
+          ,\n        \"主要污染物\": \"XXX\",\n        \"废气收集形式\": \"XXX\",\n        \"\
+          收集效率(%)\": \"XX\",\n        \"收集效率参考文件\": \"XXX\",\n        \"收集风量计算参考文件\"\
+          : \"XXX\",\n        \"收集风量计算公式\": \"XXX\",\n        \"公式中参数说明\": \"XXX\"\
+          ,\n        \"设计风量冗余\": \"XX%\",\n        \"适用技术规范\": \"XXX\"\n      }\n\
+          \      // 可有多组\n    ],\n    \"总体合理性判断\": {\n      \"废气收集合理性\": \"XXX\",\n\
+          \      \"风量计算合理性\": \"XXX\",\n      \"改进建议\": \"XXX\"\n    }\n  },\n  \"\
+          source\": \"四、主要环境影响和保护措施 -> 运营期环境影响和保护措施 -> （2）废气 -> 1、废气源强分析\",\n  \"\
+          审核要点\": {\n    \"收集效率合理性\": \"XXX\",\n    \"风量计算合理性\": \"XXX\",\n    \"\
+          排放达标性\": \"XXX\",\n    \"其他要求\": \"XXX\"\n  }\n}\n\n### 任务二：合理性自动审核建议（可选）\n\
+          1. 仅当 step1 中明确提供了以下信息时，才生成审核建议：\n   - 收集效率数值 + 对应收集形式；\n   - 控制风速数值；\n\
+          \   - 排放浓度与标准限值对比；\n   - 活性炭设计参数（如填充厚度、风速、更换周期等）。\n2. 基于通用规范（如：局部集气罩控制风速应≥0.3m/s；设计风量宜为理论风量120%；活性炭碘值≥800mg/g\
+          \ 等），判断是否合规。\n3. 输出格式（仅当有明确判断依据时）：\n{\"自动审核建议\": \"收集效率XX%与所采用的[收集形式]是否匹配；控制风速X.Xm/s是否≥0.3m/s；设计风量是否按理论风量120%取值；活性炭参数是否符合佛环函〔2024〕70号等要求。\"\
+          }\n\n/no_think\n\"\"\"\n    }\n    return {\n        \"result\": [prompt1],\n\
+          \    }"
+        code_language: python3
+        desc: ''
+        outputs:
+          result:
+            children: null
+            type: array[object]
+        selected: false
+        title: 代码执行
+        type: code
+        variables: []
+      height: 52
+      id: '1755484732186'
+      position:
+        x: 336.00453949594055
+        y: 304.5
+      positionAbsolute:
+        x: 336.00453949594055
+        y: 304.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+    - data:
+        desc: ''
+        error_handle_mode: terminated
+        height: 209
+        is_parallel: false
+        iterator_selector:
+        - '1755484732186'
+        - result
+        output_selector:
+        - '1755484787016'
+        - text
+        output_type: array[string]
+        parallel_nums: 10
+        selected: true
+        start_node_id: 1755484784408start
+        title: 迭代
+        type: iteration
+        width: 1420
+      height: 209
+      id: '1755484784408'
+      position:
+        x: 638
+        y: 304.5
+      positionAbsolute:
+        x: 638
+        y: 304.5
+      selected: true
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 1420
+      zIndex: 1
+    - data:
+        desc: ''
+        isInIteration: true
+        selected: false
+        title: ''
+        type: iteration-start
+      draggable: false
+      height: 48
+      id: 1755484784408start
+      parentId: '1755484784408'
+      position:
+        x: 60
+        y: 80.5
+      positionAbsolute:
+        x: 698
+        y: 385
+      selectable: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom-iteration-start
+      width: 44
+      zIndex: 1002
+    - data:
+        context:
+          enabled: true
+          variable_selector:
+          - '1755484564067'
+          - html
+        desc: ''
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1755484784408'
+        model:
+          completion_params: {}
+          mode: chat
+          name: qwen3-32b
+          provider: langgenius/tongyi/tongyi
+        prompt_template:
+        - id: 04624e20-4ef6-4d97-85a5-5243b6a05acc
+          role: system
+          text: '你是一位严谨认真的信息填报员，专门负责从用户提供的资料中，提取关键信息，并整理为规范的格式。
+
+            用户提供的资料如下：
+
+            {{#context#}}'
+        - id: 011e4780-f62b-4d34-aa66-15f54cbb0a18
+          role: user
+          text: '{{#1758078847211.result#}}'
+        selected: false
+        title: LLM
+        type: llm
+        variables: []
+        vision:
+          enabled: false
+      height: 88
+      id: '1755484787016'
+      parentId: '1755484784408'
+      position:
+        x: 508
+        y: 60
+      positionAbsolute:
+        x: 1146
+        y: 364.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+      zIndex: 1002
+    - data:
+        desc: ''
+        outputs:
+        - value_selector:
+          - '1755484784408'
+          - output
+          variable: output
+        selected: false
+        title: 结束
+        type: end
+      height: 88
+      id: '1755484926464'
+      position:
+        x: 2118
+        y: 304.5
+      positionAbsolute:
+        x: 2118
+        y: 304.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+    - data:
+        code: "\ndef main(prompt) -> dict:\n    return {\n        \"result\": prompt[\"\
+          step1\"],\n    }\n"
+        code_language: python3
+        desc: ''
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1755484784408'
+        outputs:
+          result:
+            children: null
+            type: string
+        selected: false
+        title: 代码执行 2
+        type: code
+        variables:
+        - value_selector:
+          - '1755484784408'
+          - item
+          value_type: object
+          variable: prompt
+      height: 52
+      id: '1758078847211'
+      parentId: '1755484784408'
+      position:
+        x: 204
+        y: 78
+      positionAbsolute:
+        x: 842
+        y: 382.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+      zIndex: 1002
+    - data:
+        code: "def main(prompt) -> dict:\n    return {\n        \"result\": prompt[\"\
+          step2\"],\n    }\n"
+        code_language: python3
+        desc: ''
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1755484784408'
+        outputs:
+          result:
+            children: null
+            type: string
+        selected: false
+        title: 代码执行 3
+        type: code
+        variables:
+        - value_selector:
+          - '1755484784408'
+          - item
+          value_type: object
+          variable: prompt
+      height: 52
+      id: '1758078851988'
+      parentId: '1755484784408'
+      position:
+        x: 812
+        y: 78
+      positionAbsolute:
+        x: 1450
+        y: 382.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+      zIndex: 1002
+    - data:
+        context:
+          enabled: true
+          variable_selector:
+          - '1755484787016'
+          - text
+        desc: ''
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1755484784408'
+        model:
+          completion_params:
+            temperature: 0.7
+          mode: chat
+          name: qwen3-32b
+          provider: langgenius/tongyi/tongyi
+        prompt_template:
+        - id: 978646c5-8752-407c-b384-a99032ab035d
+          role: system
+          text: '你是一位严谨认真的信息填报员，专门负责从用户提供的资料中，提取关键信息，并整理为规范的格式。
+
+            用户提供的资料如下：
+
+            {{#context#}}'
+        - id: 9b97feaf-80a1-4a20-a64c-7368942527c6
+          role: user
+          text: '{{#1758078851988.result#}}'
+        selected: false
+        title: LLM 3
+        type: llm
+        variables: []
+        vision:
+          enabled: false
+      height: 88
+      id: '1758078856325'
+      parentId: '1755484784408'
+      position:
+        x: 1116
+        y: 60
+      positionAbsolute:
+        x: 1754
+        y: 364.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+      zIndex: 1002
+    - data:
+        author: 杨龙翔
+        desc: ''
+        height: 88
+        selected: false
+        showAuthor: true
+        text: '{"root":{"children":[{"children":[{"detail":0,"format":0,"mode":"normal","style":"","text":"9.17提取废气核算的内容","type":"text","version":1}],"direction":"ltr","format":"","indent":0,"type":"paragraph","version":1,"textFormat":0,"textStyle":""},{"children":[],"direction":"ltr","format":"","indent":0,"type":"paragraph","version":1,"textFormat":0,"textStyle":""}],"direction":"ltr","format":"","indent":0,"type":"root","version":1}}'
+        theme: blue
+        title: ''
+        type: ''
+        width: 240
+      height: 88
+      id: '1758079850506'
+      position:
+        x: 875.7142857142858
+        y: 145.71428571428572
+      positionAbsolute:
+        x: 875.7142857142858
+        y: 145.71428571428572
+      sourcePosition: right
+      targetPosition: left
+      type: custom-note
+      width: 240
+    viewport:
+      x: 2.4558496424951954
+      y: 234.14397899384846
+      zoom: 0.7578582832552002
+  rag_pipeline_variables: []

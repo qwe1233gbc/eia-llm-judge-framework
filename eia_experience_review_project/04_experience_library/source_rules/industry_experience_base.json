@@ -1,0 +1,2337 @@
+{
+  "C2929": {
+    "industry_name": "塑料零件及其他塑料制品制造",
+    "total_approvals": 28,
+    "elements": {
+      "water": {
+        "name_zh": "废水",
+        "total_approvals_mentioning": 8,
+        "standards_total": 1,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "DB44/26-2001",
+            "code": "DB44/26-2001",
+            "description": "广东省水污染物排放限值",
+            "count": 8,
+            "rate": "29%"
+          }
+        ]
+      },
+      "waste_gas": {
+        "name_zh": "废气",
+        "total_approvals_mentioning": 14,
+        "standards_total": 10,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB31572-2015",
+            "code": "GB31572-2015",
+            "description": "合成树脂工业污染物排放标准",
+            "count": 14,
+            "rate": "50%"
+          },
+          {
+            "standard": "DB44/27-2001",
+            "code": "DB44/27-2001",
+            "description": "广东省大气污染物排放限值",
+            "count": 9,
+            "rate": "32%"
+          },
+          {
+            "standard": "DB44/2367-2022",
+            "code": "DB44/2367-2022",
+            "description": "固定污染源挥发性有机物综合排放标准",
+            "count": 5,
+            "rate": "18%"
+          },
+          {
+            "standard": "DB44/814-2010",
+            "code": "DB44/814-2010",
+            "description": "表面涂装(汽车制造业)挥发性有机物排放标准",
+            "count": 1,
+            "rate": "4%"
+          },
+          {
+            "standard": "DB4427-2001",
+            "code": "DB4427-2001",
+            "description": "",
+            "count": 1,
+            "rate": "4%"
+          },
+          {
+            "standard": "DB44/816-2010",
+            "code": "DB44/816-2010",
+            "description": "表面涂装(家具制造业)挥发性有机物排放标准",
+            "count": 1,
+            "rate": "4%"
+          },
+          {
+            "standard": "GB14554-1993",
+            "code": "GB14554-1993",
+            "description": "恶臭污染物排放标准",
+            "count": 1,
+            "rate": "4%"
+          },
+          {
+            "standard": "GB37822-2019",
+            "code": "GB37822-2019",
+            "description": "挥发性有机物无组织排放控制标准",
+            "count": 1,
+            "rate": "4%"
+          },
+          {
+            "standard": "DB44/26-2001",
+            "code": "DB44/26-2001",
+            "description": "广东省水污染物排放限值",
+            "count": 1,
+            "rate": "4%"
+          },
+          {
+            "standard": "DB44/T2367-2022",
+            "code": "DB44/T2367-2022",
+            "description": "",
+            "count": 1,
+            "rate": "4%"
+          }
+        ]
+      },
+      "noise": {
+        "name_zh": "噪声",
+        "total_approvals_mentioning": 9,
+        "standards_total": 1,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB12348-2008",
+            "code": "GB12348-2008",
+            "description": "工业企业厂界环境噪声排放标准",
+            "count": 9,
+            "rate": "32%"
+          }
+        ]
+      },
+      "solid_waste": {
+        "name_zh": "固废",
+        "total_approvals_mentioning": 4,
+        "standards_total": 3,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB18599-2001",
+            "code": "GB18599-2001",
+            "description": "一般工业固体废物贮存和填埋污染控制标准",
+            "count": 4,
+            "rate": "14%"
+          },
+          {
+            "standard": "GB18597-2001",
+            "code": "GB18597-2001",
+            "description": "危险废物贮存污染控制标准",
+            "count": 4,
+            "rate": "14%"
+          },
+          {
+            "standard": "GB18599-2020",
+            "code": "GB18599-2020",
+            "description": "一般工业固体废物贮存和填埋污染控制标准",
+            "count": 2,
+            "rate": "7%"
+          }
+        ]
+      },
+      "hazardous_waste": {
+        "name_zh": "危废",
+        "total_approvals_mentioning": 12,
+        "standards_total": 4,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB18597-2023",
+            "code": "GB18597-2023",
+            "description": "危险废物贮存污染控制标准",
+            "count": 8,
+            "rate": "29%"
+          },
+          {
+            "standard": "GB18599-2001",
+            "code": "GB18599-2001",
+            "description": "一般工业固体废物贮存和填埋污染控制标准",
+            "count": 4,
+            "rate": "14%"
+          },
+          {
+            "standard": "GB18597-2001",
+            "code": "GB18597-2001",
+            "description": "危险废物贮存污染控制标准",
+            "count": 4,
+            "rate": "14%"
+          },
+          {
+            "standard": "GB18599-2020",
+            "code": "GB18599-2020",
+            "description": "一般工业固体废物贮存和填埋污染控制标准",
+            "count": 2,
+            "rate": "7%"
+          }
+        ]
+      }
+    }
+  },
+  "C3360": {
+    "industry_name": "金属表面处理及热处理加工",
+    "total_approvals": 11,
+    "elements": {
+      "water": {
+        "name_zh": "废水",
+        "total_approvals_mentioning": 2,
+        "standards_total": 1,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "DB44/26-2001",
+            "code": "DB44/26-2001",
+            "description": "广东省水污染物排放限值",
+            "count": 2,
+            "rate": "18%"
+          }
+        ]
+      },
+      "waste_gas": {
+        "name_zh": "废气",
+        "total_approvals_mentioning": 2,
+        "standards_total": 2,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "DB44/27-2001",
+            "code": "DB44/27-2001",
+            "description": "广东省大气污染物排放限值",
+            "count": 2,
+            "rate": "18%"
+          },
+          {
+            "standard": "DB44/2367-2022",
+            "code": "DB44/2367-2022",
+            "description": "固定污染源挥发性有机物综合排放标准",
+            "count": 1,
+            "rate": "9%"
+          }
+        ]
+      },
+      "noise": {
+        "name_zh": "噪声",
+        "total_approvals_mentioning": 2,
+        "standards_total": 1,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB12348-2008",
+            "code": "GB12348-2008",
+            "description": "工业企业厂界环境噪声排放标准",
+            "count": 2,
+            "rate": "18%"
+          }
+        ]
+      },
+      "solid_waste": {
+        "name_zh": "固废",
+        "total_approvals_mentioning": 2,
+        "standards_total": 2,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB18599-2001",
+            "code": "GB18599-2001",
+            "description": "一般工业固体废物贮存和填埋污染控制标准",
+            "count": 2,
+            "rate": "18%"
+          },
+          {
+            "standard": "GB18597-2001",
+            "code": "GB18597-2001",
+            "description": "危险废物贮存污染控制标准",
+            "count": 2,
+            "rate": "18%"
+          }
+        ]
+      },
+      "hazardous_waste": {
+        "name_zh": "危废",
+        "total_approvals_mentioning": 2,
+        "standards_total": 2,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB18599-2001",
+            "code": "GB18599-2001",
+            "description": "一般工业固体废物贮存和填埋污染控制标准",
+            "count": 2,
+            "rate": "18%"
+          },
+          {
+            "standard": "GB18597-2001",
+            "code": "GB18597-2001",
+            "description": "危险废物贮存污染控制标准",
+            "count": 2,
+            "rate": "18%"
+          }
+        ]
+      }
+    }
+  },
+  "C3854": {
+    "industry_name": "家用厨房电器具制造",
+    "total_approvals": 8,
+    "elements": {
+      "water": {
+        "name_zh": "废水",
+        "total_approvals_mentioning": 5,
+        "standards_total": 2,
+        "strong_common": [],
+        "general_common": [
+          {
+            "standard": "DB44/26-2001",
+            "code": "DB44/26-2001",
+            "description": "广东省水污染物排放限值",
+            "count": 5,
+            "rate": "62%"
+          }
+        ],
+        "all_standards": [
+          {
+            "standard": "DB44/26-2001",
+            "code": "DB44/26-2001",
+            "description": "广东省水污染物排放限值",
+            "count": 5,
+            "rate": "62%"
+          },
+          {
+            "standard": "DB44/27-2001",
+            "code": "DB44/27-2001",
+            "description": "广东省大气污染物排放限值",
+            "count": 1,
+            "rate": "12%"
+          }
+        ]
+      },
+      "waste_gas": {
+        "name_zh": "废气",
+        "total_approvals_mentioning": 5,
+        "standards_total": 8,
+        "strong_common": [],
+        "general_common": [
+          {
+            "standard": "DB44/27-2001",
+            "code": "DB44/27-2001",
+            "description": "广东省大气污染物排放限值",
+            "count": 5,
+            "rate": "62%"
+          }
+        ],
+        "all_standards": [
+          {
+            "standard": "DB44/27-2001",
+            "code": "DB44/27-2001",
+            "description": "广东省大气污染物排放限值",
+            "count": 5,
+            "rate": "62%"
+          },
+          {
+            "standard": "DB44/815-2010",
+            "code": "DB44/815-2010",
+            "description": "表面涂装(集装箱制造业)挥发性有机物排放标准",
+            "count": 4,
+            "rate": "50%"
+          },
+          {
+            "standard": "DB44/814-2010",
+            "code": "DB44/814-2010",
+            "description": "表面涂装(汽车制造业)挥发性有机物排放标准",
+            "count": 4,
+            "rate": "50%"
+          },
+          {
+            "standard": "GB18483-2001",
+            "code": "GB18483-2001",
+            "description": "饮食业油烟排放标准",
+            "count": 2,
+            "rate": "25%"
+          },
+          {
+            "standard": "GB37822-2019",
+            "code": "GB37822-2019",
+            "description": "挥发性有机物无组织排放控制标准",
+            "count": 2,
+            "rate": "25%"
+          },
+          {
+            "standard": "GB31572-2015",
+            "code": "GB31572-2015",
+            "description": "合成树脂工业污染物排放标准",
+            "count": 1,
+            "rate": "12%"
+          },
+          {
+            "standard": "DB44/26-2001",
+            "code": "DB44/26-2001",
+            "description": "广东省水污染物排放限值",
+            "count": 1,
+            "rate": "12%"
+          },
+          {
+            "standard": "DB44/2367-2022",
+            "code": "DB44/2367-2022",
+            "description": "固定污染源挥发性有机物综合排放标准",
+            "count": 1,
+            "rate": "12%"
+          }
+        ]
+      },
+      "noise": {
+        "name_zh": "噪声",
+        "total_approvals_mentioning": 4,
+        "standards_total": 1,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB12348-2008",
+            "code": "GB12348-2008",
+            "description": "工业企业厂界环境噪声排放标准",
+            "count": 4,
+            "rate": "50%"
+          }
+        ]
+      },
+      "solid_waste": {
+        "name_zh": "固废",
+        "total_approvals_mentioning": 4,
+        "standards_total": 3,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB18597-2001",
+            "code": "GB18597-2001",
+            "description": "危险废物贮存污染控制标准",
+            "count": 4,
+            "rate": "50%"
+          },
+          {
+            "standard": "GB18599-2001",
+            "code": "GB18599-2001",
+            "description": "一般工业固体废物贮存和填埋污染控制标准",
+            "count": 3,
+            "rate": "38%"
+          },
+          {
+            "standard": "GB18599-2020",
+            "code": "GB18599-2020",
+            "description": "一般工业固体废物贮存和填埋污染控制标准",
+            "count": 1,
+            "rate": "12%"
+          }
+        ]
+      },
+      "hazardous_waste": {
+        "name_zh": "危废",
+        "total_approvals_mentioning": 4,
+        "standards_total": 3,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB18597-2001",
+            "code": "GB18597-2001",
+            "description": "危险废物贮存污染控制标准",
+            "count": 4,
+            "rate": "50%"
+          },
+          {
+            "standard": "GB18599-2001",
+            "code": "GB18599-2001",
+            "description": "一般工业固体废物贮存和填埋污染控制标准",
+            "count": 3,
+            "rate": "38%"
+          },
+          {
+            "standard": "GB18599-2020",
+            "code": "GB18599-2020",
+            "description": "一般工业固体废物贮存和填埋污染控制标准",
+            "count": 1,
+            "rate": "12%"
+          }
+        ]
+      }
+    }
+  },
+  "C3392": {
+    "industry_name": "有色金属铸造",
+    "total_approvals": 5,
+    "elements": {
+      "water": {
+        "name_zh": "废水",
+        "total_approvals_mentioning": 1,
+        "standards_total": 1,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "DB44/26-2001",
+            "code": "DB44/26-2001",
+            "description": "广东省水污染物排放限值",
+            "count": 1,
+            "rate": "20%"
+          }
+        ]
+      },
+      "waste_gas": {
+        "name_zh": "废气",
+        "total_approvals_mentioning": 3,
+        "standards_total": 6,
+        "strong_common": [],
+        "general_common": [
+          {
+            "standard": "DB44/27-2001",
+            "code": "DB44/27-2001",
+            "description": "广东省大气污染物排放限值",
+            "count": 3,
+            "rate": "60%"
+          }
+        ],
+        "all_standards": [
+          {
+            "standard": "DB44/27-2001",
+            "code": "DB44/27-2001",
+            "description": "广东省大气污染物排放限值",
+            "count": 3,
+            "rate": "60%"
+          },
+          {
+            "standard": "GB37822-2019",
+            "code": "GB37822-2019",
+            "description": "挥发性有机物无组织排放控制标准",
+            "count": 2,
+            "rate": "40%"
+          },
+          {
+            "standard": "DB44/814-2010",
+            "code": "DB44/814-2010",
+            "description": "表面涂装(汽车制造业)挥发性有机物排放标准",
+            "count": 1,
+            "rate": "20%"
+          },
+          {
+            "standard": "GB9078-1996",
+            "code": "GB9078-1996",
+            "description": "工业炉窑大气污染物排放标准",
+            "count": 1,
+            "rate": "20%"
+          },
+          {
+            "standard": "DB44/2367-2022",
+            "code": "DB44/2367-2022",
+            "description": "固定污染源挥发性有机物综合排放标准",
+            "count": 1,
+            "rate": "20%"
+          },
+          {
+            "standard": "GB31572-2015",
+            "code": "GB31572-2015",
+            "description": "合成树脂工业污染物排放标准",
+            "count": 1,
+            "rate": "20%"
+          }
+        ]
+      },
+      "noise": {
+        "name_zh": "噪声",
+        "total_approvals_mentioning": 2,
+        "standards_total": 1,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB12348-2008",
+            "code": "GB12348-2008",
+            "description": "工业企业厂界环境噪声排放标准",
+            "count": 2,
+            "rate": "40%"
+          }
+        ]
+      },
+      "solid_waste": {
+        "name_zh": "固废",
+        "total_approvals_mentioning": 2,
+        "standards_total": 2,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB18599-2001",
+            "code": "GB18599-2001",
+            "description": "一般工业固体废物贮存和填埋污染控制标准",
+            "count": 2,
+            "rate": "40%"
+          },
+          {
+            "standard": "GB18597-2001",
+            "code": "GB18597-2001",
+            "description": "危险废物贮存污染控制标准",
+            "count": 1,
+            "rate": "20%"
+          }
+        ]
+      },
+      "hazardous_waste": {
+        "name_zh": "危废",
+        "total_approvals_mentioning": 2,
+        "standards_total": 2,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB18599-2001",
+            "code": "GB18599-2001",
+            "description": "一般工业固体废物贮存和填埋污染控制标准",
+            "count": 2,
+            "rate": "40%"
+          },
+          {
+            "standard": "GB18597-2001",
+            "code": "GB18597-2001",
+            "description": "危险废物贮存污染控制标准",
+            "count": 1,
+            "rate": "20%"
+          }
+        ]
+      }
+    }
+  },
+  "C2922": {
+    "industry_name": "塑料板、管、型材制造",
+    "total_approvals": 4,
+    "elements": {
+      "water": {
+        "name_zh": "废水",
+        "total_approvals_mentioning": 1,
+        "standards_total": 1,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "DB44/26-2001",
+            "code": "DB44/26-2001",
+            "description": "广东省水污染物排放限值",
+            "count": 1,
+            "rate": "25%"
+          }
+        ]
+      },
+      "waste_gas": {
+        "name_zh": "废气",
+        "total_approvals_mentioning": 1,
+        "standards_total": 2,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "DB44/27-2001",
+            "code": "DB44/27-2001",
+            "description": "广东省大气污染物排放限值",
+            "count": 1,
+            "rate": "25%"
+          },
+          {
+            "standard": "DB44/2367-2022",
+            "code": "DB44/2367-2022",
+            "description": "固定污染源挥发性有机物综合排放标准",
+            "count": 1,
+            "rate": "25%"
+          }
+        ]
+      },
+      "noise": {
+        "name_zh": "噪声",
+        "total_approvals_mentioning": 1,
+        "standards_total": 1,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB12348-2008",
+            "code": "GB12348-2008",
+            "description": "工业企业厂界环境噪声排放标准",
+            "count": 1,
+            "rate": "25%"
+          }
+        ]
+      },
+      "hazardous_waste": {
+        "name_zh": "危废",
+        "total_approvals_mentioning": 1,
+        "standards_total": 1,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB18597-2023",
+            "code": "GB18597-2023",
+            "description": "危险废物贮存污染控制标准",
+            "count": 1,
+            "rate": "25%"
+          }
+        ]
+      }
+    }
+  },
+  "C3857": {
+    "industry_name": "家用电力器具专用配件制造",
+    "total_approvals": 4,
+    "elements": {
+      "water": {
+        "name_zh": "废水",
+        "total_approvals_mentioning": 2,
+        "standards_total": 1,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "DB44/26-2001",
+            "code": "DB44/26-2001",
+            "description": "广东省水污染物排放限值",
+            "count": 2,
+            "rate": "50%"
+          }
+        ]
+      },
+      "waste_gas": {
+        "name_zh": "废气",
+        "total_approvals_mentioning": 3,
+        "standards_total": 3,
+        "strong_common": [],
+        "general_common": [
+          {
+            "standard": "DB44/27-2001",
+            "code": "DB44/27-2001",
+            "description": "广东省大气污染物排放限值",
+            "count": 3,
+            "rate": "75%"
+          },
+          {
+            "standard": "DB44/2367-2022",
+            "code": "DB44/2367-2022",
+            "description": "固定污染源挥发性有机物综合排放标准",
+            "count": 3,
+            "rate": "75%"
+          }
+        ],
+        "all_standards": [
+          {
+            "standard": "DB44/27-2001",
+            "code": "DB44/27-2001",
+            "description": "广东省大气污染物排放限值",
+            "count": 3,
+            "rate": "75%"
+          },
+          {
+            "standard": "DB44/2367-2022",
+            "code": "DB44/2367-2022",
+            "description": "固定污染源挥发性有机物综合排放标准",
+            "count": 3,
+            "rate": "75%"
+          },
+          {
+            "standard": "GB31572-2015",
+            "code": "GB31572-2015",
+            "description": "合成树脂工业污染物排放标准",
+            "count": 2,
+            "rate": "50%"
+          }
+        ]
+      },
+      "noise": {
+        "name_zh": "噪声",
+        "total_approvals_mentioning": 2,
+        "standards_total": 1,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB12348-2008",
+            "code": "GB12348-2008",
+            "description": "工业企业厂界环境噪声排放标准",
+            "count": 2,
+            "rate": "50%"
+          }
+        ]
+      },
+      "hazardous_waste": {
+        "name_zh": "危废",
+        "total_approvals_mentioning": 2,
+        "standards_total": 1,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB18597-2023",
+            "code": "GB18597-2023",
+            "description": "危险废物贮存污染控制标准",
+            "count": 2,
+            "rate": "50%"
+          }
+        ]
+      }
+    }
+  },
+  "C2913": {
+    "industry_name": "橡胶零件制造",
+    "total_approvals": 3,
+    "elements": {}
+  },
+  "C3389": {
+    "industry_name": "其他金属制日用品制造",
+    "total_approvals": 3,
+    "elements": {}
+  },
+  "C3670": {
+    "industry_name": "汽车零部件及配件制造",
+    "total_approvals": 3,
+    "elements": {}
+  },
+  "C3829": {
+    "industry_name": "其他输配电及控制设备制造",
+    "total_approvals": 2,
+    "elements": {
+      "water": {
+        "name_zh": "废水",
+        "total_approvals_mentioning": 1,
+        "standards_total": 1,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "DB44/26-2001",
+            "code": "DB44/26-2001",
+            "description": "广东省水污染物排放限值",
+            "count": 1,
+            "rate": "50%"
+          }
+        ]
+      },
+      "waste_gas": {
+        "name_zh": "废气",
+        "total_approvals_mentioning": 1,
+        "standards_total": 1,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "DB44/27-2001",
+            "code": "DB44/27-2001",
+            "description": "广东省大气污染物排放限值",
+            "count": 1,
+            "rate": "50%"
+          }
+        ]
+      },
+      "solid_waste": {
+        "name_zh": "固废",
+        "total_approvals_mentioning": 1,
+        "standards_total": 2,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB18599-2001",
+            "code": "GB18599-2001",
+            "description": "一般工业固体废物贮存和填埋污染控制标准",
+            "count": 1,
+            "rate": "50%"
+          },
+          {
+            "standard": "GB18597-2001",
+            "code": "GB18597-2001",
+            "description": "危险废物贮存污染控制标准",
+            "count": 1,
+            "rate": "50%"
+          }
+        ]
+      },
+      "hazardous_waste": {
+        "name_zh": "危废",
+        "total_approvals_mentioning": 1,
+        "standards_total": 2,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB18599-2001",
+            "code": "GB18599-2001",
+            "description": "一般工业固体废物贮存和填埋污染控制标准",
+            "count": 1,
+            "rate": "50%"
+          },
+          {
+            "standard": "GB18597-2001",
+            "code": "GB18597-2001",
+            "description": "危险废物贮存污染控制标准",
+            "count": 1,
+            "rate": "50%"
+          }
+        ]
+      }
+    }
+  },
+  "C3399": {
+    "industry_name": "其他未列明金属制品制造",
+    "total_approvals": 2,
+    "elements": {
+      "water": {
+        "name_zh": "废水",
+        "total_approvals_mentioning": 1,
+        "standards_total": 1,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "DB44/26-2001",
+            "code": "DB44/26-2001",
+            "description": "广东省水污染物排放限值",
+            "count": 1,
+            "rate": "50%"
+          }
+        ]
+      },
+      "solid_waste": {
+        "name_zh": "固废",
+        "total_approvals_mentioning": 1,
+        "standards_total": 2,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB18599-2001",
+            "code": "GB18599-2001",
+            "description": "一般工业固体废物贮存和填埋污染控制标准",
+            "count": 1,
+            "rate": "50%"
+          },
+          {
+            "standard": "GB18597-2001",
+            "code": "GB18597-2001",
+            "description": "危险废物贮存污染控制标准",
+            "count": 1,
+            "rate": "50%"
+          }
+        ]
+      },
+      "hazardous_waste": {
+        "name_zh": "危废",
+        "total_approvals_mentioning": 1,
+        "standards_total": 2,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB18599-2001",
+            "code": "GB18599-2001",
+            "description": "一般工业固体废物贮存和填埋污染控制标准",
+            "count": 1,
+            "rate": "50%"
+          },
+          {
+            "standard": "GB18597-2001",
+            "code": "GB18597-2001",
+            "description": "危险废物贮存污染控制标准",
+            "count": 1,
+            "rate": "50%"
+          }
+        ]
+      }
+    }
+  },
+  "C2231": {
+    "industry_name": "纸和纸板容器制造",
+    "total_approvals": 2,
+    "elements": {
+      "waste_gas": {
+        "name_zh": "废气",
+        "total_approvals_mentioning": 1,
+        "standards_total": 1,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "DB44/27-2001",
+            "code": "DB44/27-2001",
+            "description": "广东省大气污染物排放限值",
+            "count": 1,
+            "rate": "50%"
+          }
+        ]
+      }
+    }
+  },
+  "C2662": {
+    "industry_name": "专项化学用品制造",
+    "total_approvals": 2,
+    "elements": {}
+  },
+  "C3990": {
+    "industry_name": "其他电子设备制造",
+    "total_approvals": 2,
+    "elements": {}
+  },
+  "C3979": {
+    "industry_name": "其他电子器件制造",
+    "total_approvals": 2,
+    "elements": {}
+  },
+  "C3352": {
+    "industry_name": "建筑装饰及水暖管道零件制造",
+    "total_approvals": 2,
+    "elements": {}
+  },
+  "C3464": {
+    "industry_name": "制冷、空调设备制造",
+    "total_approvals": 2,
+    "elements": {
+      "water": {
+        "name_zh": "废水",
+        "total_approvals_mentioning": 1,
+        "standards_total": 1,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "DB44/26-2001",
+            "code": "DB44/26-2001",
+            "description": "广东省水污染物排放限值",
+            "count": 1,
+            "rate": "50%"
+          }
+        ]
+      },
+      "waste_gas": {
+        "name_zh": "废气",
+        "total_approvals_mentioning": 1,
+        "standards_total": 3,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "DB44/27-2001",
+            "code": "DB44/27-2001",
+            "description": "广东省大气污染物排放限值",
+            "count": 1,
+            "rate": "50%"
+          },
+          {
+            "standard": "DB44/2367-2022",
+            "code": "DB44/2367-2022",
+            "description": "固定污染源挥发性有机物综合排放标准",
+            "count": 1,
+            "rate": "50%"
+          },
+          {
+            "standard": "GB31572-2015",
+            "code": "GB31572-2015",
+            "description": "合成树脂工业污染物排放标准",
+            "count": 1,
+            "rate": "50%"
+          }
+        ]
+      },
+      "noise": {
+        "name_zh": "噪声",
+        "total_approvals_mentioning": 1,
+        "standards_total": 1,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB12348-2008",
+            "code": "GB12348-2008",
+            "description": "工业企业厂界环境噪声排放标准",
+            "count": 1,
+            "rate": "50%"
+          }
+        ]
+      }
+    }
+  },
+  "C3311": {
+    "industry_name": "金属结构制造",
+    "total_approvals": 2,
+    "elements": {
+      "water": {
+        "name_zh": "废水",
+        "total_approvals_mentioning": 1,
+        "standards_total": 1,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "DB44/26-2001",
+            "code": "DB44/26-2001",
+            "description": "广东省水污染物排放限值",
+            "count": 1,
+            "rate": "50%"
+          }
+        ]
+      },
+      "waste_gas": {
+        "name_zh": "废气",
+        "total_approvals_mentioning": 1,
+        "standards_total": 3,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "DB44/27-2001",
+            "code": "DB44/27-2001",
+            "description": "广东省大气污染物排放限值",
+            "count": 1,
+            "rate": "50%"
+          },
+          {
+            "standard": "DB44/2367-2022",
+            "code": "DB44/2367-2022",
+            "description": "固定污染源挥发性有机物综合排放标准",
+            "count": 1,
+            "rate": "50%"
+          },
+          {
+            "standard": "GB31572-2015",
+            "code": "GB31572-2015",
+            "description": "合成树脂工业污染物排放标准",
+            "count": 1,
+            "rate": "50%"
+          }
+        ]
+      },
+      "noise": {
+        "name_zh": "噪声",
+        "total_approvals_mentioning": 1,
+        "standards_total": 1,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB12348-2008",
+            "code": "GB12348-2008",
+            "description": "工业企业厂界环境噪声排放标准",
+            "count": 1,
+            "rate": "50%"
+          }
+        ]
+      },
+      "hazardous_waste": {
+        "name_zh": "危废",
+        "total_approvals_mentioning": 1,
+        "standards_total": 1,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB18597-2023",
+            "code": "GB18597-2023",
+            "description": "危险废物贮存污染控制标准",
+            "count": 1,
+            "rate": "50%"
+          }
+        ]
+      }
+    }
+  },
+  "C2926": {
+    "industry_name": "塑料包装箱及容器制造",
+    "total_approvals": 2,
+    "elements": {
+      "water": {
+        "name_zh": "废水",
+        "total_approvals_mentioning": 1,
+        "standards_total": 1,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "DB44/26-2001",
+            "code": "DB44/26-2001",
+            "description": "广东省水污染物排放限值",
+            "count": 1,
+            "rate": "50%"
+          }
+        ]
+      },
+      "waste_gas": {
+        "name_zh": "废气",
+        "total_approvals_mentioning": 1,
+        "standards_total": 3,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "DB44/27-2001",
+            "code": "DB44/27-2001",
+            "description": "广东省大气污染物排放限值",
+            "count": 1,
+            "rate": "50%"
+          },
+          {
+            "standard": "DB44/2367-2022",
+            "code": "DB44/2367-2022",
+            "description": "固定污染源挥发性有机物综合排放标准",
+            "count": 1,
+            "rate": "50%"
+          },
+          {
+            "standard": "GB31572-2015",
+            "code": "GB31572-2015",
+            "description": "合成树脂工业污染物排放标准",
+            "count": 1,
+            "rate": "50%"
+          }
+        ]
+      },
+      "noise": {
+        "name_zh": "噪声",
+        "total_approvals_mentioning": 1,
+        "standards_total": 1,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB12348-2008",
+            "code": "GB12348-2008",
+            "description": "工业企业厂界环境噪声排放标准",
+            "count": 1,
+            "rate": "50%"
+          }
+        ]
+      },
+      "hazardous_waste": {
+        "name_zh": "危废",
+        "total_approvals_mentioning": 1,
+        "standards_total": 1,
+        "strong_common": [],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB18597-2023",
+            "code": "GB18597-2023",
+            "description": "危险废物贮存污染控制标准",
+            "count": 1,
+            "rate": "50%"
+          }
+        ]
+      }
+    }
+  },
+  "C2921": {
+    "industry_name": "塑料薄膜制造",
+    "total_approvals": 2,
+    "elements": {}
+  },
+  "C3831": {
+    "industry_name": "电线、电缆制造",
+    "total_approvals": 1,
+    "elements": {
+      "waste_gas": {
+        "name_zh": "废气",
+        "total_approvals_mentioning": 1,
+        "standards_total": 3,
+        "strong_common": [
+          {
+            "standard": "DB44/815-2010",
+            "code": "DB44/815-2010",
+            "description": "表面涂装(集装箱制造业)挥发性有机物排放标准",
+            "count": 1,
+            "rate": "100%"
+          },
+          {
+            "standard": "GB31572-2015",
+            "code": "GB31572-2015",
+            "description": "合成树脂工业污染物排放标准",
+            "count": 1,
+            "rate": "100%"
+          },
+          {
+            "standard": "DB44/27-2001",
+            "code": "DB44/27-2001",
+            "description": "广东省大气污染物排放限值",
+            "count": 1,
+            "rate": "100%"
+          }
+        ],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "DB44/815-2010",
+            "code": "DB44/815-2010",
+            "description": "表面涂装(集装箱制造业)挥发性有机物排放标准",
+            "count": 1,
+            "rate": "100%"
+          },
+          {
+            "standard": "GB31572-2015",
+            "code": "GB31572-2015",
+            "description": "合成树脂工业污染物排放标准",
+            "count": 1,
+            "rate": "100%"
+          },
+          {
+            "standard": "DB44/27-2001",
+            "code": "DB44/27-2001",
+            "description": "广东省大气污染物排放限值",
+            "count": 1,
+            "rate": "100%"
+          }
+        ]
+      },
+      "noise": {
+        "name_zh": "噪声",
+        "total_approvals_mentioning": 1,
+        "standards_total": 1,
+        "strong_common": [
+          {
+            "standard": "GB12348-2008",
+            "code": "GB12348-2008",
+            "description": "工业企业厂界环境噪声排放标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB12348-2008",
+            "code": "GB12348-2008",
+            "description": "工业企业厂界环境噪声排放标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ]
+      },
+      "solid_waste": {
+        "name_zh": "固废",
+        "total_approvals_mentioning": 1,
+        "standards_total": 2,
+        "strong_common": [
+          {
+            "standard": "GB18599-2001",
+            "code": "GB18599-2001",
+            "description": "一般工业固体废物贮存和填埋污染控制标准",
+            "count": 1,
+            "rate": "100%"
+          },
+          {
+            "standard": "GB18597-2001",
+            "code": "GB18597-2001",
+            "description": "危险废物贮存污染控制标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB18599-2001",
+            "code": "GB18599-2001",
+            "description": "一般工业固体废物贮存和填埋污染控制标准",
+            "count": 1,
+            "rate": "100%"
+          },
+          {
+            "standard": "GB18597-2001",
+            "code": "GB18597-2001",
+            "description": "危险废物贮存污染控制标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ]
+      },
+      "hazardous_waste": {
+        "name_zh": "危废",
+        "total_approvals_mentioning": 1,
+        "standards_total": 2,
+        "strong_common": [
+          {
+            "standard": "GB18599-2001",
+            "code": "GB18599-2001",
+            "description": "一般工业固体废物贮存和填埋污染控制标准",
+            "count": 1,
+            "rate": "100%"
+          },
+          {
+            "standard": "GB18597-2001",
+            "code": "GB18597-2001",
+            "description": "危险废物贮存污染控制标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB18599-2001",
+            "code": "GB18599-2001",
+            "description": "一般工业固体废物贮存和填埋污染控制标准",
+            "count": 1,
+            "rate": "100%"
+          },
+          {
+            "standard": "GB18597-2001",
+            "code": "GB18597-2001",
+            "description": "危险废物贮存污染控制标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ]
+      }
+    }
+  },
+  "C3856": {
+    "industry_name": "家用美容、保健护理电器具制造",
+    "total_approvals": 1,
+    "elements": {
+      "water": {
+        "name_zh": "废水",
+        "total_approvals_mentioning": 1,
+        "standards_total": 3,
+        "strong_common": [
+          {
+            "standard": "DB44/27-2001",
+            "code": "DB44/27-2001",
+            "description": "广东省大气污染物排放限值",
+            "count": 1,
+            "rate": "100%"
+          },
+          {
+            "standard": "DB44/26-2001",
+            "code": "DB44/26-2001",
+            "description": "广东省水污染物排放限值",
+            "count": 1,
+            "rate": "100%"
+          },
+          {
+            "standard": "GB31572-2015",
+            "code": "GB31572-2015",
+            "description": "合成树脂工业污染物排放标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "DB44/27-2001",
+            "code": "DB44/27-2001",
+            "description": "广东省大气污染物排放限值",
+            "count": 1,
+            "rate": "100%"
+          },
+          {
+            "standard": "DB44/26-2001",
+            "code": "DB44/26-2001",
+            "description": "广东省水污染物排放限值",
+            "count": 1,
+            "rate": "100%"
+          },
+          {
+            "standard": "GB31572-2015",
+            "code": "GB31572-2015",
+            "description": "合成树脂工业污染物排放标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ]
+      },
+      "waste_gas": {
+        "name_zh": "废气",
+        "total_approvals_mentioning": 1,
+        "standards_total": 3,
+        "strong_common": [
+          {
+            "standard": "DB44/27-2001",
+            "code": "DB44/27-2001",
+            "description": "广东省大气污染物排放限值",
+            "count": 1,
+            "rate": "100%"
+          },
+          {
+            "standard": "DB44/26-2001",
+            "code": "DB44/26-2001",
+            "description": "广东省水污染物排放限值",
+            "count": 1,
+            "rate": "100%"
+          },
+          {
+            "standard": "GB31572-2015",
+            "code": "GB31572-2015",
+            "description": "合成树脂工业污染物排放标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "DB44/27-2001",
+            "code": "DB44/27-2001",
+            "description": "广东省大气污染物排放限值",
+            "count": 1,
+            "rate": "100%"
+          },
+          {
+            "standard": "DB44/26-2001",
+            "code": "DB44/26-2001",
+            "description": "广东省水污染物排放限值",
+            "count": 1,
+            "rate": "100%"
+          },
+          {
+            "standard": "GB31572-2015",
+            "code": "GB31572-2015",
+            "description": "合成树脂工业污染物排放标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ]
+      }
+    }
+  },
+  "C3252": {
+    "industry_name": "铝压延加工",
+    "total_approvals": 1,
+    "elements": {
+      "water": {
+        "name_zh": "废水",
+        "total_approvals_mentioning": 1,
+        "standards_total": 1,
+        "strong_common": [
+          {
+            "standard": "DB44/26-2001",
+            "code": "DB44/26-2001",
+            "description": "广东省水污染物排放限值",
+            "count": 1,
+            "rate": "100%"
+          }
+        ],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "DB44/26-2001",
+            "code": "DB44/26-2001",
+            "description": "广东省水污染物排放限值",
+            "count": 1,
+            "rate": "100%"
+          }
+        ]
+      },
+      "waste_gas": {
+        "name_zh": "废气",
+        "total_approvals_mentioning": 1,
+        "standards_total": 2,
+        "strong_common": [
+          {
+            "standard": "GB28665-2012",
+            "code": "GB28665-2012",
+            "description": "轧钢工业大气污染物排放标准",
+            "count": 1,
+            "rate": "100%"
+          },
+          {
+            "standard": "GB18483-2001",
+            "code": "GB18483-2001",
+            "description": "饮食业油烟排放标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB28665-2012",
+            "code": "GB28665-2012",
+            "description": "轧钢工业大气污染物排放标准",
+            "count": 1,
+            "rate": "100%"
+          },
+          {
+            "standard": "GB18483-2001",
+            "code": "GB18483-2001",
+            "description": "饮食业油烟排放标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ]
+      },
+      "noise": {
+        "name_zh": "噪声",
+        "total_approvals_mentioning": 1,
+        "standards_total": 1,
+        "strong_common": [
+          {
+            "standard": "GB12348-2008",
+            "code": "GB12348-2008",
+            "description": "工业企业厂界环境噪声排放标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB12348-2008",
+            "code": "GB12348-2008",
+            "description": "工业企业厂界环境噪声排放标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ]
+      }
+    }
+  },
+  "C3029": {
+    "industry_name": "其他水泥类似制品制造",
+    "total_approvals": 1,
+    "elements": {
+      "water": {
+        "name_zh": "废水",
+        "total_approvals_mentioning": 1,
+        "standards_total": 1,
+        "strong_common": [
+          {
+            "standard": "DB44/26-2001",
+            "code": "DB44/26-2001",
+            "description": "广东省水污染物排放限值",
+            "count": 1,
+            "rate": "100%"
+          }
+        ],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "DB44/26-2001",
+            "code": "DB44/26-2001",
+            "description": "广东省水污染物排放限值",
+            "count": 1,
+            "rate": "100%"
+          }
+        ]
+      },
+      "waste_gas": {
+        "name_zh": "废气",
+        "total_approvals_mentioning": 1,
+        "standards_total": 2,
+        "strong_common": [
+          {
+            "standard": "GB31572-2015",
+            "code": "GB31572-2015",
+            "description": "合成树脂工业污染物排放标准",
+            "count": 1,
+            "rate": "100%"
+          },
+          {
+            "standard": "GB37822-2019",
+            "code": "GB37822-2019",
+            "description": "挥发性有机物无组织排放控制标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB31572-2015",
+            "code": "GB31572-2015",
+            "description": "合成树脂工业污染物排放标准",
+            "count": 1,
+            "rate": "100%"
+          },
+          {
+            "standard": "GB37822-2019",
+            "code": "GB37822-2019",
+            "description": "挥发性有机物无组织排放控制标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ]
+      },
+      "solid_waste": {
+        "name_zh": "固废",
+        "total_approvals_mentioning": 1,
+        "standards_total": 1,
+        "strong_common": [
+          {
+            "standard": "GB18599-2020",
+            "code": "GB18599-2020",
+            "description": "一般工业固体废物贮存和填埋污染控制标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB18599-2020",
+            "code": "GB18599-2020",
+            "description": "一般工业固体废物贮存和填埋污染控制标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ]
+      },
+      "hazardous_waste": {
+        "name_zh": "危废",
+        "total_approvals_mentioning": 1,
+        "standards_total": 1,
+        "strong_common": [
+          {
+            "standard": "GB18599-2020",
+            "code": "GB18599-2020",
+            "description": "一般工业固体废物贮存和填埋污染控制标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB18599-2020",
+            "code": "GB18599-2020",
+            "description": "一般工业固体废物贮存和填埋污染控制标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ]
+      }
+    }
+  },
+  "C1499": {
+    "industry_name": "其他未列明食品制造",
+    "total_approvals": 1,
+    "elements": {
+      "water": {
+        "name_zh": "废水",
+        "total_approvals_mentioning": 1,
+        "standards_total": 1,
+        "strong_common": [
+          {
+            "standard": "DB44/26-2001",
+            "code": "DB44/26-2001",
+            "description": "广东省水污染物排放限值",
+            "count": 1,
+            "rate": "100%"
+          }
+        ],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "DB44/26-2001",
+            "code": "DB44/26-2001",
+            "description": "广东省水污染物排放限值",
+            "count": 1,
+            "rate": "100%"
+          }
+        ]
+      },
+      "waste_gas": {
+        "name_zh": "废气",
+        "total_approvals_mentioning": 1,
+        "standards_total": 2,
+        "strong_common": [
+          {
+            "standard": "DB44/27-2001",
+            "code": "DB44/27-2001",
+            "description": "广东省大气污染物排放限值",
+            "count": 1,
+            "rate": "100%"
+          },
+          {
+            "standard": "DB44/2367-2022",
+            "code": "DB44/2367-2022",
+            "description": "固定污染源挥发性有机物综合排放标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "DB44/27-2001",
+            "code": "DB44/27-2001",
+            "description": "广东省大气污染物排放限值",
+            "count": 1,
+            "rate": "100%"
+          },
+          {
+            "standard": "DB44/2367-2022",
+            "code": "DB44/2367-2022",
+            "description": "固定污染源挥发性有机物综合排放标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ]
+      },
+      "noise": {
+        "name_zh": "噪声",
+        "total_approvals_mentioning": 1,
+        "standards_total": 1,
+        "strong_common": [
+          {
+            "standard": "GB12348-2008",
+            "code": "GB12348-2008",
+            "description": "工业企业厂界环境噪声排放标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB12348-2008",
+            "code": "GB12348-2008",
+            "description": "工业企业厂界环境噪声排放标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ]
+      },
+      "hazardous_waste": {
+        "name_zh": "危废",
+        "total_approvals_mentioning": 1,
+        "standards_total": 1,
+        "strong_common": [
+          {
+            "standard": "GB18597-2023",
+            "code": "GB18597-2023",
+            "description": "危险废物贮存污染控制标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB18597-2023",
+            "code": "GB18597-2023",
+            "description": "危险废物贮存污染控制标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ]
+      }
+    }
+  },
+  "C3489": {
+    "industry_name": "其他通用零部件制造",
+    "total_approvals": 1,
+    "elements": {
+      "water": {
+        "name_zh": "废水",
+        "total_approvals_mentioning": 1,
+        "standards_total": 2,
+        "strong_common": [
+          {
+            "standard": "DB44/27-2001",
+            "code": "DB44/27-2001",
+            "description": "广东省大气污染物排放限值",
+            "count": 1,
+            "rate": "100%"
+          },
+          {
+            "standard": "DB44/26-2001",
+            "code": "DB44/26-2001",
+            "description": "广东省水污染物排放限值",
+            "count": 1,
+            "rate": "100%"
+          }
+        ],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "DB44/27-2001",
+            "code": "DB44/27-2001",
+            "description": "广东省大气污染物排放限值",
+            "count": 1,
+            "rate": "100%"
+          },
+          {
+            "standard": "DB44/26-2001",
+            "code": "DB44/26-2001",
+            "description": "广东省水污染物排放限值",
+            "count": 1,
+            "rate": "100%"
+          }
+        ]
+      },
+      "waste_gas": {
+        "name_zh": "废气",
+        "total_approvals_mentioning": 1,
+        "standards_total": 3,
+        "strong_common": [
+          {
+            "standard": "DB44/27-2001",
+            "code": "DB44/27-2001",
+            "description": "广东省大气污染物排放限值",
+            "count": 1,
+            "rate": "100%"
+          },
+          {
+            "standard": "GB39726-2020",
+            "code": "GB39726-2020",
+            "description": "铸造工业大气污染物排放标准",
+            "count": 1,
+            "rate": "100%"
+          },
+          {
+            "standard": "DB44/26-2001",
+            "code": "DB44/26-2001",
+            "description": "广东省水污染物排放限值",
+            "count": 1,
+            "rate": "100%"
+          }
+        ],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "DB44/27-2001",
+            "code": "DB44/27-2001",
+            "description": "广东省大气污染物排放限值",
+            "count": 1,
+            "rate": "100%"
+          },
+          {
+            "standard": "GB39726-2020",
+            "code": "GB39726-2020",
+            "description": "铸造工业大气污染物排放标准",
+            "count": 1,
+            "rate": "100%"
+          },
+          {
+            "standard": "DB44/26-2001",
+            "code": "DB44/26-2001",
+            "description": "广东省水污染物排放限值",
+            "count": 1,
+            "rate": "100%"
+          }
+        ]
+      }
+    }
+  },
+  "C2914": {
+    "industry_name": "再生橡胶制造",
+    "total_approvals": 1,
+    "elements": {}
+  },
+  "C3982": {
+    "industry_name": "电子电路制造",
+    "total_approvals": 1,
+    "elements": {}
+  },
+  "2929": {
+    "industry_name": "塑料零件及其他塑料制品制造",
+    "total_approvals": 1,
+    "elements": {}
+  },
+  "C2927": {
+    "industry_name": "日用塑料制品制造",
+    "total_approvals": 1,
+    "elements": {}
+  },
+  "F5265": {
+    "industry_name": "机动车燃油零售",
+    "total_approvals": 1,
+    "elements": {}
+  },
+  "C3351": {
+    "industry_name": "建筑、家具用金属配件制造",
+    "total_approvals": 1,
+    "elements": {}
+  },
+  "C3054": {
+    "industry_name": "日用玻璃制品制造",
+    "total_approvals": 1,
+    "elements": {}
+  },
+  "C2542": {
+    "industry_name": "生物质致密成型燃料加工",
+    "total_approvals": 1,
+    "elements": {}
+  },
+  "C1713": {
+    "industry_name": "棉印染精加工",
+    "total_approvals": 1,
+    "elements": {}
+  },
+  "C3353": {
+    "industry_name": "安全、消防用金属制品制造",
+    "total_approvals": 1,
+    "elements": {}
+  },
+  "C3382": {
+    "industry_name": "金属制餐具和器皿制造",
+    "total_approvals": 1,
+    "elements": {}
+  },
+  "C2641": {
+    "industry_name": "涂料制造",
+    "total_approvals": 1,
+    "elements": {}
+  },
+  "C3441": {
+    "industry_name": "泵及真空设备制造",
+    "total_approvals": 1,
+    "elements": {}
+  },
+  "C3483": {
+    "industry_name": "弹簧制造",
+    "total_approvals": 1,
+    "elements": {}
+  },
+  "C3812": {
+    "industry_name": "电动机制造",
+    "total_approvals": 1,
+    "elements": {}
+  },
+  "C3561": {
+    "industry_name": "电工机械专用设备制造",
+    "total_approvals": 1,
+    "elements": {
+      "water": {
+        "name_zh": "废水",
+        "total_approvals_mentioning": 1,
+        "standards_total": 1,
+        "strong_common": [
+          {
+            "standard": "DB44/26-2001",
+            "code": "DB44/26-2001",
+            "description": "广东省水污染物排放限值",
+            "count": 1,
+            "rate": "100%"
+          }
+        ],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "DB44/26-2001",
+            "code": "DB44/26-2001",
+            "description": "广东省水污染物排放限值",
+            "count": 1,
+            "rate": "100%"
+          }
+        ]
+      },
+      "waste_gas": {
+        "name_zh": "废气",
+        "total_approvals_mentioning": 1,
+        "standards_total": 2,
+        "strong_common": [
+          {
+            "standard": "DB44/2367-2022",
+            "code": "DB44/2367-2022",
+            "description": "固定污染源挥发性有机物综合排放标准",
+            "count": 1,
+            "rate": "100%"
+          },
+          {
+            "standard": "GB31572-2015",
+            "code": "GB31572-2015",
+            "description": "合成树脂工业污染物排放标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "DB44/2367-2022",
+            "code": "DB44/2367-2022",
+            "description": "固定污染源挥发性有机物综合排放标准",
+            "count": 1,
+            "rate": "100%"
+          },
+          {
+            "standard": "GB31572-2015",
+            "code": "GB31572-2015",
+            "description": "合成树脂工业污染物排放标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ]
+      },
+      "noise": {
+        "name_zh": "噪声",
+        "total_approvals_mentioning": 1,
+        "standards_total": 1,
+        "strong_common": [
+          {
+            "standard": "GB12348-2008",
+            "code": "GB12348-2008",
+            "description": "工业企业厂界环境噪声排放标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB12348-2008",
+            "code": "GB12348-2008",
+            "description": "工业企业厂界环境噪声排放标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ]
+      },
+      "hazardous_waste": {
+        "name_zh": "危废",
+        "total_approvals_mentioning": 1,
+        "standards_total": 1,
+        "strong_common": [
+          {
+            "standard": "GB18597-2023",
+            "code": "GB18597-2023",
+            "description": "危险废物贮存污染控制标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB18597-2023",
+            "code": "GB18597-2023",
+            "description": "危险废物贮存污染控制标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ]
+      }
+    }
+  },
+  "C2511": {
+    "industry_name": "原油加工及石油制品制造",
+    "total_approvals": 1,
+    "elements": {}
+  },
+  "C2034": {
+    "industry_name": "木地板制造",
+    "total_approvals": 1,
+    "elements": {}
+  },
+  "C4210": {
+    "industry_name": "金属废料和碎屑加工处理",
+    "total_approvals": 1,
+    "elements": {}
+  },
+  "C3443": {
+    "industry_name": "阀门和旋塞制造",
+    "total_approvals": 1,
+    "elements": {}
+  },
+  "C3031": {
+    "industry_name": "粘土砖瓦及建筑砌块制造",
+    "total_approvals": 1,
+    "elements": {}
+  },
+  "C3824": {
+    "industry_name": "电力电子元器件制造",
+    "total_approvals": 1,
+    "elements": {}
+  },
+  "C2646": {
+    "industry_name": "密封用填料及类似品制造",
+    "total_approvals": 1,
+    "elements": {}
+  },
+  "C2130": {
+    "industry_name": "金属家具制造",
+    "total_approvals": 1,
+    "elements": {}
+  },
+  "C1953": {
+    "industry_name": "塑料鞋制造",
+    "total_approvals": 1,
+    "elements": {}
+  },
+  "C1432": {
+    "industry_name": "速冻食品制造",
+    "total_approvals": 1,
+    "elements": {
+      "water": {
+        "name_zh": "废水",
+        "total_approvals_mentioning": 1,
+        "standards_total": 1,
+        "strong_common": [
+          {
+            "standard": "DB44/26-2001",
+            "code": "DB44/26-2001",
+            "description": "广东省水污染物排放限值",
+            "count": 1,
+            "rate": "100%"
+          }
+        ],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "DB44/26-2001",
+            "code": "DB44/26-2001",
+            "description": "广东省水污染物排放限值",
+            "count": 1,
+            "rate": "100%"
+          }
+        ]
+      },
+      "waste_gas": {
+        "name_zh": "废气",
+        "total_approvals_mentioning": 1,
+        "standards_total": 3,
+        "strong_common": [
+          {
+            "standard": "DB44/27-2001",
+            "code": "DB44/27-2001",
+            "description": "广东省大气污染物排放限值",
+            "count": 1,
+            "rate": "100%"
+          },
+          {
+            "standard": "DB44/2367-2022",
+            "code": "DB44/2367-2022",
+            "description": "固定污染源挥发性有机物综合排放标准",
+            "count": 1,
+            "rate": "100%"
+          },
+          {
+            "standard": "GB31572-2015",
+            "code": "GB31572-2015",
+            "description": "合成树脂工业污染物排放标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "DB44/27-2001",
+            "code": "DB44/27-2001",
+            "description": "广东省大气污染物排放限值",
+            "count": 1,
+            "rate": "100%"
+          },
+          {
+            "standard": "DB44/2367-2022",
+            "code": "DB44/2367-2022",
+            "description": "固定污染源挥发性有机物综合排放标准",
+            "count": 1,
+            "rate": "100%"
+          },
+          {
+            "standard": "GB31572-2015",
+            "code": "GB31572-2015",
+            "description": "合成树脂工业污染物排放标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ]
+      },
+      "noise": {
+        "name_zh": "噪声",
+        "total_approvals_mentioning": 1,
+        "standards_total": 1,
+        "strong_common": [
+          {
+            "standard": "GB12348-2008",
+            "code": "GB12348-2008",
+            "description": "工业企业厂界环境噪声排放标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB12348-2008",
+            "code": "GB12348-2008",
+            "description": "工业企业厂界环境噪声排放标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ]
+      },
+      "hazardous_waste": {
+        "name_zh": "危废",
+        "total_approvals_mentioning": 1,
+        "standards_total": 1,
+        "strong_common": [
+          {
+            "standard": "GB18597-2023",
+            "code": "GB18597-2023",
+            "description": "危险废物贮存污染控制标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ],
+        "general_common": [],
+        "all_standards": [
+          {
+            "standard": "GB18597-2023",
+            "code": "GB18597-2023",
+            "description": "危险废物贮存污染控制标准",
+            "count": 1,
+            "rate": "100%"
+          }
+        ]
+      }
+    }
+  },
+  "C3581": {
+    "industry_name": "医疗诊断、监护及治疗设备制造",
+    "total_approvals": 1,
+    "elements": {}
+  },
+  "C3819": {
+    "industry_name": "其他电机制造",
+    "total_approvals": 1,
+    "elements": {}
+  },
+  "C2239": {
+    "industry_name": "其他纸制品制造",
+    "total_approvals": 1,
+    "elements": {}
+  },
+  "C3872": {
+    "industry_name": "照明灯具制造",
+    "total_approvals": 1,
+    "elements": {}
+  },
+  "C2919": {
+    "industry_name": "其他橡胶制品制造",
+    "total_approvals": 1,
+    "elements": {}
+  },
+  "C2642": {
+    "industry_name": "油墨及类似产品制造",
+    "total_approvals": 1,
+    "elements": {}
+  },
+  "C3861": {
+    "industry_name": "燃气及类似能源家用器具制造",
+    "total_approvals": 1,
+    "elements": {}
+  }
+}

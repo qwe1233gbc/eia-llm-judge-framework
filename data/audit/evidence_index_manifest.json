@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-06-02T08:58:17.260981",
+  "input_dir": "E:\\eia-llm-judge-framework\\data",
+  "qa_files_count": 16,
+  "evidence_files_count": 0,
+  "qa_total": 2812,
+  "index_stats": {
+    "report_index": 0,
+    "approval_index": 0,
+    "standard_index": 0,
+    "historical_case_index": 0,
+    "llm_wiki_theory_index": 0
+  },
+  "llm_wiki_theory_index_count": 1
+}

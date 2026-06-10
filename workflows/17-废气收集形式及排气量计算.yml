@@ -1,0 +1,526 @@
+app:
+  description: 不迭代版：一次性筛选、提取、审查废气收集形式及排气量计算合理性
+  icon: 🤖
+  icon_background: '#FFEAD5'
+  icon_type: emoji
+  mode: workflow
+  name: 17-废气收集形式及排气量计算合理性判断_不迭代
+  use_icon_as_answer_icon: false
+dependencies:
+- current_identifier: null
+  type: marketplace
+  value:
+    marketplace_plugin_unique_identifier: langgenius/tongyi:0.0.30@c8acdf4467408345fc51d3d9e45484614295b9f7c4d20ff0ce03940368bf286a
+    version: null
+- current_identifier: null
+  type: marketplace
+  value:
+    marketplace_plugin_unique_identifier: langgenius/openai_api_compatible:0.0.16@d41b09aca46cdd3876f70b4c91d464c4588fc0bdc844ced6ee426283ead6ce8e
+    version: null
+kind: app
+version: 0.6.0
+workflow:
+  conversation_variables: []
+  environment_variables: []
+  features:
+    file_upload:
+      allowed_file_extensions:
+      - .JPG
+      - .JPEG
+      - .PNG
+      - .GIF
+      - .WEBP
+      - .SVG
+      allowed_file_types:
+      - image
+      allowed_file_upload_methods:
+      - local_file
+      - remote_url
+      enabled: false
+      fileUploadConfig:
+        attachment_image_file_size_limit: 2
+        audio_file_size_limit: 50
+        batch_count_limit: 10
+        file_size_limit: 150
+        file_upload_limit: 20
+        image_file_batch_limit: 10
+        image_file_size_limit: 10
+        single_chunk_attachment_limit: 10
+        video_file_size_limit: 100
+        workflow_file_upload_limit: 30
+      image:
+        enabled: false
+        number_limits: 3
+        transfer_methods:
+        - local_file
+        - remote_url
+      number_limits: 3
+    opening_statement: ''
+    retriever_resource:
+      enabled: true
+    sensitive_word_avoidance:
+      enabled: false
+    speech_to_text:
+      enabled: false
+    suggested_questions: []
+    suggested_questions_after_answer:
+      enabled: false
+    text_to_speech:
+      enabled: false
+      language: ''
+      voice: ''
+  graph:
+    edges:
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: start
+        targetType: code
+      id: 1753681883075-source-1890000000001-target
+      source: '191700000000'
+      sourceHandle: source
+      target: '191700000001'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: code
+        targetType: llm
+      id: 1890000000001-source-1890000000002-target
+      source: '191700000001'
+      sourceHandle: source
+      target: '191700000002'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: llm
+        targetType: code
+      id: 1890000000002-source-1890000000003-target
+      source: '191700000002'
+      sourceHandle: source
+      target: '191700000003'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: code
+        targetType: knowledge-retrieval
+      id: 1890000000003-source-1890000000004-target
+      source: '191700000003'
+      sourceHandle: source
+      target: '191700000004'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: knowledge-retrieval
+        targetType: llm
+      id: 1890000000004-source-1890000000005-target
+      source: '191700000004'
+      sourceHandle: source
+      target: '191700000005'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: llm
+        targetType: code
+      id: 1890000000005-source-1890000000006-target
+      source: '191700000005'
+      sourceHandle: source
+      target: '191700000006'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: code
+        targetType: end
+      id: 1890000000006-source-1753682134871-target
+      source: '191700000006'
+      sourceHandle: source
+      target: '191700000007'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    nodes:
+    - data:
+        desc: ''
+        selected: false
+        title: 开始
+        type: start
+        variables:
+        - label: html
+          max_length: 1000000
+          options: []
+          required: true
+          type: paragraph
+          variable: html
+      height: 108
+      id: '191700000000'
+      position:
+        x: 0
+        y: 300
+      positionAbsolute:
+        x: 0
+        y: 300
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+    - data:
+        code: "import json\nimport ast\nimport re\nimport html as html_lib\n\nKEYWORDS = [('废气收集|集气罩|密闭集气罩|局部密闭|点对点', 32),\
+          \ ('排气量|风量|废气量|处理能力|设计风量|收集风量', 32), ('控制风速|罩口风速|面风速|风速', 28), ('罩口面积|集气罩面积|开口面积|操作口面积', 24), ('注塑废气|有机废气|VOCs|非甲烷总烃|臭气浓度',\
+          \ 26), ('投料粉尘|破碎粉尘|金属粉尘|颗粒物', 18), ('排气筒|DA001|废气排放口|出口内径|烟气流速', 22), ('活性炭吸附|治理设施|处理工艺', 16), ('广东省涉挥发性有机物.*治理指引|重点行业挥发性有机物综合治理方案|佛山市塑胶行业',\
+          \ 24)]\nSECTION_STARTS = ['运营期', '营运期', '废气', '主要环境影响和保护措施', '环保工程', '污染物排放控制标准']\nSECTION_ENDS = ['废水自行监测计划', '声环境',\
+          \ '固体废物', '环境保护措施监督检查清单', '五[、.．]\\\\s*环境保护措施', '六[、.．]', '结论']\nMAX_LEN = 50000\n\n\ndef _strip_code_fence(text:\
+          \ str) -> str:\n    text = (text or \"\").strip()\n    text = re.sub(r\"^```(?:json)?\\s*\", \"\", text, flags=re.I)\n\
+          \    text = re.sub(r\"\\s*```$\", \"\", text).strip()\n    return text\n\n\ndef _parse_input(raw: str):\n    raw\
+          \ = _strip_code_fence(raw)\n    try:\n        return json.loads(raw)\n    except Exception:\n        try:\n    \
+          \        return ast.literal_eval(raw)\n        except Exception:\n            return raw\n\n\ndef _to_chunks(data):\n\
+          \    chunks = []\n    if isinstance(data, list):\n        for i, item in enumerate(data):\n            if isinstance(item,\
+          \ dict):\n                content = item.get(\"content\") or item.get(\"text\") or item.get(\"markdown\") or item.get(\"\
+          html\") or json.dumps(item, ensure_ascii=False)\n                title = item.get(\"title\") or item.get(\"path\"\
+          ) or item.get(\"heading\") or \"\"\n                chunks.append({\"id\": str(item.get(\"id\", i)), \"title\":\
+          \ str(title), \"content\": str(content), \"order\": i})\n            else:\n                chunks.append({\"id\"\
+          : str(i), \"title\": \"\", \"content\": str(item), \"order\": i})\n        return chunks\n    if isinstance(data,\
+          \ dict):\n        content = data.get(\"content\") or data.get(\"text\") or data.get(\"markdown\") or data.get(\"\
+          html\") or json.dumps(data, ensure_ascii=False)\n        title = data.get(\"title\") or data.get(\"path\") or data.get(\"\
+          heading\") or \"\"\n        return [{\"id\": str(data.get(\"id\", \"0\")), \"title\": str(title), \"content\": str(content),\
+          \ \"order\": 0}]\n    return [{\"id\": \"0\", \"title\": \"\", \"content\": str(data), \"order\": 0}]\n\n\ndef _clean_html(text:\
+          \ str) -> str:\n    text = html_lib.unescape(text or \"\")\n    replacements = [\n        (r\"</tr\\s*>\", \"\\\
+          n\"),\n        (r\"</td\\s*>\", \" | \"),\n        (r\"</th\\s*>\", \" | \"),\n        (r\"</p\\s*>\", \"\\n\"),\n\
+          \        (r\"<br\\s*/?>\", \"\\n\"),\n        (r\"</li\\s*>\", \"\\n\"),\n        (r\"</h[1-6]\\s*>\", \"\\n\"),\n\
+          \    ]\n    for pattern, repl in replacements:\n        text = re.sub(pattern, repl, text, flags=re.I)\n    text\
+          \ = re.sub(r\"<[^>]+>\", \" \", text)\n    text = re.sub(r\"[ \\t\\r\\f\\v]+\", \" \", text)\n    text = re.sub(r\"\
+          \\n\\s*\\n+\", \"\\n\", text)\n    return text.strip()\n\n\ndef _score(text: str) -> int:\n    score = 0\n    for\
+          \ kw, weight in KEYWORDS:\n        if re.search(kw, text, flags=re.I):\n            score += int(weight)\n    return\
+          \ score\n\n\ndef _cut_by_section(text: str) -> str:\n    start = None\n    for pat in SECTION_STARTS:\n        m\
+          \ = re.search(pat, text, flags=re.I)\n        if m:\n            start = m.start()\n            break\n    if start\
+          \ is None:\n        return text\n    end = len(text)\n    for pat in SECTION_ENDS:\n        m = re.search(pat, text[start\
+          \ + 50:], flags=re.I)\n        if m:\n            end = start + 50 + m.start()\n            break\n    return text[start:end]\n\
+          \n\ndef _merge_windows(windows):\n    if not windows:\n        return []\n    windows = sorted(windows)\n    merged\
+          \ = [list(windows[0])]\n    for s, e in windows[1:]:\n        if s <= merged[-1][1] + 500:\n            merged[-1][1]\
+          \ = max(merged[-1][1], e)\n        else:\n            merged.append([s, e])\n    return [(s, e) for s, e in merged]\n\
+          \n\ndef _extract_keyword_windows(text: str, radius: int = 1900) -> str:\n    windows = []\n    for kw, _ in KEYWORDS:\n\
+          \        for m in re.finditer(kw, text, flags=re.I):\n            windows.append((max(0, m.start() - radius), min(len(text),\
+          \ m.end() + radius)))\n    parts = []\n    for s, e in _merge_windows(windows):\n        frag = text[s:e].strip()\n\
+          \        if frag:\n            parts.append(frag)\n    return \"\\n\\n---候选片段---\\n\\n\".join(parts)\n\n\ndef main(html_str:\
+          \ str) -> dict:\n    raw = html_str or \"\"\n    data = _parse_input(raw)\n    chunks = _to_chunks(data)\n    cleaned_chunks\
+          \ = []\n    for c in chunks:\n        text = _clean_html(c.get(\"content\", \"\"))\n        title = _clean_html(c.get(\"\
+          title\", \"\"))\n        score = _score(title + \"\\n\" + text)\n        cleaned_chunks.append({\"id\": c.get(\"\
+          id\"), \"title\": title, \"content\": text, \"score\": score, \"order\": c.get(\"order\", 0)})\n\n    selected =\
+          \ [c for c in cleaned_chunks if c[\"score\"] > 0]\n    selected = sorted(selected, key=lambda x: (-x[\"score\"],\
+          \ x[\"order\"]))[:20]\n    text = \"\\n\\n\".join([f\"【片段{c['id']}】{c['title']}\\n{c['content']}\" for c in selected])\n\
+          \n    if not text:\n        full = _clean_html(raw)\n        text = _extract_keyword_windows(full)\n    else:\n\
+          \        win = _extract_keyword_windows(text)\n        if win:\n            text = win\n\n    if not text:\n   \
+          \     text = \"未筛选到明确相关内容，请基于输入不足输出无法判断。\"\n    if len(text) > MAX_LEN:\n        text = text[:MAX_LEN] + \"\\n……（已按相关性截断）\"\
+          \n    return {\"result\": text}\n"
+        code_language: python3
+        desc: ''
+        isInLoop: false
+        outputs:
+          result:
+            children: null
+            type: string
+        selected: true
+        title: 17-筛选相关文本（不迭代）
+        type: code
+        variables:
+        - value_selector:
+          - '191700000000'
+          - html
+          value_type: string
+          variable: html_str
+      height: 51
+      id: '191700000001'
+      position:
+        x: 300
+        y: 300
+      positionAbsolute:
+        x: 300
+        y: 300
+      selected: true
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+    - data:
+        context:
+          enabled: true
+          variable_selector:
+          - '191700000001'
+          - result
+        desc: ''
+        isInLoop: false
+        model:
+          completion_params: {}
+          mode: chat
+          name: gpt-5.5
+          provider: langgenius/openai_api_compatible/openai_api_compatible
+        prompt_template:
+        - id: noniter-17-extract-system
+          role: system
+          text: "你是一位严谨的信息提取专家，负责第17项“废气污染源收集形式及排气量计算合理性判断”的前置信息提取。\n\n筛选文本：\n{{#context#}}\n\n请输出一个JSON对象，字段为：\n{\n  \"废气污染源及污染物\"\
+            : \"注塑废气、投料粉尘、破碎粉尘、金属粉尘、臭气等污染源和污染物；无则填未提供\",\n  \"废气收集形式\": \"集气罩、密闭罩、局部密闭、车间密闭、无组织等原文表述；无则填未提供\",\n  \"收集对象与收集范围\"\
+            : \"哪些设备/工序被收集，哪些未收集；无则填未提供\",\n  \"排气量或处理能力\": \"收集风量、设计风量、废气量、处理能力、排气筒风量等数值及单位；无则填未提供\",\n  \"风量计算依据与公式\": \"\
+            引用的手册、指南、公式、罩口面积、控制风速、数量等；无则填未提供\",\n  \"排气筒参数\": \"排气筒编号、高度、内径、烟气流速、温度、坐标等；无则填未提供\",\n  \"工作时间与关键参数\": \"年运行小时、设备数量、产能、治理设施、处理效率等；无则填未提供\"\
+            \n}\n只输出JSON，不输出解释或代码块，不得编造标准、手册、公式。/no_think"
+        selected: false
+        title: 17-一次性提取废气收集形式和排气量
+        type: llm
+        variables: []
+        vision:
+          enabled: false
+      height: 87
+      id: '191700000002'
+      position:
+        x: 600
+        y: 300
+      positionAbsolute:
+        x: 600
+        y: 300
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+    - data:
+        code: "import json\nimport re\n\ndef _clean(text: str) -> str:\n    text = (text or \"\").strip()\n    text = re.sub(r\"\
+          <think>.*?</think>\", \"\", text, flags=re.S)\n    text = re.sub(r\"^```(?:json)?\\s*\", \"\", text, flags=re.I)\n\
+          \    text = re.sub(r\"\\s*```$\", \"\", text).strip()\n    return text\n\ndef main(extracted: str) -> dict:\n  \
+          \  txt = _clean(extracted)\n    query = txt\n    try:\n        obj = json.loads(txt[txt.find('{'):txt.rfind('}')+1])\n\
+          \        query = \" \".join(str(v) for v in obj.values())\n    except Exception:\n        pass\n    query = '废气收集形式\
+          \ 集气罩 密闭收集 控制风速 排气量 设计风量 佛山市塑胶行业 环评文件编制技术参考指南 废气处理工程技术手册' + \" \" + query\n    return {\"query_info\": query[:900],\
+          \ \"extracted_info\": txt[:9000]}\n"
+        code_language: python3
+        desc: ''
+        isInLoop: false
+        outputs:
+          coefficient_info:
+            children: null
+            type: string
+          query_info:
+            children: null
+            type: string
+        selected: false
+        title: 17-生成一次性检索词
+        type: code
+        variables:
+        - value_selector:
+          - '191700000002'
+          - text
+          value_type: string
+          variable: extracted
+      height: 51
+      id: '191700000003'
+      position:
+        x: 900
+        y: 300
+      positionAbsolute:
+        x: 900
+        y: 300
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+    - data:
+        dataset_ids:
+        - hPn0EDFpkvIpn/Y7VpDHFrKLBN7Lz4qywpb+ZMFeOmAS1sLeSVCQnCC1RmrwUFf/
+        - H0MpLmvoBeq7fCgBpOCOFJmpq3L5dfqgSK2oKFTROL12C12Kwc/4H6kKmpNXOlI/
+        - Xhm0zIVwH6xptnKYJEzxLFVlYyXPVRckPu8uw6xopMhHbQdc0Caw/j/509e3MFNy
+        - kNeQmVIG3k7EdQ6XyAjd85/agixjeKkUttXelAuppQAp6zPiA6QPoi8rEWnbVg2v
+        - 0hhkSGv+OYPJrgFk1Rnpz/AhEpeuhbWuimpouu70hzBvbfyeAKEmB2xCOHgDLRgi
+        - qMNsYN4OLyfyugV0VsQuMR7oBkCv86NvYeFR61VXYm9UvOPdLzNhogIcawY0IG4M
+        - FPiJWPjnUVRlPengr+A8j+ciCe6f/K4IrI57386oEmoNyjyP0FIhcfXTXISHSt4J
+        desc: ''
+        isInLoop: false
+        metadata_filtering_conditions:
+          conditions: []
+          logical_operator: or
+        metadata_filtering_mode: manual
+        multiple_retrieval_config:
+          reranking_enable: true
+          reranking_mode: reranking_model
+          reranking_model:
+            model: gte-rerank-v2
+            provider: langgenius/tongyi/tongyi
+          score_threshold: null
+          top_k: 5
+          weights:
+            keyword_setting:
+              keyword_weight: 0.7
+            vector_setting:
+              embedding_model_name: text-embedding-v4
+              embedding_provider_name: langgenius/tongyi/tongyi
+              vector_weight: 0.3
+        query_attachment_selector: []
+        query_variable_selector:
+        - '191700000003'
+        - query_info
+        retrieval_mode: multiple
+        selected: false
+        title: 17-知识检索（一次）
+        type: knowledge-retrieval
+      height: 89
+      id: '191700000004'
+      position:
+        x: 1200
+        y: 300
+      positionAbsolute:
+        x: 1200
+        y: 300
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+    - data:
+        context:
+          enabled: true
+          variable_selector:
+          - '191700000004'
+          - result
+        desc: ''
+        isInLoop: false
+        model:
+          completion_params: {}
+          mode: chat
+          name: gpt-5.5
+          provider: langgenius/openai_api_compatible/openai_api_compatible
+        prompt_template:
+        - id: noniter-17-review-system
+          role: system
+          text: '你是环评审核专家，负责第17项“废气污染源收集形式及排气量计算合理性判断”。
+
+
+            知识库检索结果：
+
+            {{#context#}}
+
+
+            环评文件提取信息：
+
+            {{#191700000003.extracted_info#}}
+
+
+            请一次性完成审核，不要迭代。重点核查：
+
+            1. 需收集的废气污染源是否完整识别，注塑有机废气、臭气、投料/破碎/金属粉尘是否存在应收未收或排放形式不清；
+
+            2. 收集形式是否自洽：如“点对点局部密闭集气罩”应说明到底是局部集气罩、包围型集气罩还是密闭空间，是否与工序和设备匹配；
+
+            3. 排气量/处理能力是否给出计算依据，是否包含罩口面积、控制风速、罩口数量、同时运行系数、管道损失等关键参数；
+
+            4. 若为局部集气罩，应核查控制风速是否满足常见要求；若原文只写风速或处理能力但没有公式/面积/数量，应判为部分匹配或无法判断；
+
+            5. 对排气筒参数进行一致性复核：若有风量、内径、烟气流速，按 v=Q/(3600×π×(D/2)^2) 复算并说明是否一致。
+
+
+            输出Markdown，包含：
+
+            - 审核结论：匹配/不匹配/部分匹配/无法判断；
+
+            - 依据文件；
+
+            - 逐项核查表：污染源/环节｜收集形式｜风量或处理能力｜计算依据｜合理性判定｜原因；
+
+            - 需要补充或复核的问题。
+
+            /no_think'
+        selected: false
+        title: 17-一次性收集形式及排气量合理性审查
+        type: llm
+        variables: []
+        vision:
+          enabled: false
+      height: 87
+      id: '191700000005'
+      position:
+        x: 1500
+        y: 300
+      positionAbsolute:
+        x: 1500
+        y: 300
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+    - data:
+        code: "import re\n\ndef main(json_str: str) -> dict:\n    text = (json_str or \"\").strip()\n    text = re.sub(r\"\
+          <think>.*?</think>\", \"\", text, flags=re.S)\n    text = text.replace(\"<think>\", \"\").replace(\"</think>\",\
+          \ \"\")\n    text = re.sub(r\"^```(?:json|markdown)?\\s*\", \"\", text, flags=re.I)\n    text = re.sub(r\"\\s*```$\"\
+          , \"\", text).strip()\n    return {\"result\": text}\n"
+        code_language: python3
+        desc: ''
+        isInLoop: false
+        outputs:
+          result:
+            children: null
+            type: string
+        selected: false
+        title: 17-清洗审核结果
+        type: code
+        variables:
+        - value_selector:
+          - '191700000005'
+          - text
+          value_type: string
+          variable: json_str
+      height: 51
+      id: '191700000006'
+      position:
+        x: 1800
+        y: 300
+      positionAbsolute:
+        x: 1800
+        y: 300
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+    - data:
+        desc: ''
+        outputs:
+        - value_selector:
+          - '191700000006'
+          - result
+          value_type: string
+          variable: text
+        selected: false
+        title: 结束
+        type: end
+      height: 88
+      id: '191700000007'
+      position:
+        x: 2100
+        y: 300
+      positionAbsolute:
+        x: 2100
+        y: 300
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+    viewport:
+      x: 21.47507651702381
+      y: 4.675769983568557
+      zoom: 0.8930085351274784
+  rag_pipeline_variables: []

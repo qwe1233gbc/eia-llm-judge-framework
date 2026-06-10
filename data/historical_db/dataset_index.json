@@ -1,0 +1,53 @@
+{
+  "dataset_name": "EIA Historical QA Benchmark",
+  "dataset_name_zh": "环评历史问答数据集",
+  "version": "1.0.0",
+  "release_date": "2026-06-01",
+  "language": "zh",
+  "license": "CC-BY-4.0",
+  "total_samples": 536,
+  "description": "从佛山市环评审批管理平台数据库提取的废气领域审批要求与技术审查QA对",
+  "sources": [
+    {"name": "审批意见", "table": "hp_approve_info", "field": "APPROVE_OPINION", "count": 424},
+    {"name": "技术审查", "table": "hp_approve_tech", "field": "REPLY_NOTE", "count": 112}
+  ],
+  "categories": {
+    "review_points": [
+      {"name": "审批要求与报告支撑核查", "count": 424},
+      {"name": "技术审查意见与整改要求", "count": 112}
+    ],
+    "project_types": [
+      {"name": "一般项目", "code": "HP004001", "count": 534},
+      {"name": "环评降为登记", "code": "HP004003", "count": 2}
+    ],
+    "regions": {
+      "佛山市顺德区": 536,
+      "容桂街道": 75, "大良街道": 39, "勒流街道": 38,
+      "乐从镇": 34, "龙江镇": 31, "陈村镇": 29,
+      "北滘镇": 27, "杏坛镇": 24, "伦教街道": 18
+    }
+  },
+  "task_domain": "废气治理",
+  "data_format": "jsonl",
+  "fields": {
+    "qa_id": "string — 唯一标识（DB_QA_=审批意见 / DB_TECH_=技术审查）",
+    "pair_id": "string — 配对ID",
+    "region": "string — 行政区划",
+    "company": "string — 建设单位",
+    "project_type": "string — 项目类型",
+    "element": "string — 要素（废气）",
+    "review_point": "string — 审查维度",
+    "question": "string — 自然语言问题",
+    "answer": "string — 批复要求或审查意见",
+    "standards_normalized": "array — 排放标准列表",
+    "approval_evidence": "array — 批复原文证据",
+    "evidence_alignment": "object — 证据对齐等级",
+    "quality_score": "int — 质量评分",
+    "need_human_review": "bool — 是否需要人工审核"
+  },
+  "usage": {
+    "rag_knowledge_base": true,
+    "llm_fine_tuning": true,
+    "evaluation_benchmark": true
+  }
+}

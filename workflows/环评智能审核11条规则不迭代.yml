@@ -1,0 +1,2067 @@
+app:
+  description: 11条规则
+  icon: 🤖
+  icon_background: '#FFEAD5'
+  mode: workflow
+  name: 环评智能审核11条规则不迭代
+  use_icon_as_answer_icon: false
+dependencies:
+- current_identifier: null
+  type: marketplace
+  value:
+    marketplace_plugin_unique_identifier: langgenius/openai_api_compatible:0.0.16@d41b09aca46cdd3876f70b4c91d464c4588fc0bdc844ced6ee426283ead6ce8e
+kind: app
+version: 0.3.0
+workflow:
+  conversation_variables: []
+  environment_variables: []
+  features:
+    file_upload:
+      allowed_file_extensions:
+      - .JPG
+      - .JPEG
+      - .PNG
+      - .GIF
+      - .WEBP
+      - .SVG
+      allowed_file_types:
+      - image
+      allowed_file_upload_methods:
+      - local_file
+      - remote_url
+      enabled: false
+      fileUploadConfig:
+        audio_file_size_limit: 50
+        batch_count_limit: 10
+        file_size_limit: 150
+        image_file_size_limit: 10
+        video_file_size_limit: 100
+        workflow_file_upload_limit: 20
+      image:
+        enabled: false
+        number_limits: 3
+        transfer_methods:
+        - local_file
+        - remote_url
+      number_limits: 3
+    opening_statement: ''
+    retriever_resource:
+      enabled: true
+    sensitive_word_avoidance:
+      enabled: false
+    speech_to_text:
+      enabled: false
+    suggested_questions: []
+    suggested_questions_after_answer:
+      enabled: false
+    text_to_speech:
+      enabled: false
+      language: ''
+      voice: ''
+  graph:
+    edges:
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: code
+        targetType: llm
+      id: 1768289393231-source-1768287090198-target
+      selected: false
+      source: '1768289393231'
+      sourceHandle: source
+      target: '1768287090198'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: llm
+        targetType: code
+      id: 1768287090198-source-1778207607941-target
+      selected: false
+      source: '1768287090198'
+      sourceHandle: source
+      target: '1778207607941'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: code
+        targetType: llm
+      id: 1778207607941-source-1769408650324-target
+      selected: false
+      source: '1778207607941'
+      sourceHandle: source
+      target: '1769408650324'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: llm
+        targetType: code
+      id: 1769408650324-source-1769502020892-target
+      selected: false
+      source: '1769408650324'
+      sourceHandle: source
+      target: '1769502020892'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: code
+        targetType: end
+      id: 1769502020892-source-1768287121451-target
+      selected: false
+      source: '1769502020892'
+      sourceHandle: source
+      target: '1768287121451'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: start
+        targetType: tool
+      id: 1768285679378-source-1780365136346-target
+      source: '1768285679378'
+      sourceHandle: source
+      target: '1780365136346'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInLoop: false
+        sourceType: tool
+        targetType: code
+      id: 1780365136346-source-1780324145595-target
+      source: '1780365136346'
+      sourceHandle: source
+      target: '1780324145595'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: code
+        targetType: tool
+      id: 1780324145595-source-1780365147048-target
+      source: '1780324145595'
+      sourceHandle: source
+      target: '1780365147048'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInLoop: false
+        sourceType: tool
+        targetType: code
+      id: 1780365147048-source-1780324194879-target
+      source: '1780365147048'
+      sourceHandle: source
+      target: '1780324194879'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: code
+        targetType: tool
+      id: 1780324194879-source-1780365274153-target
+      source: '1780324194879'
+      sourceHandle: source
+      target: '1780365274153'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInLoop: false
+        sourceType: tool
+        targetType: code
+      id: 1780365274153-source-1780324304812-target
+      source: '1780365274153'
+      sourceHandle: source
+      target: '1780324304812'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: code
+        targetType: tool
+      id: 1780324304812-source-1780365285537-target
+      source: '1780324304812'
+      sourceHandle: source
+      target: '1780365285537'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInLoop: false
+        sourceType: tool
+        targetType: code
+      id: 1780365285537-source-1780324322980-target
+      source: '1780365285537'
+      sourceHandle: source
+      target: '1780324322980'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: code
+        targetType: tool
+      id: 1780324322980-source-1780365359329-target
+      source: '1780324322980'
+      sourceHandle: source
+      target: '1780365359329'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInLoop: false
+        sourceType: tool
+        targetType: code
+      id: 1780365359329-source-1780324370435-target
+      source: '1780365359329'
+      sourceHandle: source
+      target: '1780324370435'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: code
+        targetType: tool
+      id: 1780324370435-source-1780365370746-target
+      source: '1780324370435'
+      sourceHandle: source
+      target: '1780365370746'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInLoop: false
+        sourceType: tool
+        targetType: code
+      id: 1780365370746-source-1780324393162-target
+      source: '1780365370746'
+      sourceHandle: source
+      target: '1780324393162'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: code
+        targetType: tool
+      id: 1780324393162-source-1780365427608-target
+      source: '1780324393162'
+      sourceHandle: source
+      target: '1780365427608'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInLoop: false
+        sourceType: tool
+        targetType: code
+      id: 1780365427608-source-1780324431650-target
+      source: '1780365427608'
+      sourceHandle: source
+      target: '1780324431650'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: code
+        targetType: tool
+      id: 1780324431650-source-1780365441233-target
+      source: '1780324431650'
+      sourceHandle: source
+      target: '1780365441233'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInLoop: false
+        sourceType: tool
+        targetType: code
+      id: 1780365441233-source-1780324510386-target
+      source: '1780365441233'
+      sourceHandle: source
+      target: '1780324510386'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: code
+        targetType: tool
+      id: 1780324510386-source-1780365450323-target
+      source: '1780324510386'
+      sourceHandle: source
+      target: '1780365450323'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInLoop: false
+        sourceType: tool
+        targetType: code
+      id: 1780365450323-source-1780324435548-target
+      source: '1780365450323'
+      sourceHandle: source
+      target: '1780324435548'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: code
+        targetType: tool
+      id: 1780324435548-source-1780365460265-target
+      source: '1780324435548'
+      sourceHandle: source
+      target: '1780365460265'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInLoop: false
+        sourceType: tool
+        targetType: code
+      id: 1780365460265-source-1780324445246-target
+      source: '1780365460265'
+      sourceHandle: source
+      target: '1780324445246'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: code
+        targetType: tool
+      id: 1780324445246-source-1780365469473-target
+      source: '1780324445246'
+      sourceHandle: source
+      target: '1780365469473'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInLoop: false
+        sourceType: tool
+        targetType: code
+      id: 1780365469473-source-1768289393231-target
+      source: '1780365469473'
+      sourceHandle: source
+      target: '1768289393231'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    nodes:
+    - data:
+        desc: ''
+        isInLoop: false
+        selected: false
+        title: 开始
+        type: start
+        variables:
+        - label: html
+          max_length: 500000
+          options: []
+          required: true
+          type: paragraph
+          variable: html
+      height: 89
+      id: '1768285679378'
+      position:
+        x: 30
+        y: 244.5
+      positionAbsolute:
+        x: 30
+        y: 244.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        code: "def main(\n    case1: str,\n    case2: str,\n    case4: str,\n    case5:\
+          \ str,\n    case6: str,\n    case7: str,\n    case9: str,\n    case10: str,\n\
+          \    case11: str,\n    case12: str,\n    case13: str\n) -> dict:\n    \"\
+          \"\"合并11个审核模块结果。4、6、7、9、10、17、18、19均为不迭代审查链路。\"\"\"\n    combined_result\
+          \ = f\"\"\"\n====== 国民经济/产品原料 ======\n{case1}\n\n====== 环保投资核算 ======\n\
+          {case2}\n\n====== 三线一单管控内容一致性 ======\n{case4}\n\n====== 建设内容完整性 ======\n\
+          {case5}\n\n====== 环境质量现状数据引用 ======\n{case6}\n\n====== 环境质量执行标准准确性 ======\n\
+          {case7}\n\n====== 运营期产污环节污染物产污系数使用合理性 ======\n{case9}\n\n====== 运营期产污系数核算准确性（不迭代版）\
+          \ ======\n{case10}\n\n====== 废气收集形式及排气量计算合理性 ======\n{case11}\n\n======\
+          \ 废气收集风量与设计风量准确性核算 ======\n{case12}\n\n====== 废气收集效率判定准确性 ======\n{case13}\n\
+          \"\"\"\n    return {\"result\": combined_result.strip()}"
+        code_language: python3
+        desc: ''
+        isInLoop: false
+        outputs:
+          result:
+            children: null
+            type: string
+        selected: false
+        title: 合并11个审核结果（不迭代）
+        type: code
+        variables:
+        - value_selector:
+          - '1780365136346'
+          - text
+          value_type: string
+          variable: case1
+        - value_selector:
+          - '1780365147048'
+          - text
+          value_type: string
+          variable: case2
+        - value_selector:
+          - '1780365274153'
+          - text
+          value_type: string
+          variable: case4
+        - value_selector:
+          - '1780365285537'
+          - text
+          value_type: string
+          variable: case5
+        - value_selector:
+          - '1780365359329'
+          - text
+          value_type: string
+          variable: case6
+        - value_selector:
+          - '1780365370746'
+          - text
+          value_type: string
+          variable: case7
+        - value_selector:
+          - '1780365427608'
+          - text
+          value_type: string
+          variable: case9
+        - value_selector:
+          - '1780365441233'
+          - text
+          value_type: string
+          variable: case10
+        - value_selector:
+          - '1780365450323'
+          - text
+          value_type: string
+          variable: case11
+        - value_selector:
+          - '1780365460265'
+          - text
+          value_type: string
+          variable: case12
+        - value_selector:
+          - '1780365469473'
+          - text
+          value_type: string
+          variable: case13
+      height: 53
+      id: '1768289393231'
+      position:
+        x: 6696
+        y: 244.5
+      positionAbsolute:
+        x: 6696
+        y: 244.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        context:
+          enabled: true
+          variable_selector:
+          - '1768289393231'
+          - result
+        desc: ''
+        isInLoop: false
+        model:
+          completion_params: {}
+          mode: chat
+          name: gpt-5.5
+          provider: langgenius/openai_api_compatible/openai_api_compatible
+        prompt_template:
+        - id: summary-7-system
+          role: system
+          text: "调查文本：{{#context#}}\n\n你是归纳总结专家，请你对以上提供的文本进行分析，按照以下四部分要求提取并整理信息：\n\
+            \n1. 核心模块：提取核心模块的名称；\n2. 审核结果：仅从以下结果中选择其一填写——符合、不符合；\n3. 依据文件：审核结果依据的国标、技术指南、地方准入清单、产排污系数手册等规范性文件；\n\
+            4. 审核结果为不符合的原因：只提炼存在的问题；若符合，则简要说明符合依据。\n\n判断口径：\n- 原审核结果为“匹配”“核算正确”“内容齐全”“一致”“合理”“准确”的，统一输出“符合”；\n\
+            - 原审核结果为“不匹配”“部分匹配”“无法判断”“未提供”“信息不完整”“依据不足”“无法核算”的，统一输出“不符合”；\n- 若调查文本中没有明确结论，审核结果填“不符合”，原因写“调查文本未提供足够信息”；\n\
+            - 若存在部分问题，即使也有符合内容，也输出“不符合”，原因只陈述存在的问题；\n- 不要输出“部分匹配”“无法判断”“匹配”“不匹配”等旧口径词。\n\
+            \n请按照核心模块顺序输出，一共11条：\n1. 国民经济/产品原料\n2. 环保投资核算\n3. 三线一单管控内容一致性\n4. 建设内容完整性\n\
+            5. 环境质量现状数据引用\n6. 环境质量执行标准准确性\n7. 运营期产污环节污染物产污系数使用合理性\n8. 运营期间产污环节污染物产污系数使用合理性判定\n\
+            9. 废气收集形式及排气量计算合理性\n10. 废气收集风量与设计风量准确性核算\n11. 废气收集效率判定准确性\n\n输出模板：\n[\n\
+            \  {\"审核模块\":\"国民经济/产品原料\",\"审核结果\":\"xx\",\"依据文件\":\"xx\",\"原因\":\"xx\"\
+            },\n  {\"审核模块\":\"环保投资核算\",\"审核结果\":\"xx\",\"依据文件\":\"xx\",\"原因\":\"xx\"\
+            },\n  {\"审核模块\":\"三线一单管控内容一致性\",\"审核结果\":\"xx\",\"依据文件\":\"xx\",\"原因\"\
+            :\"xx\"},\n  {\"审核模块\":\"建设内容完整性\",\"审核结果\":\"xx\",\"依据文件\":\"xx\",\"\
+            原因\":\"xx\"},\n  {\"审核模块\":\"环境质量现状数据引用\",\"审核结果\":\"xx\",\"依据文件\":\"\
+            xx\",\"原因\":\"xx\"},\n  {\"审核模块\":\"环境质量执行标准准确性\",\"审核结果\":\"xx\",\"依据文件\"\
+            :\"xx\",\"原因\":\"xx\"},\n  {\"审核模块\":\"运营期产污环节污染物产污系数使用合理性\",\"审核结果\"\
+            :\"xx\",\"依据文件\":\"xx\",\"原因\":\"xx\"},\n  {\"审核模块\":\"运营期间产污环节污染物产污系数使用合理性判定\"\
+            ,\"审核结果\":\"xx\",\"依据文件\":\"xx\",\"原因\":\"xx\"},\n  {\"审核模块\":\"废气收集形式及排气量计算合理性\"\
+            ,\"审核结果\":\"xx\",\"依据文件\":\"xx\",\"原因\":\"xx\"},\n  {\"审核模块\":\"废气收集风量与设计风量准确性核算\"\
+            ,\"审核结果\":\"xx\",\"依据文件\":\"xx\",\"原因\":\"xx\"},\n  {\"审核模块\":\"废气收集效率判定准确性\"\
+            ,\"审核结果\":\"xx\",\"依据文件\":\"xx\",\"原因\":\"xx\"}\n]\n\n要求：\n- 只输出 JSON\
+            \ 数组，不要输出解释文字；\n- 必须严格输出 11 条，不能少项、不能合并项；\n- 审核结果只能填写“符合”或“不符合”；\n- 依据文件没有明确出现时填“未明确依据文件”；\n\
+            - 原因只保留核心问题或核心符合依据，不超过120字；\n- 不要编造调查文本中没有出现的标准名称、数值和结论；\n- 输出前检查 JSON\
+            \ 数组完整闭合。\n\n/no_think"
+        selected: false
+        title: LLM
+        type: llm
+        variables: []
+        vision:
+          enabled: false
+      height: 89
+      id: '1768287090198'
+      position:
+        x: 6999
+        y: 244.5
+      positionAbsolute:
+        x: 6999
+        y: 244.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        code: "import json\nimport re\n\ndef main(text: str) -> dict:\n    \"\"\"\n\
+          \    清洗文本中的双引号、转义符、多余换行，确保后续JSON可正常解析\n    \"\"\"\n    if not text:\n  \
+          \      return {\"cleaned_text\": \"\"}\n\n    # 1. 移除所有双引号（最关键）\n    cleaned\
+          \ = text.replace('\"', '')\n    \n    # 2. 移除转义符 \\\n    cleaned = cleaned.replace('\\\
+          \\', '')\n    \n    # 3. 清理换行、空格、思考标签\n    cleaned = cleaned.replace('\\\
+          n', ' ').replace('\\r', ' ')\n    cleaned = cleaned.replace('', '').replace('',\
+          \ '')\n    \n    # 4. 清理多余空格\n    cleaned = re.sub(r'\\s+', ' ', cleaned).strip()\n\
+          \n    return {\n        \"cleaned_text\": cleaned\n    }"
+        code_language: python3
+        isInLoop: false
+        outputs:
+          cleaned_text:
+            children: null
+            type: string
+        selected: false
+        title: 代码执行 4
+        type: code
+        variables:
+        - value_selector:
+          - '1768287090198'
+          - text
+          value_type: string
+          variable: text
+      height: 53
+      id: '1778207607941'
+      position:
+        x: 7302
+        y: 244.5
+      positionAbsolute:
+        x: 7302
+        y: 244.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        context:
+          enabled: true
+          variable_selector:
+          - '1778207607941'
+          - cleaned_text
+        isInLoop: false
+        model:
+          completion_params: {}
+          mode: chat
+          name: gpt-5.5
+          provider: langgenius/openai_api_compatible/openai_api_compatible
+        prompt_template:
+        - id: json-7-system
+          role: system
+          text: 你是一位严格遵循JSON格式规范的数据整理员，擅长把多份残缺的调查数据整理为一份完整的JSON格式数据。
+        - id: json-7-user
+          role: user
+          text: '/no_think
+
+            信息文本：
+
+            {{#context#}}
+
+            任务：
+
+            从信息文本中提取11个审核模块的结果，并填入下方JSON模板。只允许替换每个模块中的以下3个字段值：
+
+            AuditResults.details
+
+            SupportingDocument.details
+
+            Reasons.details
+
+            字段映射：
+
+            国民经济/产品原料 → NationalEconomy/ProductRawMaterials
+
+            环保投资核算 → EnvironmentalProtectionInvestmentAccounting
+
+            三线一单管控内容一致性 → ThreeLinesOneListConsistency
+
+            建设内容完整性 → ConstructionContentCompleteness
+
+            环境质量现状数据引用 → EnvironmentalQualityStatusDataReference
+
+            环境质量执行标准准确性 → EnvironmentalQualityStandardsAccuracy
+
+            运营期产污环节污染物产污系数使用合理性 → OperatingPollutionCoefficientRationality
+
+            运营期产污系数核算准确性（不迭代版） → OperatingPollutionCoefficientAccuracy
+
+            废气收集形式及排气量计算合理性 → ExhaustGasCollectionFormAndAirVolumeRationality
+
+            废气收集风量与设计风量准确性核算 → ExhaustGasCollectionAndDesignAirVolumeAccuracy
+
+            废气收集效率判定准确性 → ExhaustGasCollectionEfficiencyAccuracy
+
+            审核结果 → AuditResults.details
+
+            依据文件 → SupportingDocument.details
+
+            原因、审核原因、问题、不符合原因、审核结果为匹配/不匹配/部分匹配/无法判断的原因 → Reasons.details
+
+            填写规则：
+
+            只输出合法JSON，不输出Markdown、代码块、解释、分析过程、。
+
+            必须保留完整JSON结构，不得删除、增加、改名、调序任何字段。
+
+            required、properties、type、title等字段必须原样保留。
+
+            AuditResults.details只能填写以下值之一：符合、不符合。
+
+            若原文审核结果为匹配、核算正确、内容齐全、一致、合理、准确、无明显问题，AuditResults.details填符合。
+
+            若原文审核结果为不匹配、部分匹配、无法判断、未提供、信息不完整、依据不足、无法核算、存在问题，AuditResults.details填不符合。
+
+            若某模块既有符合内容又存在问题，AuditResults.details填不符合，Reasons.details只陈述存在的问题。
+
+            SupportingDocument.details填写依据文件名称；如有书名号，去掉书名号；如缺失，填未提供。
+
+            Reasons.details填写真实原因，符合时简要说明符合依据，不符合时只陈述存在的问题或信息不足点，不超过120字。
+
+            details文本内容内部不得包含英文双引号、反引号、书名号、换行符。
+
+            如果某模块在信息文本中缺失：
+
+            AuditResults.details填不符合
+
+            SupportingDocument.details填未提供
+
+            Reasons.details填输入内容不足，无法判断
+
+            输出前自行检查所有 { } 和 [ ] 是否完整闭合。
+
+            根对象必须完整闭合，最后一个字符必须是 }。
+
+            完整JSON模板如下，只替换details的值：
+
+            {
+
+            "required": [
+
+            "NationalEconomy/ProductRawMaterials",
+
+            "EnvironmentalProtectionInvestmentAccounting",
+
+            "ThreeLinesOneListConsistency",
+
+            "ConstructionContentCompleteness",
+
+            "EnvironmentalQualityStatusDataReference",
+
+            "EnvironmentalQualityStandardsAccuracy",
+
+            "OperatingPollutionCoefficientRationality",
+
+            "OperatingPollutionCoefficientAccuracy",
+
+            "ExhaustGasCollectionFormAndAirVolumeRationality",
+
+            "ExhaustGasCollectionAndDesignAirVolumeAccuracy",
+
+            "ExhaustGasCollectionEfficiencyAccuracy"
+
+            ],
+
+            "properties": {
+
+            "NationalEconomy/ProductRawMaterials": {
+
+            "type": "object",
+
+            "title": "NationalEconomy/ProductRawMaterials",
+
+            "properties": {
+
+            "AuditResults": {"type": "string", "title": "审核结果", "details": ""},
+
+            "SupportingDocument": {"type": "string", "title": "依据文件", "details": ""},
+
+            "Reasons": {"type": "string", "title": "原因", "details": ""}
+
+            }
+
+            },
+
+            "EnvironmentalProtectionInvestmentAccounting": {
+
+            "type": "object",
+
+            "title": "EnvironmentalProtectionInvestmentAccounting",
+
+            "properties": {
+
+            "AuditResults": {"type": "string", "title": "审核结果", "details": ""},
+
+            "SupportingDocument": {"type": "string", "title": "依据文件", "details": ""},
+
+            "Reasons": {"type": "string", "title": "原因", "details": ""}
+
+            }
+
+            },
+
+            "ThreeLinesOneListConsistency": {
+
+            "type": "object",
+
+            "title": "ThreeLinesOneListConsistency",
+
+            "properties": {
+
+            "AuditResults": {"type": "string", "title": "审核结果", "details": ""},
+
+            "SupportingDocument": {"type": "string", "title": "依据文件", "details": ""},
+
+            "Reasons": {"type": "string", "title": "原因", "details": ""}
+
+            }
+
+            },
+
+            "ConstructionContentCompleteness": {
+
+            "type": "object",
+
+            "title": "ConstructionContentCompleteness",
+
+            "properties": {
+
+            "AuditResults": {"type": "string", "title": "审核结果", "details": ""},
+
+            "SupportingDocument": {"type": "string", "title": "依据文件", "details": ""},
+
+            "Reasons": {"type": "string", "title": "原因", "details": ""}
+
+            }
+
+            },
+
+            "EnvironmentalQualityStatusDataReference": {
+
+            "type": "object",
+
+            "title": "EnvironmentalQualityStatusDataReference",
+
+            "properties": {
+
+            "AuditResults": {"type": "string", "title": "审核结果", "details": ""},
+
+            "SupportingDocument": {"type": "string", "title": "依据文件", "details": ""},
+
+            "Reasons": {"type": "string", "title": "原因", "details": ""}
+
+            }
+
+            },
+
+            "EnvironmentalQualityStandardsAccuracy": {
+
+            "type": "object",
+
+            "title": "EnvironmentalQualityStandardsAccuracy",
+
+            "properties": {
+
+            "AuditResults": {"type": "string", "title": "审核结果", "details": ""},
+
+            "SupportingDocument": {"type": "string", "title": "依据文件", "details": ""},
+
+            "Reasons": {"type": "string", "title": "原因", "details": ""}
+
+            }
+
+            },
+
+            "OperatingPollutionCoefficientRationality": {
+
+            "type": "object",
+
+            "title": "OperatingPollutionCoefficientRationality",
+
+            "properties": {
+
+            "AuditResults": {"type": "string", "title": "审核结果", "details": ""},
+
+            "SupportingDocument": {"type": "string", "title": "依据文件", "details": ""},
+
+            "Reasons": {"type": "string", "title": "原因", "details": ""}
+
+            }
+
+            },
+
+            "OperatingPollutionCoefficientAccuracy": {
+
+            "type": "object",
+
+            "title": "OperatingPollutionCoefficientAccuracy",
+
+            "properties": {
+
+            "AuditResults": {"type": "string", "title": "审核结果", "details": ""},
+
+            "SupportingDocument": {"type": "string", "title": "依据文件", "details": ""},
+
+            "Reasons": {"type": "string", "title": "原因", "details": ""}
+
+            }
+
+            },
+
+            "ExhaustGasCollectionFormAndAirVolumeRationality": {
+
+            "type": "object",
+
+            "title": "ExhaustGasCollectionFormAndAirVolumeRationality",
+
+            "properties": {
+
+            "AuditResults": {"type": "string", "title": "审核结果", "details": ""},
+
+            "SupportingDocument": {"type": "string", "title": "依据文件", "details": ""},
+
+            "Reasons": {"type": "string", "title": "原因", "details": ""}
+
+            }
+
+            },
+
+            "ExhaustGasCollectionAndDesignAirVolumeAccuracy": {
+
+            "type": "object",
+
+            "title": "ExhaustGasCollectionAndDesignAirVolumeAccuracy",
+
+            "properties": {
+
+            "AuditResults": {"type": "string", "title": "审核结果", "details": ""},
+
+            "SupportingDocument": {"type": "string", "title": "依据文件", "details": ""},
+
+            "Reasons": {"type": "string", "title": "原因", "details": ""}
+
+            }
+
+            },
+
+            "ExhaustGasCollectionEfficiencyAccuracy": {
+
+            "type": "object",
+
+            "title": "ExhaustGasCollectionEfficiencyAccuracy",
+
+            "properties": {
+
+            "AuditResults": {"type": "string", "title": "审核结果", "details": ""},
+
+            "SupportingDocument": {"type": "string", "title": "依据文件", "details": ""},
+
+            "Reasons": {"type": "string", "title": "原因", "details": ""}
+
+            }
+
+            }
+
+            }
+
+            }'
+        selected: false
+        title: LLM 2
+        type: llm
+        vision:
+          enabled: false
+      height: 89
+      id: '1769408650324'
+      position:
+        x: 7604
+        y: 244.5
+      positionAbsolute:
+        x: 7604
+        y: 244.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        code: "import json\nimport re\n\ndef _strip_noise(text: str) -> str:\n   \
+          \ \"\"\"\n    清理大模型输出中的干扰内容：\n    1. 去掉 <think>...</think>\n    2. 去掉 markdown\
+          \ 代码块\n    3. 去掉首尾空白\n    \"\"\"\n    text = (text or \"\").strip()\n\n\
+          \    # 去除完整 think 块\n    text = re.sub(r\"<think>.*?</think>\", \"\", text,\
+          \ flags=re.S)\n\n    # 兼容残留 think 标签\n    text = text.replace(\"<think>\"\
+          , \"\").replace(\"</think>\", \"\")\n\n    # 去除 markdown json 代码块标记\n  \
+          \  text = re.sub(r\"^```(?:json)?\\s*\", \"\", text, flags=re.I)\n    text\
+          \ = re.sub(r\"\\s*```$\", \"\", text)\n\n    return text.strip()\n\n\ndef\
+          \ _extract_json_object(text: str) -> str:\n    \"\"\"\n    从模型输出中提取第一个 JSON\
+          \ 对象。\n    防止模型在 JSON 前后输出解释性文字。\n    \"\"\"\n    start = text.find(\"{\"\
+          )\n    if start == -1:\n        return text.strip()\n\n    end = text.rfind(\"\
+          }\")\n    if end == -1 or end < start:\n        return text[start:].strip()\n\
+          \n    return text[start:end + 1].strip()\n\n\ndef _balance_json_braces(text:\
+          \ str) -> str:\n    \"\"\"\n    自动补齐缺失的右括号。\n    支持补齐：\n    1. {}\n    2.\
+          \ []\n    会避开字符串内部的括号。\n    \"\"\"\n    stack = []\n    in_str = False\n\
+          \    esc = False\n\n    for ch in text:\n        if esc:\n            esc\
+          \ = False\n            continue\n\n        if ch == \"\\\\\" and in_str:\n\
+          \            esc = True\n            continue\n\n        if ch == '\"':\n\
+          \            in_str = not in_str\n            continue\n\n        if in_str:\n\
+          \            continue\n\n        if ch in \"{[\":\n            stack.append(ch)\n\
+          \n        elif ch in \"}]\":\n            if stack:\n                top\
+          \ = stack[-1]\n                if (top == \"{\" and ch == \"}\") or (top\
+          \ == \"[\" and ch == \"]\"):\n                    stack.pop()\n\n    closing\
+          \ = \"\"\n    while stack:\n        top = stack.pop()\n        closing +=\
+          \ \"}\" if top == \"{\" else \"]\"\n\n    return text + closing\n\n\ndef\
+          \ main(json_str: str) -> dict:\n    \"\"\"\n    Dify 代码节点入口。\n    输入：json_str，来自\
+          \ LLM 2 的输出。\n    输出：result，返回清洗和修复后的合法 JSON 字符串。\n    \"\"\"\n    text\
+          \ = _strip_noise(json_str)\n    text = _extract_json_object(text)\n    text\
+          \ = _balance_json_braces(text)\n\n    try:\n        obj = json.loads(text)\n\
+          \        text = json.dumps(obj, ensure_ascii=False, separators=(\",\", \"\
+          :\"))\n    except Exception:\n        # 如果仍然解析失败，至少返回去除换行后的文本，便于日志排查\n \
+          \       text = text.replace(\"\\n\", \"\").strip()\n\n    return {\n   \
+          \     \"result\": text\n    }"
+        code_language: python3
+        isInLoop: false
+        outputs:
+          result:
+            children: null
+            type: string
+        selected: true
+        title: 代码执行 3
+        type: code
+        variables:
+        - value_selector:
+          - '1769408650324'
+          - text
+          value_type: string
+          variable: json_str
+      height: 53
+      id: '1769502020892'
+      position:
+        x: 7910.8717458874935
+        y: 244.5
+      positionAbsolute:
+        x: 7910.8717458874935
+        y: 244.5
+      selected: true
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        desc: ''
+        isInLoop: false
+        outputs:
+        - value_selector:
+          - '1769502020892'
+          - result
+          value_type: string
+          variable: text
+        selected: false
+        title: 结束
+        type: end
+      height: 89
+      id: '1768287121451'
+      position:
+        x: 8211
+        y: 244.5
+      positionAbsolute:
+        x: 8211
+        y: 244.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        code: "def main(html: str, previous_result: str) -> dict:\n    return {\"\
+          html\": html}"
+        code_language: python3
+        outputs:
+          html:
+            children: null
+            type: string
+        selected: false
+        title: 顺序门1-等待m1-国民经济分类判断max完成
+        type: code
+        variables:
+        - value_selector:
+          - '1768285679378'
+          - html
+          value_type: string
+          variable: html
+        - value_selector:
+          - '1780365136346'
+          - text
+          value_type: string
+          variable: previous_result
+      height: 53
+      id: '1780324145595'
+      position:
+        x: 636
+        y: 244.5
+      positionAbsolute:
+        x: 636
+        y: 244.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        code: "def main(html: str, previous_result: str) -> dict:\n    return {\"\
+          html\": html}"
+        code_language: python3
+        outputs:
+          html:
+            children: null
+            type: string
+        selected: false
+        title: 顺序门2-等待m2-环评投资核算max完成
+        type: code
+        variables:
+        - value_selector:
+          - '1768285679378'
+          - html
+          value_type: string
+          variable: html
+        - value_selector:
+          - '1780365147048'
+          - text
+          value_type: string
+          variable: previous_result
+      height: 53
+      id: '1780324194879'
+      position:
+        x: 1242
+        y: 244.5
+      positionAbsolute:
+        x: 1242
+        y: 244.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        code: "def main(html: str, previous_result: str) -> dict:\n    return {\"\
+          html\": html}"
+        code_language: python3
+        outputs:
+          html:
+            children: null
+            type: string
+        selected: false
+        title: 顺序门3-等待m4-三线一单管控内容一致性max完成
+        type: code
+        variables:
+        - value_selector:
+          - '1768285679378'
+          - html
+          value_type: string
+          variable: html
+        - value_selector:
+          - '1780365274153'
+          - text
+          value_type: string
+          variable: previous_result
+      height: 53
+      id: '1780324304812'
+      position:
+        x: 1848
+        y: 244.5
+      positionAbsolute:
+        x: 1848
+        y: 244.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        code: "def main(html: str, previous_result: str) -> dict:\n    return {\"\
+          html\": html}"
+        code_language: python3
+        outputs:
+          html:
+            children: null
+            type: string
+        selected: false
+        title: 顺序门4-等待m5-建设内容编制完整性判断max完成
+        type: code
+        variables:
+        - value_selector:
+          - '1768285679378'
+          - html
+          value_type: string
+          variable: html
+        - value_selector:
+          - '1780365285537'
+          - text
+          value_type: string
+          variable: previous_result
+      height: 53
+      id: '1780324322980'
+      position:
+        x: 2454
+        y: 244.5
+      positionAbsolute:
+        x: 2454
+        y: 244.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        code: "def main(html: str, previous_result: str) -> dict:\n    return {\"\
+          html\": html}"
+        code_language: python3
+        outputs:
+          html:
+            children: null
+            type: string
+        selected: false
+        title: 顺序门5-等待m6-环境质量现状数据引用是否有误max完成
+        type: code
+        variables:
+        - value_selector:
+          - '1768285679378'
+          - html
+          value_type: string
+          variable: html
+        - value_selector:
+          - '1780365359329'
+          - text
+          value_type: string
+          variable: previous_result
+      height: 53
+      id: '1780324370435'
+      position:
+        x: 3060
+        y: 244.5
+      positionAbsolute:
+        x: 3060
+        y: 244.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        code: "def main(html: str, previous_result: str) -> dict:\n    return {\"\
+          html\": html}"
+        code_language: python3
+        outputs:
+          html:
+            children: null
+            type: string
+        selected: false
+        title: 顺序门6-等待m7-环境质量执行标准准确性判断max完成
+        type: code
+        variables:
+        - value_selector:
+          - '1768285679378'
+          - html
+          value_type: string
+          variable: html
+        - value_selector:
+          - '1780365370746'
+          - text
+          value_type: string
+          variable: previous_result
+      height: 53
+      id: '1780324393162'
+      position:
+        x: 3666
+        y: 244.5
+      positionAbsolute:
+        x: 3666
+        y: 244.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        code: "def main(html: str, previous_result: str) -> dict:\n    return {\"\
+          html\": html}"
+        code_language: python3
+        outputs:
+          html:
+            children: null
+            type: string
+        selected: false
+        title: 顺序门7-等待m9-运营期间产污环节污染物产污系数使用max完成
+        type: code
+        variables:
+        - value_selector:
+          - '1768285679378'
+          - html
+          value_type: string
+          variable: html
+        - value_selector:
+          - '1780365427608'
+          - text
+          value_type: string
+          variable: previous_result
+      height: 53
+      id: '1780324431650'
+      position:
+        x: 4272
+        y: 244.5
+      positionAbsolute:
+        x: 4272
+        y: 244.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        code: "def main(html: str, previous_result: str) -> dict:\n    return {\"\
+          html\": html}"
+        code_language: python3
+        outputs:
+          html:
+            children: null
+            type: string
+        selected: false
+        title: 顺序门9-等待M11-废气收集形式及排气量计算合理性判断_不迭代完成
+        type: code
+        variables:
+        - value_selector:
+          - '1768285679378'
+          - html
+          value_type: string
+          variable: html
+        - value_selector:
+          - '1780365450323'
+          - text
+          value_type: string
+          variable: previous_result
+      height: 53
+      id: '1780324435548'
+      position:
+        x: 5484
+        y: 244.5
+      positionAbsolute:
+        x: 5484
+        y: 244.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        code: "def main(html: str, previous_result: str) -> dict:\n    return {\"\
+          html\": html}"
+        code_language: python3
+        outputs:
+          html:
+            children: null
+            type: string
+        selected: false
+        title: 顺序门10-等待M12-废气收集风量与设计风量准确性核算_不迭代完成
+        type: code
+        variables:
+        - value_selector:
+          - '1768285679378'
+          - html
+          value_type: string
+          variable: html
+        - value_selector:
+          - '1780365460265'
+          - text
+          value_type: string
+          variable: previous_result
+      height: 53
+      id: '1780324445246'
+      position:
+        x: 6090
+        y: 244.5
+      positionAbsolute:
+        x: 6090
+        y: 244.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        code: "def main(html: str, previous_result: str) -> dict:\n    return {\"\
+          html\": html}"
+        code_language: python3
+        outputs:
+          html:
+            children: null
+            type: string
+        selected: false
+        title: 顺序门8-等待M10-运营期间产污环节污染物产污系数使用合理性判定_不迭代完成
+        type: code
+        variables:
+        - value_selector:
+          - '1768285679378'
+          - html
+          value_type: string
+          variable: html
+        - value_selector:
+          - '1780365441233'
+          - text
+          value_type: string
+          variable: previous_result
+      height: 53
+      id: '1780324510386'
+      position:
+        x: 4878
+        y: 244.5
+      positionAbsolute:
+        x: 4878
+        y: 244.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        desc: ''
+        is_team_authorization: true
+        output_schema: null
+        paramSchemas:
+        - auto_generate: null
+          default: null
+          form: llm
+          human_description:
+            en_US: ''
+            ja_JP: ''
+            pt_BR: ''
+            zh_Hans: ''
+          label:
+            en_US: html
+            ja_JP: html
+            pt_BR: html
+            zh_Hans: html
+          llm_description: ''
+          max: null
+          min: null
+          name: html
+          options: []
+          placeholder:
+            en_US: ''
+            ja_JP: ''
+            pt_BR: ''
+            zh_Hans: ''
+          precision: null
+          required: true
+          scope: null
+          template: null
+          type: string
+        params:
+          html: ''
+        provider_id: 470b5519-b024-4317-ac0f-6d736980cd19
+        provider_name: M1-国民经济分类判断new
+        provider_type: workflow
+        selected: false
+        title: M1-国民经济分类判断new
+        tool_configurations: {}
+        tool_description: 国民经济分类判断审核
+        tool_label: M1-国民经济分类判断new
+        tool_name: '12345'
+        tool_parameters:
+          html:
+            type: mixed
+            value: '{{#1768285679378.html#}}'
+        type: tool
+      height: 53
+      id: '1780365136346'
+      position:
+        x: 333
+        y: 244.5
+      positionAbsolute:
+        x: 333
+        y: 244.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        desc: ''
+        is_team_authorization: true
+        output_schema: null
+        paramSchemas:
+        - auto_generate: null
+          default: null
+          form: llm
+          human_description:
+            en_US: ''
+            ja_JP: ''
+            pt_BR: ''
+            zh_Hans: ''
+          label:
+            en_US: html
+            ja_JP: html
+            pt_BR: html
+            zh_Hans: html
+          llm_description: ''
+          max: null
+          min: null
+          name: html
+          options: []
+          placeholder:
+            en_US: ''
+            ja_JP: ''
+            pt_BR: ''
+            zh_Hans: ''
+          precision: null
+          required: true
+          scope: null
+          template: null
+          type: string
+        params:
+          html: ''
+        provider_id: 91c1bc9c-c522-4e92-9641-1fae1ea960fb
+        provider_name: M2-环评投资核算new
+        provider_type: workflow
+        selected: false
+        title: M2-环评投资核算new
+        tool_configurations: {}
+        tool_description: '213'
+        tool_label: M2-环评投资核算new
+        tool_name: '123'
+        tool_parameters:
+          html:
+            type: mixed
+            value: '{{#1780324145595.html#}}'
+        type: tool
+      height: 53
+      id: '1780365147048'
+      position:
+        x: 942.5
+        y: 244.5
+      positionAbsolute:
+        x: 942.5
+        y: 244.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        desc: ''
+        is_team_authorization: true
+        output_schema: null
+        paramSchemas:
+        - auto_generate: null
+          default: null
+          form: llm
+          human_description:
+            en_US: ''
+            ja_JP: ''
+            pt_BR: ''
+            zh_Hans: ''
+          label:
+            en_US: html
+            ja_JP: html
+            pt_BR: html
+            zh_Hans: html
+          llm_description: ''
+          max: null
+          min: null
+          name: html
+          options: []
+          placeholder:
+            en_US: ''
+            ja_JP: ''
+            pt_BR: ''
+            zh_Hans: ''
+          precision: null
+          required: true
+          scope: null
+          template: null
+          type: string
+        params:
+          html: ''
+        provider_id: 94e798e4-3a35-43ee-aa58-f2d4aca7a03e
+        provider_name: M4-三线一单管控内容一致性判定_不迭代
+        provider_type: workflow
+        selected: false
+        title: M4-三线一单管控内容一致性判定_不迭代
+        tool_configurations: {}
+        tool_description: 不迭代版：一次性筛选、提取、审查、清洗输出
+        tool_label: M4-三线一单管控内容一致性判定_不迭代
+        tool_name: huanping_4max
+        tool_parameters:
+          html:
+            type: mixed
+            value: '{{#1780324194879.html#}}'
+        type: tool
+      height: 53
+      id: '1780365274153'
+      position:
+        x: 1545
+        y: 244.5
+      positionAbsolute:
+        x: 1545
+        y: 244.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        desc: ''
+        is_team_authorization: true
+        output_schema: null
+        paramSchemas:
+        - auto_generate: null
+          default: null
+          form: llm
+          human_description:
+            en_US: ''
+            ja_JP: ''
+            pt_BR: ''
+            zh_Hans: ''
+          label:
+            en_US: html
+            ja_JP: html
+            pt_BR: html
+            zh_Hans: html
+          llm_description: ''
+          max: null
+          min: null
+          name: html
+          options: []
+          placeholder:
+            en_US: ''
+            ja_JP: ''
+            pt_BR: ''
+            zh_Hans: ''
+          precision: null
+          required: true
+          scope: null
+          template: null
+          type: string
+        params:
+          html: ''
+        provider_id: caf0e90c-13c7-4249-950d-90623441da62
+        provider_name: M5-建设内容编制完整性判断new
+        provider_type: workflow
+        selected: false
+        title: M5-建设内容编制完整性判断new
+        tool_configurations: {}
+        tool_description: '环评审核qwen3：32b
+
+          '
+        tool_label: M5-建设内容编制完整性判断new
+        tool_name: '1234'
+        tool_parameters:
+          html:
+            type: mixed
+            value: '{{#1780324304812.html#}}'
+        type: tool
+      height: 53
+      id: '1780365285537'
+      position:
+        x: 2151
+        y: 244.5
+      positionAbsolute:
+        x: 2151
+        y: 244.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        desc: ''
+        is_team_authorization: true
+        output_schema: null
+        paramSchemas:
+        - auto_generate: null
+          default: null
+          form: llm
+          human_description:
+            en_US: ''
+            ja_JP: ''
+            pt_BR: ''
+            zh_Hans: ''
+          label:
+            en_US: html
+            ja_JP: html
+            pt_BR: html
+            zh_Hans: html
+          llm_description: ''
+          max: null
+          min: null
+          name: html
+          options: []
+          placeholder:
+            en_US: ''
+            ja_JP: ''
+            pt_BR: ''
+            zh_Hans: ''
+          precision: null
+          required: true
+          scope: null
+          template: null
+          type: string
+        params:
+          html: ''
+        provider_id: bb801684-d6b4-45a8-8c6b-191622b9883a
+        provider_name: M6-环境质量现状数据引用是否有误_不迭代
+        provider_type: workflow
+        selected: false
+        title: M6-环境质量现状数据引用是否有误_不迭代
+        tool_configurations: {}
+        tool_description: 不迭代版：一次性筛选、提取、审查、清洗输出
+        tool_label: M6-环境质量现状数据引用是否有误_不迭代
+        tool_name: huanping_6max
+        tool_parameters:
+          html:
+            type: mixed
+            value: '{{#1780324322980.html#}}'
+        type: tool
+      height: 53
+      id: '1780365359329'
+      position:
+        x: 2757
+        y: 244.5
+      positionAbsolute:
+        x: 2757
+        y: 244.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        desc: ''
+        is_team_authorization: true
+        output_schema: null
+        paramSchemas:
+        - auto_generate: null
+          default: null
+          form: llm
+          human_description:
+            en_US: ''
+            ja_JP: ''
+            pt_BR: ''
+            zh_Hans: ''
+          label:
+            en_US: html
+            ja_JP: html
+            pt_BR: html
+            zh_Hans: html
+          llm_description: ''
+          max: null
+          min: null
+          name: html
+          options: []
+          placeholder:
+            en_US: ''
+            ja_JP: ''
+            pt_BR: ''
+            zh_Hans: ''
+          precision: null
+          required: true
+          scope: null
+          template: null
+          type: string
+        params:
+          html: ''
+        provider_id: 4c1182d4-8d2c-4333-8420-6575d3a10000
+        provider_name: M7-环境质量执行标准准确性判断_不迭代
+        provider_type: workflow
+        selected: false
+        title: M7-环境质量执行标准准确性判断_不迭代
+        tool_configurations: {}
+        tool_description: 不迭代版：一次性筛选、提取、审查、清洗输出
+        tool_label: M7-环境质量执行标准准确性判断_不迭代
+        tool_name: huanping_7max
+        tool_parameters:
+          html:
+            type: mixed
+            value: '{{#1780324370435.html#}}'
+        type: tool
+      height: 53
+      id: '1780365370746'
+      position:
+        x: 3363
+        y: 244.5
+      positionAbsolute:
+        x: 3363
+        y: 244.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        desc: ''
+        is_team_authorization: true
+        output_schema: null
+        paramSchemas:
+        - auto_generate: null
+          default: null
+          form: llm
+          human_description:
+            en_US: ''
+            ja_JP: ''
+            pt_BR: ''
+            zh_Hans: ''
+          label:
+            en_US: html
+            ja_JP: html
+            pt_BR: html
+            zh_Hans: html
+          llm_description: ''
+          max: null
+          min: null
+          name: html
+          options: []
+          placeholder:
+            en_US: ''
+            ja_JP: ''
+            pt_BR: ''
+            zh_Hans: ''
+          precision: null
+          required: true
+          scope: null
+          template: null
+          type: string
+        params:
+          html: ''
+        provider_id: d41ffbd7-87f0-404a-8206-4b751df44ff9
+        provider_name: M9-运营期间产污环节污染物产污系数使用合理性判断_不迭代
+        provider_type: workflow
+        selected: false
+        title: M9-运营期间产污环节污染物产污系数使用合理性判断_不迭代
+        tool_configurations: {}
+        tool_description: 环评审核qwen3：32b
+        tool_label: M9-运营期间产污环节污染物产污系数使用合理性判断_不迭代
+        tool_name: huanping_9max
+        tool_parameters:
+          html:
+            type: mixed
+            value: '{{#1780324393162.html#}}'
+        type: tool
+      height: 53
+      id: '1780365427608'
+      position:
+        x: 3969
+        y: 244.5
+      positionAbsolute:
+        x: 3969
+        y: 244.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        desc: ''
+        is_team_authorization: true
+        output_schema: null
+        paramSchemas:
+        - auto_generate: null
+          default: null
+          form: llm
+          human_description:
+            en_US: ''
+            ja_JP: ''
+            pt_BR: ''
+            zh_Hans: ''
+          label:
+            en_US: html
+            ja_JP: html
+            pt_BR: html
+            zh_Hans: html
+          llm_description: ''
+          max: null
+          min: null
+          name: html
+          options: []
+          placeholder:
+            en_US: ''
+            ja_JP: ''
+            pt_BR: ''
+            zh_Hans: ''
+          precision: null
+          required: true
+          scope: null
+          template: null
+          type: string
+        params:
+          html: ''
+        provider_id: d6e49b86-b59f-46ae-b893-1cc298301a7b
+        provider_name: M10-运营期间产污环节污染物产污系数使用合理性与定量核算准确性判定_不迭代
+        provider_type: workflow
+        selected: false
+        title: M10-运营期间产污环节污染物产污系数使用合理性与定量核算准确性判定_不迭代
+        tool_configurations: {}
+        tool_description: 不迭代版：一次性筛选、提取、审查产污系数使用合理性与定量核算准确性
+        tool_label: M10-运营期间产污环节污染物产污系数使用合理性与定量核算准确性判定_不迭代
+        tool_name: huanping_10max
+        tool_parameters:
+          html:
+            type: mixed
+            value: '{{#1780324431650.html#}}'
+        type: tool
+      height: 53
+      id: '1780365441233'
+      position:
+        x: 4575
+        y: 244.5
+      positionAbsolute:
+        x: 4575
+        y: 244.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        desc: ''
+        is_team_authorization: true
+        output_schema: null
+        paramSchemas:
+        - auto_generate: null
+          default: null
+          form: llm
+          human_description:
+            en_US: ''
+            ja_JP: ''
+            pt_BR: ''
+            zh_Hans: ''
+          label:
+            en_US: html
+            ja_JP: html
+            pt_BR: html
+            zh_Hans: html
+          llm_description: ''
+          max: null
+          min: null
+          name: html
+          options: []
+          placeholder:
+            en_US: ''
+            ja_JP: ''
+            pt_BR: ''
+            zh_Hans: ''
+          precision: null
+          required: true
+          scope: null
+          template: null
+          type: string
+        params:
+          html: ''
+        provider_id: decdcd6a-35ff-4718-9f40-29aa6563770b
+        provider_name: M11-废气收集形式及排气量计算合理性判断_不迭代
+        provider_type: workflow
+        selected: false
+        title: M11-废气收集形式及排气量计算合理性判断_不迭代
+        tool_configurations: {}
+        tool_description: 不迭代版：一次性筛选、提取、审查废气收集形式及排气量计算合理性
+        tool_label: M11-废气收集形式及排气量计算合理性判断_不迭代
+        tool_name: huanping_11max
+        tool_parameters:
+          html:
+            type: mixed
+            value: '{{#1780324510386.html#}}'
+        type: tool
+      height: 53
+      id: '1780365450323'
+      position:
+        x: 5181
+        y: 244.5
+      positionAbsolute:
+        x: 5181
+        y: 244.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        desc: ''
+        is_team_authorization: true
+        output_schema: null
+        paramSchemas:
+        - auto_generate: null
+          default: null
+          form: llm
+          human_description:
+            en_US: ''
+            ja_JP: ''
+            pt_BR: ''
+            zh_Hans: ''
+          label:
+            en_US: html
+            ja_JP: html
+            pt_BR: html
+            zh_Hans: html
+          llm_description: ''
+          max: null
+          min: null
+          name: html
+          options: []
+          placeholder:
+            en_US: ''
+            ja_JP: ''
+            pt_BR: ''
+            zh_Hans: ''
+          precision: null
+          required: true
+          scope: null
+          template: null
+          type: string
+        params:
+          html: ''
+        provider_id: 452bcf77-42a4-44ac-b3dc-0fea60805cf0
+        provider_name: M12-废气收集风量与设计风量准确性核算_不迭代
+        provider_type: workflow
+        selected: false
+        title: M12-废气收集风量与设计风量准确性核算_不迭代
+        tool_configurations: {}
+        tool_description: 不迭代版：一次性筛选、提取、审查废气收集风量与设计风量准确性
+        tool_label: M12-废气收集风量与设计风量准确性核算_不迭代
+        tool_name: huanping_12max
+        tool_parameters:
+          html:
+            type: mixed
+            value: '{{#1780324435548.html#}}'
+        type: tool
+      height: 53
+      id: '1780365460265'
+      position:
+        x: 5787
+        y: 244.5
+      positionAbsolute:
+        x: 5787
+        y: 244.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    - data:
+        desc: ''
+        is_team_authorization: true
+        output_schema: null
+        paramSchemas:
+        - auto_generate: null
+          default: null
+          form: llm
+          human_description:
+            en_US: ''
+            ja_JP: ''
+            pt_BR: ''
+            zh_Hans: ''
+          label:
+            en_US: html
+            ja_JP: html
+            pt_BR: html
+            zh_Hans: html
+          llm_description: ''
+          max: null
+          min: null
+          name: html
+          options: []
+          placeholder:
+            en_US: ''
+            ja_JP: ''
+            pt_BR: ''
+            zh_Hans: ''
+          precision: null
+          required: true
+          scope: null
+          template: null
+          type: string
+        params:
+          html: ''
+        provider_id: 6eb48f1c-db40-40b6-91a9-d492c97cb180
+        provider_name: M13-废气收集效率判定准确性_不迭代
+        provider_type: workflow
+        selected: false
+        title: M13-废气收集效率判定准确性_不迭代
+        tool_configurations: {}
+        tool_description: 不迭代版：一次性筛选、提取、审查废气收集效率判定准确性
+        tool_label: M13-废气收集效率判定准确性_不迭代
+        tool_name: huanping_13max
+        tool_parameters:
+          html:
+            type: mixed
+            value: '{{#1780324445246.html#}}'
+        type: tool
+      height: 53
+      id: '1780365469473'
+      position:
+        x: 6393
+        y: 244.5
+      positionAbsolute:
+        x: 6393
+        y: 244.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 243
+    viewport:
+      x: -4383.458774018678
+      y: 374.8165294551165
+      zoom: 0.7578582832551995

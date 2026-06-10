@@ -1,0 +1,296 @@
+app:
+  description: ''
+  icon: 🤖
+  icon_background: '#FFEAD5'
+  icon_type: emoji
+  mode: workflow
+  name: 2-环评投资核算
+  use_icon_as_answer_icon: false
+dependencies:
+- current_identifier: null
+  type: marketplace
+  value:
+    marketplace_plugin_unique_identifier: langgenius/openai_api_compatible:0.0.16@d41b09aca46cdd3876f70b4c91d464c4588fc0bdc844ced6ee426283ead6ce8e
+    version: null
+kind: app
+version: 0.6.0
+workflow:
+  conversation_variables: []
+  environment_variables: []
+  features:
+    file_upload:
+      allowed_file_extensions:
+      - .JPG
+      - .JPEG
+      - .PNG
+      - .GIF
+      - .WEBP
+      - .SVG
+      allowed_file_types:
+      - image
+      allowed_file_upload_methods:
+      - local_file
+      - remote_url
+      enabled: false
+      fileUploadConfig:
+        attachment_image_file_size_limit: 2
+        audio_file_size_limit: 50
+        batch_count_limit: 10
+        file_size_limit: 150
+        file_upload_limit: 20
+        image_file_batch_limit: 10
+        image_file_size_limit: 10
+        single_chunk_attachment_limit: 10
+        video_file_size_limit: 100
+        workflow_file_upload_limit: 30
+      image:
+        enabled: false
+        number_limits: 3
+        transfer_methods:
+        - local_file
+        - remote_url
+      number_limits: 3
+    opening_statement: ''
+    retriever_resource:
+      enabled: true
+    sensitive_word_avoidance:
+      enabled: false
+    speech_to_text:
+      enabled: false
+    suggested_questions: []
+    suggested_questions_after_answer:
+      enabled: false
+    text_to_speech:
+      enabled: false
+      language: ''
+      voice: ''
+  graph:
+    edges:
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: llm
+        targetType: end
+      id: 1756557250805-source-1756557294597-target
+      source: '1756557250805'
+      sourceHandle: source
+      target: '1756557294597'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: start
+        targetType: code
+      id: 1756557223222-source-1778288835626-target
+      source: '1756557223222'
+      sourceHandle: source
+      target: '1778288835626'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: code
+        targetType: llm
+      id: 1778288835626-source-1756557250805-target
+      source: '1778288835626'
+      sourceHandle: source
+      target: '1756557250805'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    nodes:
+    - data:
+        desc: ''
+        selected: false
+        title: 开始
+        type: start
+        variables:
+        - label: html
+          max_length: 1000000
+          options: []
+          required: true
+          type: paragraph
+          variable: html
+      height: 108
+      id: '1756557223222'
+      position:
+        x: 80
+        y: 282
+      positionAbsolute:
+        x: 80
+        y: 282
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+    - data:
+        context:
+          enabled: true
+          variable_selector:
+          - '1778288835626'
+          - first_json_content
+        desc: ''
+        model:
+          completion_params: {}
+          mode: chat
+          name: gpt-5.5
+          provider: langgenius/openai_api_compatible/openai_api_compatible
+        prompt_template:
+        - id: af88ac4e-e7c6-47d4-b380-28ab829fcd5c
+          role: system
+          text: '<任务描述>
+
+            你是环评报告环保投资核算审核助手。请只基于下方筛选文本进行判断，不要引用未提供的全文内容。
+
+
+            <待审核文本>
+
+            {{#context#}}
+
+
+            <审核步骤>
+
+            1. 提取“建设项目基本情况”或相关表格中的总投资（万元）、环保投资（万元）、填报的环保投资占比（%）。
+
+            2. 按公式计算：环保投资占比 = 环保投资 / 总投资 × 100%。
+
+            3. 将计算结果与报告填报值进行对比，判断是否一致。
+
+            4. 若同时出现“项目环保投资一览表”，可用于辅助核对环保投资分项是否与环保投资合计一致。
+
+
+            <输出格式>
+
+            1. 环保投资占比（%）核算正确/错误；
+
+            2. 具体分析：项目填报的项目总投资金额xx万元，环保投资金额xx万元，经核算环保投资占比为xx%，与填报的环保投资占比xx%相符/不相符。若环保投资分项合计与环保投资金额不一致，请指出需要复核。
+
+
+            /no_think'
+        selected: false
+        title: LLM
+        type: llm
+        variables: []
+        vision:
+          enabled: false
+      height: 87
+      id: '1756557250805'
+      position:
+        x: 686
+        y: 282
+      positionAbsolute:
+        x: 686
+        y: 282
+      selected: true
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+    - data:
+        desc: ''
+        outputs:
+        - value_selector:
+          - '1756557250805'
+          - text
+          value_type: string
+          variable: text
+        selected: false
+        title: 结束
+        type: end
+      height: 88
+      id: '1756557294597'
+      position:
+        x: 988
+        y: 282
+      positionAbsolute:
+        x: 988
+        y: 282
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+    - data:
+        code: "import json\nimport ast\nimport re\nimport html as html_lib\n\n\ndef\
+          \ _strip_code_fence(text: str) -> str:\n    text = (text or \"\").strip()\n\
+          \    text = re.sub(r\"^```(?:json)?\\s*\", \"\", text, flags=re.I)\n   \
+          \ text = re.sub(r\"\\s*```$\", \"\", text).strip()\n    return text\n\n\n\
+          def _parse_input(raw: str):\n    raw = _strip_code_fence(raw)\n    try:\n\
+          \        return json.loads(raw)\n    except Exception:\n        try:\n \
+          \           return ast.literal_eval(raw)\n        except Exception:\n  \
+          \          return raw\n\n\ndef _to_chunks(data):\n    \"\"\"统一转成 [{'id':\
+          \ ..., 'content': ...}]，兼容 list / dict / string 输入。\"\"\"\n    if isinstance(data,\
+          \ list):\n        chunks = []\n        for i, item in enumerate(data):\n\
+          \            if isinstance(item, dict):\n                content = item.get(\"\
+          content\") or item.get(\"text\") or json.dumps(item, ensure_ascii=False)\n\
+          \                chunks.append({\"id\": str(item.get(\"id\", i)), \"content\"\
+          : str(content)})\n            else:\n                chunks.append({\"id\"\
+          : str(i), \"content\": str(item)})\n        return chunks\n    if isinstance(data,\
+          \ dict):\n        content = data.get(\"content\") or data.get(\"text\")\
+          \ or json.dumps(data, ensure_ascii=False)\n        return [{\"id\": str(data.get(\"\
+          id\", \"0\")), \"content\": str(content)}]\n    return [{\"id\": \"0\",\
+          \ \"content\": str(data)}]\n\n\ndef _clean_html(text: str) -> str:\n   \
+          \ text = html_lib.unescape(text or \"\")\n    # 表格结构对本任务不是关键，删除标签可显著压缩 token。\n\
+          \    text = re.sub(r\"<[^>]+>\", \" \", text)\n    text = re.sub(r\"\\s+\"\
+          , \" \", text).strip()\n    return text\n\n\ndef _merge_windows(windows):\n\
+          \    if not windows:\n        return []\n    windows = sorted(windows)\n\
+          \    merged = [list(windows[0])]\n    for start, end in windows[1:]:\n \
+          \       if start <= merged[-1][1]:\n            merged[-1][1] = max(merged[-1][1],\
+          \ end)\n        else:\n            merged.append([start, end])\n    return\
+          \ [(s, e) for s, e in merged]\n\n\ndef _extract_investment_windows(text:\
+          \ str, radius: int = 800) -> str:\n    keywords = [\n        \"总投资\", \"\
+          环保投资\", \"环保投资占比\", \"项目环保投资\", \"环保投资一览表\",\n        \"工程投资\", \"占总投资比例\"\
+          , \"防治措施\"\n    ]\n    windows = []\n    for kw in keywords:\n        for\
+          \ m in re.finditer(re.escape(kw), text):\n            start = max(0, m.start()\
+          \ - radius)\n            end = min(len(text), m.end() + radius)\n      \
+          \      windows.append((start, end))\n    windows = _merge_windows(windows)\n\
+          \    parts = []\n    for start, end in windows:\n        parts.append(text[start:end])\n\
+          \    return \"\\n...\\n\".join(parts)\n\n\ndef main(html: str) -> dict:\n\
+          \    raw = html or \"\"\n    data = _parse_input(raw)\n    chunks = _to_chunks(data)\n\
+          \n    selected = []\n    for chunk in chunks:\n        text = _clean_html(chunk[\"\
+          content\"])\n        # 只保留与“环保投资核算”直接相关的片段，避免整篇报告进入模型。\n        if any(k\
+          \ in text for k in [\"总投资\", \"环保投资\", \"环保投资占比\", \"项目环保投资\", \"环保投资一览表\"\
+          , \"工程投资\"]):\n            snippet = _extract_investment_windows(text)\n\
+          \            if snippet:\n                selected.append(f\"【片段ID：{chunk['id']}】\\\
+          n{snippet}\")\n\n    if selected:\n        result = \"\\n\\n\".join(selected)\n\
+          \    else:\n        # 兜底：未识别到关键词时，只取开头部分，避免上下文超限。\n        result = _clean_html(raw)[:8000]\n\
+          \n    # 二号任务只核算总投资/环保投资/占比，限制长度即可，不需要完整报告。\n    max_chars = 8000\n    if\
+          \ len(result) > max_chars:\n        result = result[:max_chars] + \"\\n……（已截断：仅保留环保投资核算相关内容）\"\
+          \n\n    return {\n        \"first_json_content\": result\n    }\n"
+        code_language: python3
+        desc: ''
+        outputs:
+          first_json_content:
+            children: null
+            type: string
+        selected: false
+        title: 筛选2号审核相关文本
+        type: code
+        variables:
+        - value_selector:
+          - '1756557223222'
+          - html
+          variable: html
+      height: 51
+      id: '1778288835626'
+      position:
+        x: 386.8705505632961
+        y: 282
+      positionAbsolute:
+        x: 386.8705505632961
+        y: 282
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+    viewport:
+      x: 230.66746344529878
+      y: 134.07144349626302
+      zoom: 0.8347916451334274
+  rag_pipeline_variables: []

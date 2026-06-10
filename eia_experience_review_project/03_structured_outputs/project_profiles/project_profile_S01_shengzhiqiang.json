@@ -1,0 +1,184 @@
+{
+  "project_id": "S01",
+  "project_name": "佛山市盛之强电器有限公司建设项目",
+  "report_type": "建设项目环境影响报告表（污染影响类）",
+  "review_level": "报告表（免专家评审）",
+
+  "basic_info": {
+    "construction_unit": "佛山市盛之强电器有限公司",
+    "contact": "罗绮霞",
+    "phone": "18924815600",
+    "project_code": "无",
+    "total_investment_wan": 50,
+    "env_protection_investment_wan": 15,
+    "env_investment_ratio_pct": 30,
+    "construction_period_months": 1,
+    "land_area_m2": 1247,
+    "building_area_m2": 1247,
+    "has_started": false,
+    "employees": 15,
+    "work_days_per_year": 300,
+    "work_hours_per_day": 8,
+    "accommodation_on_site": false
+  },
+
+  "location": {
+    "address": "佛山市顺德区大良街道古鉴村良勒路245号首层之一",
+    "longitude": "113°12′23.048″E",
+    "latitude": "22°50′32.808″N",
+    "district": "顺德区",
+    "subdistrict": "大良街道",
+    "village": "古鉴村"
+  },
+
+  "industry_classification": {
+    "code": "C2929",
+    "name": "塑料零件及其他塑料制品制造",
+    "catalog_category": "二十六、橡胶和塑料制品业-53塑料制品业-其他（年用非溶剂型低VOCS含量涂料10吨以下的除外）"
+  },
+
+  "construction_nature": "新建（迁建）",
+  "application_type": "首次申报项目",
+  "special_assessment": "无",
+
+  "spatial_control": {
+    "control_unit_code": "ZH44060620002",
+    "control_unit_name": "大良街道重点管控区",
+    "control_unit_type": "重点管控单元",
+    "ecological_redline": "不涉及",
+    "planning_name": "大良凤翔工业区（D-XB-01-01、D-XB-02-01、D-DL-01-01、D-DL-01-04）控制性详细规划",
+    "planning_approval": "顺府复〔2016〕103号",
+    "planning_eia_name": "顺德区大良街道西部片区区域环境影响报告书",
+    "planning_eia_approval": "佛山市生态环境局顺德分局关于顺德区大良街道西部片区区域环境影响报告书审查情况的复函"
+  },
+
+  "environmental_function_zones": {
+    "surface_water": {
+      "receiving_body": "顺德支流",
+      "function": "综合用水",
+      "water_quality_target": "III类",
+      "current_status": "达标区"
+    },
+    "air": {
+      "function_zone": "二类区",
+      "current_status": "不达标区（O3超标）"
+    },
+    "noise": {
+      "function_zone": "3类",
+      "standard": "GB12348-2008 3类"
+    },
+    "sewage_treatment": {
+      "plant": "大门污水处理厂",
+      "coverage": "纳污范围内"
+    }
+  },
+
+  "sensitive_targets": {
+    "air_500m": "厂界500m范围内主要为工业厂房，无大气环境敏感目标",
+    "noise_50m": "厂界外50m范围内无声环境保护目标",
+    "water_500m": "厂界外500m范围内无饮用水源保护区"
+  },
+
+  "production": {
+    "products": [
+      {"name": "支架线盘", "annual_output_wan_pcs": 100, "size": "直径160mm", "unit_weight_g": 55, "total_weight_t_a": 55},
+      {"name": "支架线盘", "annual_output_wan_pcs": 50, "size": "直径190mm", "unit_weight_g": 95, "total_weight_t_a": 47.5}
+    ],
+    "total_output_t_a": 102.5
+  },
+
+  "equipment": [
+    {"name": "注塑机", "qty": 15, "spec": "140T(9台)+180T(6台)", "process": "注塑"},
+    {"name": "烘料桶", "qty": 15, "spec": "WSDB75", "process": "烘料"},
+    {"name": "混料机", "qty": 3, "spec": "", "process": "混料"},
+    {"name": "破碎机", "qty": 3, "spec": "", "process": "破碎"},
+    {"name": "磨床", "qty": 1, "spec": "", "process": "模具维修"},
+    {"name": "铣床", "qty": 1, "spec": "", "process": "模具维修"},
+    {"name": "冷却塔", "qty": 1, "spec": "10t/h", "process": "冷却"},
+    {"name": "空压机", "qty": 1, "spec": "", "process": "辅助"}
+  ],
+
+  "process_flow": ["烘料", "混料", "注塑", "冷却", "修边", "破碎", "模具维修"],
+
+  "pollutants": {
+    "waste_gas": [
+      {"source": "投料粉尘", "pollutant": "颗粒物", "treatment": "加强车间通风", "emission_type": "无组织", "amount_t_a": 0.005},
+      {"source": "机加工（磨床）", "pollutant": "颗粒物", "treatment": "自然沉降", "emission_type": "无组织", "amount_t_a": 0.001},
+      {"source": "注塑废气", "pollutant": "非甲烷总烃", "treatment": "点对点局部密闭集气罩+活性炭吸附+15m排气筒DA001", "emission_type": "有组织", "amount_t_a": 0.090},
+      {"source": "注塑废气", "pollutant": "非甲烷总烃", "treatment": "加强车间通风", "emission_type": "无组织", "amount_t_a": 0.097},
+      {"source": "注塑废气", "pollutant": "臭气浓度", "treatment": "点对点局部密闭集气罩+活性炭吸附+15m排气筒DA001", "emission_type": "有组织"}
+    ],
+    "waste_water": [
+      {"source": "生活污水", "pollutant": "CODCr/BOD5/SS/NH3-N", "treatment": "三级化粪池→大门污水处理厂", "amount_t_a": 135.0},
+      {"source": "间接冷却水", "pollutant": "SS", "treatment": "循环使用，定期排入雨水管网", "note": "需确认地方口径"}
+    ],
+    "noise": {
+      "sources": "注塑机、破碎机、冷却塔、空压机、风机",
+      "standard": "GB12348-2008 3类",
+      "measures": "选用低噪声设备、减振底座、厂房隔声"
+    },
+    "solid_waste": {
+      "general": [
+        {"type": "废包装物", "amount_t_a": 0.041},
+        {"type": "塑料次品、边角料和残留物", "amount_t_a": 11.056, "disposal": "回用于生产"},
+        {"type": "金属边角料", "amount_t_a": 0.072}
+      ],
+      "hazardous": [
+        {"type": "废矿物油", "code": "HW08 900-249-08", "amount_t_a": 0.255},
+        {"type": "废油桶", "code": "HW08 900-249-08", "amount_t_a": 0.045},
+        {"type": "废含油抹布和劳保用品", "code": "HW49 900-041-49", "amount_t_a": 0.020},
+        {"type": "废活性炭", "code": "HW49 900-039-49", "amount_t_a": 1.818}
+      ]
+    }
+  },
+
+  "exhaust_gas_parameters": {
+    "stack_id": "DA001",
+    "stack_name": "有机废气排气筒",
+    "stack_height_m": 15,
+    "stack_diameter_m": 0.4,
+    "design_air_volume_m3h": 7500,
+    "gas_velocity_ms": 16.6,
+    "gas_temp": "常温",
+    "emission_type": "一般排放口",
+    "collection_method": "点对点局部密闭集气罩",
+    "collection_efficiency_pct": 65,
+    "hood_length_m": 0.5,
+    "hood_width_m": 0.4,
+    "hood_distance_m": 0.2,
+    "control_wind_speed_ms": 1.0,
+    "theoretical_single_hood_air_volume_m3h": 360,
+    "hood_count": 15,
+    "theoretical_total_air_volume_m3h": 5400,
+    "treatment_technology": "活性炭吸附",
+    "removal_efficiency_pct": 50,
+    "nmhc_generation_t_a": 0.277,
+    "nmhc_captured_t_a": 0.180,
+    "nmhc_organized_emission_t_a": 0.090,
+    "nmhc_fugitive_emission_t_a": 0.097,
+    "nmhc_organized_concentration_mgm3": 5.1,
+    "nmhc_generation_rate_kgh": 0.075
+  },
+
+  "activated_carbon_parameters": {
+    "filtration_velocity_ms": 0.58,
+    "residence_time_s": 0.52,
+    "carbon_consumption_t_a": 1.728,
+    "adsorption_amount_t_a": 0.090,
+    "waste_carbon_t_a": 1.818,
+    "note": "过滤风速0.58m/s和停留时间0.52s均接近边界值，需关注是否满足佛环函〔2024〕70号要求"
+  },
+
+  "environmental_risk": {
+    "hazardous_substances": ["液压油", "润滑油"],
+    "q_value_calculation_note": "需核实Q值是否漏算",
+    "risk_measures": ["围堰", "防渗", "毛毡/木屑吸收材料", "雨水截止阀需确认"]
+  },
+
+  "vocs_total": {
+    "organized_t_a": 0.090,
+    "fugitive_t_a": 0.097,
+    "total_t_a": 0.187,
+    "note": "0.187<0.3t/a，按顺德区VOCs总量管理方案可企业内部替代"
+  }
+}

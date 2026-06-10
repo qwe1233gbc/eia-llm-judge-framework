@@ -1,0 +1,464 @@
+app:
+  description: 国民经济分类判断审核
+  icon: 🤖
+  icon_background: '#FFEAD5'
+  icon_type: emoji
+  mode: workflow
+  name: 1-国民经济分类判断
+  use_icon_as_answer_icon: false
+dependencies:
+- current_identifier: null
+  type: marketplace
+  value:
+    marketplace_plugin_unique_identifier: langgenius/tongyi:0.0.30@c8acdf4467408345fc51d3d9e45484614295b9f7c4d20ff0ce03940368bf286a
+    version: null
+- current_identifier: null
+  type: marketplace
+  value:
+    marketplace_plugin_unique_identifier: langgenius/openai_api_compatible:0.0.16@d41b09aca46cdd3876f70b4c91d464c4588fc0bdc844ced6ee426283ead6ce8e
+    version: null
+kind: app
+version: 0.6.0
+workflow:
+  conversation_variables: []
+  environment_variables: []
+  features:
+    file_upload:
+      allowed_file_extensions:
+      - .JPG
+      - .JPEG
+      - .PNG
+      - .GIF
+      - .WEBP
+      - .SVG
+      allowed_file_types:
+      - image
+      allowed_file_upload_methods:
+      - local_file
+      - remote_url
+      enabled: false
+      fileUploadConfig:
+        attachment_image_file_size_limit: 2
+        audio_file_size_limit: 50
+        batch_count_limit: 10
+        file_size_limit: 150
+        file_upload_limit: 20
+        image_file_batch_limit: 10
+        image_file_size_limit: 10
+        single_chunk_attachment_limit: 10
+        video_file_size_limit: 100
+        workflow_file_upload_limit: 30
+      image:
+        enabled: false
+        number_limits: 3
+        transfer_methods:
+        - local_file
+        - remote_url
+      number_limits: 3
+    opening_statement: ''
+    retriever_resource:
+      enabled: true
+    sensitive_word_avoidance:
+      enabled: false
+    speech_to_text:
+      enabled: false
+    suggested_questions: []
+    suggested_questions_after_answer:
+      enabled: false
+    text_to_speech:
+      enabled: false
+      language: ''
+      voice: ''
+  graph:
+    edges:
+    - data:
+        isInLoop: false
+        sourceType: llm
+        targetType: llm
+      id: 1749454247251-source-1749477656075-target
+      source: '1749454247251'
+      sourceHandle: source
+      target: '1749477656075'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInLoop: false
+        sourceType: knowledge-retrieval
+        targetType: llm
+      id: 1749454291883-source-1749456192235-target
+      source: '1749454291883'
+      sourceHandle: source
+      target: '1749456192235'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInLoop: false
+        sourceType: llm
+        targetType: knowledge-retrieval
+      id: 1749477656075-source-1749454291883-target
+      source: '1749477656075'
+      sourceHandle: source
+      target: '1749454291883'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInLoop: false
+        sourceType: llm
+        targetType: end
+      id: 1749456192235-source-1749477241919-target
+      source: '1749456192235'
+      sourceHandle: source
+      target: '1749477241919'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: start
+        targetType: code
+      id: 1749454218488-source-1778210768117-target
+      source: '1749454218488'
+      sourceHandle: source
+      target: '1778210768117'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: code
+        targetType: llm
+      id: 1778210768117-source-1749454247251-target
+      source: '1778210768117'
+      sourceHandle: source
+      target: '1749454247251'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    nodes:
+    - data:
+        desc: ''
+        selected: false
+        title: 开始
+        type: start
+        variables:
+        - label: html
+          max_length: 500000
+          options: []
+          required: true
+          type: paragraph
+          variable: html
+      height: 108
+      id: '1749454218488'
+      position:
+        x: 79.75610127205306
+        y: 282
+      positionAbsolute:
+        x: 79.75610127205306
+        y: 282
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+    - data:
+        context:
+          enabled: true
+          variable_selector:
+          - '1778210768117'
+          - first_json_content
+        desc: ''
+        model:
+          completion_params: {}
+          mode: chat
+          name: gpt-5.5
+          provider: langgenius/openai_api_compatible/openai_api_compatible
+        prompt_template:
+        - id: 8bbf3006-1665-483a-9e42-3a2d3474dd4d
+          role: system
+          text: '你是一个内容提取专家，
+
+            子任务1：请你提取{{#context#}}中国民经济行业类别（注意不要提取到建设项目行业类别）
+
+            子任务2：提取“建设项目工程分析”中的项目主要产品产能一览表（根据语义相似度）中产品名称、备注等信息
+
+            子任务3：提取“建设项目工程分析”中的“原辅材料年用量一览表”（根据语义相似度）中"物料名称"信息
+
+            子任务4：提取“建设项目工程分析”中的工艺流程和产排污环节（根据语义相似度）中"工艺流程"或“生产工艺流程说明”的完整内容
+
+            输出格式
+
+            1.国民经济行业类别：
+
+            2.项目主要产品产能一览表（产品名称：，备注：）
+
+            3.原辅材料年用量一览表（物料名称：）
+
+            4.工艺流程：完整内容输出
+
+            /no_think'
+        - id: 62594eb5-d822-43e8-98ed-bdd1909dc35a
+          role: user
+          text: '要求：1.“项目主要产品产能一览表”和“原辅材料年用量一览表”如果在上方筛选文本中没有找到，可以找语义最相似的表格名作为提取表格内容。
+
+            2.“工艺流程”或者“生产工艺流程说明”需要输出完整内容。
+
+            3.不要引用未提供的全文内容，只基于当前筛选文本提取。'
+        selected: false
+        title: LLM
+        type: llm
+        variables: []
+        vision:
+          enabled: false
+      height: 87
+      id: '1749454247251'
+      position:
+        x: 1077.4123802189956
+        y: 282
+      positionAbsolute:
+        x: 1077.4123802189956
+        y: 282
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+    - data:
+        dataset_ids:
+        - SLFnaxxkDbGGviq8q8Ne9bP65I7s368UckdzPq+cvF9rZ250brFHy+w55fX/ePtU
+        desc: ''
+        metadata_filtering_mode: manual
+        multiple_retrieval_config:
+          reranking_enable: true
+          reranking_mode: reranking_model
+          reranking_model:
+            model: gte-rerank-v2
+            provider: langgenius/tongyi/tongyi
+          score_threshold: null
+          top_k: 2
+          weights:
+            keyword_setting:
+              keyword_weight: 0.3
+            vector_setting:
+              embedding_model_name: text-embedding-v4
+              embedding_provider_name: langgenius/tongyi/tongyi
+              vector_weight: 0.7
+        query_attachment_selector: []
+        query_variable_selector:
+        - '1749477656075'
+        - text
+        retrieval_mode: multiple
+        selected: false
+        title: 知识检索
+        type: knowledge-retrieval
+      height: 89
+      id: '1749454291883'
+      position:
+        x: 1878.3119076048965
+        y: 282
+      positionAbsolute:
+        x: 1878.3119076048965
+        y: 282
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+    - data:
+        context:
+          enabled: true
+          variable_selector:
+          - '1749454291883'
+          - result
+        desc: 总结节点
+        model:
+          completion_params: {}
+          mode: chat
+          name: gpt-5.5
+          provider: langgenius/openai_api_compatible/openai_api_compatible
+        prompt_template:
+        - id: e04c8138-c579-42f1-a24f-a0f49db6f240
+          role: system
+          text: '需求：总结{{#1749454247251.text#}}的内容，总结内容为国民经济行业类别内容判断依据，判断其国民经济行业类别和{{#context#}}中所属小类的描述是否匹配，最终判断填写国民行业类别是否正确
+
+            输出格式：{{#1749454247251.text#}}总结的内容为xx，与国民经济行业分类》（GB/T 4754-2017）中对应小类是否相符（说明理由，自由发挥即可）
+
+            '
+        - id: 340716f3-251a-4d69-997b-60f8c2b2e55c
+          role: user
+          text: 你是内容比对专家，/no_think
+        selected: false
+        title: LLM 2
+        type: llm
+        variables: []
+        vision:
+          enabled: false
+      height: 115
+      id: '1749456192235'
+      position:
+        x: 2229.877579109155
+        y: 282
+      positionAbsolute:
+        x: 2229.877579109155
+        y: 282
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+    - data:
+        desc: ''
+        outputs:
+        - value_selector:
+          - '1749456192235'
+          - text
+          value_type: string
+          variable: result
+        selected: false
+        title: 结束
+        type: end
+      height: 88
+      id: '1749477241919'
+      position:
+        x: 2586.5150072798556
+        y: 282
+      positionAbsolute:
+        x: 2586.5150072798556
+        y: 282
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+    - data:
+        context:
+          enabled: true
+          variable_selector:
+          - '1749454247251'
+          - text
+        desc: ''
+        model:
+          completion_params: {}
+          mode: chat
+          name: gpt-5.5
+          provider: langgenius/openai_api_compatible/openai_api_compatible
+        prompt_template:
+        - id: 395b93f5-bbe8-4bdd-9749-755cbefcdbed
+          role: system
+          text: '提取{{#context#}}中的国民经济行业分类
+
+            输出格式：
+
+            国民经济行业分类：cxxx xxxx
+
+            /no_think'
+        selected: false
+        title: LLM 3
+        type: llm
+        variables: []
+        vision:
+          enabled: false
+      height: 87
+      id: '1749477656075'
+      position:
+        x: 1499.9809969558391
+        y: 288.0463887548823
+      positionAbsolute:
+        x: 1499.9809969558391
+        y: 288.0463887548823
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+    - data:
+        code: "import json\nimport ast\nimport re\n\n\ndef _strip_code_fence(text:\
+          \ str) -> str:\n    text = (text or \"\").strip()\n    text = re.sub(r\"\
+          ^```(?:json)?\\s*\", \"\", text, flags=re.I)\n    text = re.sub(r\"\\s*```$\"\
+          , \"\", text).strip()\n    return text\n\n\ndef _parse_input(raw: str):\n\
+          \    raw = _strip_code_fence(raw)\n    try:\n        return json.loads(raw)\n\
+          \    except Exception:\n        try:\n            return ast.literal_eval(raw)\n\
+          \        except Exception:\n            return raw\n\n\ndef _clean_html(text:\
+          \ str) -> str:\n    text = text or \"\"\n    # 删除部分无意义标签，保留表格语义和正文顺序\n \
+          \   text = re.sub(r\"</?(html|head|body|title|div|span)[^>]*>\", \" \",\
+          \ text, flags=re.I)\n    text = re.sub(r\"<a[^>]*>|</a>\", \"\", text, flags=re.I)\n\
+          \    text = re.sub(r\"\\s+\", \" \", text).strip()\n    return text\n\n\n\
+          def _score(content: str) -> int:\n    score = 0\n    positive = {\n    \
+          \    \"一、建设项目基本情况\": 10,\n        \"国民经济\": 8,\n        \"行业类别\": 8,\n \
+          \       \"建设项目工程分析\": 12,\n        \"建设内容\": 8,\n        \"项目工程组成\": 6,\n\
+          \        \"项目产品\": 8,\n        \"产品方案\": 8,\n        \"产品规模\": 8,\n    \
+          \    \"主要生产设备\": 6,\n        \"主要原辅材料\": 10,\n        \"原辅材料\": 8,\n   \
+          \     \"工艺流程\": 10,\n        \"生产工艺流程说明\": 10,\n        \"产排污环节\": 6,\n\
+          \    }\n    negative = {\n        \"其他符合性分析\": -8,\n        \"三线一单\": -8,\n\
+          \        \"区域环境质量现状\": -8,\n        \"环境保护目标\": -6,\n        \"评价标准\": -5,\n\
+          \        \"运营期环境影响\": -6,\n        \"监督检查清单\": -4,\n        \"附表\": -4,\n\
+          \    }\n    for k, v in positive.items():\n        if k in content:\n  \
+          \          score += v\n    for k, v in negative.items():\n        if k in\
+          \ content:\n            score += v\n    return score\n\n\ndef main(html:\
+          \ str) -> dict:\n    data = _parse_input(html)\n    max_estimated_tokens\
+          \ = 22000\n    selected = []\n\n    if isinstance(data, list):\n       \
+          \ chunks = []\n        for i, item in enumerate(data):\n            if isinstance(item,\
+          \ dict):\n                content = str(item.get(\"content\", \"\"))\n \
+          \               cid = str(item.get(\"id\", i))\n                token =\
+          \ item.get(\"token\")\n                try:\n                    token =\
+          \ int(token)\n                except Exception:\n                    token\
+          \ = max(1, len(content) // 2)\n            else:\n                content\
+          \ = str(item)\n                cid = str(i)\n                token = max(1,\
+          \ len(content) // 2)\n            s = _score(content)\n            if s\
+          \ > 0:\n                chunks.append({\"id\": cid, \"content\": content,\
+          \ \"token\": token, \"score\": s, \"order\": i})\n\n        # 优先保留“基本情况”和“工程分析”相关片段，避免把整篇报告送入模型\n\
+          \        chunks.sort(key=lambda x: (-x[\"score\"], x[\"order\"]))\n    \
+          \    total = 0\n        for ch in chunks:\n            if total + ch[\"\
+          token\"] > max_estimated_tokens and selected:\n                continue\n\
+          \            selected.append(ch)\n            total += ch[\"token\"]\n \
+          \           if total >= max_estimated_tokens:\n                break\n\n\
+          \        # 恢复原文顺序，便于模型理解\n        selected.sort(key=lambda x: x[\"order\"\
+          ])\n        result_parts = []\n        for ch in selected:\n           \
+          \ result_parts.append(f\"\\n【分块ID:{ch['id']}｜估算tokens:{ch['token']}｜score:{ch['score']}】\\\
+          n\" + _clean_html(ch[\"content\"]))\n        result = \"\\n\".join(result_parts)\n\
+          \    elif isinstance(data, dict):\n        result = _clean_html(str(data.get(\"\
+          content\") or json.dumps(data, ensure_ascii=False)))\n    else:\n      \
+          \  raw = str(data)\n        # 非 JSON 输入时，只截取与本审核有关的片段，避免超上下文\n        patterns\
+          \ = [\n            r\"一、建设项目基本情况.*?(?=二、建设项目工程分析|$)\",\n            r\"\
+          二、建设项目工程分析.*?(?=三、区域环境质量现状|三、|$)\",\n        ]\n        parts = []\n   \
+          \     for p in patterns:\n            m = re.search(p, raw, flags=re.S)\n\
+          \            if m:\n                parts.append(m.group(0))\n        result\
+          \ = _clean_html(\"\\n\".join(parts) if parts else raw[:45000])\n\n    if\
+          \ not result:\n        result = \"未提取到与国民经济分类判断相关的文本。\"\n\n    return {\n\
+          \        \"first_json_content\": result[:60000]\n    }\n"
+        code_language: python3
+        outputs:
+          first_json_content:
+            children: null
+            type: string
+        selected: true
+        title: 筛选1号审核相关文本
+        type: code
+        variables:
+        - value_selector:
+          - '1749454218488'
+          - html
+          value_type: string
+          variable: html
+      height: 51
+      id: '1778210768117'
+      position:
+        x: 692.5495479688933
+        y: 282
+      positionAbsolute:
+        x: 692.5495479688933
+        y: 282
+      selected: true
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+    viewport:
+      x: 103.9854944768897
+      y: 183.34179537903768
+      zoom: 0.5986694715909564
+  rag_pipeline_variables: []

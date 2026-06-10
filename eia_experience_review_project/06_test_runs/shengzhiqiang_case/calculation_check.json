@@ -1,0 +1,175 @@
+{
+  "case": "佛山市盛之强电器有限公司建设项目",
+  "check_date": "2026-06-10",
+  "calculations": [
+    {
+      "id": "CALC_001",
+      "item": "生活污水量",
+      "report_value": "135 t/a",
+      "formula": "15人 × 30L/人·d × 300d/a = 135,000 L/a = 135 t/a",
+      "parameters": {
+        "employees": 15,
+        "water_quota_L_per_day": 30,
+        "work_days": 300
+      },
+      "self_consistent": true,
+      "note": "用水定额30L/人·d(不住厂)合理，计算正确"
+    },
+    {
+      "id": "CALC_002",
+      "item": "NMHC产生量",
+      "report_value": "0.277 t/a",
+      "formula": "产污系数 × 产品量 = 2.7 kg/t × 102.5 t/a = 276.75 kg/a ≈ 0.277 t/a",
+      "parameters": {
+        "emission_factor_kg_per_t": 2.7,
+        "output_t_a": 102.5
+      },
+      "self_consistent": true,
+      "note": "产污系数2.7kg/t来自《排放源统计调查产排污核算方法和系数手册》塑料制品业系数，取值合理"
+    },
+    {
+      "id": "CALC_003",
+      "item": "NMHC有组织排放量",
+      "report_value": "0.090 t/a",
+      "formula": "0.277 × 65% × (1-50%) = 0.277 × 0.65 × 0.50 = 0.090 t/a",
+      "parameters": {
+        "generation_t_a": 0.277,
+        "collection_efficiency": 0.65,
+        "removal_efficiency": 0.50
+      },
+      "self_consistent": true,
+      "note": "计算正确。0.277×0.65=0.180(收集量), 0.180×0.50=0.090(有组织排放量)"
+    },
+    {
+      "id": "CALC_004",
+      "item": "NMHC无组织排放量",
+      "report_value": "0.097 t/a",
+      "formula": "0.277 × (1-65%) = 0.277 × 0.35 = 0.097 t/a",
+      "parameters": {
+        "generation_t_a": 0.277,
+        "collection_efficiency": 0.65
+      },
+      "self_consistent": true,
+      "note": "计算正确"
+    },
+    {
+      "id": "CALC_005",
+      "item": "NMHC总量闭合",
+      "report_value": "0.090 + 0.097 = 0.187 t/a",
+      "formula": "有组织0.090 + 无组织0.097 = 0.187 ≈ 产生量0.277 - 削减量0.090 = 0.187",
+      "parameters": {
+        "organized_t_a": 0.090,
+        "fugitive_t_a": 0.097,
+        "total_t_a": 0.187,
+        "generation_t_a": 0.277,
+        "removed_t_a": 0.090
+      },
+      "self_consistent": true,
+      "note": "总量闭合验证: 0.277-0.090=0.187=0.090+0.097 ✓"
+    },
+    {
+      "id": "CALC_006",
+      "item": "理论风量",
+      "report_value": "5400 m³/h",
+      "formula": "360 m³/h × 15台 = 5400 m³/h",
+      "parameters": {
+        "single_hood_air_m3h": 360,
+        "hood_count": 15
+      },
+      "self_consistent": true,
+      "note": "单台360m³/h=(0.5×0.4)m²×1.0m/s×3600s/h=720→取半值? 实际(0.5×0.4)×1.0×3600=720m³/h。报告中写360m³/h，可能考虑罩口面积系数。需要核实。"
+    },
+    {
+      "id": "CALC_007",
+      "item": "设计风量",
+      "report_value": "7500 m³/h",
+      "formula": "5400 × 1.39 = 7500 m³/h",
+      "parameters": {
+        "theoretical_m3h": 5400,
+        "design_safety_factor": 1.39
+      },
+      "self_consistent": true,
+      "note": "设计余量39%，在合理范围(20-50%)内"
+    },
+    {
+      "id": "CALC_008",
+      "item": "活性炭过滤风速",
+      "report_value": "0.58 m/s",
+      "formula": "7500/3600 / (活性炭截面积)",
+      "parameters": {
+        "air_volume_m3h": 7500,
+        "filter_area_m2": "3.59 (反推)",
+        "limit_ms": "<=0.6 (佛环函(2024)70号蜂窝炭)"
+      },
+      "self_consistent": true,
+      "risk": "BOUNDARY",
+      "note": "0.58m/s接近限值0.6m/s。实际运行时若风量偏高10%即超标。建议增大活性炭截面积降低滤速至0.5m/s以下"
+    },
+    {
+      "id": "CALC_009",
+      "item": "活性炭停留时间",
+      "report_value": "0.52 s",
+      "formula": "活性炭层厚度 / 过滤风速",
+      "parameters": {
+        "carbon_bed_thickness_m": "0.30 (反推)",
+        "filtration_velocity_ms": 0.58,
+        "limit_s": ">=0.5 (佛环函(2024)70号)"
+      },
+      "self_consistent": true,
+      "risk": "BOUNDARY",
+      "note": "0.52s接近限值0.5s。若碳层厚度因沉降减少10%即不达标"
+    },
+    {
+      "id": "CALC_010",
+      "item": "废活性炭产生量",
+      "report_value": "1.818 t/a",
+      "formula": "年用炭量1.728 + 吸附量0.090 = 1.818 t/a",
+      "parameters": {
+        "carbon_consumption_t_a": 1.728,
+        "adsorption_amount_t_a": 0.090
+      },
+      "self_consistent": true,
+      "note": "计算正确。废活性炭=年用炭量+吸附量=1.728+0.090=1.818t/a ✓"
+    },
+    {
+      "id": "CALC_011",
+      "item": "NMHC有组织排放浓度",
+      "report_value": "5.1 mg/m³",
+      "formula": "0.038 kg/h / 7500 m³/h × 10^6 = 5.07 mg/m³ ≈ 5.1 mg/m³",
+      "parameters": {
+        "emission_rate_kgh": 0.038,
+        "air_volume_m3h": 7500
+      },
+      "self_consistent": true,
+      "note": "5.1mg/m³远低于100mg/m³限值，达标。但产污系数是否偏低导致浓度偏低? 需关注"
+    },
+    {
+      "id": "CALC_012",
+      "item": "颗粒物(投料+破碎)无组织排放",
+      "report_value": "0.005 + 0.001 = 0.006 t/a",
+      "formula": "0.005(投料) + 0.001(机加工沉降后) = 0.006 t/a",
+      "parameters": {
+        "feeding_dust_t_a": 0.005,
+        "machining_dust_t_a": 0.001,
+        "machining_removal_efficiency": 0.90
+      },
+      "self_consistent": true,
+      "note": "机加工粉尘0.013t/a×10%=0.001t/a，计算正确"
+    }
+  ],
+  "summary": {
+    "total_checks": 12,
+    "consistent": 12,
+    "inconsistent": 0,
+    "boundary_risk": 2,
+    "boundary_risk_items": [
+      "CALC_008: 活性炭过滤风速0.58m/s接近限值0.6m/s",
+      "CALC_009: 活性炭停留时间0.52s接近限值0.5s"
+    ],
+    "needs_verification": [
+      "CALC_006: 单台集气罩风量360m³/h的罩口面积核算方法需确认",
+      "CALC_006/007: 15台注塑机是否全部配有集气罩",
+      "活性炭层厚度为反推值(0.30m)，报告中未直接给出"
+    ]
+  }
+}

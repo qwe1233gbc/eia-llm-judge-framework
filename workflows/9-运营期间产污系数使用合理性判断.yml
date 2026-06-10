@@ -1,0 +1,362 @@
+app:
+  description: 环评审核qwen3：32b
+  icon: 🤖
+  icon_background: '#FFEAD5'
+  icon_type: emoji
+  mode: workflow
+  name: 9.运营期间产污环节污染物产污系数使用合理性判断
+  use_icon_as_answer_icon: false
+dependencies:
+- current_identifier: null
+  type: marketplace
+  value:
+    marketplace_plugin_unique_identifier: langgenius/tongyi:0.0.30@c8acdf4467408345fc51d3d9e45484614295b9f7c4d20ff0ce03940368bf286a
+    version: null
+- current_identifier: null
+  type: marketplace
+  value:
+    marketplace_plugin_unique_identifier: langgenius/minimax:0.0.17@71c4f6828644f499978d8978792c6288730bde7012354906b95008e5e0995113
+    version: null
+kind: app
+version: 0.6.0
+workflow:
+  conversation_variables: []
+  environment_variables: []
+  features:
+    file_upload:
+      allowed_file_extensions:
+      - .JPG
+      - .JPEG
+      - .PNG
+      - .GIF
+      - .WEBP
+      - .SVG
+      allowed_file_types:
+      - image
+      allowed_file_upload_methods:
+      - local_file
+      - remote_url
+      enabled: false
+      fileUploadConfig:
+        attachment_image_file_size_limit: 2
+        audio_file_size_limit: 50
+        batch_count_limit: 10
+        file_size_limit: 150
+        file_upload_limit: 20
+        image_file_batch_limit: 10
+        image_file_size_limit: 10
+        single_chunk_attachment_limit: 10
+        video_file_size_limit: 100
+        workflow_file_upload_limit: 30
+      image:
+        enabled: false
+        number_limits: 3
+        transfer_methods:
+        - local_file
+        - remote_url
+      number_limits: 3
+    opening_statement: ''
+    retriever_resource:
+      enabled: true
+    sensitive_word_avoidance:
+      enabled: false
+    speech_to_text:
+      enabled: false
+    suggested_questions: []
+    suggested_questions_after_answer:
+      enabled: false
+    text_to_speech:
+      enabled: false
+      language: ''
+      voice: ''
+  graph:
+    edges:
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: start
+        targetType: llm
+      id: 1753681883075-source-1753686955469-target
+      selected: false
+      source: '1753681883075'
+      sourceHandle: source
+      target: '1753686955469'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInLoop: false
+        sourceType: knowledge-retrieval
+        targetType: llm
+      id: 1753857995391-source-1753759546266-target
+      selected: false
+      source: '1753857995391'
+      sourceHandle: source
+      target: '1753759546266'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInLoop: false
+        sourceType: llm
+        targetType: end
+      id: 1753759546266-source-1753682134871-target
+      selected: false
+      source: '1753759546266'
+      sourceHandle: source
+      target: '1753682134871'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInLoop: false
+        sourceType: llm
+        targetType: knowledge-retrieval
+      id: 1753686955469-source-1753857995391-target
+      source: '1753686955469'
+      sourceHandle: source
+      target: '1753857995391'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    nodes:
+    - data:
+        desc: ''
+        selected: false
+        title: 开始
+        type: start
+        variables:
+        - label: html
+          max_length: 1000000
+          options: []
+          required: true
+          type: paragraph
+          variable: html
+      height: 109
+      id: '1753681883075'
+      position:
+        x: 1.45902923993458
+        y: 245
+      positionAbsolute:
+        x: 1.45902923993458
+        y: 245
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+    - data:
+        desc: ''
+        outputs:
+        - value_selector:
+          - '1753759546266'
+          - text
+          value_type: string
+          variable: text
+        selected: false
+        title: 结束
+        type: end
+      height: 88
+      id: '1753682134871'
+      position:
+        x: 1884.212465004589
+        y: 239.09837966789388
+      positionAbsolute:
+        x: 1884.212465004589
+        y: 239.09837966789388
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+    - data:
+        context:
+          enabled: true
+          variable_selector:
+          - '1753681883075'
+          - html
+        desc: ''
+        model:
+          completion_params: {}
+          mode: chat
+          name: minimax-m2.7
+          provider: langgenius/minimax/minimax
+        prompt_template:
+        - id: 3f9c0894-0999-49d8-ba24-b629815accb3
+          role: system
+          text: '''根据材料： {{#context#}} 执行下列任务： 1. 检查材料是否包含“四、主要环境影响和保护措施”中运营期内容：无则返回{}；有则提取：
+            - 生活废水产污系数：{"生活废水产污系数":"具体系数及参考文件"} - 生活废水类型：{"生活废水类型":"是否含食堂/浴室"} - 冷却塔（间接）排水系数：{"冷却塔（间接）排水系数":"具体系数及参考文件"}
+            - 有机废气及粉尘产污系数：{"有机废气及粉尘产污系数":"具体系数及参考文件"} 2. 单独输出以下检索专用内容（仅保留JSON，无多余文字）：
+            {"冷却塔（间接）排水系数":"具体系数及参考文件"} {"有机废气及粉尘产污系数":"具体系数及参考文件"} 注意： - 步骤1和步骤2的“冷却塔/有机废气系数”内容完全一致，仅格式拆分；
+            - 若材料无相关内容，步骤2也返回空JSON（{}）； - 输出时先写步骤1的4类系数，换行后单独写步骤2的检索专用内容，无其他冗余文字。
+            /no_think'''
+        - id: 7a557271-6e94-47ca-b646-d9101d53e604
+          role: user
+          text: '你是一位严谨认真的信息填报员，专门负责从用户提供的资料中，提取关键信息，并整理为规范的格式。
+
+            用户提供的资料如下：
+
+            {{#1753681883075.html#}}'
+        selected: false
+        title: LLM
+        type: llm
+        variables: []
+        vision:
+          enabled: false
+      height: 88
+      id: '1753686955469'
+      position:
+        x: 334.04683365445504
+        y: 245
+      positionAbsolute:
+        x: 334.04683365445504
+        y: 245
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+    - data:
+        context:
+          enabled: true
+          variable_selector:
+          - '1753686955469'
+          - text
+        desc: ''
+        model:
+          completion_params: {}
+          mode: chat
+          name: minimax-m2.7
+          provider: langgenius/minimax/minimax
+        prompt_template:
+        - id: b4b21f9b-cb59-46e3-8ccc-18899bd86fb3
+          role: system
+          text: '请按以下通用流程对提取的产污系数信息进行审查
+
+            {{#context#}}：
+
+
+            1.核查系数来源与文件一致性
+
+            确认提取的各系数（如生活用水定额、冷却塔排水参数、废气产污系数等）是否在目标文件中有明确记载，且引用的参考文件（如行业标准、手册）是否与文件中注明的依据完全一致，无自行替换或编造来源的情况。
+
+            2.验证系数与项目工况匹配性
+
+            对照目标文件中项目的实际情况（如员工是否食宿、冷却塔类型、生产工艺温度、设备密闭性等），检查系数是否适用于该场景（例如：无食堂项目是否使用了含餐饮用水的系数，密闭破碎是否套用了敞口破碎的粉尘系数）。
+
+            3.复核计算逻辑与数据准确性
+
+            根据目标文件中提及的计算公式（如冷却塔补充水量公式、污染物产生量 = 原料量 × 产污系数等），重新代入提取的参数（如浓度、用量、时间）验算结果，确认计算过程无公式错误、参数代错或数值计算偏差。
+
+            对照排放要求验证合理性
+
+            结合目标文件中项目需执行的排放标准（如污水、废气排放限值），判断基于提取系数计算的污染物排放量是否在达标范围内，若超标则需核查系数是否偏高；若远低于标准，需确认是否因系数取值过低且无合理依据。
+
+            务必整理成markdown的格式，以单文件形式输出，而不是文件数组
+
+            /no_think
+
+            '
+        selected: false
+        title: LLM 2
+        type: llm
+        variables: []
+        vision:
+          enabled: false
+      height: 88
+      id: '1753759546266'
+      position:
+        x: 1317.7469760793624
+        y: 245
+      positionAbsolute:
+        x: 1317.7469760793624
+        y: 245
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+    - data:
+        dataset_ids:
+        - hPn0EDFpkvIpn/Y7VpDHFrKLBN7Lz4qywpb+ZMFeOmAS1sLeSVCQnCC1RmrwUFf/
+        desc: ''
+        multiple_retrieval_config:
+          reranking_enable: false
+          reranking_mode: reranking_model
+          reranking_model:
+            model: gte-rerank-v2
+            provider: langgenius/tongyi/tongyi
+          top_k: 4
+        query_variable_selector:
+        - '1753686955469'
+        - text
+        retrieval_mode: multiple
+        selected: false
+        title: 知识检索
+        type: knowledge-retrieval
+      height: 90
+      id: '1753857995391'
+      position:
+        x: 815.9160473444385
+        y: 245
+      positionAbsolute:
+        x: 815.9160473444385
+        y: 245
+      selected: true
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 242
+    - data:
+        author: 杨龙翔
+        desc: ''
+        height: 88
+        selected: false
+        showAuthor: true
+        text: '{"root":{"children":[{"children":[{"detail":0,"format":0,"mode":"normal","style":"","text":"9.23塑料制品环保系数审核","type":"text","version":1}],"direction":"ltr","format":"","indent":0,"type":"paragraph","version":1,"textFormat":0,"textStyle":""}],"direction":"ltr","format":"","indent":0,"type":"root","version":1}}'
+        theme: blue
+        title: ''
+        type: ''
+        width: 240
+      height: 88
+      id: '1758614246864'
+      position:
+        x: 757.2294581005192
+        y: 117.19468615918103
+      positionAbsolute:
+        x: 757.2294581005192
+        y: 117.19468615918103
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom-note
+      width: 240
+    - data:
+        author: 杨龙翔
+        desc: ''
+        height: 88
+        selected: false
+        showAuthor: true
+        text: '{"root":{"children":[{"children":[{"detail":0,"format":0,"mode":"normal","style":"","text":"缺少冷却塔的知识库数据，是否需要？","type":"text","version":1}],"direction":"ltr","format":"","indent":0,"type":"paragraph","version":1,"textFormat":0,"textStyle":""},{"children":[],"direction":"ltr","format":"","indent":0,"type":"paragraph","version":1,"textFormat":0,"textStyle":""}],"direction":"ltr","format":"","indent":0,"type":"root","version":1}}'
+        theme: blue
+        title: ''
+        type: ''
+        width: 240
+      height: 88
+      id: '1760602995996'
+      position:
+        x: 1094.327243643831
+        y: 117.19468615918103
+      positionAbsolute:
+        x: 1094.327243643831
+        y: 117.19468615918103
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom-note
+      width: 240
+    viewport:
+      x: 668.4071731735871
+      y: 246.78270121847356
+      zoom: 0.6777799612487959
+  rag_pipeline_variables: []

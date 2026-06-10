@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EIA Historical QA Benchmark — 环评历史问答数据集</title>
+<style>
+  :root { --primary: #1a73e8; --bg: #f8f9fa; --card: #fff; --border: #e0e0e0; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, 'Segoe UI', Roboto, 'Noto Sans SC', sans-serif;
+         background: var(--bg); color: #222; line-height: 1.6; }
+  .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+
+  /* Header */
+  header { background: linear-gradient(135deg, #1a73e8, #0d47a1); color: #fff; padding: 48px 0 36px; }
+  header h1 { font-size: 2em; font-weight: 700; margin-bottom: 8px; }
+  header .subtitle { font-size: 1.1em; opacity: .85; margin-bottom: 16px; }
+  header .meta { display: flex; flex-wrap: wrap; gap: 12px 24px; font-size: .9em; opacity: .8; }
+  header .meta span { display: flex; align-items: center; gap: 6px; }
+
+  /* Stats Bar */
+  .stats-bar { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+               gap: 16px; margin: -28px auto 32px; padding: 0 20px; max-width: 1100px; }
+  .stat-card { background: var(--card); border-radius: 12px; padding: 20px; text-align: center;
+               box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+  .stat-card .num { font-size: 2em; font-weight: 700; color: var(--primary); }
+  .stat-card .label { font-size: .85em; color: #666; margin-top: 4px; }
+
+  /* Section */
+  section { background: var(--card); border-radius: 12px; padding: 28px 32px;
+            margin-bottom: 24px; box-shadow: 0 1px 4px rgba(0,0,0,.06); }
+  section h2 { font-size: 1.3em; margin-bottom: 20px; padding-bottom: 10px;
+               border-bottom: 2px solid var(--primary); }
+  section h3 { font-size: 1.05em; margin: 18px 0 10px; color: #333; }
+
+  /* Table */
+  table { width: 100%; border-collapse: collapse; font-size: .9em; }
+  th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+  th { background: #f0f4ff; font-weight: 600; color: #333; }
+  tr:hover { background: #f5f8ff; }
+
+  /* Badge */
+  .badge { display: inline-block; padding: 2px 10px; border-radius: 12px;
+           font-size: .78em; font-weight: 600; }
+  .badge-blue { background: #e3f2fd; color: #1565c0; }
+  .badge-green { background: #e8f5e9; color: #2e7d32; }
+  .badge-orange { background: #fff3e0; color: #e65100; }
+
+  /* QA Sample */
+  .qa-card { background: #f8faff; border: 1px solid var(--border); border-radius: 8px;
+             padding: 16px; margin: 12px 0; }
+  .qa-card .q { font-weight: 600; color: var(--primary); }
+  .qa-card .a { margin-top: 8px; color: #333; white-space: pre-wrap; }
+  .qa-card .meta-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 8px; font-size: .82em; color: #666; }
+
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 700px) { .grid-2 { grid-template-columns: 1fr; } }
+
+  footer { text-align: center; padding: 32px; color: #888; font-size: .85em; }
+
+  .tag { display: inline-block; padding: 1px 8px; border-radius: 4px; font-size: .78em;
+         background: #f0f0f0; color: #555; margin: 2px; }
+  .tag-std { background: #e8eaf6; color: #283593; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <h1>🌿 EIA Historical QA Benchmark</h1>
+    <div class="subtitle">环评历史问答数据集 — 基于佛山市环评审批平台数据库自动提取</div>
+    <div class="meta">
+      <span>📊 536 条 QA 对</span>
+      <span>🏭 废气专题</span>
+      <span>📅 2026-06</span>
+      <span>⚖️ CC BY 4.0</span>
+    </div>
+  </div>
+</header>
+
+<div class="stats-bar">
+  <div class="stat-card"><div class="num">424</div><div class="label">审批意见 QA</div></div>
+  <div class="stat-card"><div class="num">112</div><div class="label">技术审查 QA</div></div>
+  <div class="stat-card"><div class="num">534</div><div class="label">一般项目</div></div>
+  <div class="stat-card"><div class="num">2</div><div class="label">环评降为登记</div></div>
+</div>
+
+<div class="container">
+
+<!-- 1. 概览 -->
+<section>
+  <h2>📋 数据集概览</h2>
+  <p style="margin-bottom:14px">
+    本数据集从佛山市环评审批管理平台（达梦 DM8）的 <code>hp_approve_info</code> 和
+    <code>hp_approve_tech</code> 表中自动提取，覆盖废气治理领域的审批要求与技术审查经验。
+    每条 QA 对来自真实环评项目的批复意见或专家技术审查记录。
+  </p>
+  <table>
+    <tr><th>数据来源</th><th>表名</th><th>条数</th><th>字段</th><th>说明</th></tr>
+    <tr><td>审批意见</td><td><code>hp_approve_info</code></td><td>424</td><td><code>APPROVE_OPINION</code></td><td>环评批复意见（排放标准、治理要求）</td></tr>
+    <tr><td>技术审查</td><td><code>hp_approve_tech</code></td><td>112</td><td><code>REPLY_NOTE</code></td><td>专家详细审查意见（含整改要求）</td></tr>
+  </table>
+</section>
+
+<!-- 2. 引用标准 -->
+<section>
+  <h2>📐 引用标准分布</h2>
+  <p style="margin-bottom:10px;color:#666;font-size:.9em">Top 15 最常引用的排放标准</p>
+  <table>
+    <tr><th>标准编号</th><th>引用次数</th><th>状态</th></tr>
+    <tr><td>GB12348-90/2008</td><td>494</td><td><span class="badge badge-orange">88→08已更新</span></td></tr>
+    <tr><td>DB44/27-2001</td><td>47</td><td><span class="badge badge-orange">大气综排</span></td></tr>
+    <tr><td>DB44/26-2001</td><td>47</td><td><span class="badge badge-orange">水污染物排放</span></td></tr>
+    <tr><td>GB18918-2002</td><td>24</td><td><span class="badge badge-green">现行</span></td></tr>
+    <tr><td>GB22337-2008</td><td>10</td><td><span class="badge badge-green">现行</span></td></tr>
+    <tr><td>GB18483-2001</td><td>6</td><td><span class="badge badge-green">现行</span></td></tr>
+    <tr><td>GB31572-2015</td><td>2</td><td><span class="badge badge-green">现行</span></td></tr>
+    <tr><td>GB12523-2011</td><td>2</td><td><span class="badge badge-green">现行</span></td></tr>
+    <tr><td>GB18597-2001</td><td>2</td><td><span class="badge badge-orange">危废标准</span></td></tr>
+    <tr><td>GB18599-2001</td><td>2</td><td><span class="badge badge-orange">一般固废</span></td></tr>
+  </table>
+  <p style="margin-top:8px;font-size:.85em;color:#888">
+    ⚠️ 部分批复意见引用旧版标准（如GB12348-90、DB4427-89），需注意版本时效性。
+  </p>
+</section>
+
+<!-- 3. 区域分布 -->
+<section>
+  <h2>🗺️ 区域分布</h2>
+  <p style="margin-bottom:10px;color:#666;font-size:.9em">全部来自佛山市顺德区各镇街</p>
+  <table>
+    <tr><th>镇街</th><th>QA 数量</th></tr>
+    <tr><td>顺德区（未细分）</td><td>203</td></tr>
+    <tr><td>容桂街道</td><td>75</td></tr>
+    <tr><td>大良街道</td><td>39</td></tr>
+    <tr><td>勒流街道</td><td>38</td></tr>
+    <tr><td>乐从镇</td><td>34</td></tr>
+    <tr><td>龙江镇</td><td>31</td></tr>
+    <tr><td>陈村镇</td><td>29</td></tr>
+    <tr><td>北滘镇</td><td>27</td></tr>
+    <tr><td>杏坛镇</td><td>24</td></tr>
+    <tr><td>伦教街道</td><td>18</td></tr>
+    <tr><td><em>其他</em></td><td>18</td></tr>
+  </table>
+</section>
+
+<!-- 4. 数据格式 -->
+<section>
+  <h2>📄 数据格式</h2>
+  <p style="margin-bottom:10px">JSONL 格式，兼容 <a href="https://dify.ai" target="_blank">Dify</a>、HuggingFace Datasets 等平台直接导入。</p>
+  <table>
+    <tr><th>字段</th><th>类型</th><th>说明</th></tr>
+    <tr><td><code>qa_id</code></td><td>string</td><td>唯一标识（DB_QA_=审批意见 / DB_TECH_=技术审查）</td></tr>
+    <tr><td><code>question</code></td><td>string</td><td>自然语言问题，含地区、公司、项目类型</td></tr>
+    <tr><td><code>answer</code></td><td>string</td><td>批复要求或审查意见原文</td></tr>
+    <tr><td><code>region</code></td><td>string</td><td>行政区划（省市镇街）</td></tr>
+    <tr><td><code>company</code></td><td>string</td><td>建设单位名称</td></tr>
+    <tr><td><code>project_type</code></td><td>string</td><td>项目类型（一般项目等）</td></tr>
+    <tr><td><code>element</code></td><td>string</td><td>要素（废气/废水/噪声等）</td></tr>
+    <tr><td><code>review_point</code></td><td>string</td><td>审查维度</td></tr>
+    <tr><td><code>standards_normalized</code></td><td>array</td><td>引用的排放标准列表</td></tr>
+    <tr><td><code>approval_evidence</code></td><td>array</td><td>批复原文证据片段</td></tr>
+    <tr><td><code>evidence_alignment</code></td><td>object</td><td>证据对齐等级</td></tr>
+    <tr><td><code>quality_score</code></td><td>int</td><td>数据质量评分（0-100）</td></tr>
+  </table>
+</section>
+
+<!-- 5. QA 示例 -->
+<section>
+  <h2>🔍 QA 示例</h2>
+
+  <h3>类型 A：审批要求 QA</h3>
+  <div class="qa-card">
+    <div class="meta-row">
+      <span class="badge badge-blue">审批意见</span>
+      <span>顺德区龙江镇华美家具厂</span>
+      <span>一般项目</span>
+    </div>
+    <div class="q">❓ 该项目废气的污染因子、治理设施、排气筒参数和排放标准是什么？</div>
+    <div class="a"><strong>批复要求：</strong>原则同意项目环境影响报告表，废气排放执行DB44/27-2001第二时段二级标准，噪声执行GB12348-90二类标准（昼间65dB(A)夜间55dB(A)），其他要求按3-6条执行。</div>
+  </div>
+
+  <h3>类型 B：技术审查 QA</h3>
+  <div class="qa-card">
+    <div class="meta-row">
+      <span class="badge badge-orange">技术审查</span>
+      <span>佛山市某塑料制品公司</span>
+      <span>一般项目</span>
+    </div>
+    <div class="q">❓ 该项目的废气部分有哪些技术审查意见？</div>
+    <div class="a"><strong>审查结论：</strong>原通过<br><strong>审查意见：</strong>1. 核MSDS文件加强原料危化品识别，明确污染物产生环节；2. 细化活性炭吸附装置技术要求；3. 细化水平衡、挥发性有机物平衡。</div>
+  </div>
+</section>
+
+<!-- 6. 使用方式 -->
+<section>
+  <h2>🚀 使用方式</h2>
+  <div class="grid-2">
+    <div>
+      <h3>🔹 直接加载</h3>
+      <pre style="background:#f5f5f5;padding:12px;border-radius:6px;font-size:.85em;overflow-x:auto">
+import json
+with open('qa_experience_base.jsonl') as f:
+  qas = [json.loads(line) for line in f]
+print(f"Loaded {len(qas)} QA pairs")</pre>
+    </div>
+    <div>
+      <h3>🔹 转换为 HuggingFace Dataset</h3>
+      <pre style="background:#f5f5f5;padding:12px;border-radius:6px;font-size:.85em;overflow-x:auto">
+from datasets import load_dataset
+ds = load_dataset(
+  'json',
+  data_files='qa_experience_base.jsonl',
+  split='train'
+)</pre>
+    </div>
+  </div>
+  <div style="margin-top:14px">
+    <h3>🔹 导入 Dify 知识库</h3>
+    <p style="font-size:.9em;color:#555">
+      在 Dify 中创建知识库 → 导入已有文档 → 选择 <code>qa_experience_base.jsonl</code> →
+      分段模式选「通用」→ 索引方式选「高质量」→ 检索模式选「混合检索」
+    </p>
+  </div>
+</section>
+
+<!-- 7. 文件结构 -->
+<section>
+  <h2>📁 文件结构</h2>
+  <pre style="background:#f5f5f5;padding:16px;border-radius:6px;font-size:.85em">
+data/historical_db/
+├── qa_experience_base.jsonl    # 536 条 QA 问答对
+├── extract_from_db.py          # 达梦数据库提取脚本
+└── README.md                   # 数据集文档</pre>
+</section>
+
+<!-- 8. 引用 -->
+<section>
+  <h2>📖 引用</h2>
+  <pre style="background:#f5f5f5;padding:12px;border-radius:6px;font-size:.85em">
+@misc{eia_historical_qa_2026,
+  title  = {EIA Historical QA Benchmark: A Dataset for Environmental Impact Assessment Approval Review},
+  author = {Yang, Longxiang},
+  year   = {2026},
+  howpublished = {\url{https://github.com/qwe1233gbc/eia-llm-judge-framework}}
+}</pre>
+</section>
+
+<section>
+  <h2>⚠️ 免责声明</h2>
+  <p style="font-size:.9em;color:#666">
+    本数据集由脚本从环评审批管理平台自动提取，<strong>未经人工逐条审核</strong>。
+    部分批复意见引用旧版标准编码，使用时请注意版本时效性。
+    数据集仅供学术研究和参考用途，不构成法律或专业建议。
+  </p>
+</section>
+
+<footer>
+  <p>Built with ❤️ for EIA Intelligence · 环评智能审核研究</p>
+  <p><a href="https://github.com/qwe1233gbc/eia-llm-judge-framework" target="_blank">GitHub Repo</a></p>
+</footer>
+
+</div>
+</body>
+</html>

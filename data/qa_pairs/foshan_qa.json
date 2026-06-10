@@ -1,0 +1,3535 @@
+[
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "主动公开",
+    "industry_code": "C1713",
+    "element": "废水",
+    "clause_index": 1,
+    "question": "【市级】主动公开废水执行什么标准？去向？",
+    "answer": "项目不新增废水排放量，化学需氧量和氨氮排放总量纳 入佛山市三水区大塘污水处理有限公司的总量指标内，不另外核 发。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: no new 废水"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "主动公开",
+    "industry_code": "C1713",
+    "element": "废水",
+    "clause_index": 1,
+    "question": "【市级】主动公开废水执行什么标准？去向？",
+    "answer": "项目不新增废水污染物排放总量，化学需氧量和氨氮排 放总量控制指标减少量为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: no new 废水"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "主动公开",
+    "industry_code": "C1713",
+    "element": "总量",
+    "clause_index": 2,
+    "question": "【市级】主动公开总量指标是多少？",
+    "answer": "5.7 吨/年。变更完成 后，项目化学需氧量和氨氮总量控制指标重新核定为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "总量控制指标"
+    ],
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 总量 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "主动公开",
+    "industry_code": "C1713",
+    "element": "总量",
+    "clause_index": 3,
+    "question": "【市级】主动公开总量指标是多少？",
+    "answer": "5.7 吨/年。根据《佛山市排污权有偿使用和交易管理试行 办法》（佛府办〔2016〕63 号），本批复中减少的化学需氧量和 氨氮排污总量指标，应当在依法变更排污许可证前，通过排污许 可证予以载明。减少的排污总量指标将根据原获取途径（无偿或 有偿）及排污权交易的相关规定，强制纳入政府储备或自愿上市 转让交易、留存自身发展。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "总量控制指标"
+    ],
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 总量 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "主动公开",
+    "industry_code": "C2641",
+    "element": "其他",
+    "clause_index": 1,
+    "question": "【市级】主动公开关于其他的要求？",
+    "answer": "环境影响报告书经批准后，该工程的性质、规模、地点、 生产工艺和环境保护措施发生重大变动，且可能导致环境影响显 著变化（特别是不利环境影响加重）的，应当重新报批环境影响 报告书。自环境影响报告书批复文件批准之日起，工程超过5 年 方决定开工建设的，环境影响报告书应当报我局重新审核。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2641] 其他 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市环境保护局",
+    "industry_code": "C2110",
+    "element": "废水",
+    "clause_index": 1,
+    "question": "【市级】佛山市环境保护局废水执行什么标准？去向？",
+    "answer": "项目不新增废水排放量，化学需氧量和氨氮排放总量纳 入佛山市三水区大塘污水处理有限公司的总量指标内，不另外核 发。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2110] 废水 ?: no new 废水"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市环境保护局",
+    "industry_code": "C2319",
+    "element": "废水",
+    "clause_index": 1,
+    "question": "【市级】佛山市环境保护局废水执行什么标准？去向？",
+    "answer": "改扩建项目新增排入佛山市三水区大塘污水处理有限公 司的废水量为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2110] 废水 ?: no new 废水"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市环境保护局",
+    "industry_code": "C2319",
+    "element": "废水",
+    "clause_index": 2,
+    "question": "【市级】佛山市环境保护局废水执行什么标准？去向？",
+    "answer": "1.1 吨/日（其中生产废水629 吨/日，生活污水",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2319] 废水 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市环境保护局",
+    "industry_code": "C2319",
+    "element": "废水",
+    "clause_index": 3,
+    "question": "【市级】佛山市环境保护局废水执行什么标准？去向？",
+    "answer": "2.1 吨/日），化学需氧量和氨氮排放总量纳入佛山市三水区大塘 污水处理有限公司的总量指标内，不另外核发。改扩建项目新增 二氧化硫、氮氧化物总量控制指标为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2319] 废水 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市环境保护局",
+    "industry_code": "C2319",
+    "element": "总量",
+    "clause_index": 4,
+    "question": "【市级】佛山市环境保护局总量指标是多少？",
+    "answer": "0.32 吨/年； 改扩建项目完成后，全厂二氧化硫、氮氧化物总量控制指标核定 — 3 — 为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "总量控制指标"
+    ],
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2319] 总量 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市环境保护局",
+    "industry_code": "C2319",
+    "element": "总量",
+    "clause_index": 5,
+    "question": "【市级】佛山市环境保护局总量指标是多少？",
+    "answer": "1.16 吨/年。根据《佛山市排污权有偿使用和交 易管理试行办法》（佛府办〔2016〕63 号），本批复中需要新增 的二氧化硫、氮氧化物排污总量指标，应当在依法申领（或变更） 排污许可证前，通过排污权交易取得，其新增的排污总量指标数 量按本批复意见确定。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "总量控制指标"
+    ],
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2319] 总量 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "主动公开",
+    "industry_code": "C3360",
+    "element": "废水",
+    "clause_index": 1,
+    "question": "【市级】主动公开废水执行什么标准？去向？",
+    "answer": "项目废水化学需氧量和氨氮排放总量纳入更和镇第二污 水处理厂的总量指标内，不另外核发。技改扩建项目VOCs 总量 控制指标为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: no new 废水"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "主动公开",
+    "industry_code": "C3360",
+    "element": "废气",
+    "clause_index": 2,
+    "question": "【市级】主动公开废气执行什么标准？污染物？",
+    "answer": "0.39 吨/年，通过现有项目“以新带老”措施获得， 技改扩建项目完成后，VOCs 总量控制指标重新核定为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "改建扩建以新带老",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C3360] 废气 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市环境保护局",
+    "industry_code": "其他",
+    "element": "废水",
+    "clause_index": 1,
+    "question": "【市级】佛山市环境保护局废水执行什么标准？去向？",
+    "answer": "项目不新增废水排放量，化学需氧量和氨氮排放总量纳 入佛山市三水区大塘污水处理有限公司的总量指标内，不另外核 发。迁建项目氮氧化物总量控制指标减少量为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2110] 废水 ?: no new 废水"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市环境保护局",
+    "industry_code": "其他",
+    "element": "总量",
+    "clause_index": 2,
+    "question": "【市级】佛山市环境保护局总量指标是多少？",
+    "answer": "1.12 吨/年。迁建 项目完成后，项目二氧化硫、氮氧化物总量控制指标核定为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "总量控制指标"
+    ],
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 总量 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市环境保护局",
+    "industry_code": "其他",
+    "element": "总量",
+    "clause_index": 3,
+    "question": "【市级】佛山市环境保护局总量指标是多少？",
+    "answer": "2.62 吨/年。根据《佛山市排污权有偿使用和交易管理 — 3 — 试行办法》（佛府办〔2016〕63 号），本批复中减少的氮氧化物 排污总量指标，应当在依法变更排污许可证前，通过排污许可证 予以载明。减少的排污总量指标将根据原获取途径（无偿或有偿） 及排污权交易的相关规定，强制纳入政府储备或自愿上市转让交 易、留存自身发展。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "总量控制指标"
+    ],
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 总量 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市环境保护局",
+    "industry_code": "C2110",
+    "element": "废水",
+    "clause_index": 1,
+    "question": "【市级】佛山市环境保护局废水执行什么标准？去向？",
+    "answer": "项目不新增废水排放量，化学需氧量和氨氮排放总量纳 入佛山市三水区大塘污水处理有限公司的总量指标内，不另外核 发。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2110] 废水 ?: no new 废水"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市环境保护局",
+    "industry_code": "C2110",
+    "element": "废水",
+    "clause_index": 1,
+    "question": "【市级】佛山市环境保护局废水执行什么标准？去向？",
+    "answer": "项目不新增废水排放量，化学需氧量和氨氮排放总量纳 入佛山市三水区大塘污水处理有限公司的总量指标内，不另外核 发。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2110] 废水 ?: no new 废水"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "主动公开",
+    "industry_code": "C2319",
+    "element": "废水",
+    "clause_index": 1,
+    "question": "【市级】主动公开废水执行什么标准？去向？",
+    "answer": "改扩建项目新增排入佛山市三水区大塘污水处理有限公 司的废水量为2498 吨/日（其中生产废水2468 吨/日、生活污水 30 吨/日），化学需氧量和氨氮排放总量纳入佛山市三水区大塘 污水处理有限公司的总量指标内，不另外核发。项目新增二氧化 硫、氮氧化物排放总量为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: no new 废水"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "主动公开",
+    "industry_code": "C2319",
+    "element": "废气",
+    "clause_index": 2,
+    "question": "【市级】主动公开废气执行什么标准？污染物？",
+    "answer": "6.72 吨/年，新增VOCs 排放总量为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C3360] 废气 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "主动公开",
+    "industry_code": "C2319",
+    "element": "废气",
+    "clause_index": 3,
+    "question": "【市级】主动公开废气执行什么标准？污染物？",
+    "answer": "0.42 吨/年。改扩建项目完成后，二氧化硫、氮氧化 物和VOCs 总量控制指标核定为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2319] 废气 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "主动公开",
+    "industry_code": "C2319",
+    "element": "废气",
+    "clause_index": 4,
+    "question": "【市级】主动公开废气执行什么标准？污染物？",
+    "answer": "0.42 吨 /年。根据《佛山市排污权有偿使用和交易管理试行办法》（佛府 办〔2016〕63 号），本批复中需要新增的二氧化硫、氮氧化物排 污总量指标，应当在依法申领（或变更）排污许可证前，通过排 污权交易取得，其新增的排污总量指标数量按本批复意见确定。 新增的VOCs 总量控制指标通过区域削减措施获得。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2319] 废气 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山市禅西大道南延线",
+    "industry_code": "其他",
+    "element": "其他",
+    "clause_index": 1,
+    "question": "【市级】佛山市生态环境局关于佛山市禅西大道南延线关于其他的要求？",
+    "answer": "环境影响报告表经批准后，该工程的性质、规模、地点、 采用的生产工艺或者防治污染、防止生态破坏的措施发生重大变 动，且可能导致环境影响显著变化（特别是不利环境影响加重） 的，应当重新报批环境影响报告表。自环境影响报告表批复文件 — 3 — 批准之日起，工程超过5 年方决定开工建设的，环境影响报告表 应当报我局重新审核。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 其他 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "主动公开",
+    "industry_code": "其他",
+    "element": "废水",
+    "clause_index": 1,
+    "question": "【市级】主动公开废水执行什么标准？去向？",
+    "answer": "项目新增排入佛山市三水区大塘污水处理有限公司的废 水量为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: no new 废水"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "主动公开",
+    "industry_code": "其他",
+    "element": "废水",
+    "clause_index": 2,
+    "question": "【市级】主动公开废水执行什么标准？去向？",
+    "answer": "1.44 吨 /日），化学需氧量和氨氮排放总量纳入佛山市三水区大塘污水处 理有限公司的总量指标内，不另外核发。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 废水 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "主动公开",
+    "industry_code": "C2319",
+    "element": "废水",
+    "clause_index": 1,
+    "question": "【市级】主动公开废水执行什么标准？去向？",
+    "answer": "扩建项目新增排入佛山市三水区大塘污水处理有限公司 的废水量为2057 吨/日（其中生产废水2043 吨/日、生活污水 14 吨/日），化学需氧量和氨氮排放总量纳入佛山市三水区大塘 污水处理有限公司的总量指标内，不另外核发。项目二氧化硫、 氮氧化物和VOCs 总量控制指标核定为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: no new 废水"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "主动公开",
+    "industry_code": "C2319",
+    "element": "废气",
+    "clause_index": 2,
+    "question": "【市级】主动公开废气执行什么标准？污染物？",
+    "answer": "0.188 吨/年。根据《佛山市排污权有偿使用和交易管理试 行办法》（佛府办〔2016〕63 号），本批复中核定的二氧化硫、 氮氧化物排污总量指标，应当在依法申领（或变更）排污许可证 前，通过排污权交易取得，其新增的排污总量指标数量按本批复 意见确定。新增的VOCs 总量控制指标通过区域削减措施获得。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C3360] 废气 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "主动公开",
+    "industry_code": "C2319",
+    "element": "废水",
+    "clause_index": 1,
+    "question": "【市级】主动公开废水执行什么标准？去向？",
+    "answer": "改扩建项目新增排入佛山市三水区大塘污水处理有限公 司的废水量为524 吨/日（其中生产废水",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: no new 废水"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "主动公开",
+    "industry_code": "C2319",
+    "element": "废水",
+    "clause_index": 2,
+    "question": "【市级】主动公开废水执行什么标准？去向？",
+    "answer": "0.5 吨/日），化学需氧量和氨氮排放总量纳入佛山市三水区大 塘污水处理有限公司的总量指标内，不另外核发。项目新增二氧 化硫、氮氧化物排放总量为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 废水 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "主动公开",
+    "industry_code": "C2319",
+    "element": "废气",
+    "clause_index": 3,
+    "question": "【市级】主动公开废气执行什么标准？污染物？",
+    "answer": "0.28 吨/年，新增VOCs 排放总量为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2319] 废气 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "主动公开",
+    "industry_code": "C2319",
+    "element": "废气",
+    "clause_index": 4,
+    "question": "【市级】主动公开废气执行什么标准？污染物？",
+    "answer": "0.31 吨/年。改扩建项目完成后，二氧化硫、氮氧化 物和VOCs 总量控制指标核定为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2319] 废气 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "主动公开",
+    "industry_code": "C2319",
+    "element": "废气",
+    "clause_index": 5,
+    "question": "【市级】主动公开废气执行什么标准？污染物？",
+    "answer": "0.69 吨/年。根据《佛山市排污权有偿使用和交易管理试行办法》（佛 府办〔2016〕63 号），本批复中需要新增的二氧化硫、氮氧化 物排污总量指标，应当在依法申领（或变更）排污许可证前，通 过排污权交易取得，其新增的排污总量指标数量按本批复意见确 定。新增的VOCs 总量控制指标通过区域削减措施获得。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2319] 废气 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "主动公开",
+    "industry_code": "C1713",
+    "element": "废水",
+    "clause_index": 1,
+    "question": "【市级】主动公开废水执行什么标准？去向？",
+    "answer": "改扩建项目新增排入佛山市三水区大塘污水处理有限公 司的生产废水量为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: no new 废水"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "主动公开",
+    "industry_code": "C1713",
+    "element": "废水",
+    "clause_index": 2,
+    "question": "【市级】主动公开废水执行什么标准？去向？",
+    "answer": "3.4 吨/日，化学需氧量和氨氮排放总量纳 入佛山市三水区大塘污水处理有限公司的总量指标内，不另外核 发。改扩建项目新增二氧化硫、氮氧化物总量控制指标为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 废水 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "主动公开",
+    "industry_code": "C1713",
+    "element": "其他",
+    "clause_index": 3,
+    "question": "【市级】主动公开关于其他的要求？",
+    "answer": "0.109 吨/年。扩建项目完成后，二氧化硫、氮氧化物总 量控制指标重新核定为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "总量控制指标"
+    ],
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 其他 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "主动公开",
+    "industry_code": "C1713",
+    "element": "总量",
+    "clause_index": 4,
+    "question": "【市级】主动公开总量指标是多少？",
+    "answer": "0.164 吨/年。根据《佛山 市排污权有偿使用和交易管理试行办法》（佛府办〔2016〕63 号），本批复中核定的二氧化硫、氮氧化物排污总量指标，应当 在依法申领（或变更）排污许可证前，通过排污权交易取得，其 新增的排污总量指标数量按本批复意见确定。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "总量控制指标"
+    ],
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 总量 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局",
+    "industry_code": "C2319",
+    "element": "废水",
+    "clause_index": 1,
+    "question": "【市级】佛山市生态环境局废水执行什么标准？去向？",
+    "answer": "扩建项目新增排入佛山市三水区大塘污水处理有限公司 的废水量为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2319] 废水 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局",
+    "industry_code": "C2319",
+    "element": "废水",
+    "clause_index": 2,
+    "question": "【市级】佛山市生态环境局废水执行什么标准？去向？",
+    "answer": "8.5 吨/日、生活污水 9 吨/日），化学需氧量和氨氮排放总量纳入佛山市三水区大塘污 水处理有限公司的总量指标内，不另外核发。扩建项目新增二氧 化硫、氮氧化物总量控制指标为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2319] 废水 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局",
+    "industry_code": "C2319",
+    "element": "总量",
+    "clause_index": 3,
+    "question": "【市级】佛山市生态环境局总量指标是多少？",
+    "answer": "0.107 吨/年。扩 建项目完成后，二氧化硫、氮氧化物总量控制指标重新核定为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "总量控制指标"
+    ],
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2319] 总量 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局",
+    "industry_code": "C2319",
+    "element": "总量",
+    "clause_index": 4,
+    "question": "【市级】佛山市生态环境局总量指标是多少？",
+    "answer": "0.32 吨/年。根据《佛山市排污权有偿使用和交 易管理试行办法》（佛府办〔2016〕63 号），本批复中核定的二 氧化硫、氮氧化物排污总量指标，应当在依法申领（或变更）排 污许可证前，通过排污权交易取得，其新增的排污总量指标数量 按本批复意见确定。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "总量控制指标"
+    ],
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2319] 总量 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "主动公开",
+    "industry_code": "C1713",
+    "element": "废水",
+    "clause_index": 1,
+    "question": "【市级】主动公开废水执行什么标准？去向？",
+    "answer": "项目新增排入佛山市三水区大塘污水处理有限公司的废 水量为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: no new 废水"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "主动公开",
+    "industry_code": "C1713",
+    "element": "废水",
+    "clause_index": 2,
+    "question": "【市级】主动公开废水执行什么标准？去向？",
+    "answer": "7.4 吨/日，全厂废水排入佛山市三水区大塘污水处理 有限公司的废水量重新核定为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 废水 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "主动公开",
+    "industry_code": "C1713",
+    "element": "废水",
+    "clause_index": 3,
+    "question": "【市级】主动公开废水执行什么标准？去向？",
+    "answer": "9.4 吨/日，化学需氧量和氨氮 排放总量纳入佛山市三水区大塘污水处理有限公司的总量指标内， 不另外核发。项目完成后，佛山市佳利达环保科技股份有限公司 热电分厂二氧化硫、氮氧化物减少量为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "主动公开",
+    "industry_code": "C1713",
+    "element": "总量",
+    "clause_index": 4,
+    "question": "【市级】主动公开总量指标是多少？",
+    "answer": "7.87 吨/年，全厂二氧化硫、氮氧化物总量控制指标重新核定为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "总量控制指标"
+    ],
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 总量 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "主动公开",
+    "industry_code": "C1713",
+    "element": "总量",
+    "clause_index": 5,
+    "question": "【市级】主动公开总量指标是多少？",
+    "answer": "3.96 吨/年。根据《佛山市排污权有偿使用和 交易管理试行办法》（佛府办〔2016〕63 号），本批复中减少的 二氧化硫、氮氧化物排污总量指标，应当在依法变更排污许可证 前，通过排污许可证予以载明。减少的排污总量指标将根据原获 取途径（无偿或有偿）及排污权交易的相关规定，强制纳入政府 储备或自愿上市转让交易、留存自身发展。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "总量控制指标"
+    ],
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 总量 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "主动公开",
+    "industry_code": "C2319",
+    "element": "废水",
+    "clause_index": 1,
+    "question": "【市级】主动公开废水执行什么标准？去向？",
+    "answer": "改扩建项目完成后，新增排入佛山市三水区大塘污水处 理有限公司的废水量为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: no new 废水"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "主动公开",
+    "industry_code": "C2319",
+    "element": "废水",
+    "clause_index": 2,
+    "question": "【市级】主动公开废水执行什么标准？去向？",
+    "answer": "8.1吨/日），全厂排入佛山市三水区大塘污水处理 有限公司的废水量核定为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 废水 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "主动公开",
+    "industry_code": "C2319",
+    "element": "废水",
+    "clause_index": 3,
+    "question": "【市级】主动公开废水执行什么标准？去向？",
+    "answer": "8.1吨/日），化学需氧量和氨氮排放总量纳入 佛山市三水区大塘污水处理有限公司的总量指标内，不另外核 发。改扩建项目新增二氧化硫、氮氧化物、VOCs和非甲烷总烃总 量控制指标为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "主动公开",
+    "industry_code": "C2319",
+    "element": "废气",
+    "clause_index": 4,
+    "question": "【市级】主动公开废气执行什么标准？污染物？",
+    "answer": "0.147 吨/年）。扩建项目完成后，二氧化硫、氮氧化物、VOCs、非甲 烷总烃总量控制指标重新核定为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2319] 废气 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "主动公开",
+    "industry_code": "C2319",
+    "element": "总量",
+    "clause_index": 5,
+    "question": "【市级】主动公开总量指标是多少？",
+    "answer": "0.102吨/年）和非甲烷总烃排放总量核定为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "总量控制指标"
+    ],
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 总量 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "主动公开",
+    "industry_code": "C2319",
+    "element": "总量",
+    "clause_index": 6,
+    "question": "【市级】主动公开总量指标是多少？",
+    "answer": "0.17吨/年）。根据 《佛山市排污权有偿使用和交易管理试行办法》（佛府办〔2016〕 63号），本批复中新增的二氧化硫、氮氧化物排污总量指标，应 当在依法申领（或变更）排污许可证前，通过排污权交易取得， 其新增的排污总量指标数量按本批复意见确定。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "总量控制指标"
+    ],
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2319] 总量 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山市生活垃圾资源化",
+    "industry_code": "C2770",
+    "element": "其他",
+    "clause_index": 1,
+    "question": "【市级】佛山市生态环境局关于佛山市生活垃圾资源化关于其他的要求？",
+    "answer": "项目应按照《报告书》论证结果，厂界外设置300米的 环境防护距离，并配合当地政府及有关部门做好防护距离范围内 的用地规划工作，严禁建设居民区、学校、医院等环境敏感建筑。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2770] 其他 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山市极威新材料有限",
+    "industry_code": "C2641",
+    "element": "废水",
+    "clause_index": 1,
+    "question": "【市级】佛山市生态环境局关于佛山市极威新材料有限废水执行什么标准？去向？",
+    "answer": "项目排入佛山市三水区大塘污水处理有限公司的废水量 核定为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2641] 废水 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山市极威新材料有限",
+    "industry_code": "C2641",
+    "element": "废气",
+    "clause_index": 2,
+    "question": "【市级】佛山市生态环境局关于佛山市极威新材料有限废气执行什么标准？污染物？",
+    "answer": "1.08 — 3 — 吨/日），化学需氧量和氨氮排放总量纳入佛山市三水区大塘污 水处理有限公司的总量指标内，不另外核发。项目VOCs 有组织 排放总量控制指标核定为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2641] 废气 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山市极威新材料有限",
+    "industry_code": "C2641",
+    "element": "总量",
+    "clause_index": 3,
+    "question": "【市级】佛山市生态环境局关于佛山市极威新材料有限总量指标是多少？",
+    "answer": "0.0017 吨/年，非甲烷总烃总量控制指 标核定为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "总量控制指标"
+    ],
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2641] 总量 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于南海朗肽制药有限",
+    "industry_code": "C2929",
+    "element": "废水",
+    "clause_index": 1,
+    "question": "【市级】佛山市生态环境局关于南海朗肽制药有限废水执行什么标准？去向？",
+    "answer": "扩建项目生活污水经市政管网排入狮山西北污水处理厂 进一步处理，水污染物总量控制指标纳入狮山西北污水处理厂的 总量控制指标，不另外核发；生产废水新增化学需氧量和氨氮排 放总量分别为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废水 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于南海朗肽制药有限",
+    "industry_code": "C2929",
+    "element": "废气",
+    "clause_index": 2,
+    "question": "【市级】佛山市生态环境局关于南海朗肽制药有限废气执行什么标准？污染物？",
+    "answer": "0.1932 吨/年；扩建项目新增二氧 化硫、氮氧化物、VOCs 和非甲烷总烃总量控制指标分别为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废气 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于南海朗肽制药有限",
+    "industry_code": "C2929",
+    "element": "总量",
+    "clause_index": 3,
+    "question": "【市级】佛山市生态环境局关于南海朗肽制药有限总量指标是多少？",
+    "answer": "0.059 吨/年（全部为无组织排放量）、",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "总量控制指标"
+    ],
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 总量 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于南海朗肽制药有限",
+    "industry_code": "C2929",
+    "element": "总量",
+    "clause_index": 4,
+    "question": "【市级】佛山市生态环境局关于南海朗肽制药有限总量指标是多少？",
+    "answer": "0.035 吨/年（全部为有组织排放量）。扩建项目完成后，全厂化学需 氧量、氨氮排放总量控制指标重新核定为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "总量控制指标"
+    ],
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 总量 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于南海朗肽制药有限",
+    "industry_code": "C2929",
+    "element": "废气",
+    "clause_index": 5,
+    "question": "【市级】佛山市生态环境局关于南海朗肽制药有限废气执行什么标准？污染物？",
+    "answer": "0.5312 吨/年，二氧化硫、氮氧化物、VOCs 和非甲烷总烃排放总量控制 指标重新核定为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废气 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于南海朗肽制药有限",
+    "industry_code": "C2929",
+    "element": "总量",
+    "clause_index": 6,
+    "question": "【市级】佛山市生态环境局关于南海朗肽制药有限总量指标是多少？",
+    "answer": "0.237 吨/年（全部 为无组织排放量）和",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "总量控制指标"
+    ],
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 总量 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于南海朗肽制药有限",
+    "industry_code": "C2929",
+    "element": "总量",
+    "clause_index": 7,
+    "question": "【市级】佛山市生态环境局关于南海朗肽制药有限总量指标是多少？",
+    "answer": "0.035 吨/年（全部为有组织排放量）。根 据《佛山市排污权有偿使用和交易管理试行办法》 （佛府办〔2016〕 63 号），本批复中新增的化学需氧量、氨氮、二氧化硫和氮氧 化物排污总量指标应当在依法申领（或变更）排污许可证前通过 排污权交易取得，其新增的排污总量指标按本批复意见确定。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "总量控制指标"
+    ],
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 总量 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山市三水亮成制漆有限",
+    "industry_code": "C2929",
+    "element": "废水",
+    "clause_index": 1,
+    "question": "【市级】佛山市生态环境局关于佛山市三水亮成制漆有废水执行什么标准？去向？",
+    "answer": "改扩建项目不新增废水排放量和VOCs 总量控制指标。水污 染物总量控制指标纳入莘村机械塑料城工业污水处理厂的总量控制 指标，不另外核发；VOCs 和非甲烷总烃总量控制指标分别重新核定 为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废水 ?: no new 废水"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于弘德北路工程（禅港",
+    "industry_code": "其他",
+    "element": "其他",
+    "clause_index": 1,
+    "question": "【市级】佛山市生态环境局关于弘德北路工程（禅港关于其他的要求？",
+    "answer": "环境影响报告书经批准后，该项目的性质、规模、地点、 生产工艺和环境保护措施发生重大变动，且可能导致环境影响显 著变化（特别是不利环境影响加重）的，应当重新报批环境影响 报告书。自环境影响报告书批复文件批准之日起，项目超过5 年 方决定开工建设的，环境影响报告书应当报我局重新审核。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 其他 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山市城市轨道交通",
+    "industry_code": "其他",
+    "element": "其他",
+    "clause_index": 1,
+    "question": "【市级】佛山市生态环境局关于佛山市城市轨道交通关于其他的要求？",
+    "answer": "环境影响报告书经批准后，该项目的性质、规模、地点、 生产工艺和环境保护措施发生重大变动，且可能导致环境影响显 著变化（特别是不利环境影响加重）的，应当重新报批环境影响 — 3 — 报告书。自环境影响报告书批复文件批准之日起，项目超过5 年 方决定开工建设的，环境影响报告书应当报我局重新审核。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 其他 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于广珠铁路官窑货场",
+    "industry_code": "其他",
+    "element": "其他",
+    "clause_index": 1,
+    "question": "【市级】佛山市生态环境局关于广珠铁路官窑货场关于其他的要求？",
+    "answer": "项目建设应严格执行配套建设的环境保护设施与主体工 程同时设计、同时施工、同时投产使用的“三同时”制度。项目 —3— 竣工后，你公司应当按照有关规定，在配套建设的环境保护设施 验收合格后，方可投入生产或者使用。 佛山市生态环境局 2021 年12 月9 日 抄送：佛山市生态环境局南海分局、三水分局，佛山市南海环境科学研 究所有限公司。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 其他 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于壹酿高端精酿啤酒建设",
+    "industry_code": "其他",
+    "element": "总量",
+    "clause_index": 1,
+    "question": "【市级】佛山市生态环境局关于壹酿高端精酿啤酒建设总量指标是多少？",
+    "answer": "项目化学需氧量、氨氮排放总量控制指标核定为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "总量控制指标"
+    ],
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 总量 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于壹酿高端精酿啤酒建设",
+    "industry_code": "其他",
+    "element": "废水",
+    "clause_index": 2,
+    "question": "【市级】佛山市生态环境局关于壹酿高端精酿啤酒建设废水执行什么标准？去向？",
+    "answer": "0.05 吨/年，水污染物总量控制指标纳入金本污水处理 厂的总量控制指标内，不另外核发。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 废水 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于大塘工业园废包装物",
+    "industry_code": "C2319",
+    "element": "废水",
+    "clause_index": 1,
+    "question": "【市级】佛山市生态环境局关于大塘工业园废包装物废水执行什么标准？去向？",
+    "answer": "项目新增排入佛山市三水区大塘污水处理有限公司废水 量为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2319] 废水 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于大塘工业园废包装物",
+    "industry_code": "C2319",
+    "element": "废水",
+    "clause_index": 2,
+    "question": "【市级】佛山市生态环境局关于大塘工业园废包装物废水执行什么标准？去向？",
+    "answer": "3.78 吨/日），水污染物总量控制指标纳入佛山市三水区大塘污水处 理有限公司的总量控制指标内，不另外核发。项目VOCs 排放总 量核定为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2319] 废水 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山市高明科朗环保",
+    "industry_code": "其他",
+    "element": "废水",
+    "clause_index": 1,
+    "question": "【市级】佛山市生态环境局关于佛山市高明科朗环保废水执行什么标准？去向？",
+    "answer": "0.127 吨/年，水污染物总量控制指标纳入高明区中心城区 第三污水处理厂的总量控制指标内，不另外核发。项目氮氧化物 排放总量重新核定为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 废水 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于西二环高速公路桃园路",
+    "industry_code": "其他",
+    "element": "其他",
+    "clause_index": 1,
+    "question": "【市级】佛山市生态环境局关于西二环高速公路桃园路关于其他的要求？",
+    "answer": "环境影响报告表经批准后，该项目的性质、规模、地点、 生产工艺和环境保护措施发生重大变动，且可能导致环境影响显 著变化（特别是不利环境影响加重）的，应当重新报批环境影响 报告表。自环境影响报告表批复文件批准之日起，项目超过5 年 方决定开工建设的，环境影响报告表应当报我局重新审核。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 其他 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山西陇化工有限公司",
+    "industry_code": "其他",
+    "element": "废水",
+    "clause_index": 1,
+    "question": "【市级】佛山市生态环境局关于佛山西陇化工有限公司废水执行什么标准？去向？",
+    "answer": "项目新增排入佛山市三水区大塘污水处理有限公司废水 量为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 废水 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山西陇化工有限公司",
+    "industry_code": "其他",
+    "element": "废水",
+    "clause_index": 2,
+    "question": "【市级】佛山市生态环境局关于佛山西陇化工有限公司废水执行什么标准？去向？",
+    "answer": "7.245 吨/日），全厂废水总排放量核定为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 废水 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山西陇化工有限公司",
+    "industry_code": "其他",
+    "element": "总量",
+    "clause_index": 3,
+    "question": "【市级】佛山市生态环境局关于佛山西陇化工有限公司总量指标是多少？",
+    "answer": "2.535 吨/日（其中生产废 水排放量为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "总量控制指标"
+    ],
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 总量 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山西陇化工有限公司",
+    "industry_code": "其他",
+    "element": "废水",
+    "clause_index": 4,
+    "question": "【市级】佛山市生态环境局关于佛山西陇化工有限公司废水执行什么标准？去向？",
+    "answer": "9.245 吨/日）， 水污染物总量控制指标纳入佛山市三水区大塘污水处理有限公 司的总量控制指标内，不另外核发。项目新增VOCs 排放总量为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 废水 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山西陇化工有限公司",
+    "industry_code": "其他",
+    "element": "总量",
+    "clause_index": 5,
+    "question": "【市级】佛山市生态环境局关于佛山西陇化工有限公司总量指标是多少？",
+    "answer": "0.042 吨/年、非甲烷总烃的排放总量为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "总量控制指标"
+    ],
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 总量 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山西陇化工有限公司",
+    "industry_code": "其他",
+    "element": "总量",
+    "clause_index": 6,
+    "question": "【市级】佛山市生态环境局关于佛山西陇化工有限公司总量指标是多少？",
+    "answer": "0.004 吨/年（其中有组 织排放量为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "总量控制指标"
+    ],
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 总量 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山西陇化工有限公司",
+    "industry_code": "其他",
+    "element": "总量",
+    "clause_index": 7,
+    "question": "【市级】佛山市生态环境局关于佛山西陇化工有限公司总量指标是多少？",
+    "answer": "0.002 吨/年）、氮氧 化物排放总量为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "总量控制指标"
+    ],
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 总量 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山西陇化工有限公司",
+    "industry_code": "其他",
+    "element": "废气",
+    "clause_index": 8,
+    "question": "【市级】佛山市生态环境局关于佛山西陇化工有限公司废气执行什么标准？污染物？",
+    "answer": "4.252 吨/年。全厂VOCs 排放总量核定为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 废气 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山西陇化工有限公司",
+    "industry_code": "其他",
+    "element": "总量",
+    "clause_index": 9,
+    "question": "【市级】佛山市生态环境局关于佛山西陇化工有限公司总量指标是多少？",
+    "answer": "0.042 吨/年，非甲烷总烃的排放总量为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "总量控制指标"
+    ],
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 总量 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山西陇化工有限公司",
+    "industry_code": "其他",
+    "element": "其他",
+    "clause_index": 10,
+    "question": "【市级】佛山市生态环境局关于佛山西陇化工有限公司关于其他的要求？",
+    "answer": "0.887 吨/年（其中有组织排放 量为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 其他 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山西陇化工有限公司",
+    "industry_code": "其他",
+    "element": "总量",
+    "clause_index": 11,
+    "question": "【市级】佛山市生态环境局关于佛山西陇化工有限公司总量指标是多少？",
+    "answer": "0.706 吨/年），氮氧化物的 排放总量为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "总量控制指标"
+    ],
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 总量 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山西陇化工有限公司",
+    "industry_code": "其他",
+    "element": "总量",
+    "clause_index": 12,
+    "question": "【市级】佛山市生态环境局关于佛山西陇化工有限公司总量指标是多少？",
+    "answer": "5.163 吨/年。根据《佛山市人民政府办公室关于印 发佛山市排污权有偿使用和交易管理办法的通知》（佛府办 〔2020〕19 号），本批复中新增的氮氧化物排污总量指标应当 在依法申领（或变更）排污许可证前通过排污权交易取得，其新 增的排污总量指标按本批复意见确定。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "总量控制指标"
+    ],
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 总量 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山市高明区大成路",
+    "industry_code": "C1713",
+    "element": "废水",
+    "clause_index": 1,
+    "question": "【市级】佛山市生态环境局关于佛山市高明区大成路废水执行什么标准？去向？",
+    "answer": "项目生产废水化学需氧量、氨氮总量控制指标分别核定 为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山市高明区大成路",
+    "industry_code": "C1713",
+    "element": "废水",
+    "clause_index": 2,
+    "question": "【市级】佛山市生态环境局关于佛山市高明区大成路废水执行什么标准？去向？",
+    "answer": "5.99吨/年，上述总量控制指标纳入佛山市高明 区西安片区水质净化中心的总量控制指标内，不另外核发；生活 污水总量控制指标纳入佛山市高明区中心城区第三污水处理厂 的总量控制指标内，不另外核发。项目非甲烷总烃排放总量核定 为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山市高明区大成路",
+    "industry_code": "C1713",
+    "element": "总量",
+    "clause_index": 3,
+    "question": "【市级】佛山市生态环境局关于佛山市高明区大成路总量指标是多少？",
+    "answer": "3.029吨/年），二氧化硫排放总量核定为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "总量控制指标"
+    ],
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 总量 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山市高明区大成路",
+    "industry_code": "C1713",
+    "element": "总量",
+    "clause_index": 4,
+    "question": "【市级】佛山市生态环境局关于佛山市高明区大成路总量指标是多少？",
+    "answer": "5.208吨/年，氮氧 化物排放总量核定为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "总量控制指标"
+    ],
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 总量 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山市高明区大成路",
+    "industry_code": "C1713",
+    "element": "总量",
+    "clause_index": 5,
+    "question": "【市级】佛山市生态环境局关于佛山市高明区大成路总量指标是多少？",
+    "answer": "7.596吨/年。根据《佛山市人民政府办公 室关于印发佛山市排污权有偿使用和交易管理办法的通知》（佛 府办〔2020〕19号），本批复中二氧化硫、氮氧化物排污总量指 标应当在依法申领（或变更）排污许可证前通过排污权交易取得， 其排污总量指标按本批复意见确定。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "总量控制指标"
+    ],
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 总量 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局",
+    "industry_code": "其他",
+    "element": "其他",
+    "clause_index": 1,
+    "question": "【市级】佛山市生态环境局关于其他的要求？",
+    "answer": "环境影响报告书经批准后，该项目的性质、规模、地点、 生产工艺和环境保护措施发生重大变动，且可能导致环境影响显 著变化（特别是不利环境影响加重）的，应当重新报批环境影响 — 3 — 报告书。自环境影响报告书批复文件批准之日起，项目超过5 年 方决定开工建设的，环境影响报告书应当报我局重新审核。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 其他 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于顺德水道扩能升级工程",
+    "industry_code": "其他",
+    "element": "其他",
+    "clause_index": 1,
+    "question": "【市级】佛山市生态环境局关于顺德水道扩能升级工程关于其他的要求？",
+    "answer": "项目应加强环境风险防范，落实有效的风险防范和应急 措施，制定完善的事故应急预案，最大限度地减少风险事故的发 生和可能带来的影响。 — 3 —",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "环境风险防范"
+    ],
+    "review_point_primary": "环境风险防范",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 其他 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于南庄至西樵天然气高压",
+    "industry_code": "其他",
+    "element": "其他",
+    "clause_index": 1,
+    "question": "【市级】佛山市生态环境局关于南庄至西樵天然气高压关于其他的要求？",
+    "answer": "项目应加强环境风险防范，落实有效的风险防范和应急 措施，制定完善的事故应急预案，最大限度地减少风险事故的发 生和可能带来的影响。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "环境风险防范"
+    ],
+    "review_point_primary": "环境风险防范",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 其他 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于乐平至白坭天然气高压",
+    "industry_code": "其他",
+    "element": "废水",
+    "clause_index": 1,
+    "question": "【市级】佛山市生态环境局关于乐平至白坭天然气高压废水执行什么标准？去向？",
+    "answer": "项目生活污水总量控制指标纳入金本污水处理厂的总量 控制指标内，不另外核发；项目二氧化硫、氮氧化物排放总量分 别核定为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 废水 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于白坭镇南部片区",
+    "industry_code": "其他",
+    "element": "总量",
+    "clause_index": 1,
+    "question": "【市级】佛山市生态环境局关于白坭镇南部片区总量指标是多少？",
+    "answer": "项目总量控制指标：CODcr排放量为146t/a，氨氮排放 量为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "总量控制指标"
+    ],
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 总量 ?: total 146t/a"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于白坭镇南部片区",
+    "industry_code": "其他",
+    "element": "总量",
+    "clause_index": 2,
+    "question": "【市级】佛山市生态环境局关于白坭镇南部片区总量指标是多少？",
+    "answer": "8.25t/a。根据《佛山市人民政府办公室关于印发佛山市 排污权有偿使用和交易管理办法的通知》 （佛府办〔2020〕19 号）， 本批复中CODcr、氨氮排污总量指标应当在依法申领（或变更） 排污许可证前通过排污权交易取得，其排污总量指标按本批复意 见确定。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "总量控制指标"
+    ],
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 总量 ?: total 8.25t/a"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山220 千伏城北输变",
+    "industry_code": "其他",
+    "element": "废水",
+    "clause_index": 1,
+    "question": "【市级】佛山市生态环境局关于佛山220 千伏城北废水执行什么标准？去向？",
+    "answer": "项目应认真落实《报告表》提出的各项污染防治和辐射 防护措施，项目施工和运营中还应重点做好以下工作： （一）施工时应合理安排施工计划、施工工序，采取有效措 施，尽量减少水土流失。加强施工期的管理，落实好施工期噪声、 污水和粉尘、扬尘等污染防治措施，尽可能减少对周围环境的影 响。施工期噪声排放执行《建筑施工场界环境噪声排放标准》 — 3 — （GB12523－2011）。（二）应落实好有效的防电磁辐射措施， 最大限度减少对周围环境和公众的影响。项目建成后，运行期间 工频电场强度、工频磁感应强度符合《电磁环境控制限值》 （GB8702—2014）限值要求。 （三）项目应选用低噪声设备并采取有效的消声",
+    "standards": [
+      "GB30962008",
+      "GB123482008"
+    ],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "振动和电磁污染"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 70,
+    "quality_issues": [
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 废水 ?: use GB30962008/GB123482008"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山市三水区淼城建筑",
+    "industry_code": "C3021",
+    "element": "其他",
+    "clause_index": 1,
+    "question": "【市级】佛山市生态环境局关于佛山市三水区淼城建筑关于其他的要求？",
+    "answer": "项目应加强环境风险防范，落实有效的风险防范和应急 措施，制定完善的事故应急预案，最大限度地减少风险事故的发 生和可能带来的影响。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "环境风险防范"
+    ],
+    "review_point_primary": "环境风险防范",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C3021] 其他 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于东鄱路北延线工程（张",
+    "industry_code": "C3021",
+    "element": "其他",
+    "clause_index": 1,
+    "question": "【市级】佛山市生态环境局关于东鄱路北延线工程（张关于其他的要求？",
+    "answer": "《报告书》经批准后，建设项目的性质、规模、地点、 生产工艺或环境保护措施发生重大变动，且可能导致环境影响显 著变化（特别是不利环境影响加重）的，应当重新报批环境影响 报告书。自环境影响报告书批复文件批准之日起，项目超过5 年 方决定开工建设的，环境影响报告书应当报我局重新审核。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C3021] 其他 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山220 千伏兴业输变",
+    "industry_code": "C3831",
+    "element": "废水",
+    "clause_index": 1,
+    "question": "【市级】佛山市生态环境局关于佛山220 千伏兴业废水执行什么标准？去向？",
+    "answer": "项目应认真落实报告表提出的各项污染防治和辐射防护 措施，项目施工和运营中还应重点做好以下工作： （一）施工时应合理安排施工计划、施工工序，采取有效措 施，尽量减少水土流失。加强施工期的管理，落实好施工期噪声、 污水和粉尘、扬尘等污染防治措施，尽可能减少对周围环境的影 响。施工期噪声排放执行《建筑施工场界环境噪声排放标准》 （GB12523－2011）。 （二）应落实好有效的防电磁辐射措施，最大限度减少对周 围环境和公众的影响。项目建成后，运行期间工频电场强度、工 频磁感应强度符合《电磁环境控制限值》（GB8702—2014）限值 要求。 （三）项目应选用低噪声设备并采取有效的消声、减振等噪 声",
+    "standards": [
+      "GB30962008",
+      "GB123482008"
+    ],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "振动和电磁污染"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 70,
+    "quality_issues": [
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C3831] 废水 ?: use GB30962008/GB123482008"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山市鸿颜印染有限",
+    "industry_code": "C1713",
+    "element": "废水",
+    "clause_index": 1,
+    "question": "【市级】佛山市生态环境局关于佛山市鸿颜印染有限废水执行什么标准？去向？",
+    "answer": "项目必须严格按《报告书》要求落实各项环境保护措施， 执行各项污染物排放标准，并应重点做好如下工作： （一）项目应按《报告书》内容组织实施。项目生产废水和 预处理后的生活污水引至佛山市三水区大塘污水处理厂处理达 标后排放。核定改扩建后项目排水量为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山市鸿颜印染有限",
+    "industry_code": "C1713",
+    "element": "废水",
+    "clause_index": 2,
+    "question": "【市级】佛山市生态环境局关于佛山市鸿颜印染有限废水执行什么标准？去向？",
+    "answer": "3.23吨/天）。 （二）项目烧毛机废气的二氧化硫、氮氧化物和颗粒物执行 广东省地方标准《大气污染物排放限值》（DB44/27-2001）第二 时段二级标准，臭气浓度执行《恶臭污染物排放标准》 （GB14554-93）表2恶臭污染物排放标准值。高温蒸汽定型机废 气排放的非甲烷总烃、TVOC执行《固定污染源挥发性有机物综合 排放标准》（DB44/2367-2022）表1限值，颗粒物执行广东省地方 标准《大气污染物排放限值》（DB44/27-2001）第二时段二级标 准，臭气浓度执行《恶臭污染物排放标准》（GB14554-93）表2 恶臭污染物排放标准值。直燃式定型机和高温蒸汽定型机废气合 并排放",
+    "standards": [
+      "GB185992020",
+      "DB44/272001",
+      "DB44/23672022",
+      "GB123482008"
+    ],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "评价因子完整性"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 70,
+    "quality_issues": [
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: use GB185992020/DB44/272001/DB44/23672022"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山市鸿颜印染有限",
+    "industry_code": "C1713",
+    "element": "废气",
+    "clause_index": 3,
+    "question": "【市级】佛山市生态环境局关于佛山市鸿颜印染有限废气执行什么标准？污染物？",
+    "answer": "1.23 吨/ 年），根据《佛山市排污权有偿使用和交易管理办法》（佛府办 〔2020〕19 号），本批复中核定的减少的氮氧化物总量指标，应 当在依法变更排污许可证前，通过排污许可证予以载明；减少的 排污总量指标将根据原获取途径（无偿或有偿）及排污权交易的 相关规定，强制纳入政府储备或自愿上市转让交易、留存自身发 展。核定改扩建后全厂VOCs（包括非甲烷总烃）的排放量为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废气 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山市鸿颜印染有限",
+    "industry_code": "C1713",
+    "element": "废水",
+    "clause_index": 4,
+    "question": "【市级】佛山市生态环境局关于佛山市鸿颜印染有限废水执行什么标准？去向？",
+    "answer": "0.27 吨/年，根据《佛山市挥发性有机物排污量指标精细化 管理工作方案（试行）》，项目不新增VOCs 总量指标。项目水污 染物总量控制指标纳入大塘污水处理厂的总量控制指标，不另行 安排。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: no new 废水"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于千亩产业用地--樵乐",
+    "industry_code": "其他",
+    "element": "废水",
+    "clause_index": 1,
+    "question": "【市级】佛山市生态环境局关于千亩产业用地--樵乐废水执行什么标准？去向？",
+    "answer": "项目应认真落实报告表提出的各项污染防治和辐射防护 措施，项目施工和运营中还应重点做好以下工作： — 3 — （一）施工时应合理安排施工计划、施工工序，采取有效措 施，尽量减少水土流失。加强施工期的管理，落实好施工期噪声、 污水和粉尘、扬尘等污染防治措施，尽可能减少对周围环境的影 响。施工期噪声排放执行《建筑施工场界环境噪声排放标准》 （GB12523－2011）。 （二）应落实好有效的防电磁辐射措施，最大限度减少对周 围环境和公众的影响。项目建成后，运行期间工频电场强度、工 频磁感应强度符合《电磁环境控制限值》（GB 8702—2014）限值 要求。 （三）项目应选用低噪声设备并采取有效的消声",
+    "standards": [
+      "GB30962008",
+      "GB123482008"
+    ],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "振动和电磁污染"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 70,
+    "quality_issues": [
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 废水 ?: use GB30962008/GB123482008"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于广东双蒸酒业有限公司",
+    "industry_code": "其他",
+    "element": "总量",
+    "clause_index": 1,
+    "question": "【市级】佛山市生态环境局关于广东双蒸酒业有限公司总量指标是多少？",
+    "answer": "项目主要污染物排放总量控制指标如下： 二氧化硫排放量为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "总量控制指标"
+    ],
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 总量 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于广东双蒸酒业有限公司",
+    "industry_code": "其他",
+    "element": "总量",
+    "clause_index": 2,
+    "question": "【市级】佛山市生态环境局关于广东双蒸酒业有限公司总量指标是多少？",
+    "answer": "0.0448t/a（均为有组织排放）；氮氧化物 排放总量为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "总量控制指标"
+    ],
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 总量 ?: total 0.0448t/a"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于广东双蒸酒业有限公司",
+    "industry_code": "其他",
+    "element": "废水",
+    "clause_index": 3,
+    "question": "【市级】佛山市生态环境局关于广东双蒸酒业有限公司废水执行什么标准？去向？",
+    "answer": "0.0679t/a（均为有组织排放） 水污染物总量指标：化学需氧量",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 废水 ?: total 0.0679t/a"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于广东双蒸酒业有限公司",
+    "industry_code": "其他",
+    "element": "废水",
+    "clause_index": 4,
+    "question": "【市级】佛山市生态环境局关于广东双蒸酒业有限公司废水执行什么标准？去向？",
+    "answer": "1.57 吨/ 年。 根据《佛山市排污权有偿使用和交易管理办法》（佛府办 〔2020〕19 号），本批复中需要新增的生产废水（化学需氧量、 氨氮）排污总量指标，应当在依法申领（或变更）排污许可证前， — 4 — 通过排污权交易取得，其新增的排污总量指标数量按本批复意见 确定。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[其他] 废水 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山市澳棉纺织有限",
+    "industry_code": "C1713",
+    "element": "废水",
+    "clause_index": 1,
+    "question": "【市级】佛山市生态环境局关于佛山市澳棉纺织有限废水执行什么标准？去向？",
+    "answer": "项目必须严格按《报告书》要求落实各项环境保护措施， 执行各项污染物排放标准，并应重点做好如下工作： （一）项目应按《报告书》内容组织实施。项目生产废水和 预处理后的生活污水引至佛山市三水区大塘污水处理厂处理达 标后排放。项目变更前获批排水量为3562吨/日，变更项目新增 排水",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山市澳棉纺织有限",
+    "industry_code": "C1713",
+    "element": "其他",
+    "clause_index": 2,
+    "question": "【市级】佛山市生态环境局关于佛山市澳棉纺织有限关于其他的要求？",
+    "answer": "7.58吨/日，核定变更后全厂总排水量为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 其他 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山市澳棉纺织有限",
+    "industry_code": "C1713",
+    "element": "废水",
+    "clause_index": 3,
+    "question": "【市级】佛山市生态环境局关于佛山市澳棉纺织有限废水执行什么标准？去向？",
+    "answer": "5.28吨/日）。 （二）烧毛废气的颗粒物、二氧化硫、氮氧化物执行广东省 地方标准《大气污染物排放限值》（DB44/27-2001）第二时段二 级标准，臭气浓度执行《恶臭污染物排放标准》(GB14554-93) 表2恶臭污染物排放标准值。定型机废气的非甲烷总烃、TVOC执 行《固定污染源挥发性有机物综合排放标准》 （DB44/2367-2022）， — 3 — 颗粒物执行广东省地方标准《大气污染物排放限值》 （DB44/27-2001）第二时段二级标准，臭气浓度执行《恶臭污染 物排放标准》(GB14554-93)表2恶臭污染物排放标准值。厂区内 无组织排放的非甲烷总烃执行《固定污染源挥发性有机",
+    "standards": [
+      "GB185992020",
+      "DB44/272001",
+      "DB44/23672022",
+      "GB123482008"
+    ],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "评价因子完整性"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 70,
+    "quality_issues": [
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: use GB185992020/DB44/272001/DB44/23672022"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山市澳棉纺织有限",
+    "industry_code": "C1713",
+    "element": "废气",
+    "clause_index": 4,
+    "question": "【市级】佛山市生态环境局关于佛山市澳棉纺织有限废气执行什么标准？污染物？",
+    "answer": "0.392 吨/年），本批复中核定的需要新增大气污染物总量指标，应当在 依法申领（或变更）排污许可证前，通过排污权交易取得，其新 增的排污总量指标数量按本批复意见确定。核定扩建后全厂 VOCs（包括非甲烷总烃）的排放量为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废气 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山市澳棉纺织有限",
+    "industry_code": "C1713",
+    "element": "废水",
+    "clause_index": 5,
+    "question": "【市级】佛山市生态环境局关于佛山市澳棉纺织有限废水执行什么标准？去向？",
+    "answer": "1.04 吨/年，根 据《佛山市挥发性有机物排污量指标精细化管理工作方案（试 行）》，项目不安排VOCs 总量指标。项目水污染物总量控制指标 纳入大塘污水处理厂的总量控制指标，不另行安排。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山市高明区恒沣电子",
+    "industry_code": "C3979",
+    "element": "废水",
+    "clause_index": 1,
+    "question": "【市级】佛山市生态环境局关于佛山市高明区恒沣电子废水执行什么标准？去向？",
+    "answer": "项目主要污染物排放总量控制指标如下： 生活污水厂内处理达标后排入杨和镇第一污水处理厂，水污 染物总量指标纳入污水处理厂，不再另行下发。 —3— 项目必须落实大气污染物排放总量控制，现有项目重新核定 大气污染物排放总量为:总VOCs 排放量",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C3979] 废水 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山市高明区恒沣电子",
+    "industry_code": "C3979",
+    "element": "废气",
+    "clause_index": 2,
+    "question": "【市级】佛山市生态环境局关于佛山市高明区恒沣电子废气执行什么标准？污染物？",
+    "answer": "1.71 吨/年。改扩建项目实施 后全厂不再涉及二氧化硫、氮氧化物排放，大气污染物总量控制 指标为:总VOCs 排放量",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C3979] 废气 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于佛山500 千伏雄伟站配",
+    "industry_code": "C3831",
+    "element": "废水",
+    "clause_index": 1,
+    "question": "【市级】佛山市生态环境局关于佛山500 千伏雄伟废水执行什么标准？去向？",
+    "answer": "项目应认真落实报告表提出的各项污染防治和辐射防护 措施，项目施工和运营中还应重点做好以下工作： （一）施工时应合理安排施工计划、施工工序，采取有效措 施，尽量减少水土流失。加强施工期的管理，落实好施工期噪声、 污水和粉尘、扬尘等污染防治措施，尽可能减少对周围环境的影 响。施工期噪声排放执行《建筑施工场界环境噪声排放标准》 （GB12523－2011）。 （二）应落实好有效的防电磁辐射措施，最大限度减少对周 围环境和公众的影响。项目建成后，运行期间工频电场强度、工 频磁感应强度符合《电磁环境控制限值》（GB8702—2014）限值 要求。 （三）项目应选用低噪声设备并采取有效的消声、减振等噪 声",
+    "standards": [
+      "GB30962008",
+      "GB123482008"
+    ],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "振动和电磁污染"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 70,
+    "quality_issues": [
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C3831] 废水 ?: use GB30962008/GB123482008"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于广东阅生活家居科技",
+    "industry_code": "C2110",
+    "element": "废水",
+    "clause_index": 1,
+    "question": "【市级】佛山市生态环境局关于广东阅生活家居科技废水执行什么标准？去向？",
+    "answer": "你单位应按照《报告书》内容组织实施，落实相应的污染 防治措施。 （一）项目生活污水经预处理达到广东省《水污染物排放限值》 （DB 44/26—2001）第二时段三级标准后排入杏坛污水处理厂处 理。水帘柜废水、喷淋塔废水定期交有处理能力的单位处理，并做 好废水外委处理台账记录，确保得到合法、妥善处理。 （二）落实《固定污染源挥发性有机物综合排放标准》（DB 44/2367—2022）中相应控制要求，做好物料储存、转移和输送等 环节挥发性有机物无组织排放控制，并采取有效废气收集处理措 施，最大限度减少废气排放影响。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "评价因子完整性"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2110] 废水 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于广东阅生活家居科技",
+    "industry_code": "C2110",
+    "element": "废气",
+    "clause_index": 2,
+    "question": "【市级】佛山市生态环境局关于广东阅生活家居科技废气执行什么标准？污染物？",
+    "answer": "1．项目厂房二、厂房三油性面漆喷漆废气经整室密闭正压收 集，油性底漆喷漆废气经整室密闭负压收集后通过水帘柜除漆雾， 调漆、烘干工序产生的废气经整室密闭负压收集，以上各类废气一 并通过“二级水喷淋+干式过滤+沸石转轮吸附—脱附+催化燃烧” 设施处理后分别经排气筒（G",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2110] 废气 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于广东阅生活家居科技",
+    "industry_code": "C2110",
+    "element": "废气",
+    "clause_index": 3,
+    "question": "【市级】佛山市生态环境局关于广东阅生活家居科技废气执行什么标准？污染物？",
+    "answer": "1、G7）高空排放。其中，总VOCs、 二甲苯有组织排放执行广东省地方标准《家具制造行业挥发性有机 化合物排放标准》（DB 44/814—2010）表1 排气筒VOCs 排放限 值中的第Ⅱ时段排放限值；颗粒物、二氧化硫、氮氧化物有组织排 — 3 — 放执行广东省地方标准《大气污染物排放限值》（DB 44/27—2001） 第二时段二级标准；臭气浓度有组织排放执行《恶臭污染物排放标 准》（GB 14554—93）中表2 恶臭污染物排放标准值。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2110] 废气 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于广东阅生活家居科技",
+    "industry_code": "C2110",
+    "element": "废气",
+    "clause_index": 4,
+    "question": "【市级】佛山市生态环境局关于广东阅生活家居科技废气执行什么标准？污染物？",
+    "answer": "2．厂房二UV 漆流平、固化废气与经水帘柜预处理的UV 喷 漆废气一并经设备废气排口直连收集，通过“水喷淋+干式过滤器+ 活性炭吸附”设施处理后经排气筒（G13）高空排放。其中，总 VOCs 有组织排放执行广东省地方标准《家具制造行业挥发性有机 化合物排放标准》（DB 44/814—2010）表1 排气筒VOCs 排放限 值中的第Ⅱ时段排放限值；颗粒物有组织排放执行广东省地方标准 《大气污染物排放限值》（DB 44/27—2001）第二时段二级标准； 臭气浓度有组织排放执行《恶臭污染物排放标准》（GB 14554— 93）中表2 恶臭污染物排放标准值。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2110] 废气 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于广东阅生活家居科技",
+    "industry_code": "C2110",
+    "element": "废气",
+    "clause_index": 5,
+    "question": "【市级】佛山市生态环境局关于广东阅生活家居科技废气执行什么标准？污染物？",
+    "answer": "3.项目打磨工序产生的颗粒物经排气柜收集后通过水帘柜处 理后分别经排气筒（G",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2110] 废气 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于广东阅生活家居科技",
+    "industry_code": "C2110",
+    "element": "废气",
+    "clause_index": 6,
+    "question": "【市级】佛山市生态环境局关于广东阅生活家居科技废气执行什么标准？污染物？",
+    "answer": "9、G11）高空排放；项目木材加 工工序产生的颗粒物经集气罩收集后通过“布袋除尘器”处理后分 别经排气筒（G",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2110] 废气 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于广东阅生活家居科技",
+    "industry_code": "C2110",
+    "element": "废气",
+    "clause_index": 7,
+    "question": "【市级】佛山市生态环境局关于广东阅生活家居科技废气执行什么标准？污染物？",
+    "answer": "8、G12）高空排放。颗粒物有组织排放 执行广东省地方标准《大气污染物排放限值》（DB 44/27—2001） 第二时段二级标准。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2110] 废气 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于广东阅生活家居科技",
+    "industry_code": "C2110",
+    "element": "废气",
+    "clause_index": 8,
+    "question": "【市级】佛山市生态环境局关于广东阅生活家居科技废气执行什么标准？污染物？",
+    "answer": "4.厂房二、三、四的贴绵工序产生的废气经集气罩收集，冷压 和拼板工序产生的废气经整室密闭负压收集，上述废气一并通过活 性炭吸附处理后分别经排气筒（G",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2110] 废气 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于广东阅生活家居科技",
+    "industry_code": "C2110",
+    "element": "废气",
+    "clause_index": 9,
+    "question": "【市级】佛山市生态环境局关于广东阅生活家居科技废气执行什么标准？污染物？",
+    "answer": "0、G14）高空排放。其中， 总VOCs 有组织排放执行广东省地方标准《家具制造行业挥发性有 — 4 — 机化合物排放标准》（DB 44/814—2010）表1 排气筒VOCs 排放 限值中的第Ⅱ时段排放限值；臭气浓度有组织排放执行《恶臭污染 物排放标准》（GB 14554—93）中表2 相应排放限值。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2110] 废气 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于广东阅生活家居科技",
+    "industry_code": "C2110",
+    "element": "其他",
+    "clause_index": 10,
+    "question": "【市级】佛山市生态环境局关于广东阅生活家居科技关于其他的要求？",
+    "answer": "5.项目食堂油烟经集气罩收集后通过静电油烟净化器处理后 经排气筒（G",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2110] 其他 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于广东阅生活家居科技",
+    "industry_code": "C2110",
+    "element": "其他",
+    "clause_index": 11,
+    "question": "【市级】佛山市生态环境局关于广东阅生活家居科技关于其他的要求？",
+    "answer": "5、G16）高空排放，油烟有组织排放执行《饮食业 油烟排放标准（试行）》（GB 18483—2001）中的大型标准。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2110] 其他 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于广东阅生活家居科技",
+    "industry_code": "C2110",
+    "element": "废气",
+    "clause_index": 12,
+    "question": "【市级】佛山市生态环境局关于广东阅生活家居科技废气执行什么标准？污染物？",
+    "answer": "6.项目厂区内VOCs 无组织排放执行广东省《固定污染源挥发 性有机物综合排放标准》（DB 44/2367—2022）表3 厂区内VOCs 无组织排放限值。厂界总VOCs、二甲苯无组织排放执行广东省地 方标准《家具制造行业挥发性有机化合物排放标准》（DB 44/814 —2010）表2 无组织排放监控点浓度限值。厂界颗粒物无组织排放 执行广东省地方标准《大气污染物排放限值》（DB 44/27—2001） 第二时段无组织排放监控浓度限值。厂界臭气浓度无组织排放执行 《恶臭污染物排放标准》（GB 14554—93）表1 中的新扩改建项 目厂界二级排放限值。 （三）厂界噪声执行《工业企业厂界环境噪声",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "改建扩建以新带老",
+      "评价因子完整性"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2110] 废气 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于广东阅生活家居科技",
+    "industry_code": "C2110",
+    "element": "废气",
+    "clause_index": 13,
+    "question": "【市级】佛山市生态环境局关于广东阅生活家居科技废气执行什么标准？污染物？",
+    "answer": "0.021 吨/年。根据《佛山市人民政府办公室关于印发佛山市排污权 有偿使用和交易管理办法的通知》（佛府办〔2020〕19 号）、《关 于印发佛山市顺德区排污权有偿使用和交易试点管理办法的通 知》（顺管环保〔2018〕10 号）和《关于延长〈佛山市顺德区 排污权有偿使用和交易试点管理办法〉有效期的通知》（佛环顺 〔2023〕33 号）的要求，本批复中需要新增的VOCs（含非甲烷 总烃）、二氧化硫和氮氧化物总量指标，应当在依法申领（或变 更）排污许可证前，通过排污权交易取得，其新增的排污总量指 标数量按本批复意见确定。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2110] 废气 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于广东睿智合诚新材料",
+    "industry_code": "C2929",
+    "element": "废水",
+    "clause_index": 1,
+    "question": "【市级】佛山市生态环境局关于广东睿智合诚新材料废水执行什么标准？去向？",
+    "answer": "项目必须严格按《报告书》要求落实各项环境保护措施， 执行各项污染物排放标准，并应重点做好如下工作： （一）项目应按《报告书》内容组织实施。项目真空泵更换 废水、喷淋废水和造粒过程冷却废水等生产废水",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废水 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于广东睿智合诚新材料",
+    "industry_code": "C2929",
+    "element": "废水",
+    "clause_index": 2,
+    "question": "【市级】佛山市生态环境局关于广东睿智合诚新材料废水执行什么标准？去向？",
+    "answer": "0.45吨/天引至佛山市三水区大塘污水处理厂处理达标后 排放。 （二）项目工艺废气的非甲烷总烃有组织排放执行《合成树 脂工业污染物排放标准》（GB 31572-2015，含2024年修改单） 表5中的特别排放限值，臭气浓度有组织排放执行《恶臭污染物 排放标准》（GB14554-93）表2恶臭污染物排放标准限值要求。 厂区内非甲烷总烃无组织排放执行广东省《固定污染源挥发性有 机物综合排放标准》（DB44/2367-2022）表3厂区内VOCs无组织 排放限值。厂界颗粒物、非甲烷总烃执行《合成树脂工业污染物 排放标准》（GB 31572-2015，含2024年修改单）表9中的排放限 值，臭气浓度无",
+    "standards": [
+      "GB185992020",
+      "DB44/23672022",
+      "GB123482008"
+    ],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "评价因子完整性"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 70,
+    "quality_issues": [
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废水 ?: use GB185992020/DB44/23672022/GB123482008"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于广东睿智合诚新材料",
+    "industry_code": "C2929",
+    "element": "废气",
+    "clause_index": 3,
+    "question": "【市级】佛山市生态环境局关于广东睿智合诚新材料废气执行什么标准？污染物？",
+    "answer": "1.72 吨/年，根据《佛山市挥发性有机物排污量指标精细化管理工作 方案（试行）》，本批复中新增的VOCs 总量指标，应当从VOCs 储备量中列支。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "总量控制指标"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废气 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于爱信（佛山）车身",
+    "industry_code": "C2929",
+    "element": "废水",
+    "clause_index": 1,
+    "question": "【市级】佛山市生态环境局关于爱信（佛山）车身废水执行什么标准？去向？",
+    "answer": "项目建设应重点做好以下工作： — 3 — （一）项目施工期应按照《报告书》要求落实各项污染物治 理及防治措施。 （二）项目方必须采取有效的废气收集和处理设施，以确保 注塑有机废气和部分RIM 成型、表面清洁、涂布、干燥等工序有 机废气经收集处理达标后,通过排气筒高空排放，外排废气中 TVOC 和NMHC、苯系物、甲苯、异氟尔酮二异氰酸酯(IPDI)、酚 类、氨、氯苯类、二氯甲烷、四氢呋喃、苯乙烯、丙烯腈、1,3- 丁二烯、乙苯等有组织排放执行《合成树脂工业污染物排放标准》 (GB31572-2015)及其2024 年修改单表5 大气污染物特别排放限 值以及广东省《固定污染源挥发性有机物综合排放",
+    "standards": [
+      "DB44/262001",
+      "DB44/272001",
+      "DB44/7652019",
+      "DB44/23672022",
+      "GB/T385972020",
+      "GB315722015",
+      "GB333722020"
+    ],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "评价因子完整性"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 70,
+    "quality_issues": [
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废水 ?: use DB44/262001/DB44/272001/DB44/7652019"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于爱信（佛山）车身",
+    "industry_code": "C2929",
+    "element": "废水",
+    "clause_index": 2,
+    "question": "【市级】佛山市生态环境局关于爱信（佛山）车身废水执行什么标准？去向？",
+    "answer": "4.8 吨/ 年,作为有机废气喷淋塔补充水，不得外排。项目生产废水包括 — 6 — 涂装室水帘柜废水、有机废气喷淋废水、涂装室地面灰尘吸收废 水合计产生量",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废水 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于爱信（佛山）车身",
+    "industry_code": "C2929",
+    "element": "废水",
+    "clause_index": 3,
+    "question": "【市级】佛山市生态环境局关于爱信（佛山）车身废水执行什么标准？去向？",
+    "answer": "1.28 吨/年，委托有生产废水处理资质的单位外 运处置。 （四）项目方对产生噪声源设备必须进行合理布局，选用低 噪声的设备，做好隔音降噪工作，以减轻噪声对生产工人和附近 环境的影响,确保厂界噪声符合《工业企业厂界环境噪声排放标 准》（GB12348-2008）中的3 类和4 类标准的要求。 （五）项目的废擦拭纸、废活性炭、废催化剂、废沸石、废 抹布、漆渣及废涂料、废过滤材料、废机油、涉危废包装物和治 夹具剥离废槽液和更换废水等属于危险废物，必须交由取得相应 危险废物经营许可证的单位集中处置，确保不产生二次污染。同 时，项目方必须加强对固体废物的管理，实施分类收集。一般废 包装材料、废边胶布和",
+    "standards": [
+      "GB185992020",
+      "GB185972023",
+      "GB123482008"
+    ],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "产业政策与规划相符性"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 70,
+    "quality_issues": [
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废水 ?: use GB185992020/GB185972023/GB123482008"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于香云纱示范性生产基地",
+    "industry_code": "C1713",
+    "element": "废水",
+    "clause_index": 1,
+    "question": "【市级】佛山市生态环境局关于香云纱示范性生产基地废水执行什么标准？去向？",
+    "answer": "你单位应按照《报告书》内容组织实施，落实相应的污染 防治措施。 （一）项目食堂废水经隔油处理后，与其他生活污水一并经三 级化粪池处理达到广东省地方标准《水污染物排放限值》 （DB 44/26 —2001）第二时段三级标准后排入伦教污水处理厂处理。项目过乌 清洗废水经竖流沉淀工艺预处理后，50%上清液回用于过乌清洗工 序，剩余50%下层浊液以及废河泥压滤液一并经化学沉淀预处理， 其中，总铬、总铅、总镍、总砷、总镉、总汞达到广东省地方标准 《水污染物排放限值》（DB 44/26—2001）第一类污染物最高允许 排放浓度后，与鲜薯莨清洗废水、晒莨场雨水径流、车间地面清洗 废水、生物滤池更换废水、石英",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 废水 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于香云纱示范性生产基地",
+    "industry_code": "C1713",
+    "element": "总量",
+    "clause_index": 2,
+    "question": "【市级】佛山市生态环境局关于香云纱示范性生产基地总量指标是多少？",
+    "answer": "0.074 吨/年。根据《佛山市人民政府办公室关于修订佛山市排污权有偿 使用和交易管理办法的通知》（佛府办〔2025〕16 号），本批复中 需要新增的排污总量指标，应当在依法申领（或变更）排污许可证 前，通过排污权交易取得，其新增的排污总量指标数量按本批复意 — 4 — 见确定。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "总量控制指标"
+    ],
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C1713] 总量 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于广东皓景新材料",
+    "industry_code": "C2929",
+    "element": "废气",
+    "clause_index": 1,
+    "question": "【市级】佛山市生态环境局关于广东皓景新材料废气执行什么标准？污染物？",
+    "answer": "技改后建设项目应重点做好以下工作： （一）项目方必须按《报告书》要求采取有效的废气收集和 处理措施，委托有资质的单位落实PUR 湿气固化型聚氨酯热熔胶 和环保胶粒生产产生的废气收集治理设施，废气经收集处理达标 后，与燃烧废气一同通过排气筒高空排放，外排废气中TVOC 执 行《涂料、油墨及胶粘剂工业大气污染物排放标准》 （GB37824-2019）表2 胶粘剂特别排放限值，非甲烷总烃、MDI 执行《合成树脂工业污染物排放标准》（GB 31572-2015，含2024 年修改单）表5 特别排放限值与《涂料、油墨及胶粘剂工业大气 污染物排放标准》（GB37824-2019）表2 胶粘剂特别排放限值的",
+    "standards": [
+      "GB378242019"
+    ],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 70,
+    "quality_issues": [
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废气 ?: use GB378242019"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于广东皓景新材料",
+    "industry_code": "C2929",
+    "element": "废水",
+    "clause_index": 2,
+    "question": "【市级】佛山市生态环境局关于广东皓景新材料废水执行什么标准？去向？",
+    "answer": "2、NOx 执行《合成树脂工业污染物排放标准》 （GB31572-2015，含2024 年修改单）表6 特别排放限值与《涂 料、油墨及胶粘剂工业大气污染物排放标准》（GB37824-2019） 表3 排放限值的较严值，颗粒物执行《大气污染物排放限值》 （DB44/27-2001）第二时段二级标准排放限值，臭气浓度执行《恶 —3— 臭污染物排放标准》（GB14554-93）表2 排放限值。 项目投料工序产生的粉尘废气经收集处理达标后通过排气 筒高空排放，外排废气中颗粒物执行《合成树脂工业污染物排放 标准》（GB31572-2015，含2024 年修改单）表5 特别排放限值 与《涂料、油墨及胶粘剂",
+    "standards": [
+      "DB44/262001",
+      "DB44/272001",
+      "GB378242019",
+      "GB184832001",
+      "GB315722015"
+    ],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 70,
+    "quality_issues": [
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废水 ?: use DB44/262001/DB44/272001/GB378242019"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于广东皓景新材料",
+    "industry_code": "C2929",
+    "element": "废水",
+    "clause_index": 3,
+    "question": "【市级】佛山市生态环境局关于广东皓景新材料废水执行什么标准？去向？",
+    "answer": "0.5 吨/年，经自建废水处理站处理 —4— 后，回用于冷却用水，不外排；真空泵废水、冷却废水、地面清 洗废水等产生量共",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废水 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于广东皓景新材料",
+    "industry_code": "C2929",
+    "element": "废水",
+    "clause_index": 4,
+    "question": "【市级】佛山市生态环境局关于广东皓景新材料废水执行什么标准？去向？",
+    "answer": "4.38 吨/年，交由有工业废水处理能力的单 位外运处置。 （三）项目方对产生噪声源设备必须进行合理布局，选用低 噪声型设备，并采取隔声、消声、减振等治理措施，做好隔音降 噪工作，以减轻噪声对生产工人和附近环境的影响,确保厂界噪 声排放符合《工业企业厂界环境噪声排放标准》（GB12348-2008） 中的",
+    "standards": [
+      "GB123482008"
+    ],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "产业政策与规划相符性"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 70,
+    "quality_issues": [
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废水 ?: use GB123482008"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于广东皓景新材料",
+    "industry_code": "C2929",
+    "element": "废水",
+    "clause_index": 5,
+    "question": "【市级】佛山市生态环境局关于广东皓景新材料废水执行什么标准？去向？",
+    "answer": "3、4 类标准的要求。 （四）项目方必须加强对固体废物的管理，实施分类收集。 项目运营期产生的危险化学品废包装材料、含油抹布和废手套、 废润滑油、废导热油、废油类物质包装桶、废石蜡、废油泥、检 验室设备清洗废水等属于危险废物，必须交由取得相应危险废物 经营许可证的单位集中处置，确保不产生二次污染。项目产生的 布袋除尘器收集的粉尘、废包装材料、废布袋、废检验样品、沉 降的粉尘、污水处理站污泥等属于一般工业固废交由资源回收公 司回收利用。生活垃圾交由环卫部门统一收集外运处理。 危险废物、一般工业固废在厂内暂存应符合《危险废物贮存 污染控制标准》（GB18597-2023）、《一般工业固体废物贮存和",
+    "standards": [
+      "GB185972023",
+      "GB185992020"
+    ],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 70,
+    "quality_issues": [
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C2929] 废水 ?: use GB185972023/GB185992020"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于广东省尚骏汽车科技",
+    "industry_code": "C3670",
+    "element": "废水",
+    "clause_index": 1,
+    "question": "【市级】佛山市生态环境局关于广东省尚骏汽车科技废水执行什么标准？去向？",
+    "answer": "你单位应按照《报告书》内容组织实施，落实相应的污 染防治措施。 （一）项目生活污水经三级化粪池预处理达到广东省《水污 染物排放限值》（DB 44/26—2001）第二时段三级标准后排入乐 从污水处理厂处理。水磨废水定期交由有处理资质和能力的单位 处理，并做好废水委外处理台账记录，确保得到合法、妥善处理。 （二）落实《固定污染源挥发性有机物综合排放标准》（DB 44/2367—2022）中相应控制要求，做好物料储存、转移和输送 等环节挥发性有机物无组织排放控制，并采取有效废气收集处理 措施，最大限度减少废气排放影响。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "评价因子完整性"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C3670] 废水 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于广东省尚骏汽车科技",
+    "industry_code": "C3670",
+    "element": "废气",
+    "clause_index": 2,
+    "question": "【市级】佛山市生态环境局关于广东省尚骏汽车科技废气执行什么标准？污染物？",
+    "answer": "1．项目磨色、腻子打磨、面漆打磨、调腻子、刮涂腻子、晾 干废气经密闭负压收集，经“布袋除尘器+干式过滤器+活性炭吸附 装置”处理后通过排气筒FQ—1 高空排放。其中，颗粒物有组织 排放执行广东省地方标准《大气污染物排放限值》（DB 44/27— 2001）第二时段二级标准；总VOCs 有组织排放执行广东省地方标 准《表面涂装（汽车制造业）挥发性有机化合物排放标准》（DB 44/816—2010）表2 排气筒VOCs 排放限值中的第Ⅱ时段限值； TVOC、非甲烷总烃、苯系物有组织排放执行广东省地方标准《固 — 3 — 定污染源挥发性有机物综合排放标准》（DB 44/2367—2022）表1 挥发",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "评价因子完整性"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C3670] 废气 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于广东省尚骏汽车科技",
+    "industry_code": "C3670",
+    "element": "废气",
+    "clause_index": 3,
+    "question": "【市级】佛山市生态环境局关于广东省尚骏汽车科技废气执行什么标准？污染物？",
+    "answer": "1、喷烤面漆/清漆房1 运行过程（调 漆、喷漆、干燥、喷枪清洁）产生的废气经密闭负压收集，经“漆 雾过滤棉+多级干式过滤+旋转式沸石分子筛吸附—脱附—蓄热催 化燃烧装置”处理后通过排气筒FQ—2 高空排放。其中，颗粒物 有组织排放执行广东省地方标准《大气污染物排放限值》 （DB 44/27 —2001）第二时段二级标准；总VOCs、甲苯与二甲苯合计有组织 排放执行广东省地方标准《表面涂装（汽车制造业）挥发性有机化 合物排放标准》（DB 44/816—2010）表2 排气筒VOCs 排放限值 中的第Ⅱ时段限值；TVOC、非甲烷总烃有组织排放执行广东省地 方标准《固定污染源挥发性有机物综合排放标准",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "评价因子完整性"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C3670] 废气 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于广东省尚骏汽车科技",
+    "industry_code": "C3670",
+    "element": "废气",
+    "clause_index": 4,
+    "question": "【市级】佛山市生态环境局关于广东省尚骏汽车科技废气执行什么标准？污染物？",
+    "answer": "2、喷烤面漆/ 清漆房3 运行过程（调漆、喷漆、干燥、喷枪清洁）产生的废气经 — 4 — 密闭负压收集，经“漆雾过滤棉+多级干式过滤+旋转式沸石分子筛 吸附—脱附—蓄热催化燃烧装置”处理后通过排气筒FQ—3 高空 排放。其中，颗粒物有组织排放执行广东省地方标准《大气污染物 排放限值》（DB 44/27—2001）第二时段二级标准；总VOCs、甲 苯与二甲苯合计有组织排放执行广东省地方标准《表面涂装（汽车 制造业）挥发性有机化合物排放标准》（DB 44/816—2010）表2 排气筒VOCs 排放限值中的第Ⅱ时段限值；TVOC、非甲烷总烃有 组织排放执行广东省地方标准《固定污染源挥发性有机物综合",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "评价因子完整性"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C3670] 废气 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于广东省尚骏汽车科技",
+    "industry_code": "C3670",
+    "element": "废气",
+    "clause_index": 5,
+    "question": "【市级】佛山市生态环境局关于广东省尚骏汽车科技废气执行什么标准？污染物？",
+    "answer": "4．危废房废气经密闭负压收集，经活性炭吸附处理后通过 排气筒FQ—4 高空排放。其中，TVOC、非甲烷总烃、苯系物有组 织排放执行广东省地方标准《固定污染源挥发性有机物综合排放标 准》（DB 44/2367—2022）表1 挥发性有机物排放限值；苯乙烯、 臭气浓度有组织排放执行《恶臭污染物排放标准》（GB 14554— 93）表2 恶臭污染物排放标准值要求。",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "评价因子完整性"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C3670] 废气 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于广东省尚骏汽车科技",
+    "industry_code": "C3670",
+    "element": "废气",
+    "clause_index": 6,
+    "question": "【市级】佛山市生态环境局关于广东省尚骏汽车科技废气执行什么标准？污染物？",
+    "answer": "5.项目厂区内VOCs 无组织排放执行广东省地方标准《固定 — 5 — 污染源挥发性有机物综合排放标准》（DB 44/2367—2022）表3 厂区内VOCs 无组织排放限值。厂界颗粒物无组织排放执行广东 省地方标准《大气污染物排放限值》（DB 44/27—2001）第二时 段无组织排放监控浓度限值。厂界二甲苯、三甲苯、总VOCs 无组织排放执行广东省地方标准《表面涂装（汽车制造业）挥发 性有机化合物排放标准》（DB 44/816—2010）表3 无组织排放监 控点浓度限值。厂界苯乙烯、臭气浓度无组织排放执行《恶臭污 染物排放标准》（GB 14554—93）中表1 中的新改扩建厂界二级 排放限",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "污染防治措施",
+      "评价因子完整性"
+    ],
+    "review_point_primary": "污染防治措施",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C3670] 废气 ?: see approval"
+  },
+  {
+    "level": "市级",
+    "region": "佛山市",
+    "company": "佛山市生态环境局关于广东省尚骏汽车科技",
+    "industry_code": "C3670",
+    "element": "总量",
+    "clause_index": 7,
+    "question": "【市级】佛山市生态环境局关于广东省尚骏汽车科技总量指标是多少？",
+    "answer": "5.489 吨/年， 其中有组织排放量为",
+    "standards": [],
+    "validation": "参考（佛山市级）",
+    "review_points": [
+      "总量控制指标"
+    ],
+    "review_point_primary": "总量控制指标",
+    "quality_score": 50,
+    "quality_issues": [
+      "no standards",
+      "no evidence",
+      "not validated"
+    ],
+    "behavior_rule": "[C3670] 总量 ?: see approval"
+  }
+]

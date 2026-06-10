@@ -1,0 +1,57 @@
+<View>
+  <Header value="环评 QA 标注 - ELLE 风格标签"/>
+  
+  <View style="box-shadow: 0 2px 8px rgba(0,0,0,0.1); padding: 16px; border-radius: 8px; margin-bottom: 16px; background: #f8f9fa">
+    <Text name="question" value="$question"/>
+    <Text name="answer" value="$answer"/>
+  </View>
+  
+  <Header value="1. 问题类型 (Question Type)"/>
+  <Choices name="question_type" toName="question" choice="single" showInline="true">
+    <Choice value="knowledge" background="#2196F3"/>
+    <Choice value="calculation" background="#FF9800"/>
+    <Choice value="reasoning" background="#9C27B0"/>
+  </Choices>
+  
+  <Header value="2. 难度等级 (Difficulty)"/>
+  <Choices name="difficulty" toName="question" choice="single" showInline="true">
+    <Choice value="simple" background="#4CAF50"/>
+    <Choice value="medium" background="#FF9800"/>
+    <Choice value="hard" background="#F44336"/>
+  </Choices>
+  
+  <Header value="3. 要素/领域 (Element/Domain)"/>
+  <Choices name="element" toName="question" choice="single" showInline="true">
+    <Choice value="废气" background="#2196F3"/>
+    <Choice value="废水" background="#4CAF50"/>
+    <Choice value="噪声" background="#9C27B0"/>
+    <Choice value="固废/危废" background="#FF9800"/>
+    <Choice value="生态" background="#00BCD4"/>
+    <Choice value="综合/其他" background="#607D8B"/>
+  </Choices>
+  
+  <Header value="4. 内容领域 (Content Domain - 对应9类审核)"/>
+  <Choices name="review_category" toName="question" choice="single" showInline="false">
+    <Choice value="0-材料完整性与一致性"/>
+    <Choice value="1-项目建设内容与工程分析"/>
+    <Choice value="2-产污环节与污染源核算"/>
+    <Choice value="3-污染防治措施可行性"/>
+    <Choice value="4-环境影响预测与评价结论"/>
+    <Choice value="5-环境风险与应急措施"/>
+    <Choice value="6-法规/标准/导则符合性"/>
+    <Choice value="7-监测计划/总量控制/后续管理"/>
+    <Choice value="8-图件/附件/格式与可读性"/>
+  </Choices>
+  
+  <Header value="5. 质量问题标记"/>
+  <Choices name="quality_issue" toName="question" choice="multiple" showInline="true">
+    <Choice value="答案有误"/>
+    <Choice value="证据不匹配"/>
+    <Choice value="标准版本过时"/>
+    <Choice value="信息不完整"/>
+    <Choice value="问题与答案不匹配"/>
+    <Choice value="无问题"/>
+  </Choices>
+  
+  <TextArea name="comment" toName="question" placeholder="备注/修改建议..." maxSubmissions="1"/>
+</View>

@@ -1,0 +1,20 @@
+{
+  "name": "experience_pair_schema",
+  "version": "1.0",
+  "description": "环评审核经验对schema - 用于C2929塑料注塑类报告表",
+  "fields": {
+    "experience_id": "规则唯一标识, 格式: EXP_{industry}_{module}_{seq}",
+    "industry_code": "国民经济行业分类代码",
+    "industry_name": "行业名称",
+    "project_features": "项目特征标签列表",
+    "trigger_condition": "触发条件列表 - 当报告满足这些条件时触发该规则",
+    "review_module": "审核模块名称",
+    "review_checkpoints": "审核检查点列表",
+    "evidence_source_type": "证据来源类型列表",
+    "evidence_source_file": "证据来源文件列表",
+    "evidence_level": "证据等级: A/B/C",
+    "automation_level": "自动化等级: auto_rule/strong_hint/human_attention",
+    "failure_risk": "常见失败模式列表",
+    "suggested_comment_template": "建议修改意见模板"
+  }
+}

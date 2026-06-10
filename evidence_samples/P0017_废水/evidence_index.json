@@ -1,0 +1,20 @@
+{
+  "qa_id": "P0017_废水",
+  "project_id": "P0017",
+  "company": "广东钿源科技有限公司",
+  "industry_code": "C3029",
+  "element": "废水",
+  "report_md_source": "full.md",
+  "approval_pdf_source": "2023_（佛环0304环审〔2023〕5号）佛山市生态环境局关于广东钿源科技有限公司新建项目环境影响报告表的批复.pdf",
+  "answer": "项目产生的生活污水经处理达到《水污染物排放限值》（DB44/26-2001）中的第二时段三级标准后排入勒流生活污水处理厂",
+  "approval_evidence_text": "你单位应按照报告表内容组织实施。项目产生的生活污水经处理达到《水污染物排放限值》（DB44/26-2001）中的第二时段三级标准后排入勒流生活污水处理厂。按照《挥发性有机物主动公开佛环0304 环审〔2023〕5 号佛山市生态环境局关于广东钿源科技有限公司新建项目环境影响报告表的批复无组织排放控制标准》（GB37822-2019）的有关要求，做好物料储存、转移和输送等环节挥发性有机",
+  "report_evidence_text": "理厂扩建,尾水应执行《城镇污水处理厂污染物排放标准》(GB18918-2002)一级A标准及《广东省水污染物排放限值》(DB44/26-2001)的较严值。</; 围，生活污水经三级化粪池预处理达到广东省地方标准《水污染物排放限值》（DB44/26-2001）第二时段三级标准后排入勒流污水处理厂，尾水执行《城镇污水处理厂污",
+  "company_in_report": false,
+  "company_in_approval": true,
+  "answer_in_approval": true,
+  "evidence_in_report": true,
+  "validation_errors": [
+    "company_not_in_report_md",
+    "company_mismatch_report"
+  ]
+}

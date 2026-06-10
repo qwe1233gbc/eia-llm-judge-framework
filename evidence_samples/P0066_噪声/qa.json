@@ -1,0 +1,93 @@
+{
+  "level": "区级",
+  "region": "佛山市顺德区",
+  "company": "佛山市大隅新材料有限公司",
+  "project_id": "P0066",
+  "industry_code": "C2929",
+  "project_type": "新建",
+  "report_year": "2023",
+  "element": "噪声",
+  "review_point": "污染防治措施",
+  "clause_index": 3,
+  "question": "【区级】佛山市大隅新材料有限公司（C2929 新建项目）厂界噪声执行什么标准类别？报告和批复中对应的噪声控制要求是什么？",
+  "answer": "厂界噪声执行《工业企业厂界环境噪声排放标准》 （GB12348-2008）中的2 类标准",
+  "standards": [
+    "GB123482008"
+  ],
+  "approval_evidence": [
+    {
+      "source": "2024_公示佛山市生态环境局关于佛山市大隅新材料有限公司新建项目环境影响报告表的批复.pdf",
+      "text": "0630t/a。厂界噪声执行《工业企业厂界环境噪声排放标准》 （GB12348-2008）中的2 类标准。项目危险废物、一般工业固体废物贮存及处置应符合法律法规及国家污染物控制标准要求。一般工业固体废物贮存过程应满足相应防渗漏、防雨淋、防扬尘等环境保护要求，并依法处理处置；危险废物贮存场所须满足《危险废物贮存污染控制标准》（GB 18597-2023）相关要求，危险废物委托有资质的单位进"
+    }
+  ],
+  "report_evidence": [
+    {
+      "section": "report",
+      "text": "d><td>夜间</td></tr><tr><td>营运期</td><td>厂界</td><td>《工业企业厂界环境噪声排放标准》(GB12348-2008)2类</td><td>60</td><td>50</td></tr></table> # 4、固体废物排放标准 （1）固体废物管理遵照《中华人民共和国固体废物污染环境防治法》（2020 年修正）、《广东省固体废物污染环境防治条例》（2018 年修订）执行，一般固体废"
+    },
+    {
+      "section": "report",
+      "text": "lspan=\"3\">环境保护要求。危险废物的贮存、处置执行《国家危险废物名录》(2021年版)、《危险废物贮存污染控制标准》(GB18597-2023)。</td></tr><tr><td rowspan=\"6\">总量控制指标</td><td colspan=\"3\">1、废气总量控制指标项目有机废气主要为挤出过程中产生的非甲烷总烃,非甲烷总烃总排放量为 $0.3408t/a$ 。根据《佛山市生态环境局顺德分局关于做好重"
+    }
+  ],
+  "behavior_rule": {
+    "trigger_condition": "项目存在固定设备噪声源",
+    "review_checkpoints": [
+      "是否说明厂界噪声执行标准类别",
+      "是否与声环境功能区划一致"
+    ],
+    "expected_report_content": [
+      "主要噪声源",
+      "设备声级",
+      "厂界预测",
+      "标准类别",
+      "隔声减振措施",
+      "昼间夜间限值"
+    ],
+    "common_approval_requirement": "厂界噪声执行《工业企业厂界环境噪声排放标准》 （GB12348-2008）中的2 类标准",
+    "common_standards": [
+      "GB123482008"
+    ]
+  },
+  "quality_score": 100,
+  "quality_issues": [],
+  "need_human_review": false,
+  "validation": "已验证",
+  "approval_file": "2024_公示佛山市生态环境局关于佛山市大隅新材料有限公司新建项目环境影响报告表的批复.pdf",
+  "match_issues": [],
+  "evidence_alignment": {
+    "level": "high",
+    "score": 41.7
+  },
+  "original_question": "【区级】佛山市大隅新材料有限公司（C2929 新建项目）噪声执行什么标准，2 类？厂界噪声限值是多少？",
+  "question_rewritten": true,
+  "standards_normalized": [
+    {
+      "standard_code": "GB12348-2008",
+      "standard_name": "",
+      "source": "qa"
+    }
+  ],
+  "benchmark_metadata": {
+    "task_domain": "噪声",
+    "difficulty": "simple",
+    "question_type": "extraction",
+    "cognitive_level": "L1_fact",
+    "evaluation_dimensions": [
+      "professionalism",
+      "clarity",
+      "feasibility",
+      "evidence_grounding"
+    ]
+  },
+  "rule_quality": {
+    "specificity": "medium",
+    "can_be_used_for_review": true,
+    "rule_issues": []
+  },
+  "corrected_quality_score": 100,
+  "corrected_quality_issues": [],
+  "corrected_validation": "verified",
+  "v4_issues": [],
+  "v4_final_validation": "verified"
+}

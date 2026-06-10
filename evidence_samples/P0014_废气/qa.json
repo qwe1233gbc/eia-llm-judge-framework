@@ -1,0 +1,143 @@
+{
+  "level": "区级",
+  "region": "佛山市顺德区",
+  "company": "佛山市顺德区朗恩光电有限公司搬迁",
+  "project_id": "P0014",
+  "industry_code": "C2922",
+  "project_type": "技改",
+  "report_year": "2023",
+  "element": "废气",
+  "review_point": "污染防治措施",
+  "clause_index": 1,
+  "question": "【区级】佛山市顺德区朗恩光电有限公司搬迁（C2922 技改项目）废气产生工序、主要污染因子、收集治理措施和执行标准是什么？",
+  "answer": "项目塑料投料、破碎工序产生的颗粒物和注塑工序产生的有机废气执行《合成树脂工业污染物排放标准》（GB31572-2015）中表4 大气污染排放限值及表9 企业边界大气污染物浓度限值；生产过程中产生的恶臭执行《恶臭污染物排放标准》（GB14554-93）中表1 恶臭污染物厂界标准值和表2 排气筒恶臭污染物排放限值；项目厂内有机废气无组织排放同时执行 《挥发性有机物无组织排放控制标准》（GB37822-2019）的表A.1 厂区内VOCs 无组织排放限值标准；VOCs（非甲烷总烃）有组织排放量为0.135 吨/年",
+  "standards": [
+    "GB189182002",
+    "GB378222019",
+    "GB185992001",
+    "GB123482008",
+    "GB315722015",
+    "GB14554",
+    "GB185972001"
+  ],
+  "approval_evidence": [
+    {
+      "source": "2021_佛环0304环审【2021】第0068号 佛山市生态环境局关于佛山市顺德区同芊塑胶五金制品有限公司搬迁项目环境影响报告表的批复.pdf",
+      "text": "你单位应按照报告表内容组织实施。本项目不产生生产性废水；生活污水经处理达到《城镇污水处理厂污染物排放标准》 （GB18918-2002）二级标准后排入扶安河。项目塑料投料、破碎工序产生的颗粒物和注塑工序产生的有机废气执行《合成树脂工业污染物排放标准》（GB31572-2015）中表4 大气污染排放限值及表9 企业边界大气污染物浓度限值；生产过程中产生的恶臭执行《恶臭污染物排放标准》（GB"
+    }
+  ],
+  "report_evidence": [
+    {
+      "section": "report",
+      "text": "重点水污染物未达到环境质量改善目标的区域内,新建、改建、扩建项目实施减量替代。...。探索设立区域性城镇污水处理厂污染物排放标准,推动城镇生活污水处理设施提质增效。率先消除城中村、老旧城区和城乡结合部生活污水收集处理设施空白区。大力推进固体废物源头减量化、资源化利用和无害化处置,稳步推进“无废城市”试点建设。...</td><td>本项目外排污染物为废气和废水;废气经收集后通过废气治理设施(两级活性炭)治理后排放;生活污水经"
+    },
+    {
+      "section": "report",
+      "text": "环境质量改善目标的区域内,新建、改建、扩建项目实施减量替代。...。探索设立区域性城镇污水处理厂污染物排放标准,推动城镇生活污水处理设施提质增效。率先消除城中村、老旧城区和城乡结合部生活污水收集处理设施空白区。大力推进固体废物源头减量化、资源化利用和无害化处置,稳步推进“无废城市”试点建设。...</td><td>本项目外排污染物为废气和废水;废气经收集后通过废气治理设施(两级活性炭)治理后排放;生活污水经"
+    },
+    {
+      "section": "report",
+      "text": "切割、雕刻、破碎过程产生的颗粒物执行《合成树脂工业污染物排放标准》（GB31572-2015）表9企业边界大气污染物浓度限值和广东省地方标准《大气污染物排放限值》（DB44/27-2001）第二时段无组织排放监控浓度限值两者较严值。 （2）项目挤出过程产生的非甲烷总烃执行《合成树脂工业污染物排放标准》（GB31572-2015）表4大气污染物排放限值和表9企业边界大气污染物浓度限值。其中非甲烷总烃有组织排放速率执行广"
+    }
+  ],
+  "behavior_rule": {
+    "trigger_condition": "项目存在工艺废气产生工序（如注塑、挤出、焊接等）",
+    "review_checkpoints": [
+      "是否识别废气污染因子和源强",
+      "是否说明收集方式（集气罩/密闭）和收集效率",
+      "是否说明治理工艺（活性炭/布袋/洗涤）",
+      "是否引用对应的排放标准"
+    ],
+    "expected_report_content": [
+      "废气产生工序和源强",
+      "污染因子（颗粒物、VOCs等）",
+      "收集方式和效率",
+      "治理工艺",
+      "排气筒高度"
+    ],
+    "common_approval_requirement": "项目塑料投料、破碎工序产生的颗粒物和注塑工序产生的有机废气执行《合成树脂工业污染物排放标准》（GB31572-2015）中表4 大气污染排放限值及表9 企业边界大气污染物浓度限值；生产过程中产生的恶臭执行《恶臭污染物排放标准》（GB14554-93）中表1 恶臭污染物厂界标准值和表2 排气筒恶臭污染",
+    "common_standards": [
+      "GB189182002",
+      "GB378222019",
+      "GB185992001",
+      "GB123482008",
+      "GB315722015"
+    ]
+  },
+  "quality_score": 100,
+  "quality_issues": [],
+  "need_human_review": false,
+  "validation": "参考",
+  "approval_file": "2021_202111051628356682.3.公示版--佛山市顺德区金聚祥塑胶有限公司建设项目.pdf",
+  "match_issues": [],
+  "evidence_alignment": {
+    "level": "high",
+    "score": 45.5
+  },
+  "original_question": "【区级】佛山市顺德区朗恩光电有限公司搬迁（C2922 技改项目）废水主要污染因子有哪些？执行什么排放标准？废水经预处理后排放去向？",
+  "question_rewritten": true,
+  "standards_normalized": [
+    {
+      "standard_code": "GB18918-2002",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "GB37822-2019",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "GB18599-2001",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "GB12348-2008",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "GB31572-2015",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "GB14554-93",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "GB18597-2001",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "GB14554-93",
+      "standard_name": "",
+      "source": "answer"
+    }
+  ],
+  "benchmark_metadata": {
+    "task_domain": "废气",
+    "difficulty": "medium",
+    "question_type": "extraction",
+    "cognitive_level": "L1_fact",
+    "evaluation_dimensions": [
+      "professionalism",
+      "clarity",
+      "feasibility",
+      "evidence_grounding"
+    ]
+  },
+  "rule_quality": {
+    "specificity": "medium",
+    "can_be_used_for_review": true,
+    "rule_issues": []
+  },
+  "corrected_quality_score": 100,
+  "corrected_quality_issues": [],
+  "corrected_validation": "verified",
+  "v4_issues": [],
+  "v4_final_validation": "verified"
+}

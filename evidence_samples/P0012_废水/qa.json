@@ -1,0 +1,143 @@
+{
+  "level": "区级",
+  "region": "佛山市顺德区",
+  "company": "佛山市顺德区顺志程塑胶制品有限公司改",
+  "project_id": "P0012",
+  "industry_code": "C3311",
+  "project_type": "新建",
+  "report_year": "2023",
+  "element": "废水",
+  "review_point": "污染防治措施",
+  "clause_index": 1,
+  "question": "【区级】佛山市顺德区顺志程塑胶制品有限公司改（C3311 新建项目）废水来源、主要污染因子、执行标准和排放去向是什么？",
+  "answer": " （一）生活污水经预处理达到广东省《水污染物排放限值》 （DB44/26-2001）第二时段三级标准后排入乐从污水处理厂",
+  "standards": [
+    "DB44/272001",
+    "GB123482008",
+    "GB14554",
+    "GB315722015",
+    "GB185972023",
+    "DB44/262001",
+    "DB44/23672022"
+  ],
+  "approval_evidence": [
+    {
+      "source": "2026_佛山市生态环境局关于佛山市顺德区顺志程塑胶制品有限公司改扩建项目环境影响报告表的批复（无章）.pdf",
+      "text": "你单位应按照《报告表》内容组织实施，落实相应的污染防治措施。 （一）生活污水经预处理达到广东省《水污染物排放限值》 （DB44/26-2001）第二时段三级标准后排入乐从污水处理厂。 （二）落实《固定污染源挥发性有机物综合排放标准》（DB 44/2367-2022）中相应控制要求，做好物料储存、转移和输送等环节挥发性有机物无组织排放控制，并采取有效废气收集处理措施，最大限度减少废气排放影响。"
+    }
+  ],
+  "report_evidence": [
+    {
+      "section": "report",
+      "text": "分</td><td>贮存方式</td><td>产废周期</td><td>危险特性</td><td>污染防治措施</td></tr><tr><td>1</td><td>废活性炭</td><td rowspan=\"2\">HW49其他废物</td><td>900-039-49</td><td>5.069</td><td>有机废气治理设施</td><td>固体</td><td>活性炭、有机化合物</td><td>有"
+    },
+    {
+      "section": "report",
+      "text": "理厂扩建,尾水应执行《城镇污水处理厂污染物排放标准》(GB18918-2002)一级A标准及《广东省水污染物排放限值》(DB44/26-2001)的较严值。</td><td>本项目不适用。</td><td>符合</td></tr><tr><td>3-4.【水/综合类】近期保留并完善水口村、三桂村、西滘村、马龙村等现状农村污水分散式处理设施,新建莘村、马龙村等分散式污水处理站建设,继续完善污水支管网建设,提高污水"
+    },
+    {
+      "section": "report",
+      "text": "活污水项目生活污水经三级化粪池处理达到广东省地方标准《水污染物排放限值》(DB44/26-2001)第二时段三级标准后通过市政管网汇入群力围污水处理厂,群力围污水处理厂出水执行广东省地方标准《水污染物排放限值》(DB44/26-2001)“城镇二级污水处理厂”第二时段一级标准和《城镇污水处理厂污染物排放标准》(GB18918-2002)一级A标准这两者中的较严值,尾水排入潭洲水道,具体指标详见下表:表3-4 水污"
+    }
+  ],
+  "behavior_rule": {
+    "trigger_condition": "项目产生工业废水或生活污水",
+    "review_checkpoints": [
+      "是否识别废水类别和主要污染因子",
+      "是否说明预处理措施及效率",
+      "是否明确排放去向（纳管/地表水/循环）",
+      "是否引用正确的排放标准"
+    ],
+    "expected_report_content": [
+      "废水产生来源和水量",
+      "主要污染因子（COD、NH3-N等）",
+      "预处理措施",
+      "排放去向",
+      "执行标准"
+    ],
+    "common_approval_requirement": " （一）生活污水经预处理达到广东省《水污染物排放限值》 （DB44/26-2001）第二时段三级标准后排入乐从污水处理厂",
+    "common_standards": [
+      "DB44/272001",
+      "GB123482008",
+      "GB14554",
+      "GB315722015",
+      "GB185972023"
+    ]
+  },
+  "quality_score": 100,
+  "quality_issues": [],
+  "need_human_review": false,
+  "validation": "参考",
+  "approval_file": "2021_202111051628356682.3.公示版--佛山市顺德区金聚祥塑胶有限公司建设项目.pdf",
+  "match_issues": [],
+  "evidence_alignment": {
+    "level": "high",
+    "score": 36.7
+  },
+  "original_question": "【区级】佛山市顺德区顺志程塑胶制品有限公司改（C3311 新建项目）废水主要污染因子有哪些？执行什么排放标准？废水经预处理后排放去向？",
+  "question_rewritten": true,
+  "standards_normalized": [
+    {
+      "standard_code": "DB44/27-2001",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "GB12348-2008",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "GB14554-93",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "GB31572-2015",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "GB18597-2023",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "DB44/26-2001",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "DB44/2367-2022",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "",
+      "standard_name": "",
+      "source": "answer"
+    }
+  ],
+  "benchmark_metadata": {
+    "task_domain": "废水",
+    "difficulty": "medium",
+    "question_type": "extraction",
+    "cognitive_level": "L1_fact",
+    "evaluation_dimensions": [
+      "professionalism",
+      "clarity",
+      "feasibility",
+      "evidence_grounding"
+    ]
+  },
+  "rule_quality": {
+    "specificity": "medium",
+    "can_be_used_for_review": true,
+    "rule_issues": []
+  },
+  "corrected_quality_score": 100,
+  "corrected_quality_issues": [],
+  "corrected_validation": "verified",
+  "v4_issues": [],
+  "v4_final_validation": "verified"
+}

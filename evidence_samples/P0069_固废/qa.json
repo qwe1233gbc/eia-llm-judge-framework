@@ -1,0 +1,96 @@
+{
+  "level": "区级",
+  "region": "佛山市顺德区",
+  "company": "佛山市顺康荣新材料科技有限公司",
+  "project_id": "P0069",
+  "industry_code": "C2929",
+  "project_type": "新建",
+  "report_year": "2023",
+  "element": "固废",
+  "review_point": "污染防治措施",
+  "clause_index": 2,
+  "question": "【区级】佛山市顺康荣新材料科技有限公司（C2929 新建项目）一般工业固体废物如何暂存、综合利用或处置？批复中有哪些要求？",
+  "answer": "项目危险废物、一般工业固体 — 3 — 废物贮存及处置应符合法律法规及国家污染物控制标准要求；一般工业固体废物贮存过程应满足相应防渗漏、防雨淋、防扬尘等环境保护要求，并依法处理处置",
+  "standards": [
+    "GB123482008"
+  ],
+  "approval_evidence": [
+    {
+      "source": "2023_公示佛山市生态环境局关于佛山市顺康荣新材料科技有限公司新建项目环境影响报告表的批复.pdf",
+      "text": "2636t/a。厂界噪声执行《工业企业厂界环境噪声排放标准》 （GB12348-2008）中的2 类标准。项目危险废物、一般工业固体 — 3 — 废物贮存及处置应符合法律法规及国家污染物控制标准要求。一般工业固体废物贮存过程应满足相应防渗漏、防雨淋、防扬尘等环境保护要求，并依法处理处置；危险废物贮存场所须满足《危险废物贮存污染控制标准》（GB 18597-2023）相关要求，危险废物委托有"
+    }
+  ],
+  "report_evidence": [
+    {
+      "section": "report",
+      "text": "</td><td>监控点任意一次浓度值</td></tr></table> # 3、噪声营运期厂界噪声执行《工业企业厂界环境噪声排放标准》（GB12348-2008）中2类标准。 表 3-10 《工业企业厂界环境噪声排放标准》(GB12348-2008) <table><tr><td rowspan=\"2\">类别</td><td colspan=\"2\">等效声级 Leq(dB(A))</td></t"
+    },
+    {
+      "section": "report",
+      "text": "d>监控点任意一次浓度值</td></tr></table> # 3、噪声营运期厂界噪声执行《工业企业厂界环境噪声排放标准》（GB12348-2008）中2类标准。 表 3-10 《工业企业厂界环境噪声排放标准》(GB12348-2008) <table><tr><td rowspan=\"2\">类别</td><td colspan=\"2\">等效声级 Leq(dB(A))</td></tr><tr><td>昼间</t"
+    },
+    {
+      "section": "report",
+      "text": "订)、《国家危险废物名录》(2021年)、《固体废物鉴别标准通则》(GB34330-2017)、《危险废物贮存污染控制标准》(GB18597-2023)的规定。</td></tr><tr><td>总量控制指标</td><td>1、水污染物总量控制分析:本项目生活污水(含循环冷却废水)经三级化粪池预处理后排入逢简工业园污水处理站处理,处理达标后排入逢简大涌。项目的生活污水排放量为 $108m^{3}/a$ , $COD_"
+    }
+  ],
+  "behavior_rule": {
+    "trigger_condition": "项目产生一般工业固体废物",
+    "review_checkpoints": [
+      "是否识别一般固废类别和产生量",
+      "是否说明综合利用或处置去向"
+    ],
+    "expected_report_content": [
+      "一般固废种类",
+      "产生量",
+      "贮存位置",
+      "综合利用或处置去向",
+      "执行标准"
+    ],
+    "common_approval_requirement": "项目危险废物、一般工业固体 — 3 — 废物贮存及处置应符合法律法规及国家污染物控制标准要求；一般工业固体废物贮存过程应满足相应防渗漏、防雨淋、防扬尘等环境保护要求，并依法处理处置",
+    "common_standards": [
+      "GB123482008"
+    ]
+  },
+  "quality_score": 100,
+  "quality_issues": [],
+  "need_human_review": false,
+  "validation": "已验证",
+  "approval_file": "2023_公示佛山市生态环境局关于佛山市顺康荣新材料科技有限公司新建项目环境影响报告表的批复.pdf",
+  "match_issues": [],
+  "evidence_alignment": {
+    "level": "medium",
+    "score": 33.3
+  },
+  "original_question": "【区级】佛山市顺康荣新材料科技有限公司（C2929 新建项目）噪声执行什么标准，2 类？厂界噪声限值是多少？",
+  "question_rewritten": true,
+  "standards_normalized": [
+    {
+      "standard_code": "GB12348-2008",
+      "standard_name": "",
+      "source": "qa"
+    }
+  ],
+  "benchmark_metadata": {
+    "task_domain": "固废",
+    "difficulty": "simple",
+    "question_type": "extraction",
+    "cognitive_level": "L1_fact",
+    "evaluation_dimensions": [
+      "professionalism",
+      "clarity",
+      "feasibility",
+      "evidence_grounding"
+    ]
+  },
+  "rule_quality": {
+    "specificity": "medium",
+    "can_be_used_for_review": true,
+    "rule_issues": []
+  },
+  "corrected_quality_score": 100,
+  "corrected_quality_issues": [],
+  "corrected_validation": "verified",
+  "v4_issues": [],
+  "v4_final_validation": "verified"
+}

@@ -1,0 +1,137 @@
+{
+  "level": "区级",
+  "region": "佛山市顺德区",
+  "company": "佛山市真本包装科技有限公司",
+  "project_id": "P0045",
+  "industry_code": "C2926",
+  "project_type": "新建",
+  "report_year": "2023",
+  "element": "废水",
+  "review_point": "污染防治措施",
+  "clause_index": 1,
+  "question": "【区级】佛山市真本包装科技有限公司（C2926 新建项目）废水来源、主要污染因子、执行标准和排放去向是什么？",
+  "answer": "项目生活污水经过三级化粪处理达到广东省地方标准《水污染物排放限值》 — 2 — （DB44/26-2001）第二时段三级标准后，通过市政管道排放到杏坛污水处理厂处理",
+  "standards": [
+    "DB44/272001",
+    "GB123482008",
+    "GB315722015",
+    "GB14554",
+    "DB44/262001",
+    "DB44/23672022"
+  ],
+  "approval_evidence": [
+    {
+      "source": "2023_公示佛山市生态环境局关于佛山市真本包装科技有限公司新建项目环境影响报告表的批复.pdf",
+      "text": "你公司应按照报告表内容组织实施。项目生活污水经过三级化粪处理达到广东省地方标准《水污染物排放限值》 — 2 — （DB44/26-2001）第二时段三级标准后，通过市政管道排放到杏坛污水处理厂处理。项目厂界粉尘无组织排放浓度参照执行广东省《大气污染物排放限值》（DB44/27-2001）（第二时段）无组织排放监控浓度限值。项目非甲烷总烃有组织排放执行《合成树脂工业污染物排放标准》（GB3"
+    }
+  ],
+  "report_evidence": [
+    {
+      "section": "report",
+      "text": "控点处任意一次浓度值</td></tr></table> # 2、水污染物排放标准生活污水经过三级化粪处理达到广东省地方标准《水污染物排放限值》（DB44/26-2001）第二时段三级标准后，通过市政管道排放到杏坛污水处理厂处理。污水处理厂的尾水执行《城镇污水处理厂污染物排放标准》 （GB18918-2002）一级 A 标准及《水污染物排放限值》（DB44/26-2001）第二时段一级标准的较严值，排放标准情况见下表："
+    },
+    {
+      "section": "report",
+      "text": "GB8978-1996)、《环境影响评价技术导则地表水环境》(HJ/T 2.3-2018)和《广东省水污染物排放限值》(DB4426-2001)中的规定:“污水排放量中不包括间接冷却水”。因此,冷却水定期排水可作清净下水通过雨水管道排放,不计入污水排放量。(2)排水:项目生活污水经三级化粪处理后达标后排入杏坛污水处理厂,尾水排放至顺德支流。生活污水排污系数取0.9,生活污水产生量为 $180m^{3}/a$ 。项"
+    },
+    {
+      "section": "report",
+      "text": "放标准生活污水经过三级化粪处理达到广东省地方标准《水污染物排放限值》（DB44/26-2001）第二时段三级标准后，通过市政管道排放到杏坛污水处理厂处理。污水处理厂的尾水执行《城镇污水处理厂污染物排放标准》 （GB18918-2002）一级 A 标准及《水污染物排放限值》（DB44/26-2001）第二时段一级标准的较严值，排放标准情况见下表： 表 3-8 水污染物排放浓度限值单位：pH 无量纲，其余"
+    }
+  ],
+  "behavior_rule": {
+    "trigger_condition": "项目产生工业废水或生活污水",
+    "review_checkpoints": [
+      "是否识别废水类别和主要污染因子",
+      "是否说明预处理措施及效率",
+      "是否明确排放去向（纳管/地表水/循环）",
+      "是否引用正确的排放标准"
+    ],
+    "expected_report_content": [
+      "废水产生来源和水量",
+      "主要污染因子（COD、NH3-N等）",
+      "预处理措施",
+      "排放去向",
+      "执行标准"
+    ],
+    "common_approval_requirement": "项目生活污水经过三级化粪处理达到广东省地方标准《水污染物排放限值》 — 2 — （DB44/26-2001）第二时段三级标准后，通过市政管道排放到杏坛污水处理厂处理",
+    "common_standards": [
+      "DB44/272001",
+      "GB123482008",
+      "GB315722015",
+      "GB14554",
+      "DB44/262001"
+    ]
+  },
+  "quality_score": 100,
+  "quality_issues": [],
+  "need_human_review": false,
+  "validation": "已验证",
+  "approval_file": "2023_公示佛山市生态环境局关于佛山市真本包装科技有限公司新建项目环境影响报告表的批复.pdf",
+  "match_issues": [],
+  "evidence_alignment": {
+    "level": "high",
+    "score": 33.3
+  },
+  "original_question": "【区级】佛山市真本包装科技有限公司（C2926 新建项目）废水主要污染因子有哪些？执行什么排放标准？废水经预处理后排放去向？",
+  "question_rewritten": true,
+  "standards_normalized": [
+    {
+      "standard_code": "DB44/27-2001",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "GB12348-2008",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "GB31572-2015",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "GB14554-93",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "DB44/26-2001",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "DB44/2367-2022",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "",
+      "standard_name": "",
+      "source": "answer"
+    }
+  ],
+  "benchmark_metadata": {
+    "task_domain": "废水",
+    "difficulty": "medium",
+    "question_type": "extraction",
+    "cognitive_level": "L1_fact",
+    "evaluation_dimensions": [
+      "professionalism",
+      "clarity",
+      "feasibility",
+      "evidence_grounding"
+    ]
+  },
+  "rule_quality": {
+    "specificity": "medium",
+    "can_be_used_for_review": true,
+    "rule_issues": []
+  },
+  "corrected_quality_score": 100,
+  "corrected_quality_issues": [],
+  "corrected_validation": "verified",
+  "v4_issues": [],
+  "v4_final_validation": "verified"
+}

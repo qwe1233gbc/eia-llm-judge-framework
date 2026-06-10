@@ -1,0 +1,122 @@
+{
+  "level": "区级",
+  "region": "佛山市顺德区",
+  "company": "广东钿源科技有限公司",
+  "project_id": "P0017",
+  "industry_code": "C3029",
+  "project_type": "新建",
+  "report_year": "2023",
+  "element": "废水",
+  "review_point": "污染防治措施",
+  "clause_index": 1,
+  "question": "【区级】广东钿源科技有限公司（C3029 新建项目）废水来源、主要污染因子、执行标准和排放去向是什么？",
+  "answer": "项目产生的生活污水经处理达到《水污染物排放限值》（DB44/26-2001）中的第二时段三级标准后排入勒流生活污水处理厂",
+  "standards": [
+    "GB378222019",
+    "GB145541993",
+    "GB185992020",
+    "DB44/262001"
+  ],
+  "approval_evidence": [
+    {
+      "source": "2023_（佛环0304环审〔2023〕5号）佛山市生态环境局关于广东钿源科技有限公司新建项目环境影响报告表的批复.pdf",
+      "text": "你单位应按照报告表内容组织实施。项目产生的生活污水经处理达到《水污染物排放限值》（DB44/26-2001）中的第二时段三级标准后排入勒流生活污水处理厂。按照《挥发性有机物主动公开佛环0304 环审〔2023〕5 号佛山市生态环境局关于广东钿源科技有限公司新建项目环境影响报告表的批复无组织排放控制标准》（GB37822-2019）的有关要求，做好物料储存、转移和输送等环节挥发性有机"
+    }
+  ],
+  "report_evidence": [
+    {
+      "section": "report",
+      "text": "理厂扩建,尾水应执行《城镇污水处理厂污染物排放标准》(GB18918-2002)一级A标准及《广东省水污染物排放限值》(DB44/26-2001)的较严值。</td><td>本项目不属于污水管网、污水处理设施等建设项目。</td><td>符合</td></tr><tr><td>3-4.【水/综合类】保留勒流社区百丈片区分散式农村污水处理设施,其余行政村(社区)通过市政污水管网,配合农村支管网建设,有条件的区域实施"
+    },
+    {
+      "section": "report",
+      "text": "围，生活污水经三级化粪池预处理达到广东省地方标准《水污染物排放限值》（DB44/26-2001）第二时段三级标准后排入勒流污水处理厂，尾水执行《城镇污水处理厂污染物排放标准》（GB18918-2002）一级 A 标准及广东省地方标准《水污染物排放限值》（DB44/26-2001）第二时段一级标准的较严值。 表 3-6 水污染物排放标准 （单位：pH 无量纲，其余 mg/L） <table><tr><t"
+    }
+  ],
+  "behavior_rule": {
+    "trigger_condition": "项目产生工业废水或生活污水",
+    "review_checkpoints": [
+      "是否识别废水类别和主要污染因子",
+      "是否说明预处理措施及效率",
+      "是否明确排放去向（纳管/地表水/循环）",
+      "是否引用正确的排放标准"
+    ],
+    "expected_report_content": [
+      "废水产生来源和水量",
+      "主要污染因子（COD、NH3-N等）",
+      "预处理措施",
+      "排放去向",
+      "执行标准"
+    ],
+    "common_approval_requirement": "项目产生的生活污水经处理达到《水污染物排放限值》（DB44/26-2001）中的第二时段三级标准后排入勒流生活污水处理厂",
+    "common_standards": [
+      "GB378222019",
+      "GB145541993",
+      "GB185992020",
+      "DB44/262001"
+    ]
+  },
+  "quality_score": 75,
+  "quality_issues": [
+    "match_issues: approval_company_mismatch: 广东美绿 not in 2023_（佛环0304环审〔2023〕5号）佛山市生态环境"
+  ],
+  "need_human_review": false,
+  "validation": "参考",
+  "approval_file": "2023_（佛环0304环审〔2023〕5号）佛山市生态环境局关于广东钿源科技有限公司新建项目环境影响报告表的批复.pdf",
+  "match_issues": [],
+  "evidence_alignment": {
+    "level": "high",
+    "score": 36.7
+  },
+  "original_question": "【区级】广东钿源科技有限公司（C3029 新建项目）废水主要污染因子有哪些？执行什么排放标准？废水经预处理后排放去向？",
+  "question_rewritten": true,
+  "standards_normalized": [
+    {
+      "standard_code": "GB37822-2019",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "GB14554-93",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "GB18599-2020",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "DB44/26-2001",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "",
+      "standard_name": "",
+      "source": "answer"
+    }
+  ],
+  "benchmark_metadata": {
+    "task_domain": "废水",
+    "difficulty": "medium",
+    "question_type": "extraction",
+    "cognitive_level": "L1_fact",
+    "evaluation_dimensions": [
+      "professionalism",
+      "clarity",
+      "feasibility",
+      "evidence_grounding"
+    ]
+  },
+  "rule_quality": {
+    "specificity": "medium",
+    "can_be_used_for_review": true,
+    "rule_issues": []
+  },
+  "corrected_quality_score": 100,
+  "corrected_quality_issues": [],
+  "corrected_validation": "verified",
+  "v4_issues": [],
+  "v4_final_validation": "verified"
+}

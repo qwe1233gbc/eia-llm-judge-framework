@@ -1,0 +1,164 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "eia_benchmark_schema",
+  "title": "EIA Review Benchmark Classification Schema",
+  "description": "Multi-dimensional test set classification framework for EIA review tasks, adapted from Chen et al. 2026 ES&T benchmark taxonomy.",
+  "definitions": {
+    "TaskLevel": {
+      "type": "string",
+      "enum": [
+        "L1_信息抽取",
+        "L2_规则匹配",
+        "L3_审核推理",
+        "L4_经验归纳"
+      ],
+      "enumDescriptions": {
+        "L1_信息抽取": "从环评报告中准确提取结构化信息（项目名称、行业代码、标准引用、污染因子等）",
+        "L2_规则匹配": "将抽取的信息与标准文件或行业规律进行匹配（标准适用性判断、排放限值核对）",
+        "L3_审核推理": "基于抽取信息和规则进行审核判断（遗漏识别、超标判断、措施合理性评估）",
+        "L4_经验归纳": "从多个同行业项目案例中归纳行业共性规律，形成可复用的审核经验"
+      }
+    },
+    "EnvironmentElement": {
+      "type": "string",
+      "enum": [
+        "废水",
+        "废气",
+        "噪声",
+        "固废",
+        "危废",
+        "环境风险",
+        "土壤地下水",
+        "总量控制",
+        "排污许可",
+        "竣工环保验收",
+        "综合"
+      ],
+      "description": "环境要素或管理领域维度"
+    },
+    "ReasoningType": {
+      "type": "string",
+      "enum": [
+        "事实抽取",
+        "标准匹配",
+        "相似案例检索",
+        "报告批复对应",
+        "污染链条推理",
+        "行业共性归纳",
+        "数值一致性校验"
+      ],
+      "description": "推理类型"
+    },
+    "FunctionalCapability": {
+      "type": "string",
+      "enum": [
+        "证据扎根",
+        "标准准确性",
+        "逻辑一致性",
+        "数值一致性",
+        "可解释性",
+        "可操作性"
+      ],
+      "description": "评估的功能能力维度"
+    }
+  },
+  "type": "object",
+  "required": [
+    "sample_id",
+    "task_level",
+    "environment_element",
+    "reasoning_type",
+    "functional_capability",
+    "input",
+    "reference_answer"
+  ],
+  "properties": {
+    "sample_id": {
+      "type": "string",
+      "description": "Unique sample identifier, format: EIA-{industry_code}-{task_type}-{seq:03d}"
+    },
+    "task_level": {
+      "$ref": "#/definitions/TaskLevel"
+    },
+    "environment_element": {
+      "$ref": "#/definitions/EnvironmentElement"
+    },
+    "reasoning_type": {
+      "$ref": "#/definitions/ReasoningType"
+    },
+    "functional_capability": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/FunctionalCapability"
+      },
+      "minItems": 1,
+      "description": "该样本评估的功能能力（可多选）"
+    },
+    "industry_code": {
+      "type": "string",
+      "description": "所属行业代码，如 C2929"
+    },
+    "industry_name": {
+      "type": "string",
+      "description": "行业名称"
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": ["easy", "medium", "hard"],
+      "description": "难度等级"
+    },
+    "input": {
+      "type": "object",
+      "required": ["report_text"],
+      "properties": {
+        "report_text": {
+          "type": "string",
+          "description": "环评报告相关原文片段"
+        },
+        "approval_text": {
+          "type": "string",
+          "description": "批复文件相关原文片段（如有）"
+        },
+        "industry_context": {
+          "type": "string",
+          "description": "行业上下文信息"
+        },
+        "standard_context": {
+          "type": "string",
+          "description": "相关标准文件信息"
+        },
+        "query": {
+          "type": "string",
+          "description": "具体任务提问"
+        }
+      }
+    },
+    "reference_answer": {
+      "type": "string",
+      "description": "参考答案（黄金标准，由专家或高质量标注确定）"
+    },
+    "expected_evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "source_type": {
+            "type": "string",
+            "enum": ["report", "approval", "standard", "industry_knowledge"]
+          },
+          "source_ref": { "type": "string" },
+          "key_content": { "type": "string" }
+        }
+      },
+      "description": "期望模型能够引用的证据"
+    },
+    "evaluation_notes": {
+      "type": "string",
+      "description": "评估注意事项，如易错点、关键判断依据等"
+    },
+    "source_project_id": {
+      "type": "string",
+      "description": "样本来源的项目ID（如有）"
+    }
+  }
+}

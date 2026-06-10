@@ -1,0 +1,205 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/qwe1233gbc/eia-llm-judge-framework/schemas/eia_benchmark_sample_schema.json",
+  "title": "EIA-Review-Benchmark Sample Schema",
+  "description": "Schema for a single benchmark sample in the EIA-Review-Benchmark dataset. Inspired by ELLE-QA Benchmark (Guo et al., 2024) but adapted for EIA report review tasks with evidence traceability requirements.",
+  "type": "object",
+  "required": [
+    "sample_id",
+    "source_project_id",
+    "task_domain",
+    "difficulty",
+    "question_type",
+    "question",
+    "input_context",
+    "reference_answer",
+    "expected_evidence",
+    "evaluation_dimensions",
+    "need_human_review"
+  ],
+  "properties": {
+    "sample_id": {
+      "type": "string",
+      "description": "Unique sample identifier, format: SAMPLE_{industry_code}_{domain}_{seq}, e.g., SAMPLE_C2929_EXTRACTION_001",
+      "pattern": "^SAMPLE_[A-Z]\\d{4}_[A-Z]+_\\d{3}$",
+      "examples": ["SAMPLE_C2929_EXTRACTION_001", "SAMPLE_C3360_MATCHING_005"]
+    },
+    "source_project_id": {
+      "type": "string",
+      "description": "Reference to the source project in project_index, e.g., P0001",
+      "pattern": "^P\\d{4}$"
+    },
+    "industry_code": {
+      "type": "string",
+      "description": "GB/T 4754-2017 industry classification code (4-digit 小类 level)",
+      "pattern": "^[A-Z]\\d{4}$",
+      "examples": ["C2929", "C3360"]
+    },
+    "industry_name": {
+      "type": "string",
+      "description": "Industry name in Chinese corresponding to the industry code",
+      "examples": ["塑料零件及其他塑料制品制造"]
+    },
+    "task_domain": {
+      "type": "string",
+      "description": "One of the 14 EIA review task domains",
+      "enum": [
+        "行业识别",
+        "标准引用",
+        "废水",
+        "废气",
+        "噪声",
+        "固废",
+        "危废",
+        "环境风险",
+        "排污许可",
+        "总量控制",
+        "竣工环保验收",
+        "重大变动",
+        "报告-批复对应",
+        "行业经验归纳"
+      ]
+    },
+    "difficulty": {
+      "type": "string",
+      "description": "Difficulty level (ELLE-inspired: Simple/Medium/Hard, with EIA-specific definitions)",
+      "enum": ["simple", "medium", "hard"],
+      "examples": ["simple"]
+    },
+    "question_type": {
+      "type": "string",
+      "description": "Question type (ELLE-inspired: Knowledge/Calculation/Reasoning + EIA-specific: Extraction/Matching/Evaluation)",
+      "enum": ["knowledge", "extraction", "matching", "reasoning", "evaluation", "calculation"]
+    },
+    "question": {
+      "type": "string",
+      "description": "The evaluation question or task prompt presented to the LLM",
+      "minLength": 10,
+      "maxLength": 2000
+    },
+    "input_context": {
+      "type": "object",
+      "description": "Source text context needed to answer the question. At least one field should be non-empty.",
+      "properties": {
+        "report_text": {
+          "type": "string",
+          "description": "Relevant excerpt from the EIA report (MinerU-parsed markdown), truncated to relevant section",
+          "maxLength": 5000
+        },
+        "approval_text": {
+          "type": "string",
+          "description": "Relevant excerpt from the approval decision document (批复文件)",
+          "maxLength": 3000
+        },
+        "standard_text": {
+          "type": "string",
+          "description": "Relevant clauses from national, provincial, or industry standards",
+          "maxLength": 2000
+        },
+        "historical_case_context": {
+          "type": "string",
+          "description": "Summary of relevant patterns from historical cases in the same industry (for reasoning tasks)",
+          "maxLength": 3000
+        }
+      }
+    },
+    "reference_answer": {
+      "type": "string",
+      "description": "The ground-truth answer. For Simple/Medium tasks, this should be directly verifiable from source text. For Hard tasks or expert-dependent answers, use PLACEHOLDER markers.",
+      "minLength": 1,
+      "maxLength": 5000
+    },
+    "expected_evidence": {
+      "type": "array",
+      "description": "Evidence links tracing the answer back to source documents",
+      "minItems": 0,
+      "maxItems": 20,
+      "items": {
+        "type": "object",
+        "required": ["source_type"],
+        "properties": {
+          "source_type": {
+            "type": "string",
+            "description": "Type of source document providing the evidence",
+            "enum": ["report", "approval", "standard", "historical_case"]
+          },
+          "source_file": {
+            "type": "string",
+            "description": "File name or document identifier for the source"
+          },
+          "text_span": {
+            "type": "string",
+            "description": "The exact text span in the source that supports the answer",
+            "maxLength": 1000
+          },
+          "section": {
+            "type": "string",
+            "description": "Section reference within the source (e.g., report section number, standard clause)"
+          },
+          "reliability": {
+            "type": "string",
+            "description": "Confidence level of the evidence-to-answer link",
+            "enum": ["direct_match", "inferred", "expert_judgment"]
+          }
+        }
+      }
+    },
+    "evaluation_dimensions": {
+      "type": "object",
+      "description": "Expected performance levels on the 4 evaluation dimensions (for LLM-as-a-Judge assessment)",
+      "properties": {
+        "professionalism": {
+          "type": "string",
+          "description": "Expected professionalism level for this sample (guidance for evaluators)"
+        },
+        "clarity": {
+          "type": "string",
+          "description": "Expected clarity level for this sample"
+        },
+        "feasibility": {
+          "type": "string",
+          "description": "Expected feasibility of the answer for practical EIA review use"
+        },
+        "evidence_grounding": {
+          "type": "string",
+          "description": "Whether evidence is available for this sample (key differentiator from general QA benchmarks)"
+        }
+      }
+    },
+    "need_human_review": {
+      "type": "boolean",
+      "description": "Whether this sample requires human expert review. Set to true if: (1) reference_answer contains placeholder, (2) evidence is from expert_judgment, (3) auto-extraction confidence is low"
+    },
+    "review_notes": {
+      "type": "string",
+      "description": "Notes for human reviewers explaining what needs verification",
+      "maxLength": 1000
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Optional metadata about sample provenance and quality",
+      "properties": {
+        "created_date": {
+          "type": "string",
+          "format": "date",
+          "description": "Date the sample was created"
+        },
+        "created_by": {
+          "type": "string",
+          "description": "Method or person who created the sample",
+          "enum": ["auto_extraction", "expert_annotation", "llm_generated", "manual_curation"]
+        },
+        "validation_status": {
+          "type": "string",
+          "description": "Current validation status of the sample",
+          "enum": ["unvalidated", "auto_validated", "expert_validated", "disputed", "approved"]
+        },
+        "version": {
+          "type": "string",
+          "description": "Sample version for tracking revisions"
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

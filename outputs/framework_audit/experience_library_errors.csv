@@ -1,0 +1,5 @@
+﻿rule_id,error_type,field,detail
+STRICT_RULE_0001,A_rule_empty_industry_code,industry_code,A-level rule has empty industry_code
+STRICT_RULE_0003,A_rule_empty_industry_code,industry_code,A-level rule has empty industry_code
+STRICT_RULE_0005,A_rule_empty_industry_code,industry_code,A-level rule has empty industry_code
+STRICT_RULE_0007,A_rule_empty_industry_code,industry_code,A-level rule has empty industry_code

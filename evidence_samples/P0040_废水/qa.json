@@ -1,0 +1,138 @@
+{
+  "level": "区级",
+  "region": "佛山市顺德区",
+  "company": "佛山市顺德区特丰塑料制品有限公司迁",
+  "project_id": "P0040",
+  "industry_code": "C2922",
+  "project_type": "新建",
+  "report_year": "2023",
+  "element": "废水",
+  "review_point": "污染防治措施",
+  "clause_index": 1,
+  "question": "【区级】佛山市顺德区特丰塑料制品有限公司迁（C2922 新建项目）废水来源、主要污染因子、执行标准和排放去向是什么？",
+  "answer": "项目产生的生活污水经处理达到《城镇污水处理厂污染物排放标准》（GB18918-2002）二级标准后，排入扶安河",
+  "standards": [
+    "GB189182002",
+    "GB378222019",
+    "GB123482008",
+    "GB185992020",
+    "GB315722015",
+    "GB185972001",
+    "DB44/8152010"
+  ],
+  "approval_evidence": [
+    {
+      "source": "2021_佛环0304环审【2021】第0113号 佛山市生态环境局关于佛山市顺德区荣兴塑料制品有限公司迁扩建项目环境影响报告表的批复.pdf",
+      "text": "你单位应按照报告表内容组织实施。项目产生的生活污水经处理达到《城镇污水处理厂污染物排放标准》（GB18918-2002）二级标准后，排入扶安河。项目破碎工序产生的颗粒物执行《合成树脂工业污染物排放标准》（GB31572-2015）中表9 企业边界大气污染 - 2 - 物浓度限值。印刷工序的有机废气执行广东省地方标准《印刷行业挥发性有机化合物排放标准》（DB44/815-2010）表2 中“"
+    }
+  ],
+  "report_evidence": [
+    {
+      "section": "report",
+      "text": "实现城乡污水收集处理全覆盖。逢沙污水处理厂根据片区的污水排放收集情况,推进扩建增容工作,尾水应执行《城镇污水处理厂污染物排放标准》(GB18918-2002)一级A标准及《广东省水污染物排放限值》(DB44/26-2001)的较严值。2025年城市生活污水集中收集率达到75%以上。</td><td>项目位于大门污水处理厂处理范围,尾水执行《城镇污水处理厂污染物排放标准》(GB18918-2002)一级A标准及《广东省水污染物"
+    },
+    {
+      "section": "report",
+      "text": "<td>排放水平</td><td>橡胶制品行业:a)有机废气排气筒排放浓度和厂界浓度不高于《橡胶制品工业污染物排放标准》(GB27632-2011)第II时段排放限值;车间或生产设施排气中NMHC初始排放速率≥3kg/h时,建设末端治污设施且处理效率≥80%;b)厂区内无组织排放监控点NMHC的小时平均浓度值不超过6 mg/m3,任意一次浓度值不超过20 mg/m3。</td><td>本项目不属于橡胶制品行业项目。"
+    },
+    {
+      "section": "report",
+      "text": "span=\"2\">符合《合成树脂工业污染物排放标准》(GB31572-2015)表9企业边界大气污染物浓度限值</td></tr><tr><td>实际</td><td>1.26 t/a</td><td> $<4.0\\ mg/m^{3}$ </td></tr><tr><td>审批</td><td rowspan=\"2\">非甲烷总烃(有组织)</td><td>0.378 t/a</td><td> $15.8\\"
+    }
+  ],
+  "behavior_rule": {
+    "trigger_condition": "项目产生工业废水或生活污水",
+    "review_checkpoints": [
+      "是否识别废水类别和主要污染因子",
+      "是否说明预处理措施及效率",
+      "是否明确排放去向（纳管/地表水/循环）",
+      "是否引用正确的排放标准"
+    ],
+    "expected_report_content": [
+      "废水产生来源和水量",
+      "主要污染因子（COD、NH3-N等）",
+      "预处理措施",
+      "排放去向",
+      "执行标准"
+    ],
+    "common_approval_requirement": "项目产生的生活污水经处理达到《城镇污水处理厂污染物排放标准》（GB18918-2002）二级标准后，排入扶安河",
+    "common_standards": [
+      "GB189182002",
+      "GB378222019",
+      "GB123482008",
+      "GB185992020",
+      "GB315722015"
+    ]
+  },
+  "quality_score": 100,
+  "quality_issues": [],
+  "need_human_review": false,
+  "validation": "参考",
+  "approval_file": "2021_202111051628356682.3.公示版--佛山市顺德区金聚祥塑胶有限公司建设项目.pdf",
+  "match_issues": [],
+  "evidence_alignment": {
+    "level": "high",
+    "score": 33.3
+  },
+  "original_question": "【区级】佛山市顺德区特丰塑料制品有限公司迁（C2922 新建项目）废水主要污染因子有哪些？执行什么排放标准？废水经预处理后排放去向？",
+  "question_rewritten": true,
+  "standards_normalized": [
+    {
+      "standard_code": "GB18918-2002",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "GB37822-2019",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "GB12348-2008",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "GB18599-2020",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "GB31572-2015",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "GB18597-2001",
+      "standard_name": "",
+      "source": "qa"
+    },
+    {
+      "standard_code": "DB44/815-2010",
+      "standard_name": "",
+      "source": "qa"
+    }
+  ],
+  "benchmark_metadata": {
+    "task_domain": "废水",
+    "difficulty": "medium",
+    "question_type": "extraction",
+    "cognitive_level": "L1_fact",
+    "evaluation_dimensions": [
+      "professionalism",
+      "clarity",
+      "feasibility",
+      "evidence_grounding"
+    ]
+  },
+  "rule_quality": {
+    "specificity": "medium",
+    "can_be_used_for_review": true,
+    "rule_issues": []
+  },
+  "corrected_quality_score": 100,
+  "corrected_quality_issues": [],
+  "corrected_validation": "verified",
+  "v4_issues": [],
+  "v4_final_validation": "verified"
+}

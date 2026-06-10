@@ -1,0 +1,15 @@
+﻿check_name,value,status
+clean_pairs,65,info
+qa_strict_all,253,info
+qa_strict_high,65,info
+qa_strict_medium,48,info
+qa_strict_review,140,info
+experience_rules_all,30,info
+A_rules,4,info
+clean_pair_errors,0,ok
+qa_high_field_errors,0,ok
+experience_library_errors,4,error
+report_count_mismatch,0,ok
+README_outdated,0,ok
+docs_need_strict_pipeline_notes,0,ok
+script_errors,0,ok

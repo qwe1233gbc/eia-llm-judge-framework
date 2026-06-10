@@ -1,0 +1,17 @@
+﻿metric,value
+total_samples,5
+avg_overall_score,73.6
+human_review_count,0
+
+dimension,average_score
+evidence_grounding,80.4
+industry_classification,85.6
+standard_accuracy,73.2
+pollutant_completeness,68.8
+measure_approval_alignment,73.4
+actionability,72.0
+hallucination_control,80.4
+
+judgment,count
+基本可靠_少量遗漏,4
+部分正确_证据不足,1

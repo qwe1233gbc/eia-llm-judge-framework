@@ -1,0 +1,19 @@
+{
+  "qa_id": "P0069_固废",
+  "project_id": "P0069",
+  "company": "佛山市顺康荣新材料科技有限公司",
+  "industry_code": "C2929",
+  "element": "固废",
+  "report_md_source": "full.md",
+  "approval_pdf_source": "2023_公示佛山市生态环境局关于佛山市顺康荣新材料科技有限公司新建项目环境影响报告表的批复.pdf",
+  "answer": "项目危险废物、一般工业固体 — 3 — 废物贮存及处置应符合法律法规及国家污染物控制标准要求；一般工业固体废物贮存过程应满足相应防渗漏、防雨淋、防扬尘等环境保护要求，并依法处理处置",
+  "approval_evidence_text": "2636t/a。厂界噪声执行《工业企业厂界环境噪声排放标准》 （GB12348-2008）中的2 类标准。项目危险废物、一般工业固体 — 3 — 废物贮存及处置应符合法律法规及国家污染物控制标准要求。一般工业固体废物贮存过程应满足相应防渗漏、防雨淋、防扬尘等环境保护要求，并依法处理处置；危险废物贮存场所须满足《危险废物贮存污染控制标准》（GB 18597-2023）相关要求，危险废物委托有",
+  "report_evidence_text": "</td><td>监控点任意一次浓度值</td></tr></table> # 3、噪声营运期厂界噪声执行《工业企业厂界环境噪声排放标准》（GB12348-20; d>监控点任意一次浓度值</td></tr></table> # 3、噪声营运期厂界噪声执行《工业企业厂界环境噪声排放标准》（GB12348-2008）中2类标",
+  "company_in_report": true,
+  "company_in_approval": false,
+  "answer_in_approval": true,
+  "evidence_in_report": true,
+  "validation_errors": [
+    "company_not_in_approval_md"
+  ]
+}

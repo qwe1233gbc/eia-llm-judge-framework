@@ -1,0 +1,30 @@
+# EIA-Review-Benchmark Taxonomy v4
+
+## task_domain (内容领域)
+- 行业识别, 标准引用, 废水, 废气, 噪声, 固废, 危废, 环境风险, 排污许可, 总量控制, 竣工环保验收, 重大变动, 报告-批复对应, 行业经验归纳, 综合审核
+
+## difficulty (难度等级)
+- simple: 单一事实抽取
+- medium: 报告-批复对应
+- hard: 综合审核推理或行业经验归纳
+
+## question_type (问题类型)
+- knowledge: 标准/术语/行业类别
+- extraction: 从报告或批复中抽取事实
+- matching: 报告与批复对应
+- reasoning: 审核推理
+- evaluation: 评价审核意见
+- calculation: 数值核查
+- rule_induction: 行业经验规则归纳
+
+## cognitive_level (认知层级)
+- L1_fact: 单条事实抽取
+- L2_alignment: 报告证据与批复要求对应
+- L3_review_reasoning: 行业/工艺/污染因子/标准/批复综合审核判断
+- L4_industry_rule: 从多个项目中归纳行业共性规则
+
+## evaluation_dimensions (评价维度)
+- professionalism: 专业正确性
+- clarity: 清晰性
+- feasibility: 可行性
+- evidence_grounding: 证据可追溯性

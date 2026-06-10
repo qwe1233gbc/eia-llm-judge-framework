@@ -1,0 +1,1218 @@
+# 建设项目环境影响报告表
+
+（污染影响类）
+
+项目名称：佛山市卓展电器科技有限公司扩建项目建设单位（盖章）：佛山市卓展电器科技有限公司编制日期2023年8月
+
+中华人民共和国生态环境部制
+
+![](images/4580f3c1ce7ea91964602f287f7461f6a1b0b639dd09a71238c91b6ad1812ada.jpg)  
+佛山市怡景环境科技有限公司 4406064012044
+
+## 目录
+
+一、建设项目基本情况.  
+二、建设项目工程分析.. . 16  
+三、区域环境质量现状、环境保护目标及评价标准. .......................................... ... 34  
+四、主要环境影响和护措施.... .......................................................... ...... 41  
+五、环境保护措施监督检查清单.. ............................................................... ...... 65  
+六、结论... .. 68  
+附图1 项目地理位置图  
+附图2 项目环境四至图  
+附图3 项目四至及周围环境示意图  
+附图4 项目平面布置图  
+附图5 项目空厂房照片  
+附图6 项目周边主要环境敏感点分布图  
+附图7 地表水环境功能区划  
+附图8 大气环境功能区划  
+附图9 声环境功能区划图  
+附图10 佛山市环境管控单元图  
+附图11 佛山市顺德区环境管控单元图  
+附图 12 《容桂华口扁滘片（RG-05-04、RG-05-05、RG-05-07）控制性详细规划》批后  
+通告  
+附件1 营业执照  
+附件2 法人身份证  
+附件3 房产证  
+附件4 租赁合同  
+附件5 迁扩建前项目环保手续  
+附件6 环评编写协议书
+
+一、建设项目基本情况
+<table><tr><td colspan="1" rowspan="1">建设项目名称</td><td colspan="7" rowspan="1">佛山市卓展电器科技有限公司迁扩建项目</td></tr><tr><td colspan="1" rowspan="1">项目代码</td><td colspan="7" rowspan="2">无</td></tr><tr><td colspan="1" rowspan="1">建设单位联系人</td><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1">联系方式</td><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1"></td></tr><tr><td colspan="1" rowspan="1">建设地点</td><td colspan="7" rowspan="1">广东省佛山市顺德区容桂街道华口社区昌宝东路9号首层之六</td></tr><tr><td colspan="1" rowspan="1">地理坐标</td><td colspan="7" rowspan="1">（东经：113度_19分6.109秒，北纬：22度45分_52.322秒）</td></tr><tr><td colspan="1" rowspan="1">国民经济行业类别</td><td colspan="3" rowspan="1">C2929塑料零件及其他塑料制品制造C3399其他未列明金属制品制造C3831电线、电缆制造</td><td colspan="1" rowspan="1">建设项目行业类别</td><td colspan="3" rowspan="1">二十六、橡胶和塑料制品业-53 塑料制品业292-其他（年用非溶剂型低VOCs含量涂料10 吨以下的除外）三十、金属制品业-66铸造及其他金属制品制造 339-/三十五、电气机械和器材制造业-77 电线、电缆、光缆及电工器材制造383-/</td></tr><tr><td colspan="1" rowspan="1">建设性质</td><td colspan="3" rowspan="1">回新建（迁建）□改建回扩建□技术改造</td><td colspan="1" rowspan="1">建设项目申报情形</td><td colspan="3" rowspan="1">□首次申报项目□不予批准后再次申报项目□超五年重新审核项目□重大变动重新报批项目</td></tr><tr><td colspan="1" rowspan="1">项目审批（核准/备案)部门(选填)</td><td colspan="3" rowspan="1">无</td><td colspan="1" rowspan="1">项目审批（核准/备案)文号(选填)</td><td colspan="3" rowspan="1">无</td></tr><tr><td colspan="1" rowspan="1">总投资（万元）</td><td colspan="3" rowspan="1">200</td><td colspan="1" rowspan="1">环保投资（万元）</td><td colspan="3" rowspan="1">10</td></tr><tr><td colspan="1" rowspan="1">环保投资占比（%）</td><td colspan="3" rowspan="1">5</td><td colspan="1" rowspan="1">施工工期</td><td colspan="3" rowspan="1">2个月</td></tr><tr><td colspan="1" rowspan="1">是否开工建设</td><td colspan="3" rowspan="1">回香□是：</td><td colspan="1" rowspan="1">用地面积（m²)</td><td colspan="3" rowspan="1">1800</td></tr><tr><td colspan="1" rowspan="1">专项评价设置情况</td><td colspan="7" rowspan="1">无</td></tr><tr><td colspan="1" rowspan="1">规划情况</td><td colspan="7" rowspan="1">《容桂华口扁滘片（RG-05-04、RG-05-05、RG-05-07）控制性详细规划》批后通告</td></tr><tr><td colspan="1" rowspan="1">规划环境影响评价情况</td><td colspan="7" rowspan="1">无</td></tr><tr><td colspan="1" rowspan="1">规划及规划环境影响评价符合性分析</td><td colspan="7" rowspan="1">根据《容桂华口扁滘片（RG-05-04、RG-05-05、RG-05-07）控制性详细规划》批后通告可知，该场址用地性质为工业用地。因此,本项目建设符合规划。</td></tr><tr><td rowspan="4">其他 符合 性分 析 1.1</td><td colspan="7">（1）与产业政策相符性分析 本项目所属行业为C2929塑料零件及其他塑料制品制造、C3399其他 未列明金属制品制造、C3831电线、电缆制造，根据《产业结构调整指导目 标》（2019年本），项目不属于上述目录所列的鼓励类、限制类、禁止（淘 汰）类严控类项目，也不属于《市场准入负面清单（2022年版）》（发改</td></tr><tr><td colspan="13">体改规（2022）397号）所列的禁止准入及需许可准入事项。 根据《广东省禁止、限制生产、销售和使用的塑料制品目录》（2020 年版），项目产品不属于上述目录所列的禁止、限制生产、销售和使用类 的塑料制品。 根据《促进产业结构调整暂行规定》（国发（2005）40号）第十三条， 项目符合国家有关法律、法规和政策规定，项目属于允许类。因此，本项 目的建设符合国家和地方的相关产业政策。</td></tr><tr><td colspan="13">项目产品不涉及《环境保护综合名录》（2021年版）中“高污染、高 环境风险”产品，符合《环境保护综合名录》（2021年版）的相关规定。 （2）用地相符性分析 项目选址位于广东省佛山市顺德区容桂街道华口社区昌宝东路9号首 层之六，租用已建厂房进行生产。根据《容桂华口扁滘片（RG-05-04、</td></tr><tr><td colspan="13" rowspan="2">项目情况 符合性 1、《中华人民共和国大气污染防治法》（2018年10月26日修正） 第四十四条 生产、进口、销售和使用含挥 发性有机物的原材料和产品的，其挥发性 项目使用塑料原料均为新 有机物含量应当符合质量标准或者要求。 符合 料，符合政策要求。 国家鼓励生产、进口、销售和使用低毒、</td></tr><tr><td colspan="13">RG-05-05、RG-05-07）控制性详细规划》批后通告可知，该场址用地性质 为工业用地。因此，本项目建设符合当地城市规划。 （3）与挥发性有机污染物相关政策的相符性分析 表1-1项目与挥发性有机污染物排放规定相符性分析 序号 政策要求</td></tr></table>
+
+<table><tr><td rowspan=6 colspan=1></td><td rowspan=1 colspan=1>1.2</td><td rowspan=1 colspan=1>第四十五条 产生含挥发性有机物废气的生产和服务活动，应当在密闭空间或者设备中进行，并按照规定安装、使用污染防治设施；无法密闭的，应当采取措施减少废气排放。</td><td rowspan=1 colspan=1>建设单位在每台卧式注塑机上方设置集气罩收集废气，集气罩外围安装软帘形成局部围闭，加强收集效率。注塑过程产生的有机废气经有效收集后，通过“二级活性炭吸附”装置处理后引至25m 排气筒G1高空排放，可有效减少废气排放。</td><td rowspan=1 colspan=1>符合</td></tr><tr><td rowspan=1 colspan=1>2、</td><td rowspan=1 colspan=1>《广东省大气污染防治条例》（2019年3月</td><td rowspan=1 colspan=2>1日起施行）</td></tr><tr><td rowspan=1 colspan=1>2.1</td><td rowspan=1 colspan=1>第十七条 珠江三角洲区域禁止新建、扩建燃煤燃油火电机组或者企业燃煤燃油自备电站。珠江三角洲区域禁止新建、扩建国家规划外的钢铁、原油加工、乙烯生产、造纸、水泥、平板玻璃、除特种陶瓷以外的陶瓷、有色金属冶炼等大气重污染项目。</td><td rowspan=1 colspan=1>项目属于塑料制品业、金属制品业、电气机械和器材制造业，不属于禁止建设的大气重污染项目。</td><td rowspan=1 colspan=1>符合</td></tr><tr><td rowspan=1 colspan=1>2.2</td><td rowspan=1 colspan=1>第二十六条 新建、扩建、扩建排放挥发性有机物的建设项目，应当使用污染防治先进可行技术。下列产生含挥发性有机物废气的生产和服务活动，应当优先使用低挥发性有机物含量的原材料和低排放环保工艺，在确保安全条件下，按照规定在密闭空间或者设备中进行，安装、使用满足防爆、防静电要求的治理效率高的污染防治设施；无法密闭或者不适宜密闭的，应当采取有效措施减少废气排放：（一）石油、化工、煤炭加工与转化等含挥发性有机物原料的生产；（二）燃油、溶剂的储存、运输和销售；（三）涂料、油墨、粘合剂、农药等以挥发性有机物为原料的生产；（四）涂装、印刷、粘合、工业清洗等使用含挥发性有机物产品的生产活动；（五)其他产生挥发性有机物的生产和服务活动。</td><td rowspan=1 colspan=1>建设单位在每台卧式注塑机上方设置集气罩收集废气，集气罩外围安装软帘形成局部围闭，加强收集效率。注塑过程产生的有机废气经有效收集后，通过“二级活性炭吸附”装置处理后引至25m 排气筒G1高空排放，减少异味影响。</td><td rowspan=1 colspan=1>符合</td></tr><tr><td rowspan=1 colspan=1>2.3</td><td rowspan=1 colspan=1>第三十条 产生恶臭污染物的化工、石化、制药、制革、骨胶炼制、生物发酵、饲料加工、家具制造等行业应当科学选址，设置合理的防护距离，并安装净化装置或者采取其他措施，防止排放恶臭污染物。</td><td rowspan=1 colspan=1>本项目属于塑料制品业、金属制品业、电气机械和器材制造业，选址位于工业区内，恶臭污染物经集气罩收集，通过“二级活性炭吸附”装置处理后，引至 25m排气筒高空排放，恶臭污染物对附近大气环境影响较小。</td><td rowspan=1 colspan=1>符合</td></tr><tr><td rowspan=1 colspan=4>3、关于印发《重点行业挥发性有机物综合治理方案》的通知（环大气[2019]53号)</td></tr></table>
+
+<table><tr><td rowspan=7 colspan=1></td><td></td><td rowspan=1 colspan=1>3.1</td><td rowspan=1 colspan=1>企业采用符合国家有关低 VOCs 含量产品规定的涂料、油墨、胶粘剂等，排放浓度稳定达标且排放速率、排放绩效等满足相关规定的，相应生产工序可不要求建设末端治理设施。使用的原辅材料VOCs 含量（质量比）低于10%的工序，可不要求采取无组织排放收集措施。</td><td rowspan=1 colspan=1>建设单位在每台卧式注塑机上方设置集气罩收集废气，集气罩外围安装软帘形成局部围闭，加强收集效率。注塑过程产生的有机废气经有效收集后，通过“二级活性炭吸附”装置处理后引至25m排气筒G1高空排放。</td><td rowspan=1 colspan=1>符合</td></tr><tr><td></td><td rowspan=1 colspan=4>4、关于印发《广东省涉挥发性有机物（VOCs）重点行业治理指引》的通知（粤环办（2021）43号）中橡胶和塑料制品业VOCs治理指引</td></tr><tr><td></td><td rowspan=1 colspan=1>4.1</td><td rowspan=1 colspan=1>粉状、粒状VOCs物料采用气力输送设备、管状带式输送机、螺旋输送机等密闭输送方式，或者采用密闭的包装袋、容器或罐车进行物料转移。</td><td rowspan=1 colspan=1>项目原辅料采用密封包装容器进行运输与储存。</td><td rowspan=1 colspan=1>符合</td></tr><tr><td></td><td rowspan=1 colspan=1>4.2</td><td rowspan=1 colspan=1>粉状、粒状VOCs物料采用气力输送方式或采用密闭固体投料器等给料方式密闭投加；无法密闭投加的，在密闭空间内操作，或进行局部气体收集，废气排至除尘设施、VOCs废气收集处理系统。</td><td rowspan=1 colspan=1>项目物料投加方式使用密闭管道直接输送，建设单位在每台卧式注塑机上方设置集气罩收集废气，集气罩外围</td><td rowspan=1 colspan=1>符合</td></tr><tr><td></td><td rowspan=1 colspan=1>4.3</td><td rowspan=1 colspan=1>在混合/混炼、塑炼/塑化/熔化、加工成型(挤出、注射、压制、压延、发泡、纺丝等）、硫化等作业中应采用密闭设备或在密闭空间中操作，废气应排至VOCs废气收集处理系统；无法密闭的，应采取局部气体收集措施，废气应排至VOCs废气收集处理系统。</td><td rowspan=1 colspan=1>安装软帘形成局部围闭，加强收集效率。注塑过程产生的有机废气经有效收集后，通过“二级活性炭吸附”装置处理后引至25m排气筒G1 高空排放。</td><td rowspan=1 colspan=1>符合</td></tr><tr><td></td><td rowspan=1 colspan=1>4.4</td><td rowspan=1 colspan=1>载有VOCs 物料的设备及其管道在开停工（车）、检维修和清洗时，应在退料阶段将残存物料退净，并用密闭容器盛装，退料过程废气应排至VOCs废气收集处理系统；清洗及吹扫过程排气应排至VOCs废气收集处理系统。</td><td rowspan=1 colspan=1>企业做好废气设施的巡检，定期更换活性炭，按照管理要求定期监测废气，确保处理设施能正常运行，发生异常时，应及时停止生产，待处理设备运行稳定正常后，才恢复生产。</td><td rowspan=1 colspan=1>符合</td></tr><tr><td></td><td rowspan=1 colspan=1>4.5</td><td rowspan=1 colspan=1>采用外部集气罩的，距集气罩开口面最远处的 VOCs无组织排放位置，控制风速不低于0.3m/s。</td><td rowspan=1 colspan=1>项目采用集气罩+帘幕的收集方式，距集气罩开口面最远处的VOCs无组织排放位置，控制风速不低于0.3m/s。</td><td rowspan=1 colspan=1>符合</td></tr></table>
+
+<table><tr><td rowspan=1 colspan=1>4.6</td><td rowspan=1 colspan=1>塑料制品行业：a）有机废气排气筒排放浓度不高于广东省《大气污染物排放限值》（DB4427-2001）第Ⅱ时段排放限值，合成革和人造革制造企业排放浓度不高于《合成革与人造革工业污染物排放标准》（GB21902-2008）排放限值，若国家和我省出台并实施适用于塑料制品制造业的大气污染物排放标准，则有机废气排气筒排放浓度不高于相应的排放限值；车间或生产设施排气中 NMHC 初始排放速率≥3kg/h 时，建设VOCs 处理设施且处理效率≥80%；b）厂区内无组织排放监控点NMHC 的小时平均浓度值不超过6mg/m,任意一次浓度值不超过20mg/m3。</td><td rowspan=1 colspan=1>项目属于塑料制品业、金属制品业、电气机械和器材制造业，非甲烷总烃执行《合成树脂工业污染物排放标准》（GB31572-2015）中表4规定的大气污染物排放限值和表9企业边界大气污染物浓度限值，厂区内有机废气无组织排放执行广东省地方标准《固定污染源挥发性有机物综合排放标准》（DB44/2367-2022）中表3厂区内VOCs无组织排放限值。</td><td rowspan=1 colspan=1>符合</td></tr><tr><td rowspan=1 colspan=1>4.7</td><td rowspan=1 colspan=1>VOCs治理设施应与生产工艺设备同步运行，VOCs 治理设施发生故障或检修时，对应的生产工艺设备应停止运行，待检修完毕后同步投入使用；生产工艺设备不能停止运行或不能及时停止运行的，应设置废气应急处理设施或采取其他替代措施。</td><td rowspan=1 colspan=1>已要求企业VOCs 治理设施应与生产工艺设备同步运行，日常安排专门人员对治理设备进行定期巡查和检修，避免故障情况的出现。</td><td rowspan=1 colspan=1>符合</td></tr><tr><td rowspan=1 colspan=1>4.8</td><td rowspan=1 colspan=1>建立危废台账，整理危废处置合同、转移联单及危废处理方资质佐证材料。</td><td rowspan=1 colspan=1>企业严格执行危险废物转移计划报批、依法建立危险废物转移联单，并通过信息系统登记转移计划和电子转移联单。</td><td rowspan=1 colspan=1>符合</td></tr><tr><td rowspan=1 colspan=1>4.9</td><td rowspan=1 colspan=1>建立废气收集处理设施台账，记录废气处理设施进出口的监测数据（废气量、浓度、温度、含氧量等）、废气收集与处理设施关键参数、废气处理设施相关耗材（吸收剂、吸附剂、催化剂等）购买和处理记录。</td><td rowspan=1 colspan=1>项目废气治理设施安排专人维护并定期建立台账，记录相关废气数据。</td><td rowspan=1 colspan=1>符合</td></tr><tr><td rowspan=1 colspan=4>5、《广东省人民政府办公厅关于印发广东省 2021年大气、水、土壤污染防治工作方案的通知》（粤办函[2021]58号}）</td></tr><tr><td rowspan=1 colspan=1>5.1</td><td rowspan=1 colspan=1>严格落实国家产品VOCs含量限值标准要求，除现阶段确无法实施替代的工序外，禁止新建生产和使用高VOCs含量原辅材料项目。鼓励在生产和流通消费环节推广使用低VOCs含量原辅材料。</td><td rowspan=1 colspan=1>本项目使用物料符合低挥发性有机化合物含量规范，符合政策要求。</td><td rowspan=1 colspan=1>符合</td></tr><tr><td rowspan=1 colspan=1>5.2</td><td rowspan=1 colspan=1>指导企业使用适宜高效的治理技术，涉VOCs重点行业新建、扩建、和扩建项目不推荐使用光氧化、光催化、低温等离子等低效治理设施，已建项目逐步淘汰光氧化、光催化、低温等离子治理设施。</td><td rowspan=1 colspan=1>建设单位在每台卧式注塑机上方设置集气罩收集废气，集气罩外围安装软帘形成局部围闭，加强收集效率。注塑过程产生的有机废气经有效收集后，通过“二级活性炭吸附”装置处理后引至25m排气筒G1高空排放。</td><td rowspan=1 colspan=1>符合</td></tr><tr><td rowspan=1 colspan=4>6、《佛山市顺德区生态环境保护“十四五”规划（2021—2025）》</td></tr></table>
+
+<table><tr><td colspan="1" rowspan="10"></td><td colspan="1" rowspan="1">6.1</td><td colspan="1" rowspan="1">严格控制“高耗能、高排放”项目盲目发展，禁止新建、扩建水泥、平板玻璃、化学制浆、生皮制革以及国家规划外的钢铁、原油加工等项目；专业电镀、印染等项目进入定点园区集中管理</td><td colspan="1" rowspan="1">项目属于塑料制品业、金属制品业、电气机械和器材制造业，不属于水泥、平板玻璃、化学制浆、生皮制革以及国家规划外的钢铁、原油加工等项目。</td><td colspan="1" rowspan="1">符合</td></tr><tr><td colspan="1" rowspan="1">6.2</td><td colspan="1" rowspan="1">大力推进低VOCs含量、低反应活性的原辅材料替代，将全面使用低 VOCs含量原辅材料的企业纳入正面清单和政府绿色采购清单。鼓励重点行业企业开展生产工艺和设备水性化改造，推广使用水性、高固体分、无溶剂、粉末等低 VOCs 含量涂料。严格落实《挥发性有机物无组织排放控制标准》，开展厂区内无组织排放浓度监测，加强对含 VOCs 物料储存、转移和运输、设备与管线组件泄漏、开页面逸散以及工艺过程等五类排放源的管控。加强储油库、加油站等 VOCs 排放治理，推动油品储运销体系安装油气回收自动监控系统。</td><td colspan="1" rowspan="1">本项目使用的物料不属于禁止使用的高VOCs含量原辅材料，符合政策要求。建设单位严格落实《挥发性有机物无组织排放控制标准》，开展厂区内无组织排放浓度监测。</td><td colspan="1" rowspan="1">符合</td></tr><tr><td colspan="1" rowspan="1">7、</td><td colspan="2" rowspan="1">《挥发性有机物无组织排放控制标准》（GB37822-2019）</td><td colspan="1" rowspan="1"></td></tr><tr><td colspan="1" rowspan="3">7.1</td><td colspan="1" rowspan="1">VOCs物料应储存于密闭的容器、包装袋、储罐、储库、料仓中。</td><td colspan="1" rowspan="3">本项目使用的物料采用密封容器存放在厂房内的仓库；厂房为已建成工业厂房，拥有完整的维护结构，地面已经全部混凝土硬化处理。</td><td colspan="1" rowspan="3">符合</td></tr><tr><td colspan="1" rowspan="1">盛装VOCs物料的容器或包装袋应存放于室内，或存放与设置雨棚、遮阳和防渗设施的专用场地。盛装VOCs 物料的容器或包装袋在非取用状态时应加盖、封口，保持密闭。</td></tr><tr><td colspan="1" rowspan="1">VOCs物料储存、料仓应满足3.6条对密闭空间的要求。</td></tr><tr><td colspan="1" rowspan="1">7.2</td><td colspan="1" rowspan="1">粉状、粒状VOCs物料应采用气力输送设备、管状带式输送机、螺旋输送机等密闭输送方式，或采用密闭的包装袋、容器或罐车进行物料转移。</td><td colspan="1" rowspan="1">本项目VOCs 物料使用时采用密闭包装容器进行转移。</td><td colspan="1" rowspan="1">符合</td></tr><tr><td colspan="1" rowspan="1">7.3</td><td colspan="1" rowspan="1">VOCs 物料卸（出、放）料过程密闭，卸料废气应排至VOCs废气收集处理系统；无法密闭的，应采取局部气体收集措施，废气应排至VOCs废气收集处理系统。</td><td colspan="1" rowspan="1">建设单位在每台卧式注塑机上方设置集气罩收集废气，集气罩外围安装软帘形成局部围闭，加强收集效率。注塑过程产生的有机废气经有效收集后，通过“二级活性炭吸附”装置处理后引至25m排气筒G1高空排放。</td><td colspan="1" rowspan="1">符合</td></tr><tr><td colspan="1" rowspan="1">8、</td><td colspan="2" rowspan="1">《固定污染源挥发性有机物综合排放标准（DB44/2367-2022）》</td><td colspan="1" rowspan="1"></td></tr><tr><td colspan="1" rowspan="1">8.1</td><td colspan="1" rowspan="1">排气筒高度不低于15m（因安全考虑或者有特殊工艺要求的除外），具体高度以及与周围建筑物的相对高度关系应当根据环境影响评价文件确定。</td><td colspan="1" rowspan="1">建设单位在每台卧式注塑机上方设置集气罩收集废气，集气罩外围安装软帘形成局部围闭，加强收集效率。注塑过程产生的有机废气经有效收集后，通过“二级活性炭吸附”装置处理后引至25m 排气筒G1高空排放。</td><td colspan="1" rowspan="1">符合</td></tr><tr><td>8.2</td><td>企业应当建立台账，记录废气收集系统、 VOCs 处理设施的主要运行和维护信息，如 运行时间、废气处理量、操作温度、停留 时间、吸附剂再生/更换周期和更换量、催 化剂更换周期和更换量、吸收液 pH值等 关键运行参数。台账保存期限不少于3年。 VOCs物料应当储存于密闭的容器、储罐、 储库、料仓中；盛装VOCs 物料的容器应</td><td>项目废气治理设施安排专人 维护并定期建立台账，记录 相关废气数据。 本项目使用的物料采用密封</td><td>符合</td></tr><tr><td>8.3 8.4</td><td>当存放于室内，或者存放于设置有雨棚、 遮阳和防渗设施的专用场地。盛装VOCs 物料的容器或者包装袋在非取用状态时应 当加盖、封口，保持密闭。 废气收集系统排风罩（集气罩）的设置应 当符合 GB/T16758 的规定。采用外部排风 罩的，应当按GB/T16758、WS/T 757—2016规定的方法测量控制风速，测量 点应当选取在距排风罩开口面最远处的 VOCs无组织排放位置，控制风速不应当低 于0.3 m/s（行业相关规范有具体规定的， 按相关规定执行）。 9、《佛山市生态环境局顺德分局关于做好重点行业建设项目挥发性有机物总量指标 管理工作的通知》（佛顺环函[2019]56号）</td><td>容器存放在厂房内的仓库； 厂房为已建成工业厂房，拥 有完整的维护结构，地面已 经全部混凝土硬化处理。 建设单位在每台卧式注塑机 上方设置集气罩收集废气， 集气罩外围安装软帘形成局 部围闭，加强收集效率。注 塑过程产生的有机废气经有 效收集后，通过“二级活性 炭吸附”装置处理后引至 25m 排气筒G1高空排放。 控制风速大于0.3m/s。 项目新增VOCs排放总量指</td><td>符合 符合</td></tr><tr><td>9.1 （4）“三线一单"符合性分析 案的通知》（粤府（2020）71号）</td><td colspan="2">涉VOCs排放项目，实现本行政区域内污 染源“点对点”2倍量削减替代，由项目所 标为0.418t/a，由容桂街道出 在镇街分局出具VOCs总量指标来源及替 具VOCs总量指标来源及替 代削减方案的意见，开展总量替代。 代削减方案的意见。 1、《广东省人民政府关于印发广东省"三线一单"生态环境分区管控方 根据《广东省人民政府关于印发广东省“三线一单"生态环境分区管控方 案的通知》（粤府（2020）71号），广东省将以环境管控单元为基础，实</td><td colspan="2">符合</td></tr></table>
+
+属制品制造、C3831 电线、电缆制造，不属于高能耗行业，项目生产设备使用电能，生产用水由市政供水，不直接取用江河湖库水量，不会对项目所在地生态流量造成影响，符合能源利用要求。
+
+项目生活污水经三级化粪池预处理后由市政管网排入容桂第二污水处理厂，尾水排至鸡鸦水道。根据《佛山市生态环境局顺德分局关于发布2022年度佛山市顺德区环境质量状况公报的通知》附件《2022 年佛山市顺德区环境质量状况公报》中“表 2 2022 年顺德区主河道质量评价及年度对比”的评价结果，纳污水体水质较好。
+
+项目位于广东省佛山市顺德区容桂街道华口社区昌宝东路 9 号首层之六，不属于石化、化工重点园区环境风险防控区域。项目产生的危险废物拟定期委托有资质的处置公司进行收集处理，并通过信息系统登记转移计划和电子转移联单，符合危险废物全过程跟踪管理的防控要求。
+
+## 与环境管控单元总体管控要求的相符性
+
+根据《广东省人民政府关于印发广东省“三线一单”生态环境分区管控方案的通知》（粤府〔2020〕71 号）发布的广东省环境管控单元图，项目所在区域为重点管控单元，重点管控单元以推动产业转型升级、强化污染减排、提升资源利用效率为重点，加快解决资源环境负荷大、局部区域生态环境质量差、生态环境风险高等问题。并且严格限制新建钢铁、燃煤燃油火电、石化、储油库等项目，产生和排放有毒有害大气污染物项目，以及使用溶剂型油墨、涂料、清洗剂、胶黏剂等高挥发性有机物原辅材料的项目；鼓励现有该类项目逐步搬迁退出。项目不属于上述限制类项目，符合重点管控单元要求。
+
+## “三线一单”的相符性
+
+①生态保护红线
+
+项目地址位于广东省佛山市顺德区容桂街道华口社区昌宝东路9号首层之六，据佛山市顺德区人民政府办公室关于印发《佛山市顺德区生态环境保护“十四五”规划（2021-2025）》的通知，项目所在区域不处于生态红线内。因此，本项目建设满足生态保护红线管理要求。
+
+②环境质量底线
+
+本项目所在地区属于大气环境不达标区；项目纳污水体为鸡鸦水道，水质满足水环境功能区划要求。
+
+本项目废气污染物产生量较小，经过有效收集后达标排放，对周边环境影响很小，不会导致环境空气质量超标；生活污水经三级化粪池预处理后由市政管网排入容桂第二污水处理厂，尾水排至鸡鸦水道；不会导致纳污水体水质超标。因此，本项目建设满足环境质量底线要求。
+
+## ③资源利用上线
+
+本项目生产过程中会消耗一定量的电源、水资源等资源消耗，资源消耗量相对区域资源利用总量较少，符合资源利用上限要求。
+
+## ④环保准入负面清单
+
+本项目所属行业为 C2929 塑料零件及其他塑料制品制造、C3399 其他未列明金属制品制造、C3831 电线、电缆制造，根据国家发展改革委商务部关于印发《市场准入负面清单（2022 年版）》的通知（发改体改规﹝2022﹞397 号），项目不属于上述目录所列的鼓励类、限制类、禁止（淘汰）类严控类项目，也不属于《市场准入负面清单（2022 年版）》所列的禁止准入及需许可准入事项。根据《产业结构调整指导目录（2021年修订版）》，项目符合国家有关法律、法规和政策规定，项目属于允许类。因此，本项目的建设符合国家和地方的相关产业政策。
+
+项目产品不涉及《环境保护综合名录》（2021 年版）中“高污染、高环境风险”产品，符合《环境保护综合名录》（2021年版）的相关规定。
+
+## 2、《佛山市人民政府关于印发佛山市“三线一单”生态环境分区管控方案的通知》（佛府〔2021〕11号）
+
+根据《佛山市人民政府关于印发佛山市“三线一单”生态环境分区管控方案的通知》（佛府〔2021〕11 号）的附件 1 佛山市环境管控单元图，项目所在地属于重点管控单元（环境管控单元编码：ZH44060620001，环境管控单元名称：容桂街道重点管控区，详见附图 11）。相关管控要求的相符性分析如下：
+
+表 1-4 项目与佛山市“三线一单”的相符性分析
+<table><tr><td rowspan=1 colspan=1>管控维度</td><td rowspan=1 colspan=1>管控要求</td><td rowspan=1 colspan=1>工程内容</td><td rowspan=1 colspan=1>符合性</td></tr><tr><td rowspan=1 colspan=1>区域布</td><td rowspan=1 colspan=1>【产业/综合类】系统推进村级工业园升级</td><td rowspan=1 colspan=1>项目选址位于广东省佛</td><td rowspan=1 colspan=1>符合</td></tr></table>
+
+<table><tr><td colspan="2" rowspan="9">局管控</td><td colspan="1" rowspan="1">改造，腾出连片空间，布局产业集聚区和主题产业园，推动工业项目入园集聚发展。新增工业制造业用地原则上安排在产业集聚区内，产业集聚区外原则上不鼓励工业及物流仓储用地的新建与改造。</td><td colspan="1" rowspan="1">山市顺德区容桂街道华口社区昌宝东路9号首层之六，属于产业集聚区。</td><td colspan="1" rowspan="1"></td></tr><tr><td colspan="1" rowspan="1">【产业/综合类】产业聚集区所属地块内的工业用地或企业与村庄、学校等环境敏感点之间应设置合理的大气环境防护距离，并通过绿化带进行有效隔离；聚集区规划布局应注重大气污染排放企业应尽量避免布局在居住用地的常年主导风向的上风向。</td><td colspan="1" rowspan="1">项目 500米范围内无大气环境保护目标，大气污染物经有效收集处理后达标排放，对周围环境影响不大</td><td colspan="1" rowspan="1">符合</td></tr><tr><td colspan="1" rowspan="1">【产业/限制类】受纳水体或监控断面不达标的，不得新建、扩建向河涌直接排放废水的项目。新建、扩建含蚀刻工序的线路板生产项目和化工项目应在配套污水集中处置的工业园区或生活污水管网覆盖区域内建设；纯加工型印花项目，含酸洗、磷化的金属表面处理、金属制品项目（与自身高新技术企业配套的除外），含酸洗、喷涂、化学抛光、电解等涉及废水排放工艺的不锈钢型材加工项目（与自身高新技术企业配套的除外），应进入以此类项目为主导产业、有相应废水集中治理设施的工业园区，实现集中治污。</td><td colspan="1" rowspan="1">项目生活污水经三级化粪池预处理后引至容桂第二污水处理厂深度处理；项目属于C2929塑料零件及其他塑料制品制造、C3399 其他未列明金属制品制造、C3831电线、电缆制造，不涉及使用不锈钢原材料，不属于线路板生产项目和化工项目，不属于含酸洗、喷涂、拉丝、表面抛光等工艺的不锈钢型材加工项目。</td><td colspan="1" rowspan="1">符合</td></tr><tr><td colspan="1" rowspan="1">【产业/综合类】划定家具生产优先发展区域，优先发展区外不再新建涉及涂装工艺的木质家具制造项目。</td><td colspan="1" rowspan="1">项目属于塑料制品业、金属制品业、电气机械和器材制造业，不属于涉及涂装工艺的木质家具制造项目。</td><td colspan="1" rowspan="1">符合</td></tr><tr><td colspan="1" rowspan="1">【大气/限制类】大气环境受体敏感重点管控区内，应严格限制新建储油库项目、产生和排放有毒有害大气污染物的建设项目以及使用溶剂型油墨、涂料、清洗剂、胶黏剂等高挥发性有机物原辅材料项目，鼓励现有该类项目搬迁退出。</td><td colspan="1" rowspan="1">项目原料不使用高VOCs含量原辅材料。</td><td colspan="1" rowspan="1">符合</td></tr><tr><td colspan="1" rowspan="1">【土壤/禁止类】禁止新建、扩建增加重点防控的重金属污染物排放的建设项目。</td><td colspan="1" rowspan="1">不属于重点防控的重金属污染物排放类建设项目。</td><td colspan="1" rowspan="1">符合</td></tr><tr><td colspan="1" rowspan="3"></td><td colspan="1" rowspan="1">【水资源/综合类】贯彻落实“节水优先”方针，实行最严格水资源管理制度，容桂街道万元国内生产总值用水量、万元工业增加值用水量、用水总量、农田灌溉水有效利用系数等用水总量和效率指标达到区下达要求。</td><td colspan="1" rowspan="1">项目用水主要为员工生活用水，内部实行节约用水，合理使用水资源。</td><td colspan="1" rowspan="1">符合</td></tr><tr><td colspan="1" rowspan="1">【土地资源/限制类】落实单位土地面积投资强度、土地利用强度等建设用地控制性指标要求，提高土地利用效率。</td><td colspan="1" rowspan="1">项目建设用地属于工业用地。</td><td colspan="1" rowspan="1">符合</td></tr><tr><td colspan="1" rowspan="1">【岸线/禁止类】严格水域岸线用途管制，</td><td colspan="1" rowspan="1">项目建设在陆域上，不属</td><td colspan="1" rowspan="1">符合</td></tr><tr><td colspan="2" rowspan="7">污染物排放管控</td><td colspan="1" rowspan="1"></td><td colspan="3" rowspan="1">新建项目一律不得违规占用水域。严禁破坏生态的岸线利用行为和不符合其功能定位的开发建设活动，严禁以各种名义侵占河道、围垦湖泊、非法采砂等。</td></tr><tr><td colspan="1" rowspan="1">【水/限制类】城镇新区建设实行雨污分流，逐步推进初期雨水收集、处理和资源化利用。住宅、商业体、学校、市场等城镇开发建设项目应当配套或者同步计划建设公共排水设施，公共排水设施或自建排污水设施未能投产运行的，以上涉水项目不得投入使用。新建小区严格实施雨污分流，阳台、露台等污水接入污水收集系统，将生活污水“应截尽截”。做好大型楼盘、集贸市场、餐饮以及学校等4大类排水户污水接入市政管网工作。</td><td colspan="1" rowspan="1">建设单位实行雨污分流，且生产车间位于厂房内，不存在露天作业。</td><td colspan="1" rowspan="1">符合</td><td></td></tr><tr><td colspan="1" rowspan="1">【水/综合类】容桂街道重点河涌水质上年度未达到水环境环境质量目标的，需组织编制、系统实施、向社会公开区域重点水污染物减排计划并明确“替代量”，本年度新建、改建、扩建项目新增水环境重点污染物实行区域“减二增一”替代（工业、生活或综合集中废水处理设施、民生项目除外）。</td><td colspan="1" rowspan="1">项目已接驳市政管网。不排放水环境重点污染物。</td><td colspan="1" rowspan="1">符合</td><td></td></tr><tr><td colspan="1" rowspan="1">【水/综合类】区域内应合理规划建设工业或综合集中废水处理设施。逐步推进工业集聚区“污水零直排区”建设，开展排水单元工业废水、生活污水、雨水分类收集、分质处理，确保园区“管网全覆盖、雨污全分流、污水全收集、处理全达标”</td><td colspan="1" rowspan="1">项目已接驳市政管网。生活污水经三级化粪池预处理后引至容桂第二污水处理厂深度处理，尾水达标排放。</td><td colspan="1" rowspan="1">符合</td><td></td></tr><tr><td colspan="1" rowspan="1">【水/综合类】结合村级工业园改造，全面提升产业层次与集聚度，促进污染集中整治。</td><td colspan="1" rowspan="1">项目选址位于广东省佛山市顺德区容桂街道华□社区昌宝东路9号首层之六，属于产业集聚区。</td><td colspan="1" rowspan="1">符合</td><td colspan="1" rowspan="3"></td></tr><tr><td colspan="1" rowspan="1">【水/综合类】稳步推进排水设施“三个体化”管理模式，补齐城乡污水收集和处理短板，推动容桂第二、第二污水处理厂提质增效，加快消除城中村、老旧城区、城乡结合部等污水收集管网空白区，逐步实现城乡污水收集处理全覆盖。2025 年前完成容桂第二、第二污水处理厂扩建，尾水应执行《城镇污水处理厂污染物排放标准》（GB18918-2002）一级A标准及《广东省水污染物排放限值》（DB44/26-2001）的较严值。</td><td colspan="1" rowspan="2">项目已接驳市政管网。生活污水经三级化粪池预处理后引至容桂第二污水处理厂深度处理。</td><td colspan="1" rowspan="1">符合</td></tr><tr><td colspan="1" rowspan="1">【水/综合类】近期保留马东、马南两处污水处理站，到 2030年将马冈村居污水接入市政污水管网，纳入杏坛城镇污水处理系统；其余行政村（社区）污水均通过市政管网和农村支管纳入容桂城镇污水处理处</td><td colspan="1" rowspan="1">符合</td></tr></table>
+
+<table><tr><td rowspan=4 colspan=2></td><td rowspan=1 colspan=1>理系统。</td><td rowspan=2 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>【水/综合类】产业集聚区和主题园区内做好污水管网和污水集中处理设施的配套保障，确保废水收集到城镇污水处理厂、园区污水处理厂或分散式污水处理设施集中处置。</td><td rowspan=1 colspan=1>符合</td></tr><tr><td rowspan=1 colspan=1>【大气/综合类】大力推进低VOCs含量原辅材料替代，加快涉 VOCs 重点行业的生产工艺升级改造，推行自动化生产工艺，对达不到要求的 VOCs收集及治理设施进行整治提升，逐步淘汰低效VOCs治理设施</td><td rowspan=1 colspan=1>项目不使用高VOCs 含量原辅材料，有机废气经有效收集处理后达标排放。</td><td rowspan=1 colspan=1>符合</td></tr><tr><td rowspan=1 colspan=1>【土壤气/综合类】作为重金属污染重点防控区，区域内重点重金属排放总量只减不增。</td><td rowspan=1 colspan=1>不属于重点防控的重金属污染物排放类建设项目。</td><td rowspan=1 colspan=1>符合</td></tr><tr><td rowspan=2 colspan=1></td><td rowspan=2 colspan=1>环境风险防控</td><td rowspan=1 colspan=1>【水/综合类】容桂第二、第二污水处理厂工业污水集中处理设施应采取有效措施，防止事故废水直接排入水体。完善污水处理厂在线监控系统联网，实现污水处理厂的实时、动态监管。</td><td rowspan=2 colspan=1>建设单位加强环境风险分级分类管理，强化环境风险管控。</td><td rowspan=1 colspan=1>符合</td></tr><tr><td rowspan=1 colspan=1>【风险/综合类】加强环境风险分级分类管理，强化金属制品、有色金属和压延加工、化学原料和化学品制造业等涉重金属、化工行业企业及工业园区等重点环境风险源的环境风险防控。</td><td rowspan=1 colspan=1>符合</td></tr><tr><td rowspan=1 colspan=5>3、《佛山市顺德区人民政府关于印发佛山市顺德区“三线一单&quot;生态环境分区管控方案的通知》（顺府发（2021）11号）对照《佛山市顺德区人民政府关于印发佛山市顺德区“三线一单”生态环境分区管控方案的通知》（顺府发（2021）11号）的附件2佛山市顺德区环境管控单元图，项目所在地属于重点管控单元（环境管控单元编码：ZH44060620001，环境管控单元名称：容桂街道重点管控区，详见附图12）。相关管控要求的相符性分析如下：表1-5项目与顺德区“三线一单&quot;的相符性分析</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>管控维度</td><td rowspan=1 colspan=1>管控要求</td><td rowspan=1 colspan=1>工程内容</td><td rowspan=1 colspan=1>符合性</td></tr><tr><td rowspan=2 colspan=1></td><td rowspan=2 colspan=1>区域布局管控</td><td rowspan=1 colspan=1>【产业/综合类】系统推进村级工业园升级改造，腾出连片空间，布局产业集聚区和主题产业园，推动工业项目入园集聚发展。新增工业制造业用地原则上安排在产业集聚区内，产业集聚区外原则上不鼓励工业及物流仓储用地的新建与改造。</td><td rowspan=1 colspan=1>项目选址位于广东省佛山市顺德区容桂街道华口社区昌宝东路9号首层之六，属于产业集聚区。</td><td rowspan=1 colspan=1>符合</td></tr><tr><td rowspan=1 colspan=1>【产业/综合类】产业聚集区所属地块内的工业用地或企业与村庄、学校等环境敏感点之间应设置合理的大气环境防护距离，并通过绿化带进行有效隔离；聚集区规划</td><td rowspan=1 colspan=1>项目500米范围内无大气环境保护目标，项目大气污染物经有效的收集处理后可达标排放，对周围大</td><td rowspan=1 colspan=1>符合</td></tr></table>
+
+<table><tr><td colspan="2" rowspan="9"></td><td colspan="1" rowspan="1">布局应注重大气污染排放企业应尽量避免布局在居住用地的常年主导风向的上风向。</td><td colspan="1" rowspan="1">气环境影响较小。</td><td colspan="1" rowspan="1"></td></tr><tr><td colspan="1" rowspan="1">【产业/限制类】受纳水体或监控断面不达标的，不得新建、扩建向河涌直接排放废水的项目。新建、扩建含蚀刻工序的线路板生产项目和化工项目应在配套污水集中处置的工业园区或生活污水管网覆盖区域内建设；纯加工型印花项目，含酸洗、磷化的金属表面处理、金属制品项目（与自身高新技术企业配套的除外），含酸洗、喷涂、化学抛光、电解等涉及废水排放工艺的不锈钢型材加工项目（与自身高新技术企业配套的除外），应进入以此类项目为主导产业、有相应废水集中治理设施的工业园区，实现集中治污。</td><td colspan="1" rowspan="1">项目生活污水经三级化粪池预处理后引至容桂第二污水处理厂深度处理；项目属于C2929塑料零件及其他塑料制品制造、C3399其他未列明金属制品制造、C3831电线、电缆制造，不涉及使用不锈钢原材料，不属于线路板生产项目和化工项目，不属于含酸洗、喷涂、拉丝、表面抛光等工艺的不锈钢型材加工项目。</td><td colspan="1" rowspan="1">符合</td></tr><tr><td colspan="1" rowspan="1">【产业/综合类】划定家具生产优先发展区域，优先发展区外不再新建涉及涂装工艺的木质家具制造项目。</td><td colspan="1" rowspan="1">项目属于塑料制品业、金属制品业、电气机械和器材制造业，不属于涉及涂装工艺的木质家具制造项目。</td><td colspan="1" rowspan="1">符合</td></tr><tr><td colspan="1" rowspan="1">【大气/限制类】大气环境受体敏感重点管控区内，应严格限制新建储油库项目、产生和排放有毒有害大气污染物的建设项目以及使用溶剂型油墨、涂料、清洗剂、胶黏剂等高挥发性有机物原辅材料项目，鼓励现有该类项目搬迁退出。</td><td colspan="1" rowspan="1">项目不使用高VOCs 含量原辅材料。</td><td colspan="1" rowspan="1">符合</td></tr><tr><td colspan="1" rowspan="1">【土壤/禁止类】禁止新建、扩建增加重点防控的重金属污染物排放的建设项目。</td><td colspan="1" rowspan="1">不属于重点防控的重金属污染物排放类建设项目。</td><td colspan="1" rowspan="1">符合</td></tr><tr><td colspan="1" rowspan="3"></td><td colspan="1" rowspan="1">【水资源/综合类】贯彻落实“节水优先”方针，实行最严格水资源管理制度，容桂街道万元国内生产总值用水量、万元工业增加值用水量、用水总量、农田灌溉水有效利用系数等用水总量和效率指标达到区下达要求。</td><td colspan="1" rowspan="1">项目用水主要为员工生活用水，内部实行节约用水，合理使用水资源。</td><td colspan="1" rowspan="1">符合</td></tr><tr><td colspan="1" rowspan="1">【土地资源/限制类】落实单位土地面积投资强度、土地利用强度等建设用地控制性指标要求，提高土地利用效率。</td><td colspan="1" rowspan="1">项目建设用地属于工业用地。</td><td colspan="1" rowspan="1">符合</td></tr><tr><td colspan="1" rowspan="1">【岸线/禁止类】严格水域岸线用途管制，新建项目一律不得违规占用水域。严禁破坏生态的岸线利用行为和不符合其功能定位的开发建设活动，严禁以各种名义侵占河道、围垦湖泊、非法采砂等。</td><td colspan="1" rowspan="1">项目建设在陆域上，不属于占用水域和破坏生态的岸线利用行为。</td><td colspan="1" rowspan="1">符合</td></tr><tr><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1">【水/限制类】城镇新区建设实行雨污分流，逐步推进初期雨水收集、处理和资源化利用。住宅、商业体、学校、市场等城镇开发建设项目应当配套或者同步计划建设公共排水设施，公共排水设施或自建排污水设施未能投产运行的，以上涉水项目不得投入使用。新建小区严格实施雨污分</td><td colspan="1" rowspan="1">建设单位实行雨污分流，且生产车间位于厂房内，不存在露天作业。</td><td colspan="1" rowspan="1">符合</td></tr><tr><td colspan="1" rowspan="8"></td><td colspan="1" rowspan="1">流，阳台、露台等污水接入污水收集系统，将生活污水“应截尽截”。做好大型楼盘、集贸市场、餐饮以及学校等4大类排水户污水接入市政管网工作。</td><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1"></td></tr><tr><td colspan="1" rowspan="1">【水/综合类】容桂街道重点河涌水质上年度未达到水环境环境质量目标的，需组织编制、系统实施、向社会公开区域重点水污染物减排计划并明确“替代量”，本年度新建、改建、扩建项目新增水环境重点污染物实行区域“减二增一”替代（工业、生活或综合集中废水处理设施、民生项目除外）。</td><td colspan="1" rowspan="1">项目已接驳市政管网。不排放水环境重点污染物。</td><td colspan="3" rowspan="1">符合</td></tr><tr><td colspan="1" rowspan="1">【水/综合类】区域内应合理规划建设工业或综合集中废水处理设施。逐步推进工业集聚区“污水零直排区”建设，开展排水单元工业废水、生活污水、雨水分类收集、分质处理，确保园区“管网全覆盖、雨污全分流、污水全收集、处理全达标”。</td><td colspan="1" rowspan="1">项目已接驳市政管网。生活污水经三级化粪池预处理后引至容桂第二污水处理厂深度处理，尾水达标排放。</td><td colspan="3" rowspan="1">符合</td></tr><tr><td colspan="1" rowspan="1">【水/综合类】结合村级工业园改造，全面提升产业层次与集聚度，促进污染集中整治。</td><td colspan="1" rowspan="1">项目选址位于广东省佛山市顺德区容桂街道华口社区昌宝东路9号首层之六，属于产业集聚区。</td><td colspan="3" rowspan="1">符合</td></tr><tr><td colspan="1" rowspan="1">【水/综合类】稳步推进排水设施“三个一体化”管理模式，补齐城乡污水收集和处理短板，推动容桂第二、第二污水处理厂提质增效，加快消除城中村、老旧城区、城乡结合部等污水收集管网空白区，逐步实现城乡污水收集处理全覆盖。2025 年前完成容桂第二、第二污水处理厂扩建，尾水应执行《城镇污水处理厂污染物排放标准》（GB18918-2002）一级A标准及《广东省水污染物排放限值》（DB44/26-2001）的较严值。</td><td colspan="1" rowspan="3">项目已接驳市政管网。生活污水经三级化粪池预处理后引至容桂第二污水处理厂深度处理。</td><td colspan="3" rowspan="1">符合</td></tr><tr><td colspan="1" rowspan="1">【水/综合类】近期保留马东、马南两处污水处理站，到 2030 年将马冈村居污水接入市政污水管网，纳入杏坛城镇污水处理系统；其余行政村（社区）污水均通过市政管网和农村支管纳入容桂城镇污水处理处理系统。</td><td colspan="3" rowspan="1">符合</td></tr><tr><td colspan="1" rowspan="1">【水/综合类】产业集聚区和主题园区内做好污水管网和污水集中处理设施的配套保障，确保废水收集到城镇污水处理厂、园区污水处理厂或分散式污水处理设施集中处置。</td><td colspan="3" rowspan="1">符合</td></tr><tr><td colspan="1" rowspan="1">【大气/综合类】大力推进低VOCs含量原辅材料替代，加快涉 VOCs 重点行业的生产工艺升级改造，推行自动化生产工艺，对达不到要求的 VOCs 收集及治理设施进行整治提升，逐步淘汰低效 VOCs 治理设施。</td><td colspan="1" rowspan="1">项目不使用高VOCs 含量原辅材料，有机废气经有效收集处理后达标排放。</td><td colspan="3" rowspan="1">符合</td></tr></table>
+
+<table><tr><td rowspan=3 colspan=1></td><td></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>【土壤/限制类】作为重金属污染重点防控区，区域内重点重金属排放总量只减不增。</td><td rowspan=1 colspan=1>项目不排放重金属污染物。</td><td rowspan=1 colspan=1>符合</td></tr><tr><td></td><td rowspan=2 colspan=1>环境风险防控</td><td rowspan=1 colspan=1>【水/综合类】容桂第二、第二污水处理厂、工业污水集中处理设施应采取有效措施，防止事故废水直接排入水体。完善污水处理厂在线监控系统联网，实现污水处理厂的实时、动态监管。</td><td rowspan=2 colspan=1>建设单位加强环境风险分级分类管理，强化环境风险管控。</td><td rowspan=1 colspan=1>符合</td></tr><tr><td></td><td rowspan=1 colspan=1>【风险/综合类】加强环境风险分级分类管理，强化金属制品、有色金属和压延加工、化学原料和化学品制造业等涉重金属、化工行业企业及工业园区等重点环境风险源的环境风险防控。</td><td rowspan=1 colspan=1>符合</td></tr></table>
+
+## 二、建设项目工程分析
+
+现有项目位于广东省佛山市顺德区容桂街道海尾社区文海中路 8 号置业园三期七座首层之一、二层、三层，主要从事塑料制品、模具、电器线束的产销，年产塑料制品350吨、模具 60 套、电器线束 1000 万条，为提升产品质量，提高企业市场竞争力，佛山市卓展电器科技有限公司拟将厂区搬迁至广东省佛山市顺德区容桂街道华口社区昌宝东路9号首层之六，迁扩建后项目调整车间生产布局，取消电火花油、无铅锡丝等原辅材料的使用，迁扩建后项目淘汰注塑机、立式注塑机、电火花机、锡炉等生产设备，同步取消电火花、焊锡等工序，为合理调配设备的生产效能，新增18台卧式注塑机。迁扩建后项目产品产量不变，年产塑料制品350 吨、模具60 套、电器线束1000万条。
+
+## 1、工程组成及平面布置
+
+项目建设工程组成见下表2-1：
+
+表 2-1 项目主要工程组成情况
+<table><tr><td rowspan=19 colspan=1>建设内容</td><td></td><td rowspan=2 colspan=1>类别</td><td rowspan=2 colspan=2>工程名称</td><td rowspan=1 colspan=2>面积及内容</td><td rowspan=2 colspan=1>备注</td></tr><tr><td></td><td rowspan=1 colspan=1>迁扩建前</td><td rowspan=1 colspan=1>迁扩建后</td></tr><tr><td></td><td rowspan=1 colspan=3>占地面积</td><td rowspan=1 colspan=1> $1 6 0 0 \mathrm { m } ^ { 2 }$ </td><td rowspan=1 colspan=1> $1 8 0 0 \mathrm { m } ^ { 2 }$ </td><td rowspan=2 colspan=1>/</td></tr><tr><td></td><td rowspan=1 colspan=3>建筑面积</td><td rowspan=1 colspan=1> $1 6 0 0 \mathrm { m } ^ { 2 }$ </td><td rowspan=1 colspan=1> $1 8 0 0 \mathrm { m } ^ { 2 }$ </td></tr><tr><td></td><td rowspan=9 colspan=1>主体工程</td><td rowspan=9 colspan=1>生产车间</td><td rowspan=1 colspan=1>投料、混料区</td><td rowspan=1 colspan=1> $6 0 \mathrm { m } ^ { 2 }$ </td><td rowspan=1 colspan=1> $8 0 \mathrm { m } ^ { 2 }$ </td><td rowspan=1 colspan=1>用于投料、混料工序</td></tr><tr><td></td><td rowspan=1 colspan=1>注塑区</td><td rowspan=1 colspan=1> $1 0 0 \mathrm { m } ^ { 2 }$ </td><td rowspan=1 colspan=1> $1 8 0 \mathrm m ^ { 2 }$ </td><td rowspan=1 colspan=1>用于注塑工序</td></tr><tr><td></td><td rowspan=1 colspan=1>检测区</td><td rowspan=1 colspan=1> $5 0 \mathrm { m } ^ { 2 }$ </td><td rowspan=1 colspan=1> $4 0 \mathrm { m } ^ { 2 }$ </td><td rowspan=1 colspan=1>用于检测工序</td></tr><tr><td></td><td rowspan=1 colspan=1>破碎区</td><td rowspan=1 colspan=1> $3 0 \mathrm { m } ^ { 2 }$ </td><td rowspan=1 colspan=1> $3 2 \mathrm { m } ^ { 2 }$ </td><td rowspan=1 colspan=1>用于破碎工序</td></tr><tr><td></td><td rowspan=1 colspan=1>机加工区</td><td rowspan=1 colspan=1> $4 0 \mathrm { m } ^ { 2 }$ </td><td rowspan=1 colspan=1> $5 6 \mathrm { m } ^ { 2 }$ </td><td rowspan=1 colspan=1>用于机加工工序</td></tr><tr><td></td><td rowspan=1 colspan=1>电火花区</td><td rowspan=1 colspan=1> $6 0 \mathrm m ^ { 2 }$ </td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>/</td></tr><tr><td></td><td rowspan=1 colspan=1>组装区</td><td rowspan=1 colspan=1> $3 0 \mathrm { m } ^ { 2 }$ </td><td rowspan=1 colspan=1> $3 5 \mathrm { m } ^ { 2 }$ </td><td rowspan=1 colspan=1>用于组装工序</td></tr><tr><td></td><td rowspan=1 colspan=1>焊锡区</td><td rowspan=1 colspan=1> $4 0 \mathrm { m } ^ { 2 }$ </td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>/</td></tr><tr><td></td><td rowspan=1 colspan=1>裁线区</td><td rowspan=1 colspan=1> $8 0 \mathrm m ^ { 2 }$ </td><td rowspan=1 colspan=1> $4 9 \mathrm { m } ^ { 2 }$ </td><td rowspan=1 colspan=1>用于裁线工序</td></tr><tr><td></td><td rowspan=1 colspan=1>储运工程</td><td rowspan=1 colspan=2>仓库</td><td rowspan=1 colspan=1> $4 0 0 \mathrm { m } ^ { 2 }$ </td><td rowspan=1 colspan=1> $5 0 0 \mathrm { m } ^ { 2 }$ </td><td rowspan=1 colspan=1>用于原辅材料、成品的贮存</td></tr><tr><td></td><td rowspan=2 colspan=1>辅助工程</td><td rowspan=1 colspan=2>办公室</td><td rowspan=1 colspan=1> $4 0 \mathrm { m } ^ { 2 }$ </td><td rowspan=1 colspan=1> $6 4 \mathrm { m } ^ { 2 }$ </td><td rowspan=1 colspan=1>用于办公生活</td></tr><tr><td></td><td rowspan=1 colspan=2>通道</td><td rowspan=1 colspan=1> $6 7 0 \mathrm m ^ { 2 }$ </td><td rowspan=1 colspan=1> $6 5 9 \mathrm { m } ^ { 2 }$ </td><td rowspan=1 colspan=1>用于物料运输及人行通道</td></tr><tr><td></td><td rowspan=3 colspan=1>公用工程</td><td rowspan=1 colspan=2>供电</td><td rowspan=1 colspan=1>由市政供电系统提供</td><td rowspan=1 colspan=1>由市政供电系统提供</td><td rowspan=1 colspan=1>不变</td></tr><tr><td></td><td rowspan=1 colspan=2>供水</td><td rowspan=1 colspan=1>由市政自来水供给</td><td rowspan=1 colspan=1>由市政自来水供给</td><td rowspan=1 colspan=1>不变</td></tr><tr><td></td><td rowspan=1 colspan=2>排水</td><td rowspan=1 colspan=1>生活污水经三级化粪池处理后由市政管网排入容桂第一污水处理厂，尾水排入鸡鸦水道</td><td rowspan=1 colspan=1>生活污水经三级化粪池处理后由市政管网排入容桂第二污水处理厂，尾水排入鸡鸦水道</td><td rowspan=1 colspan=1>生活污水经三级化粪池处理后由市政管网排入容桂第二污水处理厂，尾水排入鸡鸦水道</td></tr></table>
+
+<table><tr><td rowspan=12 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=3>冷却水循环使用，定期通过雨水管道排放</td><td rowspan=1 colspan=2>冷却水循环使用，定期通过雨水管道排放</td><td rowspan=1 colspan=1>不变</td></tr><tr><td rowspan=5 colspan=1>环保工程</td><td rowspan=1 colspan=2>生活污水处理</td><td rowspan=1 colspan=3>生活污水经三级化粪池处理后由市政管网排入容桂第一污水处理厂，尾水排入鸡鸦水道</td><td rowspan=1 colspan=2>生活污水经三级化粪池处理后由市政管网排入容桂第二污水处理厂，尾水排入鸡鸦水道</td><td rowspan=1 colspan=1>不变</td></tr><tr><td rowspan=1 colspan=2>冷却废水处理</td><td rowspan=1 colspan=3>冷却水循环使用，定期通过雨水管道排放</td><td rowspan=1 colspan=2>冷却水循环使用，定期通过雨水管道排放</td><td rowspan=1 colspan=1>不变</td></tr><tr><td rowspan=1 colspan=2>废气处理</td><td rowspan=1 colspan=3>有机废气经集气罩（收集，通过“二级活性炭吸附&quot;装置处理后引至48m排气筒高空排放；加强车间通风换气，投料、混料、破碎、机加工、电火花、焊锡废气以无组织形式排放；</td><td rowspan=1 colspan=2>建设单位在每台卧式注塑机上方设置集气罩收集废气，集气罩外围安装软帘形成局部围闭，加强收集效率。注塑过程产生的有机废气经有效收集后，通过“二级活性炭吸附”装置处理后引至25m排气筒G1高空排放。加强车间通风换气，投料、混料、破碎工序产生的塑料粉尘经布袋除尘器处理后以无组织形式排放。加强车间通风换气，机加工工序产生的金属粉尘以无组织形式排放。</td><td rowspan=1 colspan=1>建设单位在每台卧式注塑机上方设置集气罩收集废气，集气罩外围安装软帘形成局部围闭，加强收集效率。注塑过程产生的有机废气经有效收集后，通过“二级活性炭吸附”装置处理后引至25m排气筒G1高空排放。加强车间通风换气，投料、混料、破碎工序产生的塑料粉尘经布袋除尘器处理后以无组织形式排放。加强车间通风换气，机加工工序产生的金属粉尘以无组织形式排放。</td></tr><tr><td rowspan=1 colspan=2>危险废物暂存间</td><td rowspan=1 colspan=3>约10m²</td><td rowspan=1 colspan=2>约10m²</td><td rowspan=1 colspan=1>不变</td></tr><tr><td rowspan=1 colspan=2>一般固废暂存间</td><td rowspan=1 colspan=3>约10m²</td><td rowspan=1 colspan=2>约10m²</td><td rowspan=1 colspan=1>不变</td></tr><tr><td rowspan=1 colspan=9>迁扩建后项目选址位于一栋5层建筑物，首层高度为5.8m，其余楼层高度为4.3m，厂房楼层总共为23m，项目位于首层，具体平面布置图见附图4。2、主要产品及产能项目主要产品年产量见下表：表2-2产品及产量一览表</td></tr><tr><td rowspan=1 colspan=2>序号</td><td rowspan=1 colspan=2>名称</td><td rowspan=1 colspan=1>单位</td><td rowspan=1 colspan=2>迁扩建前数量</td><td rowspan=1 colspan=1>变化量</td><td rowspan=1 colspan=1>迁扩建后数量</td></tr><tr><td rowspan=1 colspan=2>1</td><td rowspan=1 colspan=2>塑料制品</td><td rowspan=1 colspan=1>吨/年</td><td rowspan=1 colspan=2>350</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>350</td></tr><tr><td rowspan=1 colspan=2>2</td><td rowspan=1 colspan=2>模具</td><td rowspan=1 colspan=1>套/年</td><td rowspan=1 colspan=2>60</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>60</td></tr><tr><td rowspan=1 colspan=2>3</td><td rowspan=1 colspan=2>电器线束</td><td rowspan=1 colspan=1>万条/年</td><td rowspan=1 colspan=2>1000</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1000</td></tr><tr><td rowspan=1 colspan=9>3、原辅材料及能源消耗项目主要原辅材料及能源消耗见下表：</td></tr></table>
+
+表 2-3 主要原辅材料消耗一览表
+<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>（</td><td rowspan=1 colspan=1>2-5士乡</td><td rowspan=1 colspan=1>原拥材</td><td rowspan=1 colspan=1>斗消耗</td><td rowspan=1 colspan=1>见农</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>类别</td><td rowspan=1 colspan=1>原辅材料名称</td><td rowspan=1 colspan=1>单位</td><td rowspan=1 colspan=1>迁扩建前数量</td><td rowspan=1 colspan=1>变化量</td><td rowspan=1 colspan=1>迁扩建后数量</td><td rowspan=1 colspan=1>厂区最大暂存量</td><td rowspan=1 colspan=1>备注</td></tr><tr><td rowspan=10 colspan=1>原辅材料</td><td rowspan=1 colspan=1>PP 塑料粒</td><td rowspan=1 colspan=1>吨/年</td><td rowspan=1 colspan=1>91</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>91</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>聚丙烯，固体颗粒状，新料粒料，25kg/包</td></tr><tr><td rowspan=1 colspan=1>ABS 塑料粒</td><td rowspan=1 colspan=1>吨/年</td><td rowspan=1 colspan=1>181</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>181</td><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>丙烯腈-丁二烯-苯乙烯，固体颗粒状，新料粒料,25kg/包</td></tr><tr><td rowspan=1 colspan=1>PC 塑料粒</td><td rowspan=1 colspan=1>吨/年</td><td rowspan=1 colspan=1>81.1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>81.1</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>聚碳酸酯，固体颗粒状，新料粒料，25kg/包</td></tr><tr><td rowspan=1 colspan=1>钢材</td><td rowspan=1 colspan=1>吨/年</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>模具原材料</td></tr><tr><td rowspan=1 colspan=1>电器线束组装配件</td><td rowspan=1 colspan=1>万套/年</td><td rowspan=1 colspan=1>1000</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1000</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>外购，包括接线端子、绝缘包扎导线等，用于电器线束生产</td></tr><tr><td rowspan=1 colspan=1>乳化液</td><td rowspan=1 colspan=1>吨/年</td><td rowspan=1 colspan=1>0.02</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0.02</td><td rowspan=1 colspan=1>0.02</td><td rowspan=1 colspan=1>规格为10kg/桶，用于机加工工序</td></tr><tr><td rowspan=1 colspan=1>无铅锡丝</td><td rowspan=1 colspan=1>吨/年</td><td rowspan=1 colspan=1>0.01</td><td rowspan=1 colspan=1>-0.01</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1>电火花油</td><td rowspan=1 colspan=1>吨/年</td><td rowspan=1 colspan=1>0.05</td><td rowspan=1 colspan=1>-0.05</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>/</td></tr><tr><td rowspan=1 colspan=1>液压油</td><td rowspan=1 colspan=1>吨/年</td><td rowspan=1 colspan=1>0.2</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0.2</td><td rowspan=1 colspan=1>0.2</td><td rowspan=1 colspan=1>规格为10kg/桶，用于设备维修保养</td></tr><tr><td rowspan=1 colspan=1>机油</td><td rowspan=1 colspan=1>吨/年</td><td rowspan=1 colspan=1>0.1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0.1</td><td rowspan=1 colspan=1>0.1</td><td rowspan=1 colspan=1>规格为10kg/桶，用于设备维修保养</td></tr><tr><td rowspan=3 colspan=1>其他能源消耗</td><td rowspan=1 colspan=1>电能</td><td rowspan=1 colspan=1>万千瓦时/年</td><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>-3</td><td rowspan=1 colspan=1>22</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>市政供电</td></tr><tr><td rowspan=1 colspan=1>生活用水</td><td rowspan=1 colspan=1>立方米/年</td><td rowspan=1 colspan=1>600</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>600</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>市政供水</td></tr><tr><td rowspan=1 colspan=1>生产用水</td><td rowspan=1 colspan=1>立方米/年</td><td rowspan=1 colspan=1>230.4</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>230.4</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>市政供水</td></tr><tr><td rowspan=1 colspan=8>部分原辅材料主要理化性质：PP 塑料：成分为聚丙烯，是由丙烯聚合而制得的一种热塑性树脂，无毒、无味，密度小，强度、刚度、硬度耐热性均优于低压聚乙烯，可在100℃左右使用。具有良好的介电性能和高频绝缘性且不受湿度影响，但低温时变脆，不耐磨、易老化。适用于制作一般机械零件、耐腐蚀零件和绝缘零件。常见的酸、碱等有机溶剂对它几乎不起作用，可用于食具。ABS 塑料：ABS 塑料是丙烯腈（A）、丁二烯（B）、苯乙烯（S）三种单体的三元共聚物，三种单体相对含量和任意变化，制成各种树脂。ABS 兼有三种组元的共同性能，A使其耐化学腐蚀、耐热，并有一定的表面硬度，B使其具有高弹性和韧性，S 使其具有热塑性塑料的加工成型特性并改善电性能。分解温度在 250℃以上，注塑成型温度160~220℃。PC 塑料：聚碳酸酯，英文名 Polycarbonate，是分子链中含有碳酸酯基的高分子聚合物，根据酯基的结构可分为脂肪族、芳香族、脂肪族-芳香族等多种类型，是一种无定型、无臭、无毒、高度透明的无色或微黄色热塑性工程塑料，具有高强度及弹性系数、高冲击强度、使用温度范围广、电气特性优、无味无臭等优点。密度为1.18-1.22g/cm，线膨胀率 3.8×10-5cm/℃，耐热温度范围是-45℃-135℃，无明显熔点，在 220-230℃呈熔融状态，在正常加工温度范围内热稳定性较好，300℃长时停留基本不分解，超过340℃开始分解；由于分子链刚性大，树脂熔体粘度大；属自熄性材料；对光稳定，但不耐紫外光，耐候性好；耐油、耐酸、不耐强碱、氧化性酸及胺、酮类，溶于氯化烃类和芳香族溶剂。乳化液：乳化液是一种高性能的半合成金属加工液，特别适用于铝金属及其合金的加工，但不适用于含铅的材料，比如一些黄铜和锡类金属。产品使用寿命很长，完全不受渗漏油、混入油的影响，最好用软水进行调配。乳化液采用不含氯的特制配方，专门用于解决铝金属及其合金加工时出现的种种问题(比如:切屑粘结、刀具磨损、工件表面精度差以及表面受到污染等)。它能应用于包括绞孔在内的所有操作。乳化液亦能有效地防止加工工件生锈或受到化学腐蚀，还能有效的防止细菌侵蚀感染。机油：分子量：230-500，为油状液体，淡黄色至褐色，无气味或略带异味，不溶于水，闪点：76℃，引燃温度：248℃，遇明火、高热可燃，燃烧产物为一氧化碳、二氧化碳，具有稳定性，不</td></tr></table>
+
+聚合。
+
+迁扩建后项目 VOCs 的物料平衡如下：
+
+表 2-4 迁扩建后项目 VOCs物料平衡一览表
+<table><tr><td rowspan=1 colspan=4>投入ta</td><td rowspan=2 colspan=2>产出t/a</td></tr><tr><td rowspan=1 colspan=1>原材料</td><td rowspan=1 colspan=1>使用量</td><td rowspan=1 colspan=1>VOCs产污系数</td><td rowspan=1 colspan=1>VOCs产生量</td></tr><tr><td rowspan=1 colspan=1>ABS</td><td rowspan=1 colspan=1>181</td><td rowspan=3 colspan=1>2.7kg-t产品</td><td rowspan=3 colspan=1>0.945</td><td rowspan=1 colspan=1>废气有组织排放</td><td rowspan=1 colspan=1>0.324</td></tr><tr><td rowspan=1 colspan=1>PP</td><td rowspan=1 colspan=1>91</td><td rowspan=1 colspan=1>废气无组织排放</td><td rowspan=1 colspan=1>0.283</td></tr><tr><td rowspan=1 colspan=1>PC</td><td rowspan=1 colspan=1>81.1</td><td rowspan=1 colspan=1>活性炭吸附</td><td rowspan=1 colspan=1>0.338</td></tr><tr><td rowspan=1 colspan=1>合计</td><td rowspan=1 colspan=1>/</td><td rowspan=1 colspan=1>/</td><td rowspan=1 colspan=1>0.945</td><td rowspan=1 colspan=1>合计</td><td rowspan=1 colspan=1>0.945</td></tr><tr><td rowspan=1 colspan=6>备注：参考《佛山市塑胶行业建设项目环评文件编制技术参考指南（试行）》中表22塑胶制品工业污染物产污系数表系数表可知，项目注塑工序挥发性有机物产污系数为2.7kg/t-产品。</td></tr></table>
+
+## 4、主要设备清单
+
+项目主要设备及设施详见下表：
+
+表 2-5 项目主要生产设备情况
+<table><tr><td rowspan=1 colspan=1>序号</td><td rowspan=1 colspan=1>设备名称</td><td rowspan=1 colspan=1>单位</td><td rowspan=1 colspan=1>迁扩建前数量</td><td rowspan=1 colspan=1>变化量</td><td rowspan=1 colspan=1>迁扩建后数量</td><td rowspan=1 colspan=1>工艺</td><td rowspan=1 colspan=1>位置</td><td rowspan=1 colspan=1>规格参数</td><td rowspan=1 colspan=1>设计值</td><td rowspan=1 colspan=1>计量单位</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>注塑机</td><td rowspan=1 colspan=1>台</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>-15</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>/</td><td rowspan=1 colspan=1>/</td><td rowspan=1 colspan=1>/</td><td rowspan=1 colspan=1>/</td><td rowspan=1 colspan=1>/</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>立式注塑机</td><td rowspan=1 colspan=1>台</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>-2</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>/</td><td rowspan=1 colspan=1>/</td><td rowspan=1 colspan=1>/</td><td rowspan=1 colspan=1>/</td><td rowspan=1 colspan=1>/</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>卧式注塑机</td><td rowspan=1 colspan=1>台</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>+18</td><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>注塑</td><td rowspan=1 colspan=1>注塑</td><td rowspan=1 colspan=1>加工量</td><td rowspan=1 colspan=1>8.2</td><td rowspan=1 colspan=1>kg/h</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>混料机</td><td rowspan=1 colspan=1>台</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>投料、混料</td><td rowspan=1 colspan=1>投料、混料区</td><td rowspan=1 colspan=1>加工量</td><td rowspan=1 colspan=1>36.79</td><td rowspan=1 colspan=1>kg/h</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>破碎机</td><td rowspan=1 colspan=1>台</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>破碎</td><td rowspan=1 colspan=1>破碎区</td><td rowspan=1 colspan=1>功率</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>Kw</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>摇臂钻床</td><td rowspan=1 colspan=1>台</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>机加工</td><td rowspan=6 colspan=1>机加工区</td><td rowspan=1 colspan=1>功率</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>Kw</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>铣床</td><td rowspan=1 colspan=1>台</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>机加工</td><td rowspan=1 colspan=1>功率</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>Kw</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>深孔钻床</td><td rowspan=1 colspan=1>台</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>机加工</td><td rowspan=1 colspan=1>功率</td><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>Kw</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>磨床</td><td rowspan=1 colspan=1>台</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>机加工</td><td rowspan=1 colspan=1>功率</td><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>Kw</td></tr><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>电脑锣</td><td rowspan=1 colspan=1>台</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>机加工</td><td rowspan=1 colspan=1>功率</td><td rowspan=1 colspan=1>22</td><td rowspan=1 colspan=1>Kw</td></tr><tr><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>车床</td><td rowspan=1 colspan=1>台</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>机加工</td><td rowspan=1 colspan=1>功率</td><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>Kw</td></tr><tr><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>电火花机</td><td rowspan=1 colspan=1>台</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>-1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>/</td><td rowspan=1 colspan=1>/</td><td rowspan=1 colspan=1>/</td><td rowspan=1 colspan=1>/</td><td rowspan=1 colspan=1>/</td></tr><tr><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>砂轮机</td><td rowspan=1 colspan=1>台</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>机加工</td><td rowspan=1 colspan=1>机加工区</td><td rowspan=1 colspan=1>功率</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>Kw</td></tr><tr><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>裁线机</td><td rowspan=1 colspan=1>台</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>裁线</td><td rowspan=4 colspan=1>裁线区</td><td rowspan=1 colspan=1>功率</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>Kw</td></tr><tr><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>自动裁线端子机</td><td rowspan=1 colspan=1>台</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>裁线</td><td rowspan=1 colspan=1>功率</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>Kw</td></tr><tr><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>端子机</td><td rowspan=1 colspan=1>台</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>裁线</td><td rowspan=1 colspan=1>功率</td><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>Kw</td></tr><tr><td rowspan=1 colspan=1>17</td><td rowspan=1 colspan=1>铜带机</td><td rowspan=1 colspan=1>台</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>裁线</td><td rowspan=1 colspan=1>功率</td><td rowspan=1 colspan=1>22</td><td rowspan=1 colspan=1>Kw</td></tr><tr><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>锡炉</td><td rowspan=1 colspan=1>台</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>-1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>/</td><td rowspan=1 colspan=1>/</td><td rowspan=1 colspan=1>/</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1>19</td><td rowspan=1 colspan=1>组装线</td><td rowspan=1 colspan=1>条</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>组装</td><td rowspan=1 colspan=1>组装区</td><td rowspan=1 colspan=1>功率</td><td rowspan=1 colspan=1>24</td><td rowspan=1 colspan=1>Kw</td></tr><tr><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>空压机</td><td rowspan=1 colspan=1>台</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>2</td><td rowspan=2 colspan=1>辅助设备</td><td rowspan=2 colspan=1>生产厂房内</td><td rowspan=1 colspan=1>功率</td><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>Kw</td></tr><tr><td rowspan=1 colspan=1>21</td><td rowspan=1 colspan=1>冷却塔</td><td rowspan=1 colspan=1>台</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>循环水量</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>m3/h</td></tr></table>
+
+原料用量与设备产能的匹配性分析：
+
+表 2-6 项目原辅材料使用量合理性分析一览表
+<table><tr><td rowspan=1 colspan=1>生产工序</td><td rowspan=1 colspan=1>生产设备</td><td rowspan=1 colspan=1>数量（台）</td><td rowspan=1 colspan=1>使用原料</td><td rowspan=1 colspan=1>单台设备设计参数</td><td rowspan=1 colspan=1>生产周期（h）</td><td rowspan=1 colspan=1>物料设计使用量（t）</td><td rowspan=1 colspan=1>物料实际使用量（t）</td><td rowspan=1 colspan=1>设计最大年产量（吨/年）</td><td rowspan=1 colspan=1>申报产能（吨/年）</td></tr><tr><td rowspan=1 colspan=1>注塑</td><td rowspan=1 colspan=1>卧式注塑机</td><td rowspan=1 colspan=1>18</td><td rowspan=2 colspan=1>ABS、PP、PC</td><td rowspan=1 colspan=1>加工量8.2kg/h</td><td rowspan=2 colspan=1>2400</td><td rowspan=2 colspan=1>372</td><td rowspan=2 colspan=1>353.1</td><td rowspan=2 colspan=1>369</td><td rowspan=2 colspan=1>350</td></tr><tr><td rowspan=1 colspan=1>投料、混料</td><td rowspan=1 colspan=1>混料机</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>加工量36.79kg/h</td></tr><tr><td rowspan=1 colspan=10>备注：根据正文分析，项目生产塑料制品时，投料量为353.1吨，损耗量约0.945吨+2.1吨+0.021吨=3.066吨，产品量约350吨，因此物料用量和产能匹配。</td></tr></table>
+
+## 5、劳动定员及工作制度
+
+迁扩建前：项目劳动定员 60 人，实行 1 班制，年工作300 天，每天工作8小时，每天工时为8:00-12:00，14:00-18:00，夜间不生产。项目厂区内不设员工宿舍和饭堂。
+
+迁扩建后：项目劳动定员60人，实行1班制，年工作300天，每天工作8小时，每天工时为8:00-12:00，14:00-18:00，夜间不生产。项目厂区内不设员工宿舍和饭堂。
+
+## 6、公用工程
+
+## （1）给水系统
+
+## ①迁扩建前项目
+
+迁扩建前项目用水由市政供水系统提供，用水主要为员工生活用水和冷却塔用水。
+
+迁扩建前项目员工人数为60人，根据《广东省用水定额》（DB 44/T1461.3-2021）中国家行政机构办公楼“无食堂和浴室”的生活用水定额，员工办公生活用水定额取10m3/人·a，项目全年用水量为 600m3/a。
+
+迁扩建前项目配备2台冷却塔，循环水量合共为4m3 /h，按年工作300天，每天工作8 小时计算，项目冷却塔循环水量为 9600m3 /a，根据《工业循环冷却水处理设计规范》（GB50050-2017）说明，循环冷却水补充量约占总循环水量的 2.0%（192m3/a），排水量约占循环水量的0.4%，因此新鲜水补充量约占总循环水量的2.4%，项目新鲜水补充量为 230.4m3/a。
+
+## ②迁扩建后项目
+
+迁扩建后项目用水由市政供水系统提供，用水主要为员工生活用水以及冷却塔用水。
+
+迁扩建后项目员工人数为60人，根据《广东省用水定额》（DB 44/T1461.3-2021）中国家行政机构办公楼“无食堂和浴室”的生活用水定额，员工办公生活用水定额取10m3/人·a，项目全年用水量为 600m3/a。
+
+迁扩建后项目配备 2 台冷却塔，循环水量合共为4m3 /h，按年工作300天，每天工作
+
+8 小时计算，项目冷却塔循环水量为 9600m3 /a，根据《工业循环冷却水处理设计规范》（GB50050-2017）说明，循环冷却水补充量约占总循环水量的 2.0%（192m3/a），排水量约占循环水量的0.4%，因此新鲜水补充量约占总循环水量的2.4%，项目新鲜水补充量为 230.4m3/a。
+
+## （2）排水系统
+
+## ①迁扩建前项目
+
+迁扩建前生活污水经三级化粪池处理后由市政管网排入容桂第一污水处理厂，尾水排入鸡鸦水道，生活污水排放系数按0.9计，生活污水排放量为540m3/a。
+
+根据《工业循环冷却水处理设计规范》（GB50050-2017）说明，冷却水排水量约占循环水量的 0.4%，因此迁扩建后项目冷却水排放量为 38.4m3 /a，根据《污水综合排放标准》（GB8978-1996）、《环境影响评价导则 地表水环境》（HJ/T2.3-2018）和《广东省水污染物排放限值》（DB44/26-2001）中的规定：“污水排放量中不包括间接冷却水”。因此，本项目冷却循环水系统定期排水可作为清净下水通过雨水管道排放，不计入污水排放量。
+
+## ②迁扩建后项目
+
+迁扩建后生活污水经三级化粪池处理后由市政管网排入容桂第二污水处理厂，尾水排入鸡鸦水道，生活污水排放系数按0.9计，生活污水排放量为540m3/a。
+
+根据《工业循环冷却水处理设计规范》（GB50050-2017）说明，冷却水排水量约占循环水量的 0.4%，因此迁扩建后项目冷却水排放量为 38.4m3 /a，根据《污水综合排放标准》（GB8978-1996）、《环境影响评价导则 地表水环境》（HJ/T2.3-2018）和《广东省水污染物排放限值》（DB44/26-2001）中的规定：“污水排放量中不包括间接冷却水”。因此，本项目冷却循环水系统定期排水可作为清净下水通过雨水管道排放，不计入污水排放量。
+
+## （3）供电工程
+
+迁扩建前项目不设置备用发电机，用电由市政供电系统提供。根据企业提供资料，年用电量约25万kW·h。
+
+迁扩建后项目不设置备用发电机，用电由市政供电系统提供。根据企业提供资料，年用电量约22万kW·h。
+
+![](images/bf6511d1864277bfc36ec773fae583b5c6258c4b7272d9b25bd1af447c1e6197.jpg)  
+图 2-1 迁扩建后项目水平衡图（单位 m3/a）
+
+## 7、项目四至情况及平面布置情况
+
+项目所在厂房东面为环威电器有限公司，南面为工业道路，西面为昌宝东路四横路，北面为佛山市丁普乐电器有限公司。项目四至情况详见附图2。
+
+厂房内设置投料、混料区、注塑区、检测区、破碎区、机加工区、组装区、裁线区、一般固废暂存间和危险废物暂存间，具体平面布置图见附图 4。
+
+## 一、工艺流程简述（图示）：
+
+## 1、项目生产工艺流程及产污环节
+
+迁扩建后项目调整车间生产布局，取消电火花油、无铅锡丝等原辅材料的使用，迁扩建后项目淘汰注塑机、立式注塑机、电火花机、锡炉等生产设备，同步取消电火花、焊锡等工序，为合理调配设备的生产效能，新增18台卧式注塑机。迁扩建后项目产品产量不变，年产塑料制品350吨、模具60套、电器线束1000万条。
+
+## ①塑料制品生产工艺流程
+
+![](images/8682fb5e28074bcd39b0fcad3c66a17f670023f14e832947e650979767d711b2.jpg)  
+图 2-2 迁扩建后项目塑料制品生产工艺流程及产污环节示意图
+
+## 生产工艺流程说明：
+
+投料、混料：根据产品规格要求，项目使用管道将外购的ABS、PP、PC（均为新料）等原料按一定比例输送到混料机中，然后使用混料机将物料充分搅拌均匀待后续工序使用。投料过程、混料设备进出口会产生少量粉尘。
+
+注塑：使用卧式注塑机（电加热）于 $1 6 0 \mathrm { { ^ \circ C } }$ 高温下对物料进行热熔注塑成型。此过程会产生有机废气（非甲烷总烃）、臭气浓度、噪声。
+
+注塑温度范围均低于原料的热分解温度，加工过程不会发生合成树脂分解产生大量挥发性有机物质，仅释放少量有机废气。
+
+检测：经检测合格的工件即为成品，次品经破碎后回用于生产。破碎过程会产生少量颗粒物、噪声。
+
+项目生产过程中冷却塔用于降低卧式注塑机的温度，冷却过程为间接冷却，冷却水循环使用，定期排放，由于冷却水在高温下蒸发，需要定期补充新鲜水。项目生产过程中使用新料，不使用废旧塑料。
+
+![](images/9487d0924f0f6a7708d568153483aefcb55342a690e348d4dfa8f54666d17dc6.jpg)  
+图 2-3 迁扩建后项目模具生产工艺流程及产污环节示意图
+
+## 生产工艺流程说明：
+
+机加工：根据产品尺寸规格，使用摇臂钻床、铣床、深孔钻床、磨床、电脑锣、车床、砂轮机等设备对钢材进行机加工，机加工过程需要使用乳化液。此过程会产生少量颗粒物、固废、噪声。
+
+组装：加工后的模具经人工组装即为成品。
+
+## ③电器线束生产工艺流程
+
+![](images/f5f708cdf2bd918962ed18d5aea9d6207ded7b8ace8d2ecd2f54b9f6acb4da23.jpg)  
+图 2-4 迁扩建后项目电器线束生产工艺流程及产污环节示意图
+
+生产工艺流程说明：
+
+裁线：根据产品设计要求，使用自动裁线端子机、端子机、铜带机等设备对电器线束组装配件进行裁线加工，裁线过程产生少量设备噪声。
+
+组装：加工后的半成品经组装即为成品。
+
+## 二、主要产污工序
+
+项目厂内不设食堂、宿舍，其主要产污工序如下：
+
+（1）废水：员工办公生活产生的生活污水、冷却塔冷却用水。
+
+（2）废气：注塑工序产生的少量挥发性有机物（非甲烷总烃）、臭气浓度；投料、
+
+混料、破碎过程产生的少量塑料粉尘（TSP）、机加工过程产生的金属粉尘（TSP）。
+
+（3）噪声：车间各设备运行时产生的机械噪声。
+
+（4）固废：员工生活垃圾；废液压油、废机油、废含油抹布、废油桶、废饱和活性炭、废乳化液；废包装材料、收集粉尘、沉降金属粉尘。
+
+企业原有环评审批情况及国家排污许可办理情况如下表：
+
+表 2-6 佛山市顺德区卓展电器科技有限公司项目历次建设项目环评审批一览表
+<table><tr><td rowspan=1 colspan=1>项目名称</td><td rowspan=1 colspan=1>批准时间</td><td rowspan=1 colspan=1>批准证号</td><td rowspan=1 colspan=1>审批设备规模</td><td rowspan=1 colspan=1>验收时间及固批复</td><td rowspan=1 colspan=1>定污染源排污许可办理</td></tr><tr><td rowspan=1 colspan=1>佛山市顺德区卓展电器科技有限公司</td><td rowspan=1 colspan=1>2015.6.4</td><td rowspan=1 colspan=1>容桂20150174</td><td rowspan=1 colspan=1>占地面积1600m²、建筑面积1600m²；年产塑料制品170吨、模具20套、电器线束1000万条；生产设备规模如下：注塑机16台、王混料机3台、破碎机3台、空压机1台、冷却塔1台、钻床1台、铣床1台、裁线机2台、自动裁线端子机4台、端子机25台、锡炉1台、组装线1条</td><td rowspan=1 colspan=1>2016.8.1环验（容）（2016）A128号</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>佛山市卓展电器科技有限公司迁扩建项目</td><td rowspan=1 colspan=1>2022.5.12审</td><td rowspan=1 colspan=1>佛环0302环审（2022）第0064号</td><td rowspan=1 colspan=1>占地面积1357.71m²、建筑面积1357.71m²；年产塑料制品350吨、模具60套、电器线束1000万条；生产设备规模如下：注塑机15台、立式注塑机2台、混料机4台、破碎机4台、摇臂钻床1台、铣床4台、深孔钻床1台、磨床2台、电脑锣2台、车床1台、电火花机1台、砂轮机2台、裁线机2台、自动裁线端子机6台、端子机12台、铜带机4台、锡炉1台、组装线2条、空压机2台、冷却塔2台</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>
+
+迁扩建前项目产品方案见表2-2，原辅材料见2-3，生产设备见表2-4。
+
+①塑料制品生产工艺流程  
+![](images/8f4072872b31cfad2fbd62deb5a46d43aac633f492eab53f6182f106f63b0644.jpg)  
+图 2-5 迁扩建前项目塑料制品生产工艺流程及产污环节示意图
+
+投料、混料：根据产品规格要求，项目使用管道将外购的ABS、PP、PC（均为新料）等原料按一定比例输送到混料机中，然后使用混料机将物料充分搅拌均匀待后续工序使
+
+用。投料过程、混料设备进出口会产生少量粉尘。
+
+注塑：使用注塑机（电加热）于 $1 6 0 \mathrm { { ^ \circ C } }$ 高温下对物料进行热熔注塑成型。此过程会产生有机废气（非甲烷总烃）、臭气浓度、噪声。
+
+注塑温度范围均低于原料的热分解温度，加工过程不会发生合成树脂分解产生大量挥发性有机物质，仅释放少量有机废气。
+
+检测：经检测合格的工件即为成品，次品经破碎后回用于生产。破碎过程会产生少量颗粒物、噪声。
+
+项目生产过程中冷却塔用于降低注塑机的温度，冷却过程为间接冷却，冷却水循环使用，定期排放，由于冷却水在高温下蒸发，需要定期补充新鲜水。项目生产过程中使用新料，不使用废旧塑料。
+
+## ②模具生产工艺流程
+
+![](images/959890b9656248b5990718bcf085ec1d8f6a1a63450a7e1ee4efb714df0d3920.jpg)  
+图 2-6 迁扩建前项目模具生产工艺流程及产污环节示意图
+
+## 生产工艺流程说明：
+
+机加工：根据产品尺寸规格，使用摇臂钻床、铣床、深孔钻床、磨床、电脑锣、车床、砂轮机等设备对钢材进行机加工，机加工过程需要使用乳化液。此过程会产生少量颗粒物、固废、噪声。
+
+电火花：机加工成型后的半成品经电火花工序进行型面加工。此过程会产生少量颗粒物、固废、噪声。
+
+组装：加工后的模具经人工组装即为成品。
+
+![](images/1e645645348af5b562f39226d3a20b1a92f25e338ac0247bd696fd87d509eefc.jpg)  
+图 2-7 迁扩建前项目电器线束生产工艺流程及产污环节示意图
+
+## 生产工艺流程说明：
+
+裁线：根据产品设计要求，使用自动裁线端子机、端子机、铜带机等设备对电器线束组装配件进行裁线加工，裁线过程产生少量设备噪声。
+
+焊锡：使用锡炉对半成品进行焊锡加工。此过程会产生少量锡及其化合物、噪声。
+
+组装：加工后的半成品经组装即为成品。
+
+## 2、迁扩建前项目工程排污情况及治理措施
+
+迁扩建前项目用水主要为生活用水、冷却塔冷却用水。
+
+## ①冷却塔冷却用水
+
+迁扩建前项目生产过程中需要自来水对设备进行间接冷却，冷却用水通过冷却塔冷却后循环使用，需适当地加入新鲜水补充因蒸发而损失的水分。项目配备 2 台冷却塔，循环水量合共 4m3 /h，年工作 300 天，每天工作 8 小时，因此冷却水箱年循环水量为9600m3 /a。根据《工业循环冷却水处理设计规范》（GB50050-2007）说明，循环冷却水系统蒸发水量约占循环水量的2.0%，排水量约占循环水量的0.4%，因此新鲜水补充量约占总循环水量的 2.4%。通过计算得，项目新鲜水补充量为 230.4m3 /a，定期排水量为38.4m3 /a，根据《污水综合排放标准》（GB8978-1996）、《环境影响评价导则 地表水环境》（HJ/T2.3-2018）和《广东省水污染物排放限值》（DB44/26-2001）中的规定：“污水排放量中不包括间接冷却水”。因此，本项目冷却循环水系统定期排水可作为清净下水通过雨水管道排放，不计入污水排放量，项目冷却水无需定期添加除垢剂等助剂，可稳定达标排放。
+
+## ②生活用水
+
+<table><tr><td rowspan=14 colspan=1></td><td rowspan=1 colspan=19>迁扩建前生活污水经三级化粪池处理后由市政管网排入容桂第一污水处理厂，尾水排入鸡鸦水道。迁扩建前项目员工人数为60人，均不在厂内食宿，年工作时间为300天。根据《广东省用水定额》（DB44/T1461.3-2021）中国家行政机构办公楼“无食堂和浴室”的生活用水定额,员工办公生活用水定额取10m/人·a,则项目员工办公生活用水量为600m/a,排放系数取0.9，则污水产生量为 540m/a,生活污水主要污染物为CODcr、BOD5、NH3-N、SS。（1）废水污染物表2-6迁扩建前项目废水类别、污染物项目、排放去向及污染防治设施等信息一览表</td></tr><tr><td rowspan=2 colspan=2>废水类别</td><td rowspan=2 colspan=4>污染物项目</td><td rowspan=2 colspan=2>执行标准</td><td rowspan=1 colspan=6>污染防治设施</td><td rowspan=2 colspan=1>排放去向</td><td rowspan=2 colspan=1>排放口名称</td><td rowspan=2 colspan=2>排放口类型</td><td rowspan=2 colspan=1></td></tr><tr><td rowspan=1 colspan=5>污染防治设施名称及工艺</td><td rowspan=1 colspan=1>是否为可行技术</td></tr><tr><td rowspan=1 colspan=2>生活污水</td><td rowspan=1 colspan=4>pH值、化学需氧量、五日生化需氧量、氨氮、悬浮物、总磷</td><td rowspan=1 colspan=2>DB44/26-2001第二时段三级标准</td><td rowspan=1 colspan=5>生活污水处理设施：三级化粪池</td><td rowspan=1 colspan=1>回是否</td><td rowspan=1 colspan=1>容桂第污水处理厂</td><td rowspan=1 colspan=1>生活污水单独排放口</td><td rowspan=1 colspan=2>一般排放口</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=18>表2-7废水污染源源强核算结果及相关参数一览表</td><td></td></tr><tr><td rowspan=2 colspan=1>污染源</td><td rowspan=2 colspan=2>污染物</td><td rowspan=1 colspan=6>污染物产生</td><td rowspan=1 colspan=2>治理措施</td><td rowspan=1 colspan=6>污染物排放</td><td rowspan=2 colspan=1>排放时间（d）</td><td rowspan=2 colspan=1></td></tr><tr><td rowspan=1 colspan=1>核算方法</td><td rowspan=1 colspan=1>产生废水量（m3/d）</td><td rowspan=1 colspan=2>产生浓度（mg/L）</td><td rowspan=1 colspan=2>产生量（kg/d）</td><td rowspan=1 colspan=1>治理工</td><td rowspan=1 colspan=1>艺效率（%）</td><td rowspan=1 colspan=3>核算方排放废水量（m3/d）法</td><td rowspan=1 colspan=1>排放浓度（mg/L）</td><td rowspan=1 colspan=2>排放量（kg/d）</td></tr><tr><td rowspan=5 colspan=1>生活污水</td><td rowspan=1 colspan=2>CODcr</td><td rowspan=5 colspan=1>系数法</td><td rowspan=5 colspan=1>1.8</td><td rowspan=1 colspan=2>250</td><td rowspan=1 colspan=2>0.45</td><td rowspan=1 colspan=1>三</td><td rowspan=5 colspan=1>池3~53</td><td rowspan=5 colspan=1>系数法</td><td rowspan=5 colspan=2>1.8</td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=2>0.072</td><td rowspan=5 colspan=1>300</td><td rowspan=6 colspan=1></td></tr><tr><td rowspan=1 colspan=2>BOD5</td><td rowspan=1 colspan=2>100</td><td rowspan=1 colspan=2>0.18</td><td rowspan=4 colspan=1>一级化粪</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=2>0.018</td></tr><tr><td rowspan=1 colspan=2>ss</td><td rowspan=1 colspan=2>150</td><td rowspan=1 colspan=2>0.27</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=2>0.018</td></tr><tr><td rowspan=1 colspan=2>氨氮</td><td rowspan=1 colspan=2>30</td><td rowspan=1 colspan=2>0.054</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=2>0.009</td></tr><tr><td rowspan=1 colspan=2>总磷</td><td rowspan=1 colspan=2>3.5</td><td rowspan=1 colspan=2>0.006</td><td rowspan=1 colspan=1>0.5</td><td rowspan=1 colspan=2>0.001</td></tr><tr><td rowspan=1 colspan=18>备注：根据《排污单位自行监测技术指南总则》（HJ819-2017），生活污水排入容桂第一污水处理厂处理，运营期无须对厂区内生活污水单独排放口进行监测，因此无实测值。</td></tr><tr><td rowspan=1 colspan=19>（2）废气污染物①非甲烷总烃迁扩建前项目注塑废气（非甲烷总烃）经集气罩收集，通过“二级活性炭吸附”装置后引至48m排气筒高空G1排放。根据工程设计方案可知,G1排气筒风量为12000m/h。参考《佛山市生态环境局关于印发涉VOCs重点行业建设项目环评文件编制技术参考指南的通知》，顶式集气罩（相应工位所有VOCs逸散点控制风速不小于0.5m/s）废气收集效率为40%，根据实际运行情况，环评报告收集集气效率应该预留（10%以上）余量，不宜取理论最高值，则废气收集效率按 30%计算，废气治理效率按51%计算。参考《佛山市塑胶行业建设项目环评文件编制技术参考指南（试行）》中表 22 塑胶</td><td></td></tr></table>
+
+制品工业污染物产污系数表系数表可知，项目注塑工序挥发性有机物产污系数为2.7kg/t-产品。迁扩建前项目年产塑料制品 350 吨。则迁扩建前项目注塑工序非甲烷总烃产生量为 0.945t/a，迁扩建前项目年工作 300 天，每天工作 8 小时，则非甲烷总烃产生速率为0.394kg/h。
+
+迁扩建前项目非甲烷总烃产生及排放情况见下表。
+
+表 2-10 迁扩建前项目 G1 排气筒废气污染物产生及排放量情况表
+<table><tr><td rowspan=2 colspan=1>排气量m3/h</td><td rowspan=2 colspan=1>污染物</td><td rowspan=1 colspan=2>产生情况</td><td rowspan=1 colspan=6>有组织</td><td rowspan=1 colspan=2>无组织</td></tr><tr><td rowspan=1 colspan=1>产生量ta</td><td rowspan=1 colspan=1>最大产生速率kg/h</td><td rowspan=1 colspan=1>产生量t/a</td><td rowspan=1 colspan=1>产生速率kg/h</td><td rowspan=1 colspan=1>产生浓度mg/m3</td><td rowspan=1 colspan=1>排放量t/a</td><td rowspan=1 colspan=1>排放速率kg/h</td><td rowspan=1 colspan=1>排放浓度mg/m3</td><td rowspan=1 colspan=1>排放量t/a</td><td rowspan=1 colspan=1>排放速率kg/h</td></tr><tr><td rowspan=1 colspan=1>12000</td><td rowspan=1 colspan=1>非甲烷总烃</td><td rowspan=1 colspan=1>0.945</td><td rowspan=1 colspan=1>0.394</td><td rowspan=1 colspan=1>0.284</td><td rowspan=1 colspan=1>0.118</td><td rowspan=1 colspan=1>9.83</td><td rowspan=1 colspan=1>0.139</td><td rowspan=1 colspan=1>0.058</td><td rowspan=1 colspan=1>4.83</td><td rowspan=1 colspan=1>0.661</td><td rowspan=1 colspan=1>0.275</td></tr></table>
+
+综上分析，迁扩建前项目非甲烷总烃排放浓度可达到《合成树脂工业污染物排放标准》（GB31572-2015）表4 大气污染物排放限值及表9 企业边界大气污染物浓度限值。
+
+## ②塑料粉尘
+
+迁扩建前项目在投料过程和混料设备进出口会产生少量粉尘，主要污染因子为颗粒物，根据《排放源统计调查产排污核算方法和系数手册》中“292 塑料制品行业系数手册”可知，投料、混料工序颗粒物产污系数为6kg/t-产品，迁扩建前项目年产塑料制品350吨。则迁扩建前项目投料、混料粉尘产生量约2.1t/a，按年生产2400h（每天8小时，年工作300 天）计算，投料、混料粉尘产生速率为0.875kg/h。
+
+迁扩建前项目注塑过程产生的次品经破碎机破碎后重新投入生产，项目破碎塑料占塑料原料总量的 1%，破碎过程中会产生一定量的粉尘，主要污染因子为颗粒物，根据《排放源统计调查产排污核算方法和系数手册》中“292 塑料制品行业系数手册”可知，颗粒物产污系数为 6kg/t-产品，迁扩建前项目次品年破碎量为 3.53t/a，破碎粉尘产生量为0.021t/a，按年生产 2400h（每天 8 小时，年工作 300 天）计算，破碎粉尘产生速率为0.009kg/h。
+
+加强车间通风换气，投料、混料、破碎粉尘以无组织形式排放。预计颗粒物排放浓度可达到《合成树脂工业污染物排放标准》（GB31572-2015）表 9企业边界大气污染物浓度限值。
+
+## ③金属粉尘
+
+迁扩建前项目对钢材进行机加工、电火花作业会产生少量金属粉尘，主要污染因子为颗粒物，根据《排放源统计调查产排污核算方法和系数手册》中机械行业系数手册中干式预处理工序可知，颗粒物产污系数为 2.19kg/t-原料，迁扩建前项目钢材用量为10t/a。则工件粉尘产生量约0.022t/a，由于金属颗粒物比重较大，易于沉降，约90%可在操作区域附近沉降，沉降部分作为一般工业废物回收处理，只有少部分扩散到大气中形成粉尘，扩散量约为0.002t/a，以无组织形式排放，按年生产2400h（每天8小时，年工作300天）计算，机加工、电火花粉尘产生速率约 0.0008kg/h。加强车间通风换气，机加工、电火花过程产生的金属粉尘以无组织形式排放。
+
+## ④焊锡废气
+
+项目焊锡工序需要使用无铅锡丝，在焊锡过程中会产生少量烟尘，污染因子为颗粒物、锡及其化合物，参考《排放源统计调查产排污核算方法和系数手册》中“38 电气机械和器材制造业行业系数手册”可知，焊接工段--无铅焊料（锡条、锡块等，含助焊剂）颗粒物的产污系数为 $4 . 0 2 3 \times 1 0 ^ { - 1 } \mathrm { g / k g } .$ -焊料。
+
+项目焊锡过程无铅锡丝年用量为 0.01 吨，则焊锡工序颗粒物产生量为 0.000004t/a，按年作业时间为 2400h（每天 8 小时，年工作 300 天），则焊锡工序颗粒物产生速率为0.000002kg/h。参考《焊锡工程师手册》（机械工业版社，2002 年），锡及其化合物排污系数取 5kg/t，则锡及其化合物产生量为 0.00005t/a，焊锡工序锡及其化合物产生速率为0.00002kg/h。加强车间通风换气，焊锡废气以无组织形式排放。
+
+## （3）噪声
+
+迁扩建前项目选用低噪声设备，并采取减振、隔声、消声、降噪措施，生产设备噪声排放符合《工业企业厂界环境噪声排放标准》（GB12348-2008）3类标准。
+
+## （4）固体废物
+
+建设单位实际生产过程中固体废物产生量如下表2-11所示。
+
+表 2-11 迁扩建前项目固体废物污染源源强核算结果及相关参数一览表
+<table><tr><td colspan="1" rowspan="1">工序</td><td colspan="1" rowspan="1">产生源</td><td colspan="1" rowspan="1">固体废物名称</td><td colspan="1" rowspan="1">固废属性</td><td colspan="1" rowspan="1">废物类别</td><td colspan="1" rowspan="1">废物代码</td><td colspan="1" rowspan="1">产生量（t/a)</td><td colspan="1" rowspan="1">最终去向</td></tr><tr><td colspan="1" rowspan="1">生活办公</td><td colspan="1" rowspan="1">工作人员</td><td colspan="1" rowspan="1">生活垃圾</td><td colspan="1" rowspan="1">生活垃圾</td><td colspan="1" rowspan="1">1</td><td colspan="1" rowspan="1">/</td><td colspan="1" rowspan="1">9</td><td colspan="1" rowspan="1">交环卫部门处置</td></tr><tr><td colspan="1" rowspan="1">机加工、电机火花</td><td colspan="1" rowspan="1">加工、电火花</td><td colspan="1" rowspan="1">沉降金属粉尘</td><td colspan="1" rowspan="1">第I类一般工业固体废物</td><td colspan="1" rowspan="1">一</td><td colspan="1" rowspan="1">/</td><td colspan="1" rowspan="1">0.0198</td><td colspan="1" rowspan="2">交废品回收单位处理</td></tr><tr><td colspan="1" rowspan="1">原材料包装</td><td colspan="1" rowspan="1">原材料包装</td><td colspan="1" rowspan="1">废包装材料</td><td colspan="1" rowspan="1">第I类一般工业固体废物</td><td colspan="1" rowspan="1">/</td><td colspan="1" rowspan="1">/</td><td colspan="1" rowspan="1">0.7062</td></tr><tr><td colspan="1" rowspan="5">设备维保</td><td colspan="1" rowspan="5">设备维保</td><td colspan="1" rowspan="1">废液压油</td><td colspan="1" rowspan="1">危险废物</td><td colspan="1" rowspan="1">HW08类</td><td colspan="1" rowspan="1">900-218-08</td><td colspan="1" rowspan="1">0.2</td><td colspan="1" rowspan="5">交由有资质危废单位处理</td></tr><tr><td colspan="1" rowspan="1">含油废抹布</td><td colspan="1" rowspan="1">危险废物</td><td colspan="1" rowspan="1">HW49类</td><td colspan="1" rowspan="1">900-041-49</td><td colspan="1" rowspan="1">0.01</td></tr><tr><td colspan="1" rowspan="1">废油桶</td><td colspan="1" rowspan="1">危险废物</td><td colspan="1" rowspan="1">HW08类</td><td colspan="1" rowspan="1">900-249-08</td><td colspan="1" rowspan="1">0.009</td></tr><tr><td colspan="1" rowspan="1">废火花油</td><td colspan="1" rowspan="1">危险废物</td><td colspan="1" rowspan="1">HW09类</td><td colspan="1" rowspan="1">900-006-09</td><td colspan="1" rowspan="1">0.05</td></tr><tr><td colspan="1" rowspan="1">废乳化液</td><td colspan="1" rowspan="1">危险废物</td><td colspan="1" rowspan="1">HW09类</td><td colspan="1" rowspan="1">900-006-09</td><td colspan="1" rowspan="1">0.02</td></tr><tr><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1">废机油</td><td colspan="1" rowspan="1">危险废物</td><td colspan="1" rowspan="1">HW08类</td><td colspan="1" rowspan="1">900-214-08</td><td colspan="1" rowspan="1">0.05</td><td colspan="1" rowspan="2"></td></tr><tr><td colspan="1" rowspan="1">废气治理设施</td><td colspan="1" rowspan="1">废气治理设施</td><td colspan="1" rowspan="1">废饱和活性炭</td><td colspan="1" rowspan="1">危险废物</td><td colspan="1" rowspan="1">HW49类</td><td colspan="1" rowspan="1">900-039-49</td><td colspan="1" rowspan="1">1.4502</td></tr></table>
+
+迁扩建前项目建设情况与原环评批复相符性分析见下表 2-12。
+
+表 2-12 迁扩建前项目建设情况与环评批复内容对照表
+<table><tr><td></td><td colspan="1" rowspan="1">项目名称</td><td colspan="2" rowspan="1">污染物</td><td colspan="1" rowspan="1">环评批复情况</td><td colspan="1" rowspan="1">实际执行情况</td><td colspan="1" rowspan="1">相符性</td></tr><tr><td colspan="2" rowspan="8">佛山市卓展电器科技有限公司迁扩建项目</td><td colspan="1" rowspan="2">废水</td><td colspan="1" rowspan="1">生活污水</td><td colspan="1" rowspan="1">生活污水经三级化粪池处理后，达到广东省《水污染物排放限值》（DB44/26-2001）中第二时段三级标准后通过市政污水管网排入容桂第-污水处理厂，尾水排入鸡鸦水道</td><td colspan="1" rowspan="1">生活污水经三级化粪池处理后，达到广东省《水污染物排放限值》（DB44/26-2001）中第二时段三级标准后通过市政污水管网排入容桂第一污水处理厂，尾水排入鸡鸦水道</td><td colspan="1" rowspan="1">符合</td></tr><tr><td colspan="1" rowspan="1">冷却废水</td><td colspan="1" rowspan="1">冷却水循环使用，定期通过雨水管道排放</td><td colspan="1" rowspan="1">冷却水循环使用，定期通过雨水管道排放</td><td colspan="1" rowspan="1">符合</td></tr><tr><td colspan="1" rowspan="4">废气</td><td colspan="1" rowspan="1">有机废气</td><td colspan="1" rowspan="1">注塑废气经集气罩收集，通过“二级活性炭吸附”装置后引至48m排气筒高空G1排放；非甲烷总烃执行《合成树脂工业污染物排放标准》（GB31572-2015）表4大气污染物排放限值及表9企业边界大气污染物浓度限值</td><td colspan="1" rowspan="1">注塑废气经集气罩收集，通过“二级活性炭吸附”装置后引至48m排气筒高空G1排放；非甲烷总烃执行《合成树脂工业污染物排放标准》（GB31572-2015）表4大气污染物排放限值及表9企业边界大气污染物浓度限值</td><td colspan="1" rowspan="1">符合</td></tr><tr><td colspan="1" rowspan="1">塑料粉尘</td><td colspan="1" rowspan="1">执行《合成树脂工业污染物排放标准》（GB31572-2015）表9企业边界大气污染物浓度限值</td><td colspan="1" rowspan="1">加强车间通风换气，颗粒物以无组织形式排放；执行《合成树脂工业污染物排放标准》（GB31572-2015）表9企业边界大气污染物浓度限值</td><td colspan="1" rowspan="1">符合</td></tr><tr><td colspan="1" rowspan="1">金属粉尘</td><td colspan="1" rowspan="1">执行《大气污染物排放限值》（DB44/27-2001）第二时段无组织排放监控点浓度限值</td><td colspan="1" rowspan="1">加强车间通风换气，颗粒物以无组织形式排放；执行《大气污染物排放限值》（DB44/27-2001）第二时段无组织排放监控点浓度限值</td><td colspan="1" rowspan="1">符合</td></tr><tr><td colspan="1" rowspan="1">焊锡废气</td><td colspan="1" rowspan="1">执行《大气污染物排放限值》（DB44/27-2001）第二时段无组织排放监控点浓度限值</td><td colspan="1" rowspan="1">加强车间通风换气，颗粒物、锡及其化合物以无组织形式排放；执行《大气污染物排放限值》（DB44/27-2001）第二时段无组织排放监控点浓度限值</td><td colspan="1" rowspan="1">符合</td></tr><tr><td colspan="1" rowspan="1">噪声</td><td colspan="1" rowspan="1">工业企业厂界噪声</td><td colspan="1" rowspan="1">通过隔声、减震，厂界噪声执行《工业企业厂界环境噪声排放标准》（GB12348-2008）3类标准</td><td colspan="1" rowspan="1">通过隔声、减震，厂界噪声执行《工业企业厂界环境噪声排放标准》（GB12348-2008）3类标准</td><td colspan="1" rowspan="1">符合</td></tr><tr><td colspan="1" rowspan="1">固废</td><td colspan="1" rowspan="1">危险废物、一般</td><td colspan="1" rowspan="1">执行《危险废物贮存污染控制标准》（GB18597-2001）、《一般工业固体废物贮存、</td><td colspan="1" rowspan="1">执行《危险废物贮存污染控制标准》（GB18597-2001）、《一般工业固体废物贮存、处置场</td><td colspan="1" rowspan="1">符合</td></tr><tr><td></td><td>及附近道路车辆行驶噪声和扬尘等。原项目按照环保要求对相应生产工序做好防护措施，</td><td>迁扩建前项目污染情况及主要环境问题：</td><td>工业 处置场污染控制标准》 固废 （GB18599-2001）以及《关 于发布（一般工业固体废物 贮存、处置场污染控制标准） （GB18599-2001）等3项国 家污染物控制标准修改单的 公告》环境保护部公告 2013 年第36号的要求）</td><td>污染控制标准》 （GB18599-2001）以及《关于 发布（一般工业固体废物贮存、 处置场污染控制标准） （GB18599-2001）等3项国家 污染物控制标准修改单的公 告》（环境保护部公告 2013 年第36号的要求）</td><td colspan="2"></td></tr><tr><td colspan="7">项目所在地存在主要污染物为附近企业生产运营过程中产生的废气、噪声、固废以 项目运营至今未有收到周边的居民等公众和单位的环保投诉，也没有受到环保主管部门 行政投诉的记录，未对周围环境造成明显影响。</td></tr></table>
+
+## 三、区域环境质量现状、环境保护目标及评价标准
+
+## 1、大气环境质量现状
+
+根据《佛山市人民政府办公室关于调整顺德区环境空气质量功能区划的功能》（佛府办函[2014]494 号），本项目所在区域（顺德区）属二类环境空气质量功能区，执行《环境空气质量标准》（GB3095-2012）二级标准及其2018年修改单的要求。
+
+## （1）空气质量达标区判定
+
+根据《佛山市生态环境局顺德分局关于发布2022年度佛山市顺德区环境质量状况公报的通知》附件《2022 年佛山市顺德区生态环境状况公报》中的大气环境数据，按照《环境空气质量标准》评价，2022年顺德区二氧化硫 $( \mathsf { S O } _ { 2 } )$ 、二氧化氮 $( \mathrm { N O } _ { 2 } )$ ）、可吸入颗粒物 $\left( \mathrm { P M } _ { 1 0 } \right)$ 、细颗粒物 $\left( \mathbf { P M } _ { 2 . 5 } \right)$ 、一氧化碳（CO）五项污染物年评价浓度均达到二级标准，臭氧 $( \mathbf { O } _ { 3 } )$ 超标，具体数据见下表3-1。
+
+表 3-1 区域空气质量现状评价表（2022 年）
+<table><tr><td rowspan=1 colspan=1>所在区域</td><td rowspan=1 colspan=1>污染物</td><td rowspan=1 colspan=1>年评价指标</td><td rowspan=1 colspan=1>现状浓度 $( \mathbf { u g } / \mathbf { m } ^ { 3 } )$ </td><td rowspan=1 colspan=1>标准值 $( \mathbf { u g } / \mathbf { m } ^ { 3 } )$ </td><td rowspan=1 colspan=1>占标率/%</td><td rowspan=1 colspan=1>达标情况</td></tr><tr><td rowspan=6 colspan=1>顺德区</td><td rowspan=1 colspan=1> $\mathrm { S O } _ { 2 }$ </td><td rowspan=1 colspan=1>年平均质量浓度</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>60</td><td rowspan=1 colspan=1>8.33</td><td rowspan=1 colspan=1>达标</td></tr><tr><td rowspan=1 colspan=1> $\mathrm { N O } _ { 2 }$ </td><td rowspan=1 colspan=1>年平均质量浓度</td><td rowspan=1 colspan=1>29</td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>72.5</td><td rowspan=1 colspan=1>达标</td></tr><tr><td rowspan=1 colspan=1> $\mathrm { P M } _ { 1 0 }$ </td><td rowspan=1 colspan=1>年平均质量浓度</td><td rowspan=1 colspan=1>32</td><td rowspan=1 colspan=1>70</td><td rowspan=1 colspan=1>45.71</td><td rowspan=1 colspan=1>达标</td></tr><tr><td rowspan=1 colspan=1> $\mathrm { P M } _ { 2 . 5 }$ </td><td rowspan=1 colspan=1>年平均质量浓度</td><td rowspan=1 colspan=1>19</td><td rowspan=1 colspan=1>35</td><td rowspan=1 colspan=1>54.28</td><td rowspan=1 colspan=1>达标</td></tr><tr><td rowspan=1 colspan=1> $\mathrm { C O }$ </td><td rowspan=1 colspan=1>第95百分位数日平均质量浓度</td><td rowspan=1 colspan=1>1100</td><td rowspan=1 colspan=1>4000</td><td rowspan=1 colspan=1>27.5</td><td rowspan=1 colspan=1>达标</td></tr><tr><td rowspan=1 colspan=1> $\mathrm { O } _ { 3 }$ </td><td rowspan=1 colspan=1>第90百分位数最大8小时平均值</td><td rowspan=1 colspan=1>190</td><td rowspan=1 colspan=1>160</td><td rowspan=1 colspan=1>118.75</td><td rowspan=1 colspan=1>不达标</td></tr></table>
+
+![](images/a56722b46e11fb9041701e93c98f0b8388221fbc40d6cc09c1187bfbeddaf4ad.jpg)  
+图 3-1 2022 年顺德区（国控测点）环境空气污染物浓度水平年度比较图
+
+根据上表可知，2022 年顺德区环境空气中除 $\mathrm { O } _ { 3 }$ 年评价指标出现超标外，其余污染物年评价指标均符合《环境空气质量标准》（GB3095-2012）及2018年修改单的二级标准。因此，判定项目所在区域2022年环境空气质量为不达标区。佛山市生态环境局关于印发《佛山市生态环境保护“十四五”规划》的通知（佛环〔2022〕3号）提出：①建立空气质量目标导向的精准防控体系，深化大气污染联防联控，强化大气防治基础支撑；②持续推动结构优化调整，提高清洁能源供给能力，严格控制煤炭消费总量，坚决遏制“两高”项目盲目发展，推进“一镇一业”集聚发展，大力发展多式联运，推进绿色货运配送，建设绿色物流片区，加快新能源汽车推广应用；③深化VOCs 和NOx 协同减排，持续开展清洁成品油专项行动，大力发展绿色智慧交通，以柴油货车为重点强化机动车尾气治理，强化非道路移动机械污染控制，加强船舶排放控制，加强 VOCs 源头替代和无组织排放管控，实施 VOCs 分级和清单化管控，深化工业炉窑和锅炉污染治理，健全扬尘精细化管控体系，强化餐饮、农业等面源污染防控。从而实现环境空气质量全面达标。
+
+## 2、水环境质量现状
+
+本项目项目外排废水主要为员工生活污水。生活污水经三级化粪池处理后排入容桂第二污水处理厂，尾水排入鸡鸦水道。
+
+为了解项目所在区域地表水环境质量现状，本报告引用《佛山市生态环境局顺德分局关于发布2022年度佛山市顺德区环境质量状况公报的通知》附件《2022年佛山市顺德区生态环境状况公报》中“表22022年顺德区主河道质量评价及年度对比”的评价结果，见下表：
+
+表3-4 2022年顺德区主河道质量评价及年度对比
+<table><tr><td colspan="1" rowspan="2">序号</td><td colspan="1" rowspan="2">河流名称</td><td colspan="1" rowspan="2">断面</td><td colspan="2" rowspan="1">断面定类</td><td colspan="1" rowspan="2">水质评价</td><td colspan="4" rowspan="1">河流定类</td></tr><tr><td colspan="1" rowspan="1">2022年</td><td colspan="1" rowspan="1">2021年</td><td colspan="1" rowspan="1">2022年2</td><td colspan="3" rowspan="1">021年</td></tr><tr><td colspan="1" rowspan="1">1</td><td colspan="1" rowspan="1">吉利涌</td><td colspan="1" rowspan="1">平步</td><td colspan="1" rowspan="1">ⅡI</td><td colspan="1" rowspan="1">II</td><td colspan="1" rowspan="1">ⅢI</td><td colspan="1" rowspan="1">II</td><td colspan="3" rowspan="1">II</td></tr><tr><td colspan="1" rowspan="1">2</td><td colspan="1" rowspan="1">潭洲水道上游</td><td colspan="1" rowspan="1">潭村</td><td colspan="1" rowspan="1">ⅡI</td><td colspan="1" rowspan="1">II</td><td colspan="1" rowspan="1">II</td><td colspan="1" rowspan="1">II</td><td colspan="3" rowspan="1">II</td></tr><tr><td colspan="1" rowspan="1">3</td><td colspan="1" rowspan="1">潭洲水道下游</td><td colspan="1" rowspan="1">西海</td><td colspan="1" rowspan="1">II</td><td colspan="1" rowspan="1">II</td><td colspan="1" rowspan="1">IⅢI</td><td colspan="1" rowspan="1">II</td><td colspan="3" rowspan="1">II</td></tr><tr><td colspan="1" rowspan="1">4</td><td colspan="1" rowspan="1">陈村水道</td><td colspan="1" rowspan="1">江口</td><td colspan="1" rowspan="1">IⅢI</td><td colspan="1" rowspan="1">ⅢI</td><td colspan="1" rowspan="1">IⅢI</td><td colspan="1" rowspan="1">IⅢI</td><td colspan="3" rowspan="1">IⅢI</td></tr><tr><td colspan="1" rowspan="1">5</td><td colspan="1" rowspan="1">陈村涌</td><td colspan="1" rowspan="1">四方磨</td><td colspan="1" rowspan="1">IⅢI</td><td colspan="1" rowspan="1">IⅢI</td><td colspan="1" rowspan="1">IⅢI</td><td colspan="1" rowspan="1">IⅢI</td><td colspan="3" rowspan="1">ⅢI</td></tr><tr><td colspan="1" rowspan="1">6</td><td colspan="1" rowspan="4">顺德水道</td><td colspan="1" rowspan="1">杨滘</td><td colspan="1" rowspan="1">ⅡI</td><td colspan="1" rowspan="1">II</td><td colspan="1" rowspan="1">II</td><td colspan="1" rowspan="4">Ⅱ</td><td colspan="3" rowspan="4">Ⅱ</td></tr><tr><td colspan="1" rowspan="1">7</td><td colspan="1" rowspan="1">大闸</td><td colspan="1" rowspan="1">II</td><td colspan="1" rowspan="1">II</td><td colspan="3" rowspan="1">II</td></tr><tr><td colspan="1" rowspan="1">8</td><td colspan="1" rowspan="1">羊额</td><td colspan="1" rowspan="1">ⅡI</td><td colspan="1" rowspan="1">II</td><td colspan="3" rowspan="1">II</td></tr><tr><td colspan="1" rowspan="1">9</td><td colspan="1" rowspan="1">乌洲</td><td colspan="1" rowspan="1">ⅡI</td><td colspan="1" rowspan="1">II</td><td colspan="3" rowspan="1">II</td></tr><tr><td colspan="1" rowspan="1">10</td><td colspan="1" rowspan="1">李家沙水道</td><td colspan="1" rowspan="1">五沙</td><td colspan="1" rowspan="1">II</td><td colspan="1" rowspan="1">IⅢI</td><td colspan="1" rowspan="1">IⅢI</td><td colspan="1" rowspan="1">II</td><td colspan="3" rowspan="1">IⅢI</td></tr><tr><td colspan="1" rowspan="1">11</td><td colspan="1" rowspan="1">西江干流</td><td colspan="1" rowspan="1">甘竹滩</td><td colspan="1" rowspan="1">ⅡI</td><td colspan="1" rowspan="1">II</td><td colspan="1" rowspan="1">ⅢI</td><td colspan="1" rowspan="1">II</td><td colspan="3" rowspan="1">I</td></tr><tr><td colspan="1" rowspan="1">12</td><td colspan="1" rowspan="2">顺德支流</td><td colspan="1" rowspan="1">新涌</td><td colspan="1" rowspan="1">IⅢI</td><td colspan="1" rowspan="1">Ⅲ</td><td colspan="1" rowspan="1">IⅢI</td><td colspan="1" rowspan="2">Ⅲ</td><td colspan="3" rowspan="2">IⅢI</td></tr><tr><td colspan="1" rowspan="1">13</td><td colspan="1" rowspan="1">飞鹅山</td><td colspan="1" rowspan="1">ⅢI</td><td colspan="1" rowspan="1">Ⅲ</td><td colspan="3" rowspan="1">Ⅲ</td></tr><tr><td colspan="1" rowspan="1">14</td><td colspan="1" rowspan="2">容桂水道</td><td colspan="1" rowspan="1">穗香围</td><td colspan="1" rowspan="1">II</td><td colspan="1" rowspan="1">II</td><td colspan="2" rowspan="1">ⅢI</td><td colspan="1" rowspan="2">Ⅱ</td><td colspan="1" rowspan="2">ⅡI</td></tr><tr><td colspan="1" rowspan="1">15</td><td colspan="1" rowspan="1">顺德港</td><td colspan="1" rowspan="1">II</td><td colspan="1" rowspan="1">II</td><td colspan="2" rowspan="1">Ⅲ</td></tr><tr><td colspan="1" rowspan="1">16</td><td colspan="1" rowspan="3">东海水道</td><td colspan="1" rowspan="1">天连</td><td colspan="1" rowspan="1">II</td><td colspan="1" rowspan="1">II</td><td colspan="2" rowspan="1">Ⅲ</td><td colspan="1" rowspan="3">ⅡI</td><td colspan="1" rowspan="3">Ⅱ</td></tr><tr><td colspan="1" rowspan="1">17</td><td colspan="1" rowspan="1">海凌</td><td colspan="1" rowspan="1">II</td><td colspan="1" rowspan="1">II</td><td colspan="2" rowspan="1">II</td></tr><tr><td colspan="1" rowspan="1">18</td><td colspan="1" rowspan="1">星槎</td><td colspan="1" rowspan="1">II</td><td colspan="1" rowspan="1">II</td><td colspan="2" rowspan="1">ⅢI</td></tr><tr><td colspan="1" rowspan="1">19</td><td colspan="1" rowspan="1">鸡鸦水道</td><td colspan="1" rowspan="1">细滘大桥</td><td colspan="1" rowspan="1">ⅡI</td><td colspan="1" rowspan="1">II</td><td colspan="2" rowspan="1">II</td><td colspan="1" rowspan="1">ⅡI</td><td colspan="1" rowspan="1">II</td></tr><tr><td colspan="1" rowspan="1">20</td><td colspan="1" rowspan="1">桂州水道</td><td colspan="1" rowspan="1">南头大桥</td><td colspan="1" rowspan="1">II</td><td colspan="1" rowspan="1">II</td><td colspan="2" rowspan="1">ⅢI</td><td colspan="1" rowspan="1">II</td><td colspan="1" rowspan="1">II</td></tr><tr><td colspan="1" rowspan="1">21</td><td colspan="1" rowspan="1">洪奇沥</td><td colspan="1" rowspan="1">高黎</td><td colspan="1" rowspan="1">II</td><td colspan="1" rowspan="1">IⅢI</td><td colspan="2" rowspan="1">ⅢI</td><td colspan="1" rowspan="1">II</td><td colspan="1" rowspan="1">IⅢI</td></tr><tr><td colspan="1" rowspan="1">22</td><td colspan="1" rowspan="1">古镇水道</td><td colspan="1" rowspan="1">鹅洋沙</td><td colspan="1" rowspan="1">II</td><td colspan="1" rowspan="1">II</td><td colspan="2" rowspan="1">Ⅲ</td><td colspan="1" rowspan="1">II</td><td colspan="1" rowspan="1">II</td></tr><tr><td colspan="1" rowspan="1">23</td><td colspan="1" rowspan="1">凫洲河</td><td colspan="1" rowspan="1">均安大桥</td><td colspan="1" rowspan="1">Ⅲ</td><td colspan="1" rowspan="1">II</td><td colspan="2" rowspan="1">IV</td><td colspan="1" rowspan="1">Ⅲ</td><td colspan="1" rowspan="1">Ⅱ</td></tr><tr><td colspan="1" rowspan="4">统计</td><td colspan="2" rowspan="1">Ⅱ类（个）</td><td colspan="1" rowspan="1">18</td><td colspan="1" rowspan="1">17</td><td colspan="2" rowspan="1"></td><td colspan="1" rowspan="1">12</td><td colspan="1" rowspan="1">11</td></tr><tr><td colspan="2" rowspan="1">Ⅱ类占比</td><td colspan="1" rowspan="1">78%</td><td colspan="1" rowspan="1">74%</td><td colspan="2" rowspan="1"></td><td colspan="1" rowspan="1">75%</td><td colspan="1" rowspan="1">69%</td></tr><tr><td colspan="2" rowspan="1">Ⅲ类（个）</td><td colspan="1" rowspan="1">5</td><td colspan="1" rowspan="1">6</td><td colspan="2" rowspan="2">一</td><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1">4</td><td colspan="1" rowspan="1">5</td></tr><tr><td colspan="2" rowspan="1">Ⅲ类占比</td><td colspan="1" rowspan="1">22%</td><td colspan="1" rowspan="1">26%</td><td colspan="1" rowspan="1">25%</td><td colspan="1" rowspan="1">31%</td></tr></table>
+
+根据表3-4 评价结果，2022年鸡鸦水道水质指标均满足《地表水环境质量标准》（GB3838-2002）的 II 类水质标准，水质良好。
+
+## 3、声环境质量现状
+
+根据《佛山市人民政府关于印发佛山市声环境功能区划分方案的通知》（佛府函[2015]72号），环境噪声功能区划，项目为3类声环境功能区，（声环境执行《声环境质量标准》（GB3096-2008）3类标准，即昼间≤65dB（A），夜间≤55dB（A）。
+
+项目厂界外50m内无环境敏感目标，无需开展声环境质量现状调查。
+
+## 4、生态环境
+
+项目用地范围内无生态环境保护目标，无需开展生态现状调查。
+
+## 5、电磁辐射
+
+项目属于塑料制品业、金属制品业、电气机械和器材制造业，不属于电磁辐射类项目，无需开展电磁辐射现状监测与评价。
+
+## 6、地下水、土壤环境
+
+本项目厂房和周边环境地面已做好水泥面硬化防渗措施，项目做好生产车间防渗防漏，危废暂存间防渗、防风、防雨等措施，并设置局部围堰，可认为项目没有土壤及地下水污染途径，可不开展环境质量现状调查。
+
+## 1、大气环境保护目标
+
+本项目厂界外500米范围内无大气环境保护目标。
+
+## 2、声环境保护目标
+
+项目厂界外50米内无声环境保护目标。本项目所在地属3类声环境功能区，营运期应注意控制噪声的排放，确保项目边界噪声符合《声环境质量标准》（GB3096-2008）3 类标准。
+
+## 3、地表水环境保护目标
+
+本项目最终纳污水体为鸡鸦水道，厂界附近无饮用水水源保护区、饮用水取水口，涉水的自然保护区、风景名胜区，重要湿地、重点保护与珍稀水生生物的栖息地、重要水生生物的自然产卵场及索饵场、越冬场和洄游通道，天然渔场等渔业水体及水产种质资源保护区等地表水环境保护目标。
+
+## 4、地下水环境保护目标
+
+本项目厂界外 500 米范围内无地下水集中式饮用水水源和热水、矿泉水、温泉等特殊地下水资源保护目标。
+
+## 5、生态环境保护目标
+
+本项目使用现有厂房进行建设，不属于产业园外新增用地，无原始植被生长和珍贵野生动物活动，用地范围内无生态环境保护目标。
+
+## 1、水污染物排放标准：
+
+生 活 污 水 经 三 级 化 粪 池 处 理 后，达到广东省《水污染物排放限值》（DB44/26-2001）中第二时段三级标准后通过市政污水管网排入容桂第二污水处理厂，尾水排入鸡鸦水道。
+
+容桂第二污水处理厂尾水排放执行《城镇污水处理厂污染物排放标准》（GB18918-2002）中的一级 A 标准及《水污染物排放限值》（DB44/26-2001）第二时段一级标准的较严者。
+
+表 3-5 水污染物排放限值（单位：mg/L，pH 除外）
+<table><tr><td rowspan=1 colspan=1>标准</td><td rowspan=1 colspan=1>pH</td><td rowspan=1 colspan=1>CODcr</td><td rowspan=1 colspan=1>BOD5</td><td rowspan=1 colspan=1>氨氮</td><td rowspan=1 colspan=1>SS</td><td rowspan=1 colspan=1>总磷</td></tr><tr><td rowspan=1 colspan=1>广东省《水污染物排放限值》（DB44/26-2001）第二时段三级标准</td><td rowspan=1 colspan=1>6~9</td><td rowspan=1 colspan=1>≤500</td><td rowspan=1 colspan=1>≤300</td><td rowspan=1 colspan=1>-</td><td rowspan=1 colspan=1>≤400</td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1>《城镇污水处理厂污染物排放标准》（GB18918-2002）已建污水厂一级A标准及《水污染物排放限值》（DB44/26-2001）第二时段一级标准的较严值</td><td rowspan=1 colspan=1>6~9</td><td rowspan=1 colspan=1>≤40</td><td rowspan=1 colspan=1>≤10</td><td rowspan=1 colspan=1>≤5</td><td rowspan=1 colspan=1>≤10</td><td rowspan=1 colspan=1>0.5</td></tr></table>
+
+## 2、大气污染物排放标准：
+
+## （1）注塑废气
+
+注塑工序产生的非甲烷总烃执行《合成树脂工业污染物排放标准》（GB31572-2015）中表4规定的大气污染物排放限值和表9企业边界大气污染物浓度限值。
+
+厂区内有机废气无组织排放执行广东省地方标准《固定污染源挥发性有机物综合排放标准》（DB44/2367-2022）中表 3 厂区内 VOCs 无组织排放限值。
+
+注塑过程有异味产生，以臭气浓度为表征，执行《恶臭污染物排放标准》（GB14554-1993）表1恶臭污染物厂界标准值二级新改扩建项目标准限值及表 2恶臭污染物排放标准值。
+
+## （2）塑料粉尘
+
+塑料投料、混料、破碎过程会产生少量粉尘以无组织形式排放，污染因子为颗粒物，执行《合成树脂工业污染物排放标准》（GB31572-2015）表9企业边界大气污染物浓度限值。
+
+## （3）金属粉尘
+
+机加工工序产生的颗粒物执行《大气污染物排放限值》（DB44/27-2001）第二时段无组织排放监控点浓度限值。
+
+颗粒物执行《合成树脂工业污染物排放标准》（GB31572-2015）表9企业边界大气污染物浓度限值及《大气污染物排放限值》（DB44/27-2001）第二时段无组织排放监控点浓度限值的较严值。
+
+项目污染物排放标准具体见表 3-6。
+
+表 3-6 大气污染物排放执行标准
+<table><tr><td rowspan=2 colspan=1>排气筒编号</td><td rowspan=2 colspan=1>废气来源</td><td rowspan=2 colspan=1>污染物</td><td rowspan=1 colspan=2>有组织</td><td rowspan=2 colspan=1>排放筒高度（m）</td><td rowspan=2 colspan=1>无组织排放监控浓度限值（mg/m3）</td><td rowspan=2 colspan=1>执行标准</td></tr><tr><td rowspan=1 colspan=1>最高允许排放浓度(mg/m3)</td><td rowspan=1 colspan=1>最高允许排放速率（kg/h）</td></tr><tr><td rowspan=6 colspan=1>G1</td><td rowspan=6 colspan=1>注塑工序</td><td rowspan=1 colspan=1>非甲烷总烃</td><td rowspan=1 colspan=1>100</td><td rowspan=6 colspan=1>1</td><td rowspan=6 colspan=1>25</td><td rowspan=1 colspan=1>4.0</td><td rowspan=5 colspan=1>《合成树脂工业污染物排放标准》（GB31572-2015）表4大气污染物排放限值及表9企业边界大气污染物浓度限值</td></tr><tr><td rowspan=1 colspan=1>苯乙烯</td><td rowspan=1 colspan=1>50</td><td rowspan=1 colspan=1>-</td></tr><tr><td rowspan=1 colspan=1>丙烯腈</td><td rowspan=1 colspan=1>0.5</td><td rowspan=1 colspan=1>二</td></tr><tr><td rowspan=1 colspan=1>甲苯</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>0.8</td></tr><tr><td rowspan=1 colspan=1>乙苯</td><td rowspan=1 colspan=1>100</td><td rowspan=1 colspan=1>-</td></tr><tr><td rowspan=1 colspan=1>臭气浓度</td><td rowspan=1 colspan=1>6000（无量纲）</td><td rowspan=1 colspan=1>20（无量纲）</td><td rowspan=1 colspan=1>《恶臭污染物排放标准》（GB14554-1993）二级（新扩改建）</td></tr></table>
+
+<table><tr><td rowspan=1 colspan=1>、</td><td rowspan=1 colspan=2>投料、混料、破碎、机加工工序</td><td rowspan=1 colspan=1>颗粒物</td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=1>1-</td><td rowspan=1 colspan=1>-</td><td rowspan=1 colspan=2>1.0</td><td rowspan=1 colspan=1>《合成树脂工业污染物排放标准》（GB31572-2015）表9企业边界大气污染物浓度限值及《大气污染物排放限值》（DB44/27-2001）第二时段无组织排放监控点浓度限值的较严值</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=12>表3-7厂区内VOCs无组织排放限值（浓度单位：mg/m3）</td></tr><tr><td rowspan=1 colspan=2>污染物项目</td><td rowspan=1 colspan=3>排放限值</td><td rowspan=1 colspan=4>限值含义</td><td rowspan=1 colspan=2>无组织排放监控位置</td><td></td></tr><tr><td rowspan=2 colspan=2>NMHC</td><td rowspan=1 colspan=3>6</td><td rowspan=1 colspan=4>监控点处1h平均浓度值</td><td rowspan=2 colspan=2>在厂房外设置监控点</td><td></td></tr><tr><td rowspan=1 colspan=3>20</td><td rowspan=1 colspan=4>监控点处任意一次浓度值</td><td></td></tr></table>
+
+## 1、废水
+
+迁扩建前项目生活污水排放量为 $5 4 0 \mathrm { m } ^ { 3 } / \mathrm { a }$ ，生活污水经三级化粪池处理后经市政管网排入容桂第一污水处理厂处理。 $\mathrm { C O D } _ { \mathrm { C r } }$ 排放量为 0.022t/a， $\mathrm { N H } _ { 3 - \mathrm { N } }$ 排放量为0.003t/a。
+
+迁扩建后项目生活污水排放量为 $5 4 0 \mathrm { m } ^ { 3 } / \mathrm { a }$ ，生活污水经三级化粪池处理后经市政管网排入容桂第二污水处理厂处理。 $\mathrm { C O D } _ { \mathrm { C r } }$ 排放量为 0.022t/a， $\mathrm { N H } _ { 3 - \mathrm { N } }$ 排放量为0.003t/a。根据《佛山市排污权有偿使用和交易管理试行办法》（佛府办 2020 年第19号），生活污水 $\mathrm { C O D } _ { \mathrm { C r } }$ 、NH3-N 不分配总量指标。
+
+## 2、废气
+
+迁扩建前项目无二氧化硫、氮氧化物排放。VOCs 排放总量指标为0.189t/a。
+
+迁扩建后项目无二氧化硫、氮氧化物排放。迁扩建后项目挥发性有机物排放量为 0.607t/a，其中有组织排放量为 0.324t/a，无组织排放量为 0.283t/a。
+
+迁扩建后项目挥发性有机物排放量较迁扩建前项目 VOCs 总量指标增加0.418t/a。根据 $\llangle \Gamma ^ {  }$ 东省生态环境厅关于做好重点行业建设项目挥发性有机物总量指标管理工作的通知》（粤环发〔2019〕2 号），建议挥发性有机物排放总量控制指标为0.418t/a，由区镇两级环保主管部门核查总量指标。
+
+四、主要环境影响和护措施
+<table><tr><td rowspan=1 colspan=1>施工期环境保护措施</td><td rowspan=1 colspan=8>本项目建设场所使用已建成厂房，生产设备购买后进行简单安装后可直接生产，施工期间环境保护措施如下：废水：施工人员生活污水依托附近的公共设施处理。噪声：尽量白天装修作业，采用低噪声设备，通过隔声减振减少噪声对周边环境影响。固体废物：施工人员生活垃圾定期交由环卫部分清运，废包装材料收集后交由回收单位回收处理。</td></tr><tr><td rowspan=8 colspan=1>运营期环境影响和保护措施</td><td rowspan=1 colspan=8>一、废气1、废气污染物排放源表4-1项目废气产污环节、污染物种类、排放形式及污染防治设施一览表</td></tr><tr><td></td><td rowspan=2 colspan=1>产污环节</td><td rowspan=2 colspan=1>生产设施</td><td rowspan=2 colspan=1>污染物种类</td><td rowspan=2 colspan=1>排放形式</td><td rowspan=1 colspan=2>污染防治设施</td><td rowspan=2 colspan=1>排放口类型</td></tr><tr><td></td><td rowspan=1 colspan=1>污染防治设施名称及工艺</td><td rowspan=1 colspan=1>是否为可行性技术</td></tr><tr><td></td><td rowspan=2 colspan=1>注塑</td><td rowspan=2 colspan=1>注塑机</td><td rowspan=1 colspan=1>非甲烷总烃</td><td rowspan=2 colspan=1>有组织</td><td rowspan=2 colspan=1>二级活性炭吸附（排气筒G1）</td><td rowspan=2 colspan=1>□是否</td><td rowspan=2 colspan=1>一般排放口</td></tr><tr><td></td><td rowspan=1 colspan=1>臭气浓度</td></tr><tr><td></td><td rowspan=1 colspan=1>投料、混料、破碎</td><td rowspan=1 colspan=1>混料机、破碎机</td><td rowspan=1 colspan=1>颗粒物</td><td rowspan=1 colspan=1>无组织</td><td rowspan=1 colspan=1>布袋除尘器</td><td rowspan=1 colspan=1>回是否</td><td rowspan=1 colspan=1>/</td></tr><tr><td></td><td rowspan=1 colspan=1>机加工</td><td rowspan=1 colspan=1>摇臂钻床、铣床、深孔钻床、磨床、电脑锣、车床、砂轮机</td><td rowspan=1 colspan=1>颗粒物</td><td rowspan=1 colspan=1>无组织</td><td rowspan=1 colspan=1>/</td><td rowspan=1 colspan=1>/</td><td rowspan=1 colspan=1>/</td></tr><tr><td rowspan=1 colspan=8>2、废气污染物产排污情况：（1）有机废气迁扩建后项目生产过程中使用卧式注塑机，利用其高温熔融的工作原理作用于外购的 ABS、PP、PC 等新塑料粒，期间会产生有机废气，污染因子为非甲烷总烃（注塑工序温度未达到塑料的分解温度，因此生产过程中不会产生其他特征污染物）。参考《佛山市塑胶行业建设项目环评文件编制技术参考指南（试行）》中表22塑胶制品工业污染物产污系数表系数表可知，项目注塑工序挥发性有机物产污系数为2.7kg/t-产品。迁扩建后项目年产塑料制品350吨，则注塑过程非甲烷总烃产生量为0.945t/a，每年工作 300天，每天工作时间为8h。则注塑工序非甲烷总烃产生速率为0.394kg/h。集气风量计算：建设单位在每台卧式注塑机上方设置集气罩收集废气，集气罩外围安装软帘形成局部围闭，加强收集效率。注塑过程产生的有机废气经有效收集后，通过“二级活性炭吸</td></tr></table>
+
+附”装置处理后引至 25m排气筒G1 高空排放。
+
+根据《废气处理工程技术手册》（王纯、张殿印主编，化学工业出版社，2013版），在较稳定状态下，产生较低扩散速度有害气体的集气罩风速可取 0.5m/s\~1.5m/s，本项目集气罩风速取平均值 1.0m/s，外部集气罩所需风量按以下公式进行计算：
+
+$$
+\scriptstyle \mathrm { Q = V \times F \times \beta \times 3 6 0 0 }
+$$
+
+式中：Q— —设计风量（m3/h）；
+
+V— 集气罩进口风速 m/s；
+
+F— 集气罩面积m2；
+
+β 安全系数，β=1.05；
+
+根据前文排气量计算公式，估算G1集风量见下表。
+
+表 4-2G1 排气筒废气集气风量计算结果表
+<table><tr><td rowspan=1 colspan=1>设备名称</td><td rowspan=1 colspan=1>设备数量（台）</td><td rowspan=1 colspan=1>操作口实际开启面积 $( \mathbf { m } ^ { 2 } )$ </td><td rowspan=1 colspan=1>单个排气罩排风量 $\left( \mathbf { m } ^ { 3 } / \mathbf { h } \right)$ </td><td rowspan=1 colspan=1>理论总排风量 $\left( \mathbf { m } ^ { 3 } / \mathbf { h } \right)$ </td><td rowspan=1 colspan=1>设计排风量 $\left( \mathbf { m } ^ { 3 } / \mathbf { h } \right)$ </td></tr><tr><td rowspan=1 colspan=1>卧式注塑机</td><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>0.4*0.4</td><td rowspan=1 colspan=1>604.8</td><td rowspan=1 colspan=1>10886.4</td><td rowspan=1 colspan=1>-</td></tr><tr><td rowspan=1 colspan=4>总风量合计</td><td rowspan=1 colspan=1>13063.68</td><td rowspan=1 colspan=1>14500</td></tr><tr><td rowspan=1 colspan=6>备注：根据《吸附法工业有机废气治理工程技术规范》（HJ2026-2013），设计风量为最大废气排放量的120%。</td></tr><tr><td rowspan=1 colspan=6>根据《佛山市生态环境局关于印发涉VOCs重点行业建设项目环评文件编制技术参考指南的通知》，VOCs效率见下表。</td></tr></table>
+
+表 4-5 VOCs 认定收集效率表
+<table><tr><td rowspan=1 colspan=1>废气收集类型</td><td rowspan=1 colspan=1>废气收集方式</td><td rowspan=1 colspan=1>情况说明</td><td rowspan=1 colspan=1>集气效率%</td></tr><tr><td rowspan=4 colspan=1>全密封设备/空间</td><td rowspan=1 colspan=1>单层密闭负压</td><td rowspan=1 colspan=1>VOCs产生源设置在密闭车间、密闭设备（含反应釜）、密闭管道内，所有开口处，包括人员或物料进出口处呈负压</td><td rowspan=1 colspan=1>95</td></tr><tr><td rowspan=1 colspan=1>单层密闭正压</td><td rowspan=1 colspan=1>VOCs产生源设置在密闭车间内，所有开口处，包括人员或物料进出口处呈正压，且无明显泄漏点</td><td rowspan=1 colspan=1>85</td></tr><tr><td rowspan=1 colspan=1>双层密闭空间</td><td rowspan=1 colspan=1>内层空间密闭正压，外层空间密闭负压</td><td rowspan=1 colspan=1>99</td></tr><tr><td rowspan=1 colspan=1>设备废气排口直连</td><td rowspan=1 colspan=1>设备有固定排放管(或口)直接与风管连接，设备整体密闭只留产品进出口，且进出口处有废气收集措施，收集系统运行时周边基本无VOCs散发。</td><td rowspan=1 colspan=1>95</td></tr><tr><td rowspan=4 colspan=1>包围型集气设备</td><td rowspan=3 colspan=1>污染物产生点（或生产设施）四周及上下有围挡设施，符合以下情况：1、仅保留1个操作工位面；2、仅保留物料进出通道，通道敞开面小于1个操作工位面。</td><td rowspan=1 colspan=1>开面控制风速不小于0.5m/s;</td><td rowspan=1 colspan=1>80</td></tr><tr><td rowspan=1 colspan=1>开面控制风速在0.3~0.5m/s之间；</td><td rowspan=1 colspan=1>60</td></tr><tr><td rowspan=1 colspan=1>开面控制风速小于0.3m/s</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>污染物产生点（或生产</td><td rowspan=1 colspan=1>开面控制风速不小于0.5m/s;</td><td rowspan=1 colspan=1>60</td></tr></table>
+
+<table><tr><td></td><td rowspan=2 colspan=2></td><td rowspan=2 colspan=4>设施）四周及上下有围挡设施，符合以下情况：通过软质垂帘四周围挡（偶有部分开）</td><td rowspan=1 colspan=7>开面控制风速在0.3~0.5m/s 之间;</td><td rowspan=1 colspan=2>40</td><td rowspan=1 colspan=1></td></tr><tr><td></td><td rowspan=1 colspan=7>开面控制风速小于0.3m/s</td><td rowspan=1 colspan=2>0</td><td rowspan=1 colspan=1></td></tr><tr><td></td><td rowspan=3 colspan=2>外部型集气设备</td><td rowspan=3 colspan=4>顶式集气罩、槽边抽风、侧式集气罩等</td><td rowspan=1 colspan=7>相应工位所有VOCs逸散点控制风速不小于0.5m/s</td><td rowspan=1 colspan=2>40</td><td rowspan=1 colspan=1></td></tr><tr><td></td><td rowspan=1 colspan=7>相应工位所有VOCs逸散点控制风速在0.3~0.5m/s之间</td><td rowspan=1 colspan=2>20-40</td><td rowspan=1 colspan=1></td></tr><tr><td></td><td rowspan=1 colspan=7>相应工位所有VOCs逸散点控制风速小于0.3m/s，或存在强对流干扰</td><td rowspan=1 colspan=2>0</td><td rowspan=1 colspan=1></td></tr><tr><td></td><td rowspan=1 colspan=2>无集气设施</td><td rowspan=1 colspan=4>/</td><td rowspan=1 colspan=7>1、无集气设施；2、集气设施运行不正常</td><td rowspan=1 colspan=2>0</td><td rowspan=1 colspan=1></td></tr><tr><td></td><td rowspan=1 colspan=2>备注</td><td rowspan=1 colspan=13>1、摘自《广东省工业源挥发性有机物减排量核算方法（试行）》。根据实际运行情况，环评报告收集集气效率应该预留（10%以上）余量，不宜取理论最高值。2、如果采用多种方式对同一工艺实施废气收集，则取值按最好的集气方式；</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=17>项目在卧式注塑机上方设置集气罩收集废气，集气罩外围安装软帘形成局部围闭，加强收集效率。因此可认为本项目废气得到有效收集，根据实际运行情况，环评报告收集集气效率应该预留（10%以上）余量，不宜取理论最高值，“集气罩+帘幕”的收集效率按 70%计算。参考《2021年主要污染物总量减排核算技术指南》，一次性活性炭吸附去除率取30%，二级活性炭吸附取51%，项目拟采用的&quot;二级活性炭吸附&quot;设施对有机废气的处理效率取51%。项目废气污染物产生及排放情况见下表。表4-3项目G1排气筒废气污染物产生及排放量情况表</td></tr><tr><td></td><td rowspan=2 colspan=1>排气量m3/h</td><td rowspan=2 colspan=2>污染物</td><td rowspan=1 colspan=2>产生情况</td><td rowspan=1 colspan=7>有组织</td><td rowspan=1 colspan=3>无组织</td><td rowspan=1 colspan=1></td></tr><tr><td></td><td rowspan=1 colspan=1>产生量t/a</td><td rowspan=1 colspan=1>最大产生速率kg/h</td><td rowspan=1 colspan=2>产生量t/a</td><td rowspan=1 colspan=1>产生速率kg/h</td><td rowspan=1 colspan=1>产生浓度mg/m</td><td rowspan=1 colspan=1>排放量t/a</td><td rowspan=1 colspan=1>排放速率kg/h</td><td rowspan=1 colspan=1>排放浓度mg/m3</td><td rowspan=1 colspan=2>排放量t/a</td><td rowspan=1 colspan=1>排放速率kg/h</td><td rowspan=1 colspan=1></td></tr><tr><td></td><td rowspan=1 colspan=1>14500</td><td rowspan=1 colspan=2>非甲烷总烃</td><td rowspan=1 colspan=1>0.945</td><td rowspan=1 colspan=1>0.394</td><td rowspan=1 colspan=2>0.662</td><td rowspan=1 colspan=1>0.276</td><td rowspan=1 colspan=1>19.03</td><td rowspan=1 colspan=1>0.324</td><td rowspan=1 colspan=1>0.135</td><td rowspan=1 colspan=1>9.31</td><td rowspan=1 colspan=2>0.283</td><td rowspan=1 colspan=1>0.118</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=17>（2）臭气浓度项目在注塑工序中会产生轻微异味，以臭气浓度表征，生产过程产生的废气经收集后通过“二级活性炭吸附&quot;装置处理，引至排气筒高空排放。恶臭为人们对恶臭物质所感知的一种污染指标。其主要物质种类达上万种之多。由于其各种物质之间的相互作用（相加、协同、抵消及掩饰作用等），加之人类的嗅觉功能和恶臭物质取样分析等因素，迄今还难以对大多数恶臭物质作出浓度标准，目前我国只规定了8种恶臭污染物的一次最大排放限值、复合恶臭物质的臭气浓度限值及无组织排放源的厂界浓度限值，即《恶臭污染物排放标准》（GB14554-1993）。</td></tr></table>
+
+类比同类项目，其排气筒臭气排放浓度可低于 6000（无量纲），厂界排放浓度≤20（无量纲），满足《恶臭污染物排放标准》（GB14554-1993）臭气浓度排放限值标准要求，不会对周围环境空气和敏感目标产生明显影响。
+
+## （3）塑料粉尘
+
+## ①投料、混料粉尘
+
+迁扩建后项目在投料过程和混料设备进出口会产生少量粉尘，主要污染因子为颗粒物，根据《排放源统计调查产排污核算方法和系数手册》中“292 塑料制品行业系数手册”可知，投料、混料工序颗粒物产污系数为 6kg/t-产品，迁扩建后项目年产塑料制品 350吨。则迁扩建后项目投料、混料粉尘产生量约2.1t/a，按年生产2400h（每天8小时，年工作 300 天）计算，投料、混料粉尘产生速率为0.875kg/h。
+
+## ②破碎粉尘
+
+迁扩建后项目注塑过程产生的次品经破碎机破碎后重新投入生产，项目破碎塑料占塑料原料总量的 1%，破碎过程中会产生一定量的粉尘，主要污染因子为颗粒物，根据《排放源统计调查产排污核算方法和系数手册》中“292 塑料制品行业系数手册”可知，颗粒物产污系数为 6kg/t-产品，迁扩建后项目次品年破碎量为 3.53t/a，破碎粉尘产生量为 0.021t/a，按年生产 2400h（每天 8 小时，年工作300 天）计算，破碎粉尘产生速率为0.009kg/h。
+
+建议在混料机、破碎机旁设置布袋除尘器对粉尘进行收集处理（废气收集方式为管道收集），再通过车间门窗以无组织形式排放。根据《大气污染控制工程》（郝吉明、马广大主编，第二版），袋式除尘器处理效率为 99.7%，本评价处理效率取 95%，收集效率按 80%计算，经计算，粉尘排放量为 0.509t/a（未收集粉尘以及除尘处理后排放的粉尘之和），项目年工作300天，每天工作8小时，则迁扩建后项目投料、混料、破碎粉尘产生速率为 0.212kg/h。
+
+表 4-4 迁扩建后项目投料、混料、破碎粉尘产生及排放情况
+<table><tr><td rowspan=1 colspan=1>污染物名称</td><td rowspan=1 colspan=1>产生量(t/a）</td><td rowspan=1 colspan=1>产生速率（kg/h）</td><td rowspan=1 colspan=1>收集量(t/a)</td><td rowspan=1 colspan=1>处理量(t/a)</td><td rowspan=1 colspan=1>排放量(t/a)</td><td rowspan=1 colspan=1>排放速率（kg/h）</td></tr><tr><td rowspan=1 colspan=1>颗粒物</td><td rowspan=1 colspan=1>2.121</td><td rowspan=1 colspan=1>0.884</td><td rowspan=1 colspan=1>1.697</td><td rowspan=1 colspan=1>1.612</td><td rowspan=1 colspan=1>0.509</td><td rowspan=1 colspan=1>0.212</td></tr></table>
+
+## （4）金属粉尘
+
+迁扩建后项目对钢材进行机加工作业会产生少量金属粉尘，主要污染因子为颗粒物，根据《排放源统计调查产排污核算方法和系数手册》中机械行业系数手册中干式预处理工序可知，颗粒物产污系数为 2.19kg/t-原料，迁扩建后项目钢材用量为10t/a。则工件粉尘产生量约 0.022t/a，由于金属颗粒物比重较大，易于沉降，约 90%可在操作区域附近沉降，沉降部分作为一般工业废物回收处理，只有少部分扩散到大气中形成粉尘，扩散量约为0.002t/a，以无组织形式排放，按年生产2400h（每天8小时，年工作300天）计算，机加工粉尘产生速率约 0.0008kg/h。加强车间通风换气，机加工过程产生的金属粉尘以无组织形式排放。
+
+## 3、废气措施可行性分析
+
+布袋除尘器可行性分析：除尘器或除尘设备就是把粉尘从烟气中分离出来的设备。而布袋除尘器也称为过滤式除尘器,是一种干式高效除尘器，它是利用纤维编制物制作的袋式过滤元件来捕集含尘气体中固体颗粒物的除尘装置。其作用原理是尘粒在绕过滤布纤维时因惯性力作用与纤维碰撞而被拦截。粉尘是附着在滤袋的外表面。含尘气体经过除尘器时，粉尘被捕集在滤袋的外表面，而干净气体通过滤料进入滤袋内部。滤袋内部的笼架用来支撑滤袋，防止滤袋塌陷，同时它有助于尘饼的清除和重新分布。
+
+有机废气治理设施可行性分析：活性炭是一种含碳材料制成的外观呈黑色，内部孔隙结构发达、比表面积大、吸附能力强的一类微晶质碳素材料。活性炭材料中有大量肉眼看不到的微孔，1克活性炭材料中微孔的总内表面积可高达 700-2300m2。正是这些微孔使得活性炭能“捕捉”各种有毒有害气体和杂质。由于气相分子和吸附剂表面分子之间的吸引力，使气相分子吸附在吸附剂表面。吸附剂表面面积愈大、单位质量吸附剂所能吸附的物质愈多。活性炭是一种具有非极性表面、疏水性、亲有机物的吸附剂，所以活性炭常常被用来吸附回收空气中的有机溶剂和恶臭物质。它可以根据需要制成不同性状和粒度，如粉末活性炭、颗粒活性炭及柱状活性炭。活性炭是由各种含碳物质（如木材、泥煤、果核、椰壳等原料）在高温下炭化后，再用水蒸气或化学药品（如氯化锌、氯化锰、氯化钙和磷酸等）进行活化处理，然后制成的孔隙十分丰富的吸附剂，其孔径平均为（ $1 0 { \sim } 4 0 ) \ \times 1 0 ^ { - 8 } \mathrm { c m }$ ，比表面积一般在 600～1500m2 /g 范围内，具有优良的吸附能力，吸附容量为 25wt%。气体经管道进入吸收塔后，在两个不同相界面之间产生扩散过程，扩散结束，气体被风机吸出并排放出去，从而达到净化废气的目的。当吸附载体吸附饱和时，可考虑更换。采用活性炭进行有机废气的净化，其去除效率会因活性炭吸附废气的饱和程度而不同。项目采用碘值不低于800mg/g 的蜂窝状活性炭。
+
+表 4-6 二级活性炭装置工艺参数一览表
+<table><tr><td colspan="2" rowspan="1">设施名称</td><td colspan="1" rowspan="1">参数指标</td><td colspan="1" rowspan="1">主要参数</td></tr><tr><td colspan="1" rowspan="2">二级活性炭装置</td><td colspan="2" rowspan="1">设计风量</td><td colspan="1" rowspan="1">14500m3/h</td></tr><tr><td colspan="1" rowspan="1">一级</td><td colspan="1" rowspan="1">装置尺寸</td><td colspan="1" rowspan="1">1400*1400*1000mm</td></tr><tr><td colspan="1" rowspan="15"></td><td colspan="1" rowspan="7"></td><td colspan="1" rowspan="1">活性炭尺寸</td><td colspan="1" rowspan="1">1300*1300*300mm</td></tr><tr><td colspan="1" rowspan="1">活性炭类型</td><td colspan="1" rowspan="1">蜂窝</td></tr><tr><td colspan="1" rowspan="1">活性炭密度</td><td colspan="1" rowspan="1"> $5 0 0 \mathrm { k g } / \mathrm { m } ^ { 3 }$ </td></tr><tr><td colspan="1" rowspan="1">炭层数量</td><td colspan="1" rowspan="1">2层</td></tr><tr><td colspan="1" rowspan="1">过滤风速</td><td colspan="1" rowspan="1">1.19m/s</td></tr><tr><td colspan="1" rowspan="1">停留时间</td><td colspan="1" rowspan="1">0.25s</td></tr><tr><td colspan="1" rowspan="1">活性炭数量</td><td colspan="1" rowspan="1">0.507t</td></tr><tr><td colspan="1" rowspan="8">二级</td><td colspan="1" rowspan="1">装置尺寸</td><td colspan="1" rowspan="1">1400*1400*1000mm</td></tr><tr><td colspan="1" rowspan="1">活性炭尺寸</td><td colspan="1" rowspan="1">1300*1300*300mm</td></tr><tr><td colspan="1" rowspan="1">活性炭类型</td><td colspan="1" rowspan="1">蜂窝</td></tr><tr><td colspan="1" rowspan="1">活性炭密度</td><td colspan="1" rowspan="1"> $5 0 0 \mathrm { k g } / \mathrm { m } ^ { 3 }$ </td></tr><tr><td colspan="1" rowspan="1">炭层数量</td><td colspan="1" rowspan="1">2层</td></tr><tr><td colspan="1" rowspan="1">过滤风速</td><td colspan="1" rowspan="1">1.19m/s</td></tr><tr><td colspan="1" rowspan="1">停留时间</td><td colspan="1" rowspan="1">0.25s</td></tr><tr><td colspan="1" rowspan="1">活性炭数量</td><td colspan="1" rowspan="1">0.507t</td></tr><tr><td colspan="3" rowspan="1">二级活性炭装炭量</td><td colspan="1" rowspan="1">1.014t</td></tr></table>
+
+参考《排污许可证申请与核发技术规范橡胶和塑料制品工业》（HJ1122-2020），本项目使用“二级活性炭吸附”处理有机废气（非甲烷总烃）、“袋式除尘器”处理颗粒物属于可行技术。
+
+## 4、大气环境影响分析
+
+根据2022年全区的大气环境质量状况公报，二氧化硫 $( \mathsf { S O } _ { 2 } )$ 、二氧化氮 $\left( \mathbf { N O } _ { 2 } \right)$ 可吸入颗粒物 $\left( \mathrm { P M } _ { 1 0 } \right)$ 、细颗粒物 $\left( \mathbf { P M } _ { 2 . 5 } \right)$ 、一氧化碳（CO）五项污染物年评价浓度均达到《环境空气质量标准》（GB3095-2012）及2018年修改单二级标准，臭氧 $( \mathbf { O } _ { 3 } )$ 超标，故顺德区大气环境质量属不达标区。项目500米范围内无大气环境保护目标。
+
+建设单位在每台卧式注塑机上方设置集气罩收集废气，集气罩外围安装软帘形成局部围闭，加强收集效率。注塑过程产生的有机废气经有效收集后，通过“二级活性炭吸附”装置处理后引至 25m 排气筒 G1 高空排放。设计废气收集效率取 70%，总风量为14500m3/h。
+
+加强车间通风换气，投料、混料、破碎工序产生的塑料粉尘经布袋除尘器处理后以无组织形式排放。
+
+加强车间通风换气，机加工工序产生的金属粉尘以无组织形式排放。
+
+## 正常工况下废气达标分析
+
+## （1）有组织废气达标分析
+
+项目有组织排放污染物达标情况如表4-5 所示：
+
+表 4-5 项目有组织废气污染物达标情况一览表
+<table><tr><td colspan="1" rowspan="1">污染源</td><td colspan="1" rowspan="1">污染物</td><td colspan="1" rowspan="1">排放浓度mg/m3</td><td colspan="1" rowspan="1">排放速率kg/h</td><td colspan="2" rowspan="1">执行标准</td><td colspan="2" rowspan="1">浓度限值 $\mathbf { m } \mathbf { g } / \mathbf { m } ^ { 3 }$ </td><td colspan="1" rowspan="1">达标情况</td></tr><tr><td rowspan="2">排气筒G1</td><td rowspan="2">非甲烷总烃 臭气浓度</td><td rowspan="2">9.31</td><td rowspan="2">0.135</td><td colspan="2" rowspan="2">GB31572-2015</td><td colspan="2" rowspan="2">100</td><td rowspan="2">达标</td></tr><tr><td colspan="2">/ GB14554-1993</td></tr><tr><td rowspan="2">（GB31572-2015）中表4大气污染物排放限值；臭气浓度可达到《恶臭污染物排放标准》</td><td colspan="2">/ 由上表可知，非甲烷总烃排放浓度可达到《合成树脂工业污染物排放标准》</td><td rowspan="2"></td><td rowspan="2"></td><td rowspan="2"></td><td rowspan="2">6000（无量纲）</td><td rowspan="2"></td><td rowspan="2">达标</td></tr><tr><td colspan="4">（GB14554-1993)表2恶臭污染物排放标准值。对周围大气环境和附近敏感点影响不大。 项目排放口基本情况如下表所示：</td></tr><tr><td>排放口 名称</td><td>排放 口编</td><td>排放口地理 坐标</td><td>表4-6 项目废气排放口基本情况汇总 排气筒 高度/m</td><td>排气筒 内径/m</td><td>烟气流 速/(m/s）</td><td>烟气 温度</td><td>排放口 类型</td><td></td><td>达标 情况</td></tr><tr><td>废气排 放口</td><td>号 G1</td><td>北纬：22°45'19.120" 东经：113°18'51.548"</td><td>25</td><td>0.5</td><td>16.98</td><td></td><td>/C 30</td><td>一般排 放口</td><td>达标</td></tr><tr><td colspan="4">（2）厂界废气达标分析 根据上述分析，项目各废气污染物均得到有效收集处理，无组织排放量不大，非甲 烷总烃无组织排放量为0.283t/a；塑料粉尘无组织排放量为0.509t/a；机加工过程金属粉 尘无组织排放量为0.002t/a；对周围大气环境影响不大；非甲烷总烃无组织厂界浓度可 达到《合成树脂工业污染物排放标准》（GB31572-2015）中表9企业边界大气污染物浓</td><td colspan="5"></td><td colspan="2">度限值；塑料粉尘无组织厂界浓度可达到《合成树脂工业污染物排放标准》</td></tr><tr><td colspan="9">（GB31572-2015）表9企业边界大气污染物浓度限值；金属粉尘无组织厂界浓度可达到 《大气污染物排放限值》（DB44/27-2001）第二时段无组织排放监控点浓度限值；厂区 内挥发性有机物无组织排放监控点浓度可达到广东省地方标准《固定污染源挥发性有机 物综合排放标准》（DB44/2367-2022）表3厂区内VOCs无组织排放限值。 非正常情况下废气排放情况 表4-7 非正常排放参数表 非正常排非正常排 非正常排放浓 非正常排放 单次持续 年发生 污染物 应对措施 放源 放原因 度/（mg/m3） 速率/(kg/h） 时间/h 频次/次 定期检查设 治理设施 注塑 非甲烷总烃 19.03 0.276 0.5 1 备，发现问题 故障 立即停止生产 注：非正常排放按非甲烷总烃治理效率为  $0 \text{‰}$  根据工程分析，项目非正常排放情况下，非甲烷总烃处理效率按0%，非甲烷排放 浓度为19.03mg/m、排放速率为0.276kg/h，非甲烷总烃排放浓度低于《合成树脂工业污 染物排放标准》（GB31572-2015）中表4规定的大气污染物排放限值，项目定期检查设 备，减少类似情况发生，预计非甲烷总烃排放对区域大气环境和环境敏感目标影响不大。</td></tr></table>
+
+参考《排污单位自行监测技术指南 橡胶和塑料制品》（HJ1207-2021）等相关要求，本项目运营期废气污染源自行监测计划如下表4-8 所示。
+
+表 4-8 运营期废气污染源监测计划一览表
+<table><tr><td rowspan=1 colspan=1>序号</td><td rowspan=1 colspan=1>监测点位</td><td rowspan=1 colspan=1>监测指标</td><td rowspan=1 colspan=1>监测频次</td><td rowspan=1 colspan=1>执行排放标准</td></tr><tr><td rowspan=1 colspan=5>有组织废气</td></tr><tr><td rowspan=2 colspan=1>1</td><td rowspan=2 colspan=1>排气筒G1</td><td rowspan=1 colspan=1>非甲烷总烃</td><td rowspan=1 colspan=1>1次/半年</td><td rowspan=1 colspan=1>《合成树脂工业污染物排放标准》（GB31572-2015）表4大气污染物排放限值</td></tr><tr><td rowspan=1 colspan=1>臭气浓度</td><td rowspan=1 colspan=1>1次/年</td><td rowspan=1 colspan=1>《恶臭污染物排放标准》（GB14554-1993）表2恶臭污染物排放标准值</td></tr><tr><td rowspan=1 colspan=5>无组织废气</td></tr><tr><td rowspan=3 colspan=1>2</td><td rowspan=3 colspan=1>厂界上下风向</td><td rowspan=1 colspan=1>非甲烷总烃</td><td rowspan=1 colspan=1>1次/年</td><td rowspan=1 colspan=1>《合成树脂工业污染物排放标准》（GB31572-2015）表9企业边界大气污染物浓度限值</td></tr><tr><td rowspan=1 colspan=1>颗粒物</td><td rowspan=1 colspan=1>1次/年</td><td rowspan=1 colspan=1>《合成树脂工业污染物排放标准》（GB31572-2015）表9企业边界大气污染物浓度限值及《大气污染物排放限值》（DB44/27-2001）第二时段无组织排放监控点浓度限值的较严值</td></tr><tr><td rowspan=1 colspan=1>臭气浓度</td><td rowspan=1 colspan=1>1次/年</td><td rowspan=1 colspan=1>《恶臭污染物排放标准》（GB14554-1993）表1恶臭污染物厂界标准值二级新改扩建项目标准限值</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>厂区内</td><td rowspan=1 colspan=1>NMHC</td><td rowspan=1 colspan=1>1次/年</td><td rowspan=1 colspan=1>《固定污染源挥发性有机物综合排放标准》（DB44/2367-2022）表3厂区内VOCs无组织排放限值</td></tr></table>
+
+## 二、废水
+
+项目外排废水主要为生活污水，不产生地面清洗废水。项目废水类别、污染物项目及污染防治设施见表 4-9。
+
+表 4-9 废水类别、污染物项目、排放去向及污染防治设施等信息一览表
+<table><tr><td rowspan=2 colspan=1>废水类别</td><td rowspan=2 colspan=1>污染物项目</td><td rowspan=1 colspan=2>污染防治设施</td><td rowspan=2 colspan=1>排放去向</td><td rowspan=2 colspan=1>排放方式</td><td rowspan=2 colspan=1>排放规律</td><td rowspan=2 colspan=1>排放口名称</td><td rowspan=2 colspan=1>排放口类型</td></tr><tr><td rowspan=1 colspan=1>污染防治设施名称及工艺</td><td rowspan=1 colspan=1>是否为可行技术</td></tr><tr><td rowspan=1 colspan=1>生活污水</td><td rowspan=1 colspan=1>pH值、化学需氧量、五日生化需氧量、氨氮、悬浮物</td><td rowspan=1 colspan=1>三级化粪池</td><td rowspan=1 colspan=1>回是否</td><td rowspan=1 colspan=1>容桂第二污水处理厂</td><td rowspan=1 colspan=1>间接排放</td><td rowspan=1 colspan=1>间歇</td><td rowspan=1 colspan=1>DW001</td><td rowspan=1 colspan=1>一般排放口</td></tr></table>
+
+## （1）污染源强分析
+
+## ①生活污水
+
+迁扩建后项目生活污水经三级化粪池处理后由市政管网排入容桂第二污水处理厂集中处理，容桂第二污水处理厂尾水执行《城镇污水处理厂污染物排放标准》（GB18918-2002）一级 A 标准及广东省地方标准《水污染物排放限值》（DB44/26-2001）第二时段一级标准的较严值，尾水排入鸡鸦水道。
+
+迁扩建前后总人数为 60 人，均不在厂内食宿，年工作时间为 300 天。根据《广东省用水定额》（DB 44/T1461.3-2021）中国家行政机构综合楼“无食堂和浴室”的生活
+
+<table><tr><td rowspan=1 colspan=9>用水定额，员工办公生活用水定额取10m/人·a，则迁扩建后项目员工办公生活用水量为600m³/a，排放系数取0.9，则污水产生量为540m/a，生活污水主要污染物为CODcr`BOD5、NH3-N、SS、TP。参考环境保护部环境工程技术评估中心编制《社会区域类环境影响评价》教材（表5-18 居民生活污水、生活垃圾产生和排放系数）的生活污水排放系数，结合项目实际，并类比同类项目，生活污水产排情况见表4-10。表4-10 迁扩建后项目生活污水产生及排放情况一览表</td></tr><tr><td rowspan=1 colspan=1>水量</td><td rowspan=1 colspan=2>项目</td><td rowspan=1 colspan=1>CODcr</td><td rowspan=1 colspan=1>BOD5</td><td rowspan=1 colspan=1>SS</td><td rowspan=1 colspan=1>NH3-N</td><td rowspan=1 colspan=1>总磷</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=6 colspan=1>排放量540m3/a</td><td rowspan=1 colspan=2>产生浓度（mg/L）</td><td rowspan=1 colspan=1>250</td><td rowspan=1 colspan=1>100</td><td rowspan=1 colspan=1>150</td><td rowspan=1 colspan=1>30</td><td rowspan=1 colspan=1>3.5</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=2>产生量（t/a）</td><td rowspan=1 colspan=1>0.135</td><td rowspan=1 colspan=1>0.054</td><td rowspan=1 colspan=1>0.081</td><td rowspan=1 colspan=1>0.016</td><td rowspan=1 colspan=1>0.002</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=2 colspan=1>经三级化粪池预处理后</td><td rowspan=1 colspan=1>排放浓度（mg/L）</td><td rowspan=1 colspan=1>210</td><td rowspan=1 colspan=1>90</td><td rowspan=1 colspan=1>70</td><td rowspan=1 colspan=1>29</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>排放量（t/a）</td><td rowspan=1 colspan=1>0.113</td><td rowspan=1 colspan=1>0.049</td><td rowspan=1 colspan=1>0.038</td><td rowspan=1 colspan=1>0.016</td><td rowspan=1 colspan=1>0.002</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=2 colspan=1>经容桂第二污水处理厂处理后</td><td rowspan=1 colspan=1>排放浓度（mg/L）</td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>0.5</td><td rowspan=2 colspan=1></td></tr><tr><td rowspan=1 colspan=1>排放量（t/a）</td><td rowspan=1 colspan=1>0.022</td><td rowspan=1 colspan=1>0.005</td><td rowspan=1 colspan=1>0.005</td><td rowspan=1 colspan=1>0.003</td><td rowspan=1 colspan=1>0.0003</td></tr></table>
+
+![](images/a51afe0a4fbcb2c31966a4f53d857c56b7cb9746f969edab5fc178a1d05974ce.jpg)  
+图 4-3 容桂第二污水处理厂处理工艺流程图
+
+容桂第二污水处理厂服务范围为眉蕉河与碧桂路连接线以东区域，包括小黄圃、高黎、华口、扁滘四个居委及大汕岛，顺德区高新技术产业开发总公司下辖的碧桂路以东工业区、眉蕉河以北碧桂路以西 工业区，东逸湾及美的等新开发的高尚住宅区等，本项目位于容桂第二污水处理厂的服务范围，且已接通市政管网。
+
+容桂第二污水处理厂现已建成规模 3 万 t/d，近期建设规模为 5 万 t/d，远期为 8 万t/d。目前该污水处理厂首期 3 万 t/d 已投入运行，并完成提标改造工程验收，污水处理工艺为粗格栅+细格栅+曝气沉砂池+CASS+精细格栅+连续流砂滤池+紫外消毒工艺，该工艺是近年来国际公认的处理生活污水及工业废水的先进工艺，污水能够稳定达标排放。
+
+项目生活污水经预处理达到广东省地方标准《水污染物排放限值》（DB44/26-2001）第二时段三级标准后再排至容桂第二污水处理厂处理，满足污水厂的纳管要求，不会对污水厂造成冲击负荷，也不会影响其正常运行，因此本项目生活污水依托容桂第二污水处理厂处理是可行的。
+
+## （3）废水排放达标分析
+
+项目不设员工饭堂和宿舍，生活污水主要为员工洗手和冲便废水，生活污水排放量为 540m3 /a，主要污染因子为 $\mathrm { C O D } _ { \mathrm { C r } }$ $\mathrm { B O D } _ { 5 }$ 、 $\mathrm { N H } _ { 3 } – \mathrm { N } .$ 、SS、TP等。生活污水经三级化粪池预处理后排入市政污水管网送至容桂第二污水处理厂，尾水排至鸡鸦水道，对周围水环境影响不大。
+
+## （4）废水监测计划
+
+项目生活污水排放口基本情况如下表所示：
+
+表 4-11 废水间接排放口基本情况表
+<table><tr><td rowspan=1 colspan=1>排放口编号</td><td rowspan=1 colspan=1>排放口名称</td><td rowspan=1 colspan=1>排放口地理坐标</td><td rowspan=1 colspan=1>排放去向</td><td rowspan=1 colspan=1>排放规律</td><td rowspan=1 colspan=1>间接排放时段</td><td rowspan=1 colspan=1>受纳污水处理厂信息</td></tr></table>
+
+<table><tr><td rowspan=1 colspan=2></td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=1>经度</td><td rowspan=1 colspan=1>纬度</td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=3></td><td></td><td rowspan=1 colspan=1>名称</td><td rowspan=1 colspan=4>污染物种类</td><td rowspan=1 colspan=2>排放浓度限值mg/L</td></tr><tr><td rowspan=5 colspan=2>DW001</td><td rowspan=5 colspan=2>生活污水排放□</td><td rowspan=5 colspan=1>113°18/52.031&quot;</td><td rowspan=5 colspan=1>22°4518.831</td><td rowspan=5 colspan=2>进入容桂第二污水处理广</td><td rowspan=5 colspan=2>间断排放，排放期间流量不稳定且无规律，但不属于冲击型排放</td><td rowspan=5 colspan=3>8:00-12:00，14:00-18:00</td><td></td><td rowspan=5 colspan=1>容桂第二污水处理厂</td><td rowspan=1 colspan=4>COD</td><td rowspan=1 colspan=2>40</td></tr><tr><td></td><td rowspan=1 colspan=4>BOD5</td><td rowspan=1 colspan=2>10</td></tr><tr><td></td><td rowspan=1 colspan=4>ss</td><td rowspan=1 colspan=2>10</td></tr><tr><td></td><td rowspan=1 colspan=4>氨氮</td><td rowspan=1 colspan=2>5</td></tr><tr><td></td><td rowspan=1 colspan=4>TP</td><td rowspan=1 colspan=2>0.5</td></tr><tr><td rowspan=1 colspan=21>参考《排污单位自行监测技术指南橡胶和塑料制品》（HJ1207-2021），间接排放的生活污水排放口无需开展自行监测。三、噪声（1）噪声源强及降噪措施项目噪声源主要为生产设备以及废气处理设施运行时产生的机械噪声，其噪声的强度值为65~75dB(A)。项目生产设备均合理布置在生产车间内，厂房为钢混结构，同时企业加强生产区域门窗的隔声性能，废气处理设施风机外安装隔声罩，下方加装减震垫等，隔声量可达25dB（A）。表4-12噪声污染源源强核算结果及相关参数一览表</td></tr><tr><td rowspan=2 colspan=1>工序</td><td rowspan=2 colspan=2>噪声源</td><td rowspan=2 colspan=2>数量（台）</td><td rowspan=2 colspan=2>声源类型（偶发、频发等）</td><td rowspan=1 colspan=2>噪声</td><td rowspan=1 colspan=1>源强</td><td rowspan=1 colspan=4>降噪措</td><td rowspan=1 colspan=2>施</td><td rowspan=1 colspan=4>噪声排放量</td><td rowspan=2 colspan=1>持续时间(h)</td></tr><tr><td rowspan=1 colspan=2>核算方法</td><td rowspan=1 colspan=1>单台声源值（dB（A））</td><td rowspan=1 colspan=4>工艺</td><td rowspan=1 colspan=2>降噪效果（dB（A）方</td><td rowspan=1 colspan=2>核算法</td><td rowspan=1 colspan=2>声源值（dB(A)</td></tr><tr><td rowspan=1 colspan=1>注塑</td><td rowspan=1 colspan=2>卧式注塑机</td><td rowspan=1 colspan=2>18</td><td rowspan=33 colspan=4>频发   类比</td><td rowspan=1 colspan=1>65</td><td rowspan=9 colspan=4></td><td rowspan=1 colspan=2>25</td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=2>40</td><td rowspan=33 colspan=1>2400</td></tr><tr><td rowspan=1 colspan=1>投料、混料</td><td rowspan=1 colspan=2>混料机</td><td rowspan=1 colspan=2>4</td><td rowspan=1 colspan=1>70</td><td rowspan=1 colspan=2>25</td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=2>45</td></tr><tr><td rowspan=2 colspan=1>破碎</td><td rowspan=2 colspan=2>破碎机</td><td rowspan=2 colspan=2>4</td><td rowspan=2 colspan=1>70</td><td rowspan=2 colspan=2>25</td><td rowspan=1 colspan=2></td><td rowspan=2 colspan=1></td><td rowspan=2 colspan=2>45</td></tr><tr><td rowspan=1 colspan=2></td></tr><tr><td rowspan=1 colspan=1>机加工</td><td rowspan=1 colspan=2>摇臂钻床</td><td rowspan=1 colspan=2>1</td><td rowspan=1 colspan=1>65</td><td rowspan=1 colspan=2>25</td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=2>40</td></tr><tr><td rowspan=3 colspan=1>机加工</td><td rowspan=3 colspan=2>铣床</td><td rowspan=3 colspan=2>4</td><td rowspan=3 colspan=1>65</td><td rowspan=3 colspan=2>25</td><td rowspan=1 colspan=2></td><td></td><td></td></tr><tr><td rowspan=2 colspan=2></td><td></td><td></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=2>40</td></tr><tr><td rowspan=1 colspan=1>机加工</td><td rowspan=1 colspan=2>深孔钻床</td><td rowspan=1 colspan=2>1</td><td rowspan=1 colspan=1>65</td><td rowspan=1 colspan=2>25</td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=2>40</td></tr><tr><td rowspan=3 colspan=1>机加工</td><td rowspan=3 colspan=2>磨床</td><td rowspan=3 colspan=2>2</td><td rowspan=3 colspan=1>65</td><td rowspan=3 colspan=2>隔声</td><td rowspan=3 colspan=1>窗</td><td></td><td rowspan=3 colspan=2>25</td><td rowspan=1 colspan=2></td><td></td><td></td></tr><tr><td rowspan=2 colspan=2></td><td></td><td rowspan=2 colspan=2></td><td></td><td></td></tr><tr><td></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=2>40</td></tr><tr><td rowspan=2 colspan=1>机加工</td><td rowspan=2 colspan=2>电脑锣</td><td rowspan=2 colspan=2>2</td><td rowspan=2 colspan=1>65</td><td rowspan=4 colspan=4>隔声</td><td rowspan=2 colspan=2>25</td><td rowspan=1 colspan=2>米比</td><td rowspan=2 colspan=1>比</td><td rowspan=2 colspan=2>40</td></tr><tr><td rowspan=1 colspan=2></td></tr><tr><td rowspan=2 colspan=1>机加工</td><td rowspan=2 colspan=2>车床</td><td rowspan=2 colspan=2>1</td><td rowspan=2 colspan=1>70</td><td rowspan=2 colspan=2>25</td><td rowspan=2 colspan=1></td><td rowspan=2 colspan=1></td><td rowspan=2 colspan=2>45</td></tr><tr><td rowspan=1 colspan=2></td></tr><tr><td rowspan=1 colspan=1>机加工</td><td rowspan=1 colspan=2>砂轮机</td><td rowspan=1 colspan=2>2</td><td rowspan=1 colspan=1>70</td><td rowspan=6 colspan=4></td><td rowspan=1 colspan=2>25</td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=2>45</td></tr><tr><td></td><td></td><td></td><td rowspan=2 colspan=1></td><td rowspan=2 colspan=1>裁线</td><td rowspan=2 colspan=2>裁线机</td><td rowspan=2 colspan=2>2</td><td rowspan=2 colspan=1>65</td><td rowspan=2 colspan=2>25</td><td rowspan=1 colspan=1></td><td rowspan=2 colspan=1></td><td rowspan=2 colspan=2>40</td></tr><tr><td></td><td></td><td></td><td rowspan=1 colspan=2></td></tr><tr><td rowspan=1 colspan=1>裁线</td><td rowspan=1 colspan=2>自动裁线端子机</td><td rowspan=1 colspan=2>6</td><td rowspan=1 colspan=1>65</td><td rowspan=1 colspan=2>25</td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=2>40</td></tr><tr><td rowspan=2 colspan=1>裁线</td><td rowspan=2 colspan=2>端子机</td><td rowspan=2 colspan=2>12</td><td rowspan=2 colspan=1>65</td><td rowspan=2 colspan=2>25</td><td rowspan=1 colspan=2></td><td rowspan=2 colspan=1></td><td rowspan=2 colspan=2>40</td></tr><tr><td rowspan=1 colspan=2></td></tr><tr><td rowspan=2 colspan=1>裁线</td><td rowspan=2 colspan=2>铜带机</td><td rowspan=2 colspan=2>4</td><td rowspan=2 colspan=1>65</td><td rowspan=10 colspan=4></td><td rowspan=2 colspan=2>25</td><td rowspan=1 colspan=2></td><td rowspan=2 colspan=1></td><td rowspan=2 colspan=2>40</td></tr><tr><td rowspan=1 colspan=2></td></tr><tr><td rowspan=3 colspan=1>组装</td><td rowspan=3 colspan=2>组装线</td><td rowspan=3 colspan=2>2</td><td rowspan=3 colspan=1>65</td><td rowspan=3 colspan=2>25</td><td rowspan=1 colspan=2></td><td></td><td></td></tr><tr><td rowspan=2 colspan=2></td><td></td><td></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=2>40</td></tr><tr><td rowspan=5 colspan=1>辅助设备</td><td rowspan=2 colspan=2>空压机</td><td rowspan=2 colspan=2>2</td><td rowspan=2 colspan=1>70</td><td rowspan=2 colspan=2>25</td><td rowspan=1 colspan=2></td><td rowspan=2 colspan=1></td><td rowspan=2 colspan=2>45</td></tr><tr><td rowspan=1 colspan=2></td></tr><tr><td rowspan=3 colspan=2>冷却塔</td><td rowspan=3 colspan=2>2</td><td rowspan=3 colspan=1>65</td><td rowspan=3 colspan=2>25</td><td rowspan=1 colspan=2></td><td></td><td></td></tr><tr><td rowspan=2 colspan=2></td><td></td><td></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=2>40</td></tr><tr><td rowspan=1 colspan=1>废气处</td><td rowspan=1 colspan=2>废气治理</td><td rowspan=1 colspan=2>1</td><td rowspan=1 colspan=1>75</td><td rowspan=1 colspan=4>风机外安</td><td rowspan=1 colspan=2>25</td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=2>50</td></tr></table>
+
+<table><tr><td rowspan=1 colspan=1>理设施</td><td rowspan=1 colspan=1>设施风机</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>装隔声罩，下方加装减震垫</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>
+
+## （2）噪声影响及达标分析
+
+噪声预测采用HJ2.4-2021附录 B.1工业噪声预测模式，本项目设备声源均为室内声源，本次预测将室内声源等效成室外声源（即声源等效为生产车间），然后按室外声源方法计算预测点处的 A声级。声环境影响预测模式如下：
+
+## ①室内声源等效室外声源声功率级计算方法
+
+如下图所示，声源位于室内，室内声源可采用等效室外声源声功率级法进行计算。设靠近开口处（或窗户）室内、室外某倍频带的声压级分别为 $L _ { p 1 } \setminus \ L _ { p 2 }$ 。若声源所在室内声场为近似扩散声场，则室外的倍频带声压级可按下式近似求出：
+
+$$
+L _ { P 2 } = L _ { p 1 } - \left( T L + 6 \right)
+$$
+
+式中：TL— 隔墙（或窗户）倍频带的隔声量，dB。
+
+![](images/7294f33ebf786e33be925a5315537de3c02c813928371218cfbaead535bb60c5.jpg)  
+室内声源等效为室外声源图例
+
+也可按下式计算某一室内声源靠近围护结构处产生的倍频带声压级：
+
+$$
+L _ { _ { P 1 } } = L _ { _ { W } } + 1 0 \log \left( { \frac { Q } { 4 \pi r ^ { 2 } } } + { \frac { 4 } { R } } \right)
+$$
+
+式中：Q——指向性因素；通常对无指向性声源，当声源放在房间中心时， $\mathrm { Q } { = } 1$ 当放在一面墙的中心时， $\scriptstyle { \mathrm { Q } } = 2$ ；当放在两面墙夹角处时， $\scriptstyle { \mathrm { Q } } = 4$ ；当放在三面墙夹角处时，Q=8。
+
+R——房间常数； $R = S \alpha / ( 1 - \alpha )$ ，S为房间内表面面积， $\mathrm { m } ^ { 2 }$ ； $\alpha$ 为平均吸声系数。—声源到靠近维护结构某点处距离，m。
+
+然后按下式计算出所有室内声源在围护结构处产生的i 倍频带叠加声压级：
+
+$$
+L _ { p _ { 1 i } } \left( T \right) = 1 0 \log \left( \sum _ { j = 1 } ^ { N } 1 0 ^ { 0 . 1 L _ { P 1 i j } } \right)
+$$
+
+式中： $L _ { p 1 i } ( T )$ 靠近围护结构处室内N个声源i 倍频带的叠加声压级， $\mathrm { d B } ( \mathrm { A } )$
+
+$L _ { p 1 i j }$ 室内 j 声源 i 倍频带的声压级，dB(A)；
+
+N — 室内声源总数。
+
+在室内近似为扩散声场时，按下式计算出靠近室外围护结构处的声压级：
+
+$$
+L _ { P 2 i } \left( T \right) = L _ { P 1 i } \left( T \right) - \left( T L _ { i } + 6 \right)
+$$
+
+式中： $L _ { p 2 i } ( T )$ 靠近围护结构处室外N 个声源i 倍频带的叠加声压级，dB(A)；  
+$T L _ { _ i }$ 围护结构i 倍频带的隔声量，dB(A)。
+
+然后按下式将室外声源的声压级和透过面积换算成等效的室外声源，计算出中心位置位于透声面积（S）处的等效声源的倍频带声功率级：
+
+$$
+L _ { { W } } = L _ { { P } 2 } \left( T \right) + 1 0 \log s
+$$
+
+然后按室外声源预测方法计算预测点处的A声级。
+
+（3）对两个以上多个声源同时存在时，多点源叠加计算总源强，采用如下公式：
+
+$$
+L _ { e q } = 1 0 \log { \sum { 1 0 } ^ { 0 . 1 l i } }
+$$
+
+式中：Leq—预测点的总等效声级，dB(A)；
+
+Li—第i 个声源对预测点的声级影响，dB(A)；
+
+项目最大噪声源是生产设备和风机运行时产生的噪声，且噪声源均处于生产车间内。因此，本报告将车间内的声源通过叠加后进行预测。在未采取治理措施并同时运行所有设备的情况下，经叠加后生产车间噪声约为 81.82dB(A)，根据点声源距离衰减公式：$\mathrm { L } _ { 2 } { = } \mathrm { L } _ { 1 } { - } 2 0 \mathrm { l g } ( \mathrm { r } _ { 2 } / \mathrm { r } _ { 1 } )$ ，并根据《隔声窗》（HJ/T17-1996），设备降噪及墙体隔声等综合隔声量取 25dB(A)，则噪声源在不同距离处噪声值如下表4-13所示：
+
+表 4-13 噪声源在不同距离处的噪声值 单位：dB(A)
+<table><tr><td rowspan=2 colspan=1>叠加后噪声值</td><td rowspan=1 colspan=5>距声源不同距离处的噪声值</td></tr><tr><td rowspan=1 colspan=1> $\underline { { 5 \mathrm { m } } }$ </td><td rowspan=1 colspan=1>10m</td><td rowspan=1 colspan=1>25m</td><td rowspan=1 colspan=1>20m</td><td rowspan=1 colspan=1>30m</td></tr><tr><td rowspan=1 colspan=1>81.82</td><td rowspan=1 colspan=1>67.82</td><td rowspan=1 colspan=1>61.82</td><td rowspan=1 colspan=1>58.32</td><td rowspan=1 colspan=1>55.82</td><td rowspan=1 colspan=1>52.32</td></tr><tr><td rowspan=1 colspan=6>采取设备降噪及墙体隔声等措施后噪声值</td></tr><tr><td rowspan=1 colspan=1>贡献值</td><td rowspan=1 colspan=1>42.82</td><td rowspan=1 colspan=1>36.82</td><td rowspan=1 colspan=1>33.32</td><td rowspan=1 colspan=1>30.82</td><td rowspan=1 colspan=1>27.32</td></tr></table>
+
+根据等效噪声源到四周厂界的距离、并考虑采取隔声降噪措施后，故预测项目运营期昼间噪声贡献值见表 4-14。
+
+表 4-14 等效噪声源对四周厂界噪声贡献值
+<table><tr><td rowspan=1 colspan=1>序号</td><td rowspan=1 colspan=1>噪声源到厂界距离（m）</td><td rowspan=1 colspan=1>预测点位</td><td rowspan=1 colspan=1>预测时段</td><td rowspan=1 colspan=1>贡献值/dB（A）</td><td rowspan=1 colspan=1>标准限值/dB（A）</td><td rowspan=1 colspan=1>达标情况</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>厂界东</td><td rowspan=1 colspan=1>昼间</td><td rowspan=1 colspan=1>30.79</td><td rowspan=4 colspan=1>65</td><td rowspan=1 colspan=1>达标</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>23</td><td rowspan=1 colspan=1>厂界南</td><td rowspan=1 colspan=1>昼间</td><td rowspan=1 colspan=1>29.59</td><td rowspan=1 colspan=1>达标</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>厂界西</td><td rowspan=1 colspan=1>昼间</td><td rowspan=1 colspan=1>31.71</td><td rowspan=1 colspan=1>达标</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>24</td><td rowspan=1 colspan=1>厂界北</td><td rowspan=1 colspan=1>昼间</td><td rowspan=1 colspan=1>29.22</td><td rowspan=1 colspan=1>达标</td></tr></table>
+
+## （2）噪声影响及达标分析
+
+项目选址位于工业区内，周围主要以工业企业厂房为主，50m 范围内没有环境敏感点。建议项目采用低噪声设备，所有设备安装时进行恰当的减振降噪处理，运行过程加强对设备的维护保养，加强车间的密闭性，做好墙体隔声，降低噪声向厂房外的船舶。通过采取以上降噪措施，以及建筑物的阻隔作用和距离的衰减，边界噪声可以达到《工业企业厂界环境噪声排放标准》（GB12348-2008）中的3类区标准（昼间等效声级≤65dB（A）），项目噪声对周围环境影响不大。
+
+## （3）噪声污染防治措施可行性分析
+
+①生产设备噪声源合理布置在生产车间内，同时企业加强生产区域门窗的隔声性能，考虑到车间建筑门窗基本关闭情况，车间的整体降噪能力可到25dB（A）以上。
+
+②选用低噪声设备，从源头控制噪声。
+
+以上噪声治理措施容易实施，技术成熟可靠，投资费用较少，在经济技术上市可行的。
+
+## （4）噪声监测计划
+
+项目生产设备每天运行 8 小时，根据《排污单位自行监测技术指南 橡胶和塑料制品》（HJ1207-2021），项目边界噪声自行监测计划如下表所示。
+
+表 4-15 厂界环境噪声监测计划
+<table><tr><td rowspan=1 colspan=1>监测点位</td><td rowspan=1 colspan=1>监测指标</td><td rowspan=1 colspan=1>监测时段</td><td rowspan=1 colspan=1>监测频次</td><td rowspan=1 colspan=1>执行排放标准</td></tr><tr><td rowspan=1 colspan=1>东侧、南侧、西侧、北侧厂界</td><td rowspan=1 colspan=1>Leq （A)</td><td rowspan=1 colspan=1>昼间</td><td rowspan=1 colspan=1>1次/季度</td><td rowspan=1 colspan=1>《工业企业厂界环境噪声排放标准》（GB12348-2008）中的3类标准</td></tr></table>
+
+## 四、固体废物
+
+## ①员工生活垃圾
+
+根据《社会区域类环境影响评价》（中国环境出版社）中固体废物污染源推荐数据，非住宿人员办公垃圾产生量按每人每天 0.5kg 计。迁扩建后项目有员工60人，不在项目内食宿，年工作日 300 天，则迁扩建后项目的生活垃圾产生量约 9t/a。办公生活垃圾收集后交由地方环卫部门清运处理。
+
+## ②一般工业废物
+
+废包装材料：外购原辅材料（ABS、PP、PC）使用后会产生废包装物，主要为废塑料袋等可回收物资，属于《一般固体废物分类与代码》（GB/T39198-2020）中的 06 类别中的 292-009-06 废塑料制品。本项目物料的包装规格为25kg/袋，项目外购用量为353.1吨/年，25kg 规格的废包装袋产生量为 14124 个/年，按25kg 规格的包装袋重量约0.05kg/个，则项目废包装材料产生量为0.7062t/a。收集后交废品回收单位处理。
+
+收集粉尘：塑料投料、混料、破碎工序粉尘经布袋除尘器处理，根据工程分析，布袋除尘器粉尘处理量为 1.612t/a，属于《一般固体废物分类与代码》（GB/T39198-2020）中的06类别中的292-009-06 废塑料制品。收集后交废品回收单位处理。
+
+次品：本项目注塑工序会产生少量次品。项目原材料总用量为 353t/a，类比同类型项目，次品的产生量按原材料总用量的 1%计，则次品产生量约为 3.53t/a，经破碎后回用到生产过程，不纳入固体废物中。
+
+沉降金属粉尘：根据前文工程分析，自然沉降金属粉尘产生量为0.0198t/a，属于《一般固体废物分类与代码》（GB/T39198-2020）中的 66 类别中的 339-009-09 工业粉尘，收集后交由专门的回收公司回收利用。
+
+## ③危险废物
+
+项目产生危险废物包括废液压油、废机油、废含油抹布、废油桶、废饱和活性炭、废乳化液。
+
+废乳化液：项目生产过程由于冷却效能下降，需定期更换，每次产生 0.02t 废乳化液，属于《国家危险废物名录（2021 年版）》中的HW09 油/水、烃/水混合物或乳化液，代码为900-006-09，收集后定期交有相应危险废物处理资质单位进行处理。
+
+废液压油：项目注塑机使用液压油，根据设备保养说明，液压油1\~2年需更换一次，则项目废液压油产生量为0.2t/a。属于《国家危险废物名录（2021年版）》中的HW08废矿物油与含矿物油废物，代码为900-218-08。收集后定期交有相应危险废物处理资质单位进行处理。
+
+废机油：本项目各机械设备维修和拆解过程中产生的废机油，属于《国家危险废物名录（2021年版）》中的HW08废矿物油与含矿物油废物，代码为900-214-08。按照机油损耗量为50%，生产设备一般一年检修一次，机油年使用量为0.1t，废机油产生量约为0.05t/a，收集后定期交有相应危险废物处理资质单位进行处理。
+
+废含油抹布：因机械设备维护及生产操作会产生的含油废抹布，废含油抹布属于《国家危险废物名录》（2021年版）中的HW49其他废物，代码为900-041-49。按照抹布重0.1kg/条，一年使用抹布约100条，则含油废抹布的产生量为0.01t/a，收集后定期交有相应危险废物处理资质单位进行处理。
+
+废油桶：项目使用的液压油、机油会产生废油桶，属于《国家危险废物名录（2021年版）》中的 HW08 废矿物油与含矿物油废物，代码为900-249-08。项目包装规格为 10kg/桶，按照10kg包装空桶重0.3kg/个，液压油和机油一年共使用30桶，则产生包装桶约0.009t/a，收集后定期交有相应危险废物处理资质单位进行处理。
+
+废饱和活性炭：项目有机废气采用“二级活性炭吸附”废气处理设施，处理效率为51%，有机废气收集量为 0.662t/a，削减量为 $0 . 6 6 2 \mathrm { t } \times 5 1 \% { = } 0 . 3 3 8 \mathrm { t }$ 。项目废气处理设施装填的活性炭采用蜂窝状、碘值不低于800mg/g 的活性炭，比表面积 $9 0 0 { \sim } 1 5 0 0 \mathrm { m } ^ { 2 } \mathrm { g }$ ，堆积密度 450kg/m3，过滤停留时间约 2s。根据《关于指导大气污染治理项目入库工作的通知》（粤环办[2021]92号）附件 1.广东省工业源挥发性有机物减排量核算方法（试行）中活性炭（蜂窝状）的吸附比例为 20%，则项目活性炭使用量至少为 1.69t。由于长时间运行活性炭的吸附性能容易受到影响，为保证活性炭吸附装置的运行效果，建议建设单位每3个月每级活性炭吸附装置均更换一次新鲜活性炭，废活性炭产生量=活性炭负载量×一年活性炭更换次数+活性炭削减废气量，项目两个活性炭吸附箱装载量合共1.014t，则废饱和活性炭产生量=1.014t/次×4 次/年+0.338t/a=4.394t/a。
+
+## 1、固体废物污染物排放源
+
+表 4-17 固体废物污染源源强核算结果及相关参数一览表
+<table><tr><td rowspan=2 colspan=1>工序</td><td rowspan=2 colspan=1>产生源</td><td rowspan=2 colspan=1>固体废物名称</td><td rowspan=2 colspan=1>固废属性</td><td rowspan=1 colspan=2>产生量</td><td rowspan=2 colspan=1>处置措施</td><td rowspan=2 colspan=1>最终去向</td><td rowspan=2 colspan=1>贮存方式</td><td rowspan=2 colspan=1>环境管理要求</td></tr><tr><td rowspan=1 colspan=1>核算方法</td><td rowspan=1 colspan=1>产生量（t/a）</td></tr><tr><td rowspan=1 colspan=1>办公</td><td rowspan=1 colspan=1>工作人员</td><td rowspan=1 colspan=1>生活垃圾</td><td rowspan=1 colspan=1>生活垃圾</td><td rowspan=1 colspan=1>系数法</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>交环卫部门处置</td><td rowspan=1 colspan=1>垃圾桶</td><td rowspan=1 colspan=1>交环卫部门处置</td></tr><tr><td rowspan=1 colspan=1>原材料包装</td><td rowspan=1 colspan=1>原材料包装</td><td rowspan=1 colspan=1>废包装材料</td><td rowspan=1 colspan=1>第I类一般工业固体废物</td><td rowspan=1 colspan=1>类比法</td><td rowspan=1 colspan=1>0.7062（</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>交废品回收单位处理</td><td rowspan=1 colspan=1>整齐堆放</td><td rowspan=3 colspan=1>分类收集储存在一般工业固体废物暂存间内、妥善处置</td></tr><tr><td rowspan=1 colspan=1>投料、混料、破碎</td><td rowspan=1 colspan=1>投料、混料、破碎</td><td rowspan=1 colspan=1>收集粉尘</td><td rowspan=1 colspan=1>第I类一般工业固体废物</td><td rowspan=1 colspan=1>类比法</td><td rowspan=1 colspan=1>1.612</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>交废品回收单位处理</td><td rowspan=1 colspan=1>整齐堆放</td></tr><tr><td rowspan=1 colspan=1>机加工机</td><td rowspan=1 colspan=1>加工</td><td rowspan=1 colspan=1>沉降金属粉尘</td><td rowspan=1 colspan=1>第I类一般工业固体废物</td><td rowspan=1 colspan=1>类比法</td><td rowspan=1 colspan=1>0.0198</td><td rowspan=1 colspan=1>分类分区</td><td rowspan=1 colspan=1>交废品回收单位处理</td><td rowspan=1 colspan=1>整齐堆放</td></tr><tr><td rowspan=5 colspan=1>设备维保</td><td rowspan=5 colspan=1>设备维保</td><td rowspan=1 colspan=1>废含油抹布</td><td rowspan=1 colspan=1>危险废物</td><td rowspan=1 colspan=1>类比法</td><td rowspan=1 colspan=1>0.01</td><td rowspan=6 colspan=1>收集购存</td><td rowspan=6 colspan=1>交由有危废资质单位处置</td><td rowspan=1 colspan=1>塑料桶装（200L/桶）</td><td rowspan=6 colspan=1>根据生产需要合理设施贮存量，尽量减少厂内的物料贮存量；严禁将危险废物混入生活垃圾；堆放危险废物的地方要有明显的标志，堆放点要防雨、防渗、防漏，应按要求进行包装贮存</td></tr><tr><td rowspan=1 colspan=1>废乳化液</td><td rowspan=1 colspan=1>危险废物</td><td rowspan=1 colspan=1>类比法</td><td rowspan=1 colspan=1>0.02</td><td rowspan=1 colspan=1>塑料桶装（200L/桶）</td></tr><tr><td rowspan=1 colspan=1>废机油</td><td rowspan=1 colspan=1>危险废物</td><td rowspan=1 colspan=1>类比法</td><td rowspan=1 colspan=1>0.05</td><td rowspan=1 colspan=1>塑料桶装（200L/桶）</td></tr><tr><td rowspan=1 colspan=1>废液压油</td><td rowspan=1 colspan=1>危险废物</td><td rowspan=1 colspan=1>类比法</td><td rowspan=1 colspan=1>0.2</td><td rowspan=1 colspan=1>塑料桶装（200L/桶）</td></tr><tr><td rowspan=1 colspan=1>废油桶</td><td rowspan=1 colspan=1>危险废物</td><td rowspan=1 colspan=1>类比法</td><td rowspan=1 colspan=1>0.009</td><td rowspan=1 colspan=1>整齐堆放</td></tr><tr><td rowspan=1 colspan=1>废气治理设施</td><td rowspan=1 colspan=1>废气治理设施</td><td rowspan=1 colspan=1>废饱和活性炭</td><td rowspan=1 colspan=1>危险废物</td><td rowspan=1 colspan=1>系数法</td><td rowspan=1 colspan=1>4.394</td><td rowspan=1 colspan=1>塑料袋装（1t/袋）</td></tr></table>
+
+表 4-18 危险废物产生情况
+<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=2>农</td><td rowspan=1 colspan=2>+16</td><td rowspan=1 colspan=2>池应废物厂</td><td rowspan=1 colspan=1>上情况</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=9 colspan=1></td><td rowspan=1 colspan=2>废物名称</td><td rowspan=1 colspan=1>废物类别</td><td rowspan=1 colspan=2>废物代码</td><td rowspan=1 colspan=2>产生量（吨/年）</td><td rowspan=1 colspan=2>产生工序及装置</td><td rowspan=1 colspan=1>形态</td><td rowspan=1 colspan=1>主要成分</td><td rowspan=1 colspan=1>有害成分</td><td rowspan=1 colspan=2>产废周期</td><td rowspan=1 colspan=1>危险特性</td><td rowspan=1 colspan=1>污染防治措施</td></tr><tr><td rowspan=1 colspan=2>废液压油</td><td rowspan=3 colspan=1>HW08废矿物油与含矿物油废物</td><td rowspan=1 colspan=2>900-218-08</td><td rowspan=1 colspan=2>0.2</td><td rowspan=5 colspan=2>生产过程、设备维护</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=2>液压油</td><td rowspan=1 colspan=2>1年</td><td rowspan=1 colspan=1>T，1</td><td rowspan=6 colspan=1>分类分区收集，交由有资质危废单位处理</td></tr><tr><td rowspan=1 colspan=2>废机油</td><td rowspan=1 colspan=2>900-214-08</td><td rowspan=1 colspan=2>0.05</td><td rowspan=1 colspan=1>液态液态</td><td rowspan=1 colspan=2>机油</td><td rowspan=1 colspan=2>1年</td><td rowspan=1 colspan=1>T,1</td></tr><tr><td rowspan=1 colspan=2>废油桶</td><td rowspan=1 colspan=2>900-249-08</td><td rowspan=1 colspan=2>0.009</td><td rowspan=1 colspan=1>固态</td><td rowspan=1 colspan=2>机油、液压油</td><td rowspan=1 colspan=2>1年</td><td rowspan=1 colspan=1>T，1</td></tr><tr><td rowspan=1 colspan=2>废乳化液</td><td rowspan=1 colspan=1>HW09油/水、烃/水混合物或乳化液</td><td rowspan=1 colspan=2>900-006-09</td><td rowspan=1 colspan=2>0.02</td><td rowspan=1 colspan=1>液态</td><td rowspan=1 colspan=2>乳化液</td><td rowspan=1 colspan=2>1年</td><td rowspan=1 colspan=1>T</td></tr><tr><td rowspan=1 colspan=2>废含油抹布</td><td rowspan=2 colspan=1>HW49其他废物</td><td rowspan=1 colspan=2>900-041-49</td><td rowspan=1 colspan=2>0.01</td><td rowspan=1 colspan=1>固态</td><td rowspan=1 colspan=2>矿物油</td><td rowspan=1 colspan=2>1年</td><td rowspan=1 colspan=1>T/In</td></tr><tr><td rowspan=1 colspan=2>废饱和活性炭</td><td rowspan=1 colspan=2>900-039-49</td><td rowspan=1 colspan=2>4.683</td><td rowspan=1 colspan=2>废气处理</td><td rowspan=1 colspan=1>固态</td><td rowspan=1 colspan=2>有机物</td><td rowspan=1 colspan=2>3个月</td><td rowspan=1 colspan=1>T</td></tr><tr><td rowspan=1 colspan=2>注：危险特性</td><td rowspan=1 colspan=14>中T：毒性、I：易燃性、In：感染性、C：腐蚀性</td></tr><tr><td rowspan=1 colspan=2></td><td rowspan=1 colspan=14>表4-19建设项目危险废物贮存场所（设施）基本情况表</td></tr><tr><td rowspan=7 colspan=1></td><td rowspan=1 colspan=1>序号</td><td rowspan=1 colspan=1>贮存场所名称</td><td rowspan=1 colspan=2>危险废物名称</td><td rowspan=1 colspan=2>危险废物类别</td><td rowspan=1 colspan=2>危险废物代码</td><td rowspan=1 colspan=2>位置</td><td rowspan=1 colspan=1>占地面积</td><td rowspan=1 colspan=2>贮存方式</td><td rowspan=1 colspan=2>贮存能力</td><td rowspan=1 colspan=1>贮存周期</td></tr><tr><td rowspan=6 colspan=1>1</td><td rowspan=6 colspan=1>危险废物暂存区</td><td rowspan=1 colspan=2>废油桶</td><td rowspan=1 colspan=2>HW08废矿物油与含矿物油废物</td><td rowspan=1 colspan=2>900-249-08</td><td rowspan=6 colspan=2>厂区内</td><td rowspan=6 colspan=1>5m²</td><td rowspan=1 colspan=2>整齐堆放</td><td rowspan=1 colspan=2>0.1t</td><td rowspan=1 colspan=1>一年</td></tr><tr><td rowspan=1 colspan=2>废液压油</td><td rowspan=1 colspan=2>HW08废矿物油与含矿物油废物</td><td rowspan=1 colspan=2>900-218-08</td><td rowspan=1 colspan=2>塑料桶装（200L/桶）</td><td rowspan=1 colspan=2>0.2t</td><td rowspan=1 colspan=1>一年</td></tr><tr><td rowspan=1 colspan=2>废含油抹布</td><td rowspan=1 colspan=2>HW49其他废物</td><td rowspan=1 colspan=2>900-041-49</td><td rowspan=1 colspan=2>塑料桶装（200L/桶）</td><td rowspan=1 colspan=2>0.1t</td><td rowspan=1 colspan=1>一年</td></tr><tr><td rowspan=1 colspan=2>废饱和活性炭</td><td rowspan=1 colspan=2>HW49其他废物</td><td rowspan=1 colspan=2>900-039-49</td><td rowspan=1 colspan=2>塑料袋装（1t/袋）</td><td rowspan=1 colspan=2>2t</td><td rowspan=1 colspan=1>3个月</td></tr><tr><td rowspan=1 colspan=2>废机油</td><td rowspan=1 colspan=2>HW08废矿物油与含矿物油废物</td><td rowspan=1 colspan=2>900-214-08</td><td rowspan=1 colspan=2>塑料桶装（200L/桶）</td><td rowspan=1 colspan=2>0.1t</td><td rowspan=1 colspan=1>一年</td></tr><tr><td rowspan=1 colspan=2>废乳化液</td><td rowspan=1 colspan=2>HW09油/水、烃/水混合物或乳化液</td><td rowspan=1 colspan=2>900-006-09</td><td rowspan=1 colspan=2>塑料桶装（200L/桶）</td><td rowspan=1 colspan=2>0.1t</td><td rowspan=1 colspan=1>一年</td></tr><tr><td rowspan=1 colspan=17>2、固体废物管理要求（1）一般工业固体废物根据《中华人民共和国固体废物污染环境防治法》（2020年4月29日修订）和《广东省固体废物污染环境防治条例》，产生工业固体废物的单位应当建立健全工业固体废物产生、收集、贮存、运输、利用、处置全过程的污染环境防治责任制度，建立工业固</td></tr></table>
+
+体废物管理台账，如实记录产生工业固体废物的种类、数量、流向、贮存、利用、处置等信息，实现工业固体废物可追溯、可查询，并采取防治工业固体废物污染环境的措施。
+
+## （2）危险废物
+
+危险废物从产生、收集、贮存、转运、处置等各个环节都可能因管理不善而进入环境，因此在各个环节中抛落、渗漏、丢弃等不完善问题都可能存在。为使各种危险废物能够得到合法合理处置，本评价拟按照《危险废物贮存污染控制标准》（GB18597-2023）提出相应的治理措施，以进一步规范收集、贮运、处置方式等操作过程。
+
+## ①收集、贮存
+
+危险废物暂存场所设置防风、防雨、防晒、防渗透等防渗漏措施，地面采取防渗措施。危险废物收集后分别临时贮存于收集容器内。根据生产需要合理设置贮存量，尽量减少厂区内的物料贮存量；严禁将危险废物混入生活垃圾；堆放危险废物的地方要有明显的标志，按要求进行包装贮存，符合危险废物的暂存要求。
+
+## ②运输
+
+危险废物的运输要严格按照危险废物运输的管理规定进行，减少运输过程中的二次污染和可能造成的环境风险，运输车辆需有特殊标志。
+
+## ③处置
+
+建设单位拟将危险废物交有危废处置资质单位处理。根据《广东省危险废物产生单位危险废物规范化管理工作实施方案》、《危险废物转移管理办法》，建设单位拟将危险废物拟交由有危废处置资质单位处理。类比分析可知，本项目危险废物防治措施在技术经济上是可行的。根据《危险废物转移管理办法》（部令第 23 号），转移危险废物的，应当通过国家危险废物信息管理系统（以下简称信息系统）填写、运行危险废物电子转移联单，并依照国家有关规定公开危险废物转移相关污染环境防治信息。
+
+移出人应当履行以下义务：①对承运人或者接受人的主体资格和技术能力进行核实，依法签订书面合同，并在合同中约定运输、贮存、利用、处置危险废物的污染防治要求及相关责任；②制定危险废物管理计划，明确拟转移危险废物的种类、重量（数量）和流向等信息；③建立危险废物管理台账，对转移的危险废物进行计量称重，如实记录、妥善保管转移危险废物的种类、重量（数量）和接受人等相关信息；④填写、运行危险废物转移联单，在危险废物转移联单中如实填写移出人、承运人、接受人信息，转移危险废物的种类、重量（数量）、危险特性等信息，以及突发环境事件的防范措施等；⑤及时核实接受人贮存、利用或者处置相关危险废物情况；⑥法律法规规定的其他义务。⑦移出人应当按照国家有关要求开展危险废物鉴别。禁止将危险废物以副产品等名义提供或者委托给无危险废物经营许可证的单位或者其他生产经营者从事收集、贮存、利用、处置活动。
+
+企业还需健全产生单位内部管理制度，包括落实危险废物产生信息公开制度，建立员工培训和固体废物管理员制度，完善危险废物相关档案管理制度；建立和完善突发危险废物环境应急预案（简易），并报当地环保部门备案。
+
+## 3、固体废物环境影响分析结论
+
+综上所述，本项目固体废物经上述“减量化、资源化、无害化”处置后，可将固废对周围环境产生的影响减少到最低限度，不会对周围环境产生明显的影响。
+
+## 五、地下水、土壤
+
+## （1）影响途径
+
+## ①大气沉降
+
+大气沉降是指大气中的污染物通过一定的途径被沉降至地面或水体的过程，分为干沉降和湿沉降，是土壤污染的重要途径之一，本项目主要从事塑料件的产销，行业类别为 C2929 塑料零件及其他塑料制品制造、C3399 其他未列明金属制品制造、C3831 电线、电缆制造，根据《农用地土壤污染状况详查点位布设技术规定》附件1土壤污染重点行业分类及企业筛选原则，本项目不在土壤污染重点行业范围内，本项目大气污染因子主要是非甲烷总烃、TSP、锡及其化合物、臭气浓度等。项目产生的大气污染物不涉及《农用地土壤污染状况详查 点位布设技术规定》附件 3 中“附表 3-1 农用地土壤和农产品样品必测项目”中无机及有机污染物，因此不考虑大气沉降的影响。
+
+## ②液态物质泄漏
+
+## A.废水渗漏分析和影响
+
+一般情况下，废水渗漏主要考虑水池容纳构筑物（如化粪池）底部破损渗漏和排水管渗漏两个方面。
+
+本项目不涉及生产废水的贮存及排放。不考虑水池容纳构筑物底部破损渗漏对地下水及土壤环境的产生影响。建设单位应认真做好管道外观监测和通水试验，检查排水管设计，根据管径尺寸、设定固定垂直、水平支架，避免管道偏心、变形而渗水；地下埋管应设置砖墩支撑，回填土时应两侧同时回填避免管道侧向变形，回填土前必须先做通
+
+<table><tr><td rowspan=1 colspan=1>项目区域</td><td rowspan=1 colspan=1>天然包气带防污性能</td><td rowspan=1 colspan=1>污染控制难易程度</td><td rowspan=1 colspan=1>污染物类型</td><td rowspan=1 colspan=1>防渗分区</td><td rowspan=1 colspan=1>防渗技术要求</td><td rowspan=4 colspan=1></td></tr><tr><td rowspan=1 colspan=1>危险废物暂存间</td><td rowspan=1 colspan=1>中-强</td><td rowspan=1 colspan=1>难</td><td rowspan=1 colspan=1>持久性有机物</td><td rowspan=1 colspan=1>重点防渗区</td><td rowspan=1 colspan=1>等效黏土防渗层Mb≥6.0m，K≤1×10-7cm/s;或参照GB18598执行</td></tr><tr><td rowspan=1 colspan=1>生产车间、仓库</td><td rowspan=1 colspan=1>中-强</td><td rowspan=1 colspan=1>难</td><td rowspan=1 colspan=1>其他类型</td><td rowspan=1 colspan=1>一般防渗区</td><td rowspan=1 colspan=1>等效黏土防渗层Mb≥1.5m，K≤1×10-7cm/s;或参照GB16889执行</td></tr><tr><td rowspan=1 colspan=1>办公室</td><td rowspan=1 colspan=1>中-强</td><td rowspan=1 colspan=1>易</td><td rowspan=1 colspan=1>其他类型</td><td rowspan=1 colspan=1>简单防渗区</td><td rowspan=1 colspan=1>一般地面硬化</td></tr><tr><td rowspan=1 colspan=7>针对防渗分区的划分，主要采取以下措施：1）危废暂存间a.选用符合标准的容器盛装危险废物，有效减少物料渗漏。b.危险废物暂存间内设置毛毡、木屑、抹布等应急吸收材料，及时清理泄漏的危险废物。c.危险废物暂存间内设收集渠或围堰，收集泄漏的危险废物。d.危险废物暂存间设置漫坡，高20cm，防止仓库内泄漏物料外流，同时防止雨水流入仓库内。</td></tr></table>
+
+e.定期对污水管道、阀门等进行检查维修；定期检查排水管的情况，若发现墙体或管道出现裂痕等问题，应立即进行抢修或翻新。
+
+据调查，一般情况下一旦发现物料泄漏时及时进行处理，污染源的存在只是短时的间断存在，只要及时发现，及时处理，污染物作用时间短，很难穿透基础防渗层，因此，其对地下水影响较小。
+
+## 2）生产车间、仓库
+
+a.生产车间、仓库地面进行防渗处理，防渗层渗透系数建议≤10-7cm/s，同时设置防渗墙裙、门口设漫坡。
+
+b.定期对生产线员工进行应急泄漏培训，建立各级风险控制机构，各成员应有明确的分工与职责范围。
+
+## 3）办公室
+
+a.对于生活垃圾，建设单位应做到日产日清，同时对堆放点做防腐、防渗措施，则生活垃圾不会对地下水产生污染。
+
+由污染途径及对应措施分析可知，项目对可能产生地下水、土壤影响的各项途径均进行有效预防，在做好各项防渗措施，并加强维护和厂区环境管理的基础上，可有效控制厂区内的液态危险废物等污染物下渗现象，不会出现污染地下水、土壤的情况。
+
+## （3）跟踪监测
+
+经上述土壤及地下水环境影响途径分析，项目运行期间对地下水和土壤无污染影响途径，不再布设跟踪监测点。
+
+## 六、生态
+
+本项目选址位于工业园区内，用地范围内无生态环境保护目标，对周边生态环境无明显影响。故项目不需要采取生态防控措施。
+
+## 七、环境风险
+
+## （1）风险调查
+
+项目运营过程产生的机油、废机油、废液压油、液压油、乳化液、废乳化液，为矿物油类，属于《建设项目环境风险评价技术导则》（HJ 169-2018）附录B 中的危险物质，临界量 Qn 为 2500t；根据导则附录 C 规定，当存在多种危险废物时，则按下式计算物质总量与其临界量比值。
+
+$$
+\mathcal { Q } = \frac { \boldsymbol { q } _ { 1 } } { \boldsymbol { \mathcal { Q } } _ { 1 } } + \frac { \boldsymbol { q } _ { 2 } } { \boldsymbol { \mathcal { Q } } _ { 2 } } + \cdots \frac { \boldsymbol { q } _ { n } } { \boldsymbol { \mathcal { Q } } _ { n } }
+$$
+
+式中：q1，q2，....， $\mathsf { q } _ { \mathrm { n } } \mathsf { \overline { { \Psi } } }$ 每种危险物质的最大存在总量，t；
+
+Q1，Q2，....，Qn— 每种危险物质的临界量，t。
+
+表 4-21 建设项目危险物质识别情况
+<table><tr><td rowspan=1 colspan=1>序号</td><td rowspan=1 colspan=1>危险品名称</td><td rowspan=1 colspan=1>CAS号</td><td rowspan=1 colspan=1>临界量(吨）</td><td rowspan=1 colspan=1>最大储存量(吨）</td><td rowspan=1 colspan=1>贮存量占临界量比值Q</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>液压油</td><td rowspan=1 colspan=1>/</td><td rowspan=1 colspan=1>2500</td><td rowspan=1 colspan=1>0.2</td><td rowspan=1 colspan=1>0.00008</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>废液压油</td><td rowspan=1 colspan=1>/</td><td rowspan=1 colspan=1>2500</td><td rowspan=1 colspan=1>0.2</td><td rowspan=1 colspan=1>0.00008</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>机油</td><td rowspan=1 colspan=1>/</td><td rowspan=1 colspan=1>2500</td><td rowspan=1 colspan=1>0.1</td><td rowspan=1 colspan=1>0.00004</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>废机油</td><td rowspan=1 colspan=1>/</td><td rowspan=1 colspan=1>2500</td><td rowspan=1 colspan=1>0.05</td><td rowspan=1 colspan=1>0.00002</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>乳化液</td><td rowspan=1 colspan=1>/</td><td rowspan=1 colspan=1>2500</td><td rowspan=1 colspan=1>0.02</td><td rowspan=1 colspan=1>0.000008</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>废乳化液</td><td rowspan=1 colspan=1>/</td><td rowspan=1 colspan=1>2500</td><td rowspan=1 colspan=1>0.1</td><td rowspan=1 colspan=1>0.00004</td></tr><tr><td rowspan=1 colspan=5>合计</td><td rowspan=1 colspan=1>0.000268</td></tr></table>
+
+经识别计算，本项目的危险物质数量与临界量比值（Q=0.000268）<1。根据《建设项目环境风险评价技术导则》（HJ169-2018），本项目环境风险潜势为Ⅰ级，评价工作等级为“简单分析”，即只需对危险物质、环境影响途径、环境危害后果、风险防范措施等方面给出定性的说明。
+
+## （2）环境影响途径
+
+表 4-22 本项目风险源分布、可能影响的途径一览表
+<table><tr><td rowspan=1 colspan=1>事故起因</td><td rowspan=1 colspan=1>环境风险描述</td><td rowspan=1 colspan=1>涉及化学品（污染物）</td><td rowspan=1 colspan=1>风险类别</td><td rowspan=1 colspan=1>途径及后果</td><td rowspan=1 colspan=1>位置</td><td rowspan=1 colspan=1>风险防范措施</td></tr><tr><td rowspan=1 colspan=1>原料泄露、危险废物泄漏</td><td rowspan=1 colspan=1>泄露化学品进入水体</td><td rowspan=1 colspan=1>液压油、废液压油、机油、废机油、乳化液、废乳化液</td><td rowspan=1 colspan=1>水环境、地下水环境</td><td rowspan=1 colspan=1>通过雨水管排放到附近水体，影响内河涌水质，影响水生环境</td><td rowspan=1 colspan=1>原料仓库</td><td rowspan=1 colspan=1>储存在专用仓库，控制储存量。现场配置泄露吸附收集等应急器材，防止泄露范围扩大</td></tr><tr><td rowspan=2 colspan=1>火灾、爆炸</td><td rowspan=1 colspan=1>燃烧烟尘及污染物污染周围大气环境</td><td rowspan=1 colspan=1>烟尘、CO、NOx、非甲烷总烃</td><td rowspan=1 colspan=1>大气环境</td><td rowspan=1 colspan=1>通过燃烧烟气扩散，对周围大气环境造成短时污染</td><td rowspan=1 colspan=1>生产车间</td><td rowspan=2 colspan=1>落实防止火灾措施，发生火灾时可封堵雨水井</td></tr><tr><td rowspan=1 colspan=1>消防废水进入附近水体</td><td rowspan=1 colspan=1> $\mathrm { C O D } _ { \mathrm { C r } }$ 等</td><td rowspan=1 colspan=1>水环境</td><td rowspan=1 colspan=1>通过雨水管对附近内河涌水质造成影响</td><td rowspan=1 colspan=1>生产车间</td></tr><tr><td rowspan=1 colspan=1>环境保护设施失效事故排放</td><td rowspan=1 colspan=1>废气直接进入大气</td><td rowspan=1 colspan=1>非甲烷总烃、TSP、臭气浓度</td><td rowspan=1 colspan=1>大气环境</td><td rowspan=1 colspan=1>通过无组织直接排入大气，对周围大气环境造成短时污染</td><td rowspan=1 colspan=1>废气处理设施</td><td rowspan=1 colspan=1>定期维护风机和治理设施</td></tr></table>
+
+## （3）环境风险分析
+
+## ①化学品泄漏风险分析
+
+仓库、生产区出现液压油、机油、乳化液泄漏时，泄漏的化学品可能进入可能进入
+
+水体，对环境造成危害。建议建设单位按规范将液态原料储存在专用仓库，控制储存量，现场配置泄漏吸附收集等应急器材，防止泄漏范围扩大，预计泄漏对水环境产生污染可能性不大，其风险可控。
+
+## ②危险废物泄漏风险分析
+
+危险废物暂存处废液压油、废机油、废乳化液出现大量泄漏时，可能进入水体，对水环境造成危害。考虑到本项目危险废物储存量较少，危险废物分类暂存，危险废物暂存间设置有围堰，且危险废物暂存间做好防渗和硬底化处理，项目的危险废物泄漏风险可控。
+
+## ③火灾事故后果分析
+
+当液压油、废液压油、机油、废机油等泄漏，遇明火可能引发火灾甚至爆炸。火灾事故散发的烟气对周围大气直接造成影响。大的火灾扑救产生消防水可能进入内河涌对水体造成危害。消防废水中含有各种化工原材料，但考虑到本项目使用及储存的化工原料量较少，其进入水体后经稀释后，不会造成较大的危害。项目的火灾事故风险可控。
+
+## ④废气处理设施故障风险分析
+
+项目运营期间，废气处理设施发生故障导致废气污染物通过无组织直接排入大气，对周边居民、大气环境造成污染影响。建设单位定期对废气治理设施进行检测和维修，降低因设备故障造成的事故排放的概率。一旦发生设备故障，生产线立即停机，直到故障点完成维修为止，项目的环境保护设施失效事故风险可控。
+
+## （4）风险控制措施及应急要求
+
+①项目属于塑料制品业，根据关于发布《突发环境事件应急预案备案行业名录（指导性意见）》的通知（粤环〔2018〕44号），项目不属于需要突发环境事件应急预案备案的行业；本项目不存在近三年内发生过突发环境事件或因违法排放污染物、非法转移处置危险废物等行为受到生态环境部门处罚的情况，故根据《佛山市生态环境局关于印发危险废物产生单位突发环境事件应急预案备案的指导意见（试行）的通知》（佛环〔2020〕54 号），企业进行突发环境事件应急预案简化备案即可，提交相关文件至相应生态环境部门备案。
+
+②企业需按照《佛山市企业事业单位突发环境事件应急预案备案管理实施办法》（佛环〔2019〕140 号）编制突发环境事件应急预案，健全应急组织，落实应急器材，并对预案进行演练。
+
+③组织机构及职责：建立各级风险控制机构，各成员应有明确的分工与职责范围，各级成员的电话 24小时开通过。
+
+④应急设备、材料：仓库和现场应配备必要的应急设备、材料，如砂土、铲、消防水枪等。
+
+⑤应急培训及演练：制定培训计划，对各岗位员工进行应急培训及演练，熟悉各自的职责和职能，熟悉应急设施的使用方法，事故处理方式，以及事故发生时的应急处理技能。
+
+⑥记录和报告：设置应急事故专门记录，建立档案的报告制度，并由专门部门负责管理，以便总结经验，改善应急计划和提高处理应急的综合能力。
+
+## （5）分析结论
+
+项目环境风险类型为泄漏、火灾引起的伴生/次生污染物排放。影响途径主要是泄漏化学品和危险废物发生火灾时的消防废水通过车间排水系统进入周边水体。在采取有效的防泄漏、防火措施后，项目的环境风险可控。
+
+## 八、电磁辐射
+
+无。
+
+## 五、环境保护措施监督检查清单
+
+<table><tr><td colspan="1" rowspan="1">内容要素</td><td colspan="2" rowspan="1">排放口(编号、名称)/污染源</td><td colspan="1" rowspan="1">污染物项目</td><td colspan="1" rowspan="1">环境保护措施</td><td colspan="1" rowspan="1">执行标准</td></tr><tr><td colspan="1" rowspan="7">大气环境</td><td colspan="2" rowspan="2">G1废气排放口/注塑工序</td><td colspan="1" rowspan="1">非甲烷总烃</td><td colspan="1" rowspan="1">建设单位在每台卧式注塑机上方设置集气</td><td colspan="1" rowspan="1">《合成树脂工业污染物排放标准》（GB31572-2015）表4大气污染物排放限值</td></tr><tr><td colspan="1" rowspan="1">臭气浓度</td><td colspan="1" rowspan="1">罩收集废气，集气罩外围安装软帘形成局部围闭，加强收集效率。注塑过程产生的有机废气经有效收集后，通过“二级活性炭吸附”装置处理后引至25m排气筒G1高空排放</td><td colspan="1" rowspan="1">《恶臭污染物排放标准》（GB14554-1993）表2恶臭污染物排放标准值</td></tr><tr><td colspan="1" rowspan="5">无组织</td><td colspan="1" rowspan="1">投料、混料、破碎工序</td><td colspan="1" rowspan="1">颗粒物</td><td colspan="1" rowspan="1">加强车间通风换气，颗粒物经布袋除尘器处理后以无组织形式排放</td><td colspan="1" rowspan="1">《合成树脂工业污染物排放标准》（GB31572-2015）表9企业边界大气污染物浓度限值与广东省地方标淮《大气污染物排放限值》（DB44/27-2001）第二时段无组织排放监控点浓度限值的较严值</td></tr><tr><td colspan="1" rowspan="1">机加工工序</td><td colspan="1" rowspan="1">颗粒物</td><td colspan="1" rowspan="4">加强车间通风换气</td><td colspan="1" rowspan="1">《合成树脂工业污染物排放标准》（GB31572-2015）表9企业边界大气污染物浓度限值与广东省地方标准《大气污染物排放限值》（DB44/27-2001）第二时段无组织排放监控点浓度限值的较严值</td></tr><tr><td colspan="1" rowspan="2">有机废气</td><td colspan="1" rowspan="1">厂界非甲烷总烃</td><td colspan="1" rowspan="1">《合成树脂工业污染物排放标准》（GB31572-2015）表9企业边界大气污染物浓度限值</td></tr><tr><td colspan="1" rowspan="1">厂区内VOCs</td><td colspan="1" rowspan="1">广东省地方标准《固定污染源挥发性有机物综合排放标准》（DB44/2367-2022）中表3厂区内VOCs无组织排放限值</td></tr><tr><td colspan="1" rowspan="1">臭气浓度</td><td colspan="1" rowspan="1">臭气浓度</td><td colspan="1" rowspan="1">《恶臭污染物排放标准》（GB14554-1993）表1恶臭污染物厂界标准值二级</td></tr><tr><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1">新扩建项目标准限值</td></tr><tr><td colspan="1" rowspan="1">地表水环境</td><td colspan="1" rowspan="1">DW001</td><td colspan="1" rowspan="1">生活污水</td><td colspan="1" rowspan="1">pH值、化学需氧量、五日生化需氧量、氨氮、悬浮物、总磷</td><td colspan="1" rowspan="1">生活污水处理设施：三级化粪池</td><td colspan="1" rowspan="1">广东省地方标准《水污染物排放限值》（DB44/26-2001）第二时段三级标准</td></tr><tr><td colspan="1" rowspan="1">声环境</td><td colspan="2" rowspan="1">生产设备噪声</td><td colspan="1" rowspan="1">等效连续A声级</td><td colspan="1" rowspan="1">厂房隔声、风机消声、设备减振</td><td colspan="1" rowspan="1">《工业企业厂界环境噪声排放限值》（GB3096-2008）3类标准</td></tr><tr><td colspan="1" rowspan="1">电磁辐射</td><td colspan="2" rowspan="1">/</td><td colspan="1" rowspan="1">/</td><td colspan="1" rowspan="1">/</td><td colspan="1" rowspan="1"></td></tr><tr><td colspan="1" rowspan="1">固体废物</td><td colspan="5" rowspan="1">（1）职工生活垃圾定期交由环卫部门清理；（2）项目产生的废包装材料、收集粉尘、沉降金属粉尘参照《一般工业固体废物贮存和填埋污染控制标准》（GB18599-2020）规范收集后交废品回收单位处理；（3）建设单位须根据废物特性设置符合《危险废物贮存污染物控制标准》（GB18597-2023）要求的废液压油、废机油、废含油抹布、废油桶、废饱和活性炭、废乳化液等危险废物暂存场所，且在暂存场所上空设有防雨淋设施，地面采取防渗措施，危险废物收集后分别临时贮存于废物储罐内；根据生产需要合理设置贮存量，尽量减少厂区内的物料贮存量；严禁将危险废物混入生活垃圾；堆放危险废物的地方要有明显的标志，堆放点要防雨、防渗、防漏，按要求进行包装贮存。</td></tr><tr><td colspan="1" rowspan="1">土壤及地下水污染防治措施</td><td colspan="5" rowspan="1">项目租用现有生产厂房作为生产场所，厂房和周边环境地面已做好水泥面硬化防渗措施，项目做好生产车间防渗防漏，危废暂存间防渗、防风、防雨等措施，并设置局部围堰等措施。</td></tr><tr><td colspan="1" rowspan="1">生态保护措施</td><td colspan="5" rowspan="1">无</td></tr><tr><td colspan="1" rowspan="1">环境风险防范措施</td><td colspan="5" rowspan="1">①加强防火安全管理，采取防静电防爆措施，保证防火防爆安全装置完好，生产区域设置可燃气体监测报警仪及火灾报警仪；保证灭火降温装置(消防系统)完好。②定期对废气治理设施进行检测和维修，降低因设备故障造成的事故排放的概率。一旦发生设备故障，生产线立即停机，直到故障点完成维修为止。③危险废物按照规范设置专门收集容器和储存场所，储存场所采取硬底化处理，刷地坪漆，设置围堰以及遮雨措施，并按照规范设置标志牌。收集的危险废物均委托有资质单位专门收运和处置。④建立环境风险应急预案，开展环境应急预案的培训、宣传和必要的应急演练。③建立液态化学品的储存需远离火种和热源,避免阳光直射；原料仓库设置“危险”、“禁止烟火”等警示标志，定期检查液态化学品储罐是否损坏或泄漏，及时通知相关人员进行维修；设置液态化学品的进出台账及管理制度，做好处理液态化学品泄漏的应急物资等储备。③按照《企业事业单位突发环境事件应急预案备案管理办法（试行）》（环发【2015】4号）和《企业突发环境事件风险评估指南》，根据存在的风险源项，编制突发环境事件应急预案及风险评估。</td></tr><tr><td colspan="1" rowspan="1">其他环境管理要求</td><td colspan="5" rowspan="1">建立环境保护管理组织和机构，指定专人或兼职环保管理人员，落实各级环保责任；制定各环保设施操作规程，定期维修制度，使各项环保设施特别是危险废物收集储存设备，使其处于良好的状态；建立污染事故报告制度；建立相关记录台账。项目竣工后，申请竣工环保验收时，按《建设项目竣工环境保护验收技术指南污染影响类》（生态环境部令第9号）要求进行监测。根据《固定污染源排污许可分类管理名录》（2019年版），项目属于“二十四、橡胶和塑料制品业29-62 塑料制品业中的'其他"”，须进行固定污染源排污登记；根据《排污许可管理条例》（中华人民共和国国务院令第736号），</td></tr><tr><td></td><td colspan="5">项目应当在全国排污许可证管理信息平台上填报基本信息、污染物排放去向、 执行的污染物排放标准以及采取的污染防治措施等信息；填报的信息发生变动 的，应当自发生变动之日起20日内进行变更填报。 项目竣工环保验收合格后，企业应根据监测计划，定期对污染源进行监测，监 测结果按排放许可相关管理要求进行公示公开。 企业应将监测数据和报告存档，作为编制排污许可执行报告基础材料。监</td></tr></table>
+
+## 六、结论
+
+<table><tr><td>本项目建设合法且符合佛山市和国家的相关产业政策。本项目产生的污染物（源），可以 通过污染防治措施进行削减，达到排放标准的要求，对环境可能产生不良的影响较小。只要加 强环境管理，严格执行“三同时&quot;制度，落实好相关的环境保护和治理措施，确保污染物达标排 放，则本项目在正常运营状况下不会对周边环境产生大的污染影响。从环保角度分析，本项目 的建设是合理可行的。</td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr></table>
+
+## 附表
+
+建设项目污染物排放量汇总表
+<table><tr><td rowspan=1 colspan=1>项目分类</td><td rowspan=1 colspan=2>污染物名称</td><td rowspan=1 colspan=1>现有工程排放量（固体废物产生量）①</td><td rowspan=1 colspan=1>现有工程许可排放量②</td><td rowspan=1 colspan=1>在建工程排放量（固体废物 排产生量）③</td><td rowspan=1 colspan=1>本项目放量(固体废物产生量）④</td><td rowspan=1 colspan=1>以新带老削减量（新建项目不填）③</td><td rowspan=1 colspan=1>本项目建成后全厂排放量（固体废物产生量）⑥</td><td rowspan=1 colspan=1>变化量?</td></tr><tr><td rowspan=4 colspan=1>废气</td><td rowspan=1 colspan=1>颗粒物</td><td rowspan=1 colspan=1>无组织</td><td rowspan=1 colspan=1>2.123004</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0.511</td><td rowspan=1 colspan=1>2.123004</td><td rowspan=1 colspan=1>0.511</td><td rowspan=1 colspan=1>-1.612004</td></tr><tr><td rowspan=1 colspan=1>锡及其化合物</td><td rowspan=1 colspan=1>无组织</td><td rowspan=1 colspan=1>0.00005</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0.00005</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>-0.00005</td></tr><tr><td rowspan=2 colspan=1>非甲烷总烃</td><td rowspan=1 colspan=1>有组织</td><td rowspan=1 colspan=1>0.139</td><td rowspan=1 colspan=1>0.189</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0.324</td><td rowspan=1 colspan=1>0.139</td><td rowspan=1 colspan=1>0.324</td><td rowspan=1 colspan=1>+0.185</td></tr><tr><td rowspan=1 colspan=1>无组织</td><td rowspan=1 colspan=1>0.661</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0.283</td><td rowspan=1 colspan=1>0.661</td><td rowspan=1 colspan=1>0.283</td><td rowspan=1 colspan=1>-0.378</td></tr><tr><td rowspan=5 colspan=1>废水</td><td rowspan=5 colspan=1>生活污水</td><td rowspan=1 colspan=1>CODcr</td><td rowspan=1 colspan=1>0.022</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0.022</td><td rowspan=1 colspan=1>0.022</td><td rowspan=1 colspan=1>0.022</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>BOD5</td><td rowspan=1 colspan=1>0.005</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0.005</td><td rowspan=1 colspan=1>0.005</td><td rowspan=1 colspan=1>0.005</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>ss</td><td rowspan=1 colspan=1>0.005</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0.005</td><td rowspan=1 colspan=1>0.005</td><td rowspan=1 colspan=1>0.005</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>氨氮</td><td rowspan=1 colspan=1>0.003</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0.003</td><td rowspan=1 colspan=1>0.003</td><td rowspan=1 colspan=1>0.003</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>总磷</td><td rowspan=1 colspan=1>0.0003</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0.0003</td><td rowspan=1 colspan=1>0.0003</td><td rowspan=1 colspan=1>0.0003</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>生活垃圾</td><td rowspan=1 colspan=2>生活垃圾</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=3 colspan=1>一般工业固体废物</td><td rowspan=1 colspan=2>废包装材料</td><td rowspan=1 colspan=1>0.7062</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0.7062</td><td rowspan=1 colspan=1>0.7062</td><td rowspan=1 colspan=1>0.7062</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=2>收集粉尘</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1.612</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1.612</td><td rowspan=1 colspan=1>+1.612</td></tr><tr><td rowspan=1 colspan=2>沉降金属粉尘</td><td rowspan=1 colspan=1>0.0198</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0.0198</td><td rowspan=1 colspan=1>0.0198</td><td rowspan=1 colspan=1>0.0198</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=7 colspan=1>危险废物</td><td rowspan=1 colspan=2>废含油抹布</td><td rowspan=1 colspan=1>0.01</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0.01</td><td rowspan=1 colspan=1>0.01</td><td rowspan=1 colspan=1>0.01</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=2>废油桶</td><td rowspan=1 colspan=1>0.009</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0.009</td><td rowspan=1 colspan=1>0.009</td><td rowspan=1 colspan=1>0.009</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=2>废饱和活性炭</td><td rowspan=1 colspan=1>1.4502</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>4.394</td><td rowspan=1 colspan=1>1.4502</td><td rowspan=1 colspan=1>4.394</td><td rowspan=1 colspan=1>+2.9438</td></tr><tr><td rowspan=1 colspan=2>废液压油</td><td rowspan=1 colspan=1>0.2</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0.2</td><td rowspan=1 colspan=1>0.2</td><td rowspan=1 colspan=1>0.2</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=2>废火花油</td><td rowspan=1 colspan=1>0.05</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0.05</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>-0.05</td></tr><tr><td rowspan=1 colspan=2>废乳化液</td><td rowspan=1 colspan=1>0.02</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0.02</td><td rowspan=1 colspan=1>0.02</td><td rowspan=1 colspan=1>0.02</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=2>废机油</td><td rowspan=1 colspan=1>0.05</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0.05</td><td rowspan=1 colspan=1>0.05</td><td rowspan=1 colspan=1>0.05</td><td rowspan=1 colspan=1>0</td></tr></table>
+
+本证书由中华人民共和四人事部和国家环境保护总局批准硕发，它表明持证人通过国家统一组织的考试合格，取得环境影响许价工程师的职业资格。
+
+ThisistocertifthathebeareroftheCenificate bas passed nationalexaminationorganized bythe Chinese government departments and has obtained qualificationsforEnvironmentalImpactAssessment Fngineer.
+
+![](images/0d22d2a8e1e60ea85ad6e3d901e55953c6ff149a66d510725e4236f9ccc0c38d.jpg)
+
+![](images/7c3fcf25a5ec33014802935cc31b6ac60a2e51334a62d275ca980f1c4a7becc5.jpg)
+
+![](images/95a548569f50503df34c6bdf0920b11491864ea58bbd6babdc314109d9407fec.jpg)
+
+持证人签名：
+
+![](images/95d4b01cf7cd4d57cb1af396731d214654fc271796ef40373324101c2eb4796c.jpg)  
+。 ，
+
+签发日期： Issuedon
+
+![](images/8e9db8d3b6c786aa4f551c644961e5a2e8e02b61239e5b84a8137800c78e9abb.jpg)  
+福 汉苏省人事厅
+
+打印编号：1691128065000
+
+编制单位和编制人员情况表
+<table><tr><td rowspan=1 colspan=2></td><td rowspan=2 colspan=6>5rizf6</td><td rowspan=5 colspan=1></td></tr><tr><td rowspan=1 colspan=2>项目编号</td></tr><tr><td rowspan=1 colspan=2>建设项目名称</td><td rowspan=1 colspan=6>佛山市卓展电器科技有限公司迁扩建项目</td></tr><tr><td rowspan=1 colspan=2>建设项目类别</td><td rowspan=1 colspan=6>26-053塑料制品业</td></tr><tr><td rowspan=1 colspan=2>环境影响评价文件类型</td><td rowspan=1 colspan=6>报告表</td></tr><tr><td rowspan=2 colspan=8>一、建设单位情况</td></tr><tr><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=2>单位名称（盖章）</td><td rowspan=1 colspan=6>佛山市卓展电器科技有限公司市早</td></tr><tr><td rowspan=1 colspan=2>统一社会信用代码</td><td rowspan=7 colspan=4>国</td><td rowspan=1 colspan=2></td></tr><tr><td rowspan=1 colspan=2>法定代表人（签章）</td><td rowspan=1 colspan=2></td></tr><tr><td rowspan=1 colspan=2>主要负责人（签字）</td><td rowspan=1 colspan=2></td></tr><tr><td rowspan=1 colspan=2>直接负责的主管人员（签字）</td><td rowspan=1 colspan=2></td></tr><tr><td rowspan=1 colspan=2>二、编制单位情况</td><td rowspan=1 colspan=2></td></tr><tr><td rowspan=14 colspan=1>2</td><td rowspan=1 colspan=1>单位名称（盖章）</td><td rowspan=1 colspan=2></td></tr><tr><td rowspan=1 colspan=2>统一社会信用代码</td><td rowspan=1 colspan=2></td></tr><tr><td rowspan=1 colspan=8>三、编制人员情况</td></tr><tr><td rowspan=1 colspan=8>1.编制主持人</td></tr><tr><td rowspan=1 colspan=3>姓名              职业资格证书管理号</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=3>信用编号</td><td rowspan=5 colspan=1>签字</td></tr><tr><td rowspan=9 colspan=2></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td rowspan=3 colspan=1></td><td></td><td></td></tr><tr><td></td><td rowspan=3 colspan=3></td></tr><tr><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=2></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=3 colspan=3></td><td rowspan=2 colspan=1></td></tr><tr><td rowspan=1 colspan=1>境保护</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>工程分保育</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=5></td></tr></table>
+
+![](images/f80f3765dbcc3a58f1aeb601671314f7e5bd0b2e0a3605106a24f1b11056f894.jpg)  
+二
+
+![](images/cb693d70db1e176bf1587956c17d64573126f312e0a5d790a642921368dfdcef.jpg)  
+附图1 项目地理位置图
+
+![](images/1a0c94e198b970ca365c61ce6819719d7c98e417c75fc9dffe30427280546283.jpg)  
+附图2 项目环境四至图
+
+![](images/f35cdef00aa9d01c454e39abbb52c940e4bf50bae22711e240289fc79d14da8a.jpg)  
+东面：环威电器有限公司
+
+![](images/e7a9d623b488f16a0f15dbaefafe9ea9fde4f21a00d60addaeb5f9f1e338f908.jpg)  
+南面：工业道路
+
+![](images/53e496cff3183998cf2a3bdcde3e20221f7a7c78e2422636cec5aa4e1139840b.jpg)  
+西面：昌宝东路四横路
+
+![](images/d869bb622dcabeb15f3873e4c3632d367b432805c8a7de3605c72723800f6fe2.jpg)  
+北面：佛山市丁普乐电器有限公司
+
+附图 3 项目四至及周围环境示意图
+
+![](images/20e3e10ba93af20c584be918e0ecc9740629ba2edf45de1ca0d2b6efc0cce094.jpg)  
+附图4 项目平面布置图
+
+![](images/22df8087009da66594f1eff63475686f9b39fbdfeb8bdc293c08338e7db71a0a.jpg)
+
+![](images/e5bccd317b1658108b47bde24d24d74ccfe6f292a191fa250b62edbf1c619b31.jpg)  
+附图5 项目空厂房照片
+
+![](images/9dc455c1ce19a03c5ce8f86a4445021de529dabb0136c5c168a4428be39c6235.jpg)  
+附图6 项目周边主要环境敏感点分布图
+
+![](images/ee7d573b8a0342281b3b1c1886571fc081a14a59f8f40b5505f942b79d12ae38.jpg)  
+附图 7 地表水环境功能区划
+
+![](images/a93411b05d5a4d3875f3c5173f4d93bbfafe1c62ab6b807db804b7486a30841e.jpg)  
+附图8 大气环境功能区划
+
+![](images/63f84acb4427aaabca51d3ea68c22fda1711f0608fa3118fbd8575329e2be884.jpg)  
+附图 9 声环境功能区划图
+
+![](images/999698c8d5e5690d7f07428703d155ac376d03fb84fdca03db8c7fb7bb2989de.jpg)  
+附图10 佛山市环境管控单元图
+
+![](images/c474efb18b076598b6311684aaf5d24e5832a40ecbf59550dec9110b6f147456.jpg)  
+附图11 佛山市顺德区环境管控单元图
+
+## 一、规划背景
+
+## （1）落实控规全覆盖的要求
+
+为实施《佛山市顺德区总体规划修编（2009-2020）》及其它上位规划，加强城市建设的规划管理，根据佛府函[2014]61号文件要求，即2016年需保证佛山市“1+2+5”组团控规全覆盖，容桂街道根据自身的实际情况，提出编制容桂华口扁滘片(RG-05-04、RG-05-05、RG-05-07)控制性详细规划。
+
+## （2）促进与南沙、中山的融合发展
+
+容桂是顺德对接中山、广州南沙的门户，是珠江东岸与西岸汇聚的节点。华口扁滘片位于容桂东部，南邻中山，东望南沙，是顺德东部片区的重要战略节点，对进一步推进顺德东部与中山北部以及南沙自贸区的产业对接，实现协同联动发展起着至关重要的作用。
+
+## （3）产业升级的需要
+
+容桂是顺德30多年改革开放发展的缩影，也是顺德工业的起源地。华口扁滘片是顺德高新产业区的重要组成部分，在新一轮城市产业升级中需要努力实现环境、产业和城市的有机结合，以“三旧”改造为手段去挖掘承载城市、产业发展的空间，构建地方资源优势。
+
+## 二、规划范围
+
+规划区东至细沙河、南至桂洲大道、西至碧桂路、北至眉蕉河，规划编制区面积为484.94公顷。包含了华口、扁滘社区，属于顺德高新B区（二区）。
+
+![](images/afe14d94e9fb65a34a3aaf15abe0b1754895543c3819942906b1ceafba07b03b.jpg)  
+规划区范围示意图
+
+![](images/651b929adead8f128aa856d1bdcdad60d3b8c0c9f0a45bd81476de32cbee5d63.jpg)  
+规划区与周边关系图
+
+## 三、规划目标与发展定位
+
+## （1）规划目标
+
+①优化功能布局：以三旧区改造为抓手，优化片区的功能，推动园区升级发展。
+
+②改善交通网络：打造西联东接、南北互通的交通结构网络，保障对外交通顺畅；内部交通自成系统，通过内圈层道路的打造，增强村庄内部道路的有机连接。
+
+③提升配套设施：提升现有华口居住片区配套设施的服务质量，抓住旧厂改造的机遇，打造产居服务社区，全面提升园区的生产性、生活性配套设施。
+
+## （2）发展定位
+
+综合规划区的现状情况与发展条件，本规划区定位为：容桂东部产居两宜的新型产业区。
+
+## 四、用地布局
+
+规划区城乡建设用地主要包含以下类别：居住用地、公共管理与公共服务设施用地、商业服务业设施用地、工业用地、道路与交通设施用地、公用设施用地、绿地与广场用地与村庄建设用地。其中以工业用地、道路与交通设施用地和村庄建设用地为主。
+
+## (1）居住用地(R)
+
+规划居住用地主要沿桂洲大道东北侧、华新路南侧、骏业路两侧布置；用地面积为33.12公顷，占规划区建设用地面积的7.35%。
+
+## (2）公共管理与公共服务设施用地(A)
+
+规划结合居住及产业需求，设置公共管理与公共服务设施用地。总用地面积为3.48公顷，占规划区建设用地面积的0.77%。
+
+## (3）商业服务业设施用地(B)
+
+规划商业服务设施用地主要结合轨道站场与生活区布置，总用地面积为22.03公顷，占规划区建设用地面积的4.89%。
+
+## (4）工业用地(M)
+
+工业用地布置以原有工业地块为基础，结合华发、华新路完善工业用地布局，总用地面积为179.60公顷，占建设用地39.87%。
+
+## (5）道路与交通设施用地(S)
+
+道路与交通设施用地包括城市道路用地、公共交通站场用地、社会停车场用地。总用地面积为97.66公顷，占规划区建设用地面积的21.68%。
+
+## (6）公用设施用地(U)
+
+公用设施用地包括供电、排水、环卫、消防四类用地。总用地面积为1.19公顷，占规划区建设用地面积的0.27%。
+
+## (7）绿地与广场用地(G)
+
+绿地与广场用地地包含公园绿地与防护绿地。总用地面积为50.76公顷，占规划区建设用地面积的11.27%。
+
+## (8）村镇居住用地(H14)
+
+规划中的村镇居住用地为华口村居用地为主，主要集中在骏业路以东、华新路两侧。总用地面积为62.61公顷，占规划区建设用地面积的13.90%。
+
+## 五、土地利用规划
+
+![](images/2af125a75f631ebbb90c32d968d20e910de2c33b155e202e7f9ba30151f49ef6.jpg)
+
+<table><tr><td colspan="5">规划用地汇总表</td></tr><tr><td colspan="2">名称</td><td>用地代号</td><td>用地面积 （ha)</td><td>占城市建设用 地比例（%）</td></tr><tr><td colspan="2">规划总用地</td><td></td><td>484.94</td><td></td></tr><tr><td colspan="2">一、城乡居民点建设用地</td><td>H1</td><td>450.45</td><td>100</td></tr><tr><td colspan="2">1、二类居住用地</td><td>R2</td><td>33.12</td><td>7.35</td></tr><tr><td colspan="2">2、公共管理与公共服务设施用地</td><td>A</td><td>3.48</td><td>0.77</td></tr><tr><td rowspan="5">其中</td><td>行政办公用地</td><td>A1</td><td>0.56</td><td></td></tr><tr><td>文化活动用地</td><td>A22</td><td>0.54</td><td></td></tr><tr><td>中小学用地</td><td>A33</td><td>2.20</td><td></td></tr><tr><td>医疗卫生用地</td><td>A5</td><td>0.16</td><td></td></tr><tr><td>宗教用地</td><td>A9</td><td>0.02</td><td></td></tr><tr><td colspan="2">3、商业服务业设施用地</td><td>B</td><td>22.03</td><td>4.89</td></tr><tr><td colspan="2">4、工业用地 一类工业用地</td><td>M</td><td>179.60</td><td>39.87</td></tr><tr><td colspan="2">其中</td><td>M1</td><td>179.60</td><td></td></tr><tr><td colspan="2">5、道路与交通设施用地</td><td>S</td><td>97.66</td><td>21.68</td></tr><tr><td rowspan="3">其中</td><td>城市道路用地</td><td>S1</td><td>97.05</td><td></td></tr><tr><td>公共交通场站用地</td><td>S41</td><td>0.44</td><td></td></tr><tr><td>社会停车场用地</td><td>S42</td><td>0.17</td><td></td></tr><tr><td colspan="2">6、公用设施用地</td><td>U</td><td>1.19</td><td>0.27</td></tr><tr><td rowspan="4">其中</td><td>供电用地</td><td>U12</td><td>0.28</td><td></td></tr><tr><td>排水用地</td><td>U21</td><td>0.14</td><td></td></tr><tr><td>环卫用地</td><td>U22</td><td>0.39</td><td></td></tr><tr><td>消防用地</td><td>U31</td><td>0.38</td><td></td></tr><tr><td colspan="2">7、绿地与广场用地</td><td>G</td><td>50.76</td><td>11.27</td></tr><tr><td rowspan="2">其中</td><td>公园绿地</td><td>G1</td><td>31.91</td><td></td></tr><tr><td>防护绿地</td><td>G2</td><td>18.85</td><td></td></tr><tr><td colspan="2">8、村镇居住用地</td><td>H14</td><td>62.61</td><td>13.90</td></tr><tr><td colspan="2">二、区域交通设施用地</td><td>H2</td><td>15.39</td><td></td></tr><tr><td colspan="2">1、公路用地</td><td>H22</td><td>15.39</td><td></td></tr><tr><td colspan="2">三、非建设用地</td><td>E</td><td>19.10</td><td>-</td></tr><tr><td colspan="2">1、水域</td><td>E1</td><td>19.10</td><td></td></tr></table>
+
+轻轨（T1/T2）及站点
+
+有轨电车（T9）及站点
+
+注：(1)土规挂起用地的具体范围应以国土部门的为准；按本规划进行建设、改造。
+
+幼幼儿园公交首末站  
+社区医院 轨轨道站场P社会停车场库  
+老年人活动中心 垃圾转运站居民健身设施 垃圾收集站  
+社区居委会 公共厕所  
+警 00  
+消防站肉菜市场
+
+<table><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td rowspan=3 colspan=2>管理单元级</td><td rowspan=3 colspan=2>规划元</td><td rowspan=3 colspan=2></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td rowspan=1 colspan=4></td><td rowspan=1 colspan=4></td><td rowspan=1 colspan=1></td></tr><tr><td></td><td></td><td rowspan=27 colspan=20><img src="images/afed55ec1fb9440ad9d969f8ab62958169251ae5d80a781c8c5df25e3a82ac07.jpg"/>业服务业设施用地1公园    新理单元器线 有轨电车（9及站现划无线 建立地托用地  541公共交通场站用地          著音规划单元编码   荣空高区线行政办公用地   社会停车场用地   橙线     次干路及以上道路012供电用地         规划区界线中小学用地  21排水用地医疗卫生用地   不卫用地            广珠城轨划单元分区示意图                          宗教设施用地                 轻轨（01/12）及站点城市黄线、绿线、蓝线、橙线范围内用地      公共服务设施            市政公用设施</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td rowspan=1 colspan=2>元</td><td rowspan=1 colspan=2>人</td><td rowspan=1 colspan=2>用</td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=2>绿地</td><td rowspan=1 colspan=2>公共星地面积</td><td rowspan=1 colspan=1>地块编码</td><td rowspan=1 colspan=2>土地性质</td><td rowspan=1 colspan=3>用地</td><td rowspan=1 colspan=1>项目</td><td rowspan=1 colspan=3>个数</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td rowspan=3 colspan=1></td><td rowspan=3 colspan=1></td><td rowspan=3 colspan=2></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td rowspan=1 colspan=2>项日</td><td rowspan=1 colspan=2>个数</td><td rowspan=1 colspan=2>用地面积（m）</td><td rowspan=1 colspan=1>计客建国</td><td></td><td rowspan=1 colspan=1>备注</td></tr><tr><td></td><td></td><td rowspan=3 colspan=2>-05-05</td><td rowspan=3 colspan=2>05-A</td><td rowspan=3 colspan=2>H14</td><td rowspan=3 colspan=2></td><td rowspan=3 colspan=2>4475</td><td rowspan=3 colspan=2></td><td rowspan=3 colspan=2></td><td rowspan=3 colspan=2></td><td rowspan=3 colspan=2></td><td rowspan=1 colspan=1></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td rowspan=5 colspan=4>项目</td><td rowspan=3 colspan=1></td><td></td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td></td><td rowspan=1 colspan=1>居民健身设施</td><td rowspan=1 colspan=2>210104</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td rowspan=7 colspan=1></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=1></td><td></td><td rowspan=1 colspan=2>社会停车场</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td rowspan=4 colspan=2></td><td rowspan=4 colspan=2></td><td rowspan=4 colspan=2></td><td rowspan=4 colspan=2></td><td rowspan=4 colspan=2></td><td rowspan=4 colspan=2></td><td rowspan=4 colspan=2></td><td rowspan=4 colspan=2></td><td rowspan=4 colspan=2></td><td></td><td></td><td></td><td></td><td></td><td></td><td rowspan=1 colspan=1></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td rowspan=4 colspan=1></td><td></td><td></td><td></td><td></td><td></td><td rowspan=4 colspan=1></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td rowspan=3 colspan=2></td><td rowspan=3 colspan=1></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td rowspan=2 colspan=2></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td rowspan=3 colspan=2></td><td rowspan=3 colspan=2></td><td rowspan=3 colspan=2></td><td rowspan=3 colspan=2></td><td rowspan=3 colspan=2></td><td rowspan=3 colspan=2></td><td rowspan=2 colspan=2></td><td rowspan=3 colspan=2></td><td></td><td></td><td></td><td></td><td></td><td></td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=1></td><td></td></tr><tr><td></td><td></td><td rowspan=2 colspan=2>46383(公园绿地）</td><td rowspan=1 colspan=1>058-0-01</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td rowspan=5 colspan=1></td></tr><tr><td></td><td></td><td></td><td></td><td rowspan=1 colspan=1>05B-08-02</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td rowspan=2 colspan=2></td><td rowspan=2 colspan=2></td><td rowspan=2 colspan=2></td><td rowspan=2 colspan=2></td><td rowspan=2 colspan=2></td><td rowspan=2 colspan=2></td><td rowspan=2 colspan=2></td><td rowspan=2 colspan=2></td><td rowspan=2 colspan=2>4478（防护绿地）</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td></td><td rowspan=2 colspan=5></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td rowspan=1 colspan=3></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td></td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=1></td><td></td></tr><tr><td></td><td></td><td rowspan=5 colspan=2></td><td></td><td rowspan=5 colspan=2></td><td rowspan=5 colspan=2></td><td rowspan=5 colspan=2></td><td rowspan=5 colspan=2></td><td rowspan=5 colspan=2></td><td rowspan=5 colspan=2></td><td rowspan=5 colspan=2></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td rowspan=4 colspan=2></td><td rowspan=3 colspan=2></td><td rowspan=3 colspan=2></td><td rowspan=3 colspan=1></td><td></td><td rowspan=3 colspan=1></td><td rowspan=3 colspan=5></td><td rowspan=3 colspan=2></td><td></td><td></td><td></td><td></td><td></td><td rowspan=2 colspan=1>60/每处</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td rowspan=6 colspan=1></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td rowspan=1 colspan=2></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td rowspan=1 colspan=2>05C-0-01</td><td rowspan=1 colspan=2></td><td></td><td></td><td rowspan=3 colspan=5></td><td rowspan=1 colspan=2>10&V开美站</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td rowspan=2 colspan=2></td><td rowspan=2 colspan=2></td><td rowspan=2 colspan=2></td><td rowspan=2 colspan=2></td><td rowspan=2 colspan=2></td><td rowspan=2 colspan=2></td><td rowspan=2 colspan=2></td><td rowspan=2 colspan=2></td><td rowspan=2 colspan=2>（防护绿地）</td><td rowspan=2 colspan=3></td><td></td><td></td><td></td><td rowspan=2 colspan=8></td><td></td></tr><tr><td></td><td></td><td rowspan=1 colspan=1></td><td></td><td rowspan=1 colspan=1></td><td></td></tr><tr><td></td><td></td><td rowspan=6 colspan=2></td><td rowspan=6 colspan=2></td><td rowspan=6 colspan=2></td><td rowspan=6 colspan=2></td><td rowspan=6 colspan=2></td><td rowspan=6 colspan=2></td><td rowspan=6 colspan=2></td><td rowspan=6 colspan=2></td><td rowspan=6 colspan=2>（公园绿地）</td><td rowspan=6 colspan=3></td><td rowspan=5 colspan=3></td><td rowspan=14 colspan=5></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td rowspan=1 colspan=6></td><td rowspan=1 colspan=2></td><td rowspan=14 colspan=1></td><td rowspan=14 colspan=1></td></tr><tr><td></td><td></td><td rowspan=12 colspan=8></td><td rowspan=1 colspan=2>一</td></tr><tr><td rowspan=2 colspan=1></td><td rowspan=2 colspan=2>线划</td><td rowspan=2 colspan=1>划属元</td><td rowspan=2 colspan=1></td><td rowspan=2 colspan=1>人口规械</td></tr><tr><td rowspan=1 colspan=1>（公顷）</td><td rowspan=1 colspan=1>(≤方</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>公共绿地面积</td><td rowspan=1 colspan=1>地块编码</td><td rowspan=1 colspan=1>土地性质</td><td rowspan=1 colspan=1>用地面</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=3>项目  个数</td><td></td><td rowspan=1 colspan=2>项目  个数用地面积（m)</td><td rowspan=2 colspan=1>备注</td></tr><tr><td rowspan=5 colspan=1></td><td rowspan=5 colspan=2></td><td rowspan=9 colspan=1></td><td rowspan=9 colspan=1></td><td rowspan=9 colspan=1></td><td rowspan=9 colspan=1></td><td rowspan=5 colspan=1></td><td rowspan=5 colspan=1></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td rowspan=4 colspan=1></td><td rowspan=3 colspan=2></td><td rowspan=2 colspan=1>305</td><td rowspan=2 colspan=1></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td rowspan=7 colspan=3></td><td></td><td rowspan=7 colspan=2>社会停车场   2000（附设） 小汽车车位65个10VE电房电信基站</td><td rowspan=7 colspan=1></td><td rowspan=7 colspan=2></td><td rowspan=7 colspan=2></td><td rowspan=7 colspan=2></td><td rowspan=7 colspan=2>01/2FRI</td><td rowspan=7 colspan=2></td><td rowspan=7 colspan=2></td><td rowspan=7 colspan=2></td><td rowspan=7 colspan=2></td><td rowspan=7 colspan=2>（防护绿地）</td><td rowspan=7 colspan=3></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td rowspan=6 colspan=3></td></tr><tr><td rowspan=1 colspan=2>04A-01-06G2</td><td></td><td></td><td></td></tr><tr><td rowspan=4 colspan=1></td><td rowspan=4 colspan=2>04-A</td><td rowspan=4 colspan=1>52, 79</td><td></td><td rowspan=3 colspan=1></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td rowspan=3 colspan=1></td><td rowspan=3 colspan=1>107836（防护绿地）</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td rowspan=1 colspan=1></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td rowspan=1 colspan=2></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td></td></tr><tr><td rowspan=14 colspan=1></td><td rowspan=14 colspan=2>04-B</td><td rowspan=14 colspan=1></td><td rowspan=14 colspan=1></td><td rowspan=14 colspan=1></td><td rowspan=14 colspan=1></td><td rowspan=14 colspan=1></td><td rowspan=14 colspan=1></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td rowspan=1 colspan=1></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td rowspan=13 colspan=3></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td rowspan=15 colspan=2></td><td rowspan=15 colspan=2></td><td rowspan=15 colspan=2></td><td rowspan=15 colspan=2></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td rowspan=11 colspan=1></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td rowspan=13 colspan=2></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td rowspan=11 colspan=1></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td rowspan=11 colspan=2></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td rowspan=7 colspan=3></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td rowspan=9 colspan=2></td><td rowspan=9 colspan=2></td><td rowspan=9 colspan=2>20457（公园绿地）</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td rowspan=5 colspan=1></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td rowspan=3 colspan=3></td><td rowspan=3 colspan=1></td><td rowspan=3 colspan=1></td><td></td><td rowspan=7 colspan=5></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td rowspan=5 colspan=1></td><td rowspan=5 colspan=1></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td rowspan=1 colspan=6></td><td rowspan=1 colspan=2></td><td rowspan=6 colspan=1></td><td rowspan=6 colspan=1></td></tr><tr><td></td><td rowspan=4 colspan=6></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td rowspan=4 colspan=1></td><td rowspan=4 colspan=2></td><td rowspan=16 colspan=1>u1</td><td rowspan=16 colspan=1>BR</td><td rowspan=16 colspan=1></td><td rowspan=4 colspan=1></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td rowspan=3 colspan=8></td></tr><tr><td rowspan=2 colspan=1></td><td rowspan=2 colspan=1></td><td rowspan=4 colspan=1>2</td><td rowspan=4 colspan=3></td><td rowspan=4 colspan=1></td><td rowspan=14 colspan=3></td><td></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td></td><td rowspan=15 colspan=2></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td rowspan=12 colspan=1></td><td rowspan=12 colspan=2>01-C</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td rowspan=13 colspan=1></td><td rowspan=13 colspan=2></td><td rowspan=13 colspan=2></td><td rowspan=13 colspan=2></td><td rowspan=10 colspan=2></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td rowspan=10 colspan=1></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td rowspan=8 colspan=2></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td rowspan=8 colspan=1></td><td rowspan=8 colspan=1>10~20</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td rowspan=6 colspan=2></td><td rowspan=6 colspan=2></td><td rowspan=6 colspan=2></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td rowspan=6 colspan=1></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td rowspan=4 colspan=2>22413（公园绿地）</td><td rowspan=4 colspan=3></td><td rowspan=4 colspan=1></td><td rowspan=4 colspan=1></td><td></td><td rowspan=4 colspan=3>合市场</td><td rowspan=4 colspan=1></td><td></td><td rowspan=2 colspan=2></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td rowspan=3 colspan=1>2</td><td></td><td rowspan=3 colspan=2>2500（附设）</td><td rowspan=3 colspan=2>汽车车位80</td><td></td><td></td></tr><tr><td rowspan=3 colspan=3></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td rowspan=4 colspan=1></td><td rowspan=4 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td></td><td rowspan=3 colspan=2></td><td rowspan=3 colspan=2></td><td rowspan=3 colspan=2></td><td rowspan=3 colspan=2></td><td rowspan=3 colspan=2></td><td rowspan=3 colspan=2></td><td rowspan=1 colspan=3></td><td rowspan=1 colspan=3></td><td rowspan=1 colspan=5></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td rowspan=2 colspan=60>橙线、黄线、绿线、03</td></tr><tr><td rowspan=1 colspan=8></td></tr></table>
+
+附图 12 《容桂华口扁滘片（RG-05-04、RG-05-05、RG-05-07）控制性详细规划》批后通告
+
+![](images/47ba4adab31c767e6113d036cdfe5acbfb537e87432a8074f8fe05523ccffef0.jpg)
+
+# 营业执照
+
+统一社会信用代码
+
+![](images/cb033156f08e038fe0f8e8204044554a90e97e19cda7c30683cb576f91275bac.jpg)
+
+发；模具制造；照明器具制造；汽车零部件及配件制造；塑料制品制造；电子元器件制造：第一类医疗器械生产；通用设备制造（不含特种设备制造）：机械电气设备制造；环境保护专用设备制造；水资源专用机械设备制造；专用设备制造（不含许可类专业设备制造）：家用电器销售；五金产品批发；模具销售；汽车零配件零售；塑料制品销售：电子元器件批发；第一类医疗器械销售；机械设备销售；机械电气设备销售；环境保护专用设备销售；国内贸易代理：家用电器研发；机械设备研发。（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）许可项目：消毒器械生产：消毒器械销售。（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以相关部门批准文件或许可证件为准）
+
+![](images/83d2d4e1db436e6a288447bc04a8bd4d896dcbe976ca714de95318f9d1f38e7b.jpg)  
+佛山市顺德区市场监督管理局
+
+## 附件 2 法人身份证
+
+性别男民族汉
+
+住址广东省佛山市顺德区大良街道祥和路嘉信城市花园三期19栋9D
+
+![](images/563c51f34a9dd89b18d5e2f8c0fe3997162e6d5658fd6b653dc795172cfa9a1d.jpg)
+
+公民身份号码
+
+![](images/43e3bacefc5a9f522cfcee9e4fa62eb28f279e7f8006e805f632b6322ffb83b8.jpg)
+
+中华人民共和国居民身份证
+
+签发机关佛山市顺德区公安局
+
+有效期限2016.09.14-长期
+
+附件 3 房产证
+<table><tr><td>粤 权利人</td><td rowspan="2"></td><td colspan="2">附 记 房地证字第C1461070号；</td></tr><tr><td>共有情况</td><td>换领</td></tr><tr><td>坐 落 不动产单元</td><td>“黄柏顺”到顺德区容桂</td></tr><tr><td>权利类型</td><td></td></tr><tr><td>权利性质 用 福 途</td><td>出让/自建房 工业用地/工业</td></tr><tr><td>面 积</td><td>8501 独用完地面和 68m</td></tr><tr><td>使用期限</td><td></td></tr><tr><td>权利其他状况</td><td>8</td></tr></table>
+
+![](images/39a1b4b7f10618092d3418a824e1db3a6ac4eb3d104f910e1922c838da02c840.jpg)  
+山市自然资E
+
+<table><tr><td>专 爱 号 医落 土地利屏 总系屋 点 2 3 4 5 6 8</td><td colspan="2"></td><td></td><td rowspan="7">eg HS=15.90 安 （3） R 注：面积计算按（GB/T17986.1-2000）房</td><td>米 建设 R 3 局办理税务登记证事</td></tr><tr><td></td><td rowspan="2">L2o] 35</td><td rowspan="2">84 预 4351 3 浴 自 水足</td><td rowspan="2">H.18.54 H-15.14 （1)</td></tr><tr><td rowspan="2">e3</td></tr><tr><td colspan="2">#4 </td><td colspan="2">山 L 2 早</td></tr><tr><td colspan="2"></td><td colspan="2">54Kv5口 昌 置中 宝 东</td><td>日 3.86 3 百 #线4号 v5</td></tr><tr><td colspan="2">广西第一彩范肤 2518.594 425 855</td><td>地3 桂</td><td>S E 事 王忠信 房核汉范执行。</td><td>客仓区部划建设办动路资料审校章</td></tr></table>
+
+附件 4 租赁合同
+
+# 房屋租赁合同
+
+依据<<中山市房屋租甲方将承
+
+##
+
+修期内水电费按乙方应付实际使用情况收取。
+
+内书面通知甲方其继续租赁该物业的决定，且于本合同租期届满前订立新的租赁
+
+##
+
+![](images/c1970a744d66d9c29087455451afce54ac188daa0ede526afc1f024801b6a9db.jpg)  
+福
+
+![](images/d2dde79a8fd6320c847de35cc964a03bbabfb2c64511f599cbe9f7aaeeba878e.jpg)
+
+1、水电费：甲方承诺负责将该地址所属水电表转名到乙方公司名卜。乙方负电价加上用电按比例分摊的实际损耗。电房的日常管理及费用由甲方负责。
+
+担。如电梯在达到使用年限后，经检测已无法正常使用，由甲方负责该电梯的报
+
+##
+
+##
+
+##
+
+##
+
+## 附件 5 迁扩建前项目环保手续
+
+<table><tr><td rowspan=1 colspan=1>项目名称</td><td rowspan=1 colspan=4>佛山市顺德区卓展塑料制品有限公司</td></tr><tr><td rowspan=1 colspan=1>选址地点</td><td rowspan=1 colspan=4>容桂红旗居委会西堤一路5号首层之四</td></tr><tr><td rowspan=2 colspan=1>四至情况</td><td rowspan=1 colspan=1>东</td><td rowspan=1 colspan=1>房</td><td rowspan=1 colspan=1>南</td><td rowspan=1 colspan=1>房</td></tr><tr><td rowspan=1 colspan=1>西</td><td rowspan=1 colspan=1>房</td><td rowspan=1 colspan=1>北</td><td rowspan=1 colspan=1>空地</td></tr><tr><td rowspan=1 colspan=1>投资总额</td><td rowspan=4 colspan=4></td></tr><tr><td rowspan=1 colspan=1>联系人</td></tr><tr><td rowspan=1 colspan=1>负责人</td></tr><tr><td rowspan=2 colspan=1>审批意见</td></tr><tr><td rowspan=1 colspan=4>废物有资质单位处理：投产前报我，环设日期关于佛山市顺德区卓展塑料制品有限公告日</td></tr><tr><td rowspan=1 colspan=1>经营范围</td><td rowspan=1 colspan=4></td></tr><tr><td rowspan=2 colspan=1>规模</td><td rowspan=1 colspan=1>占地面积</td><td rowspan=1 colspan=1>1600    m</td><td rowspan=1 colspan=1>经营面积</td><td rowspan=1 colspan=1>1600    m</td></tr><tr><td rowspan=1 colspan=4>有住毯机6台、镜床5台、电大花：台、钻床2台、破碎机1、冷塔台新增：注塑机10台，混料机3台，破碎机2台，空压机台，航线机2台，自动载线端子机4台，端子机25台，炉1台，组装身淘汰：钻床1台，铣床4台，电火花1台。</td></tr></table>
+
+![](images/616094a2c2cd46a6d5884cbe3648d5f3ea802efde25384a8d1f2e812a0a32336.jpg)  
+医人
+
+<table><tr><td>试产 批注</td><td>（盖章） 年月日</td></tr><tr><td>投 产批注</td><td>同意项目通过阶段性环境保护竣工验收，批准已建成规 模（注塑机11台，混料机3台，破碎机3台，空压机1台， 冷却塔1台，钻床1劝，载线机2台，自动载线端子机2台， 端子机17台，锡炉1台，线装机1台）正式投产，验收意 见详见《佛山市顺德区环境运输和城市管理局容桂分局关于 佛山市顺德区卓展塑料制品有限公司项目竣工环境保护验 收意见的函》（环验（容）[2016）A128号）。 2016年8月1日 建设项目 中 用 2 月日</td></tr></table>
+
+![](images/0f6b2dbd4f3245e1093dd5d4659f4680259dd3fd131d129abbd8d8b14b622c88.jpg)  
+地山市#016年8月 #洋# 拉 福
+
+# 关于佛山市顺德区卓展塑料制品有限公司搬迁项目环境影响报告表的批复意见
+
+![](images/1a56715fec26d052bd7bcc80c3ea7350dbc394861a1be9872af8d568492d12d8.jpg)
+
+<table><tr><td colspan="3" rowspan="1">版连大自的</td><td></td><td></td><td></td><td colspan="8"></td></tr><tr><td colspan="1" rowspan="1">类别</td><td colspan="1" rowspan="1">名称</td><td colspan="1" rowspan="1">单位</td><td colspan="1" rowspan="1">搬迁前</td><td colspan="1" rowspan="1">变化量</td><td colspan="1" rowspan="1">搬迁后</td><td colspan="8" rowspan="1">备注</td></tr><tr><td colspan="1" rowspan="2">产品产量</td><td colspan="1" rowspan="1">塑料制品</td><td colspan="1" rowspan="1">吨/年</td><td colspan="1" rowspan="1">65</td><td colspan="1" rowspan="1">+105</td><td colspan="1" rowspan="1">170</td><td colspan="8" rowspan="1"></td></tr><tr><td colspan="1" rowspan="1">模具</td><td colspan="1" rowspan="1">套/年</td><td colspan="1" rowspan="1">60</td><td colspan="1" rowspan="1">-40</td><td colspan="1" rowspan="1">20</td><td colspan="8" rowspan="1"></td></tr><tr><td colspan="1" rowspan="1"></td><td colspan="2" rowspan="1">电器线束</td><td colspan="2" rowspan="1">万条／年</td><td colspan="2" rowspan="1">0</td><td colspan="2" rowspan="1">+1000</td><td colspan="2" rowspan="1">1000</td><td colspan="1" rowspan="1"></td></tr><tr><td colspan="1" rowspan="13">设备设施</td><td colspan="2" rowspan="1">注塑机</td><td colspan="2" rowspan="1">台</td><td colspan="2" rowspan="1">6</td><td colspan="2" rowspan="1">+10</td><td colspan="2" rowspan="1">16</td><td colspan="1" rowspan="1"></td></tr><tr><td colspan="2" rowspan="1">混料机</td><td colspan="2" rowspan="1">台</td><td colspan="2" rowspan="1">0</td><td colspan="2" rowspan="1">+3</td><td colspan="2" rowspan="1">3</td><td colspan="1" rowspan="1"></td></tr><tr><td colspan="2" rowspan="1">破碎机</td><td colspan="2" rowspan="1">台</td><td colspan="2" rowspan="1">-</td><td colspan="2" rowspan="1">+2</td><td colspan="2" rowspan="1">3</td><td colspan="1" rowspan="1"></td></tr><tr><td colspan="2" rowspan="1">空压机</td><td colspan="2" rowspan="1">台</td><td colspan="2" rowspan="1">0</td><td colspan="2" rowspan="1">+1</td><td colspan="2" rowspan="1">1</td><td colspan="1" rowspan="1"></td></tr><tr><td colspan="2" rowspan="1">冷却塔</td><td colspan="2" rowspan="1">台</td><td colspan="2" rowspan="1">1</td><td colspan="2" rowspan="1">0</td><td colspan="2" rowspan="1">-</td><td colspan="1" rowspan="1"></td></tr><tr><td colspan="2" rowspan="1">钻床</td><td colspan="2" rowspan="1">台</td><td colspan="2" rowspan="1">2</td><td colspan="2" rowspan="1">-1</td><td colspan="2" rowspan="1">1</td><td colspan="1" rowspan="1"></td></tr><tr><td colspan="2" rowspan="1">铣床</td><td colspan="2" rowspan="1">台</td><td colspan="2" rowspan="1">5</td><td colspan="2" rowspan="1">-4</td><td colspan="2" rowspan="1">1</td><td colspan="1" rowspan="1"></td></tr><tr><td colspan="2" rowspan="1">裁线机</td><td colspan="2" rowspan="1">台</td><td colspan="2" rowspan="1">0</td><td colspan="2" rowspan="1">+2</td><td></td><td colspan="2" rowspan="1">2</td><td colspan="2" rowspan="1"></td></tr><tr><td colspan="2" rowspan="1">自动裁线端子机</td><td colspan="2" rowspan="1">台</td><td colspan="2" rowspan="1">。</td><td colspan="2" rowspan="1">+4</td><td colspan="2" rowspan="1">4</td><td colspan="2" rowspan="1"></td></tr><tr><td colspan="1" rowspan="1">端子机</td><td colspan="2" rowspan="1">台</td><td colspan="2" rowspan="1">0</td><td colspan="2" rowspan="1">+25</td><td colspan="2" rowspan="1">25</td><td colspan="2" rowspan="1"></td></tr><tr><td colspan="1" rowspan="1">锡炉</td><td colspan="2" rowspan="1">台</td><td colspan="2" rowspan="1">0</td><td colspan="2" rowspan="1">+1</td><td colspan="2" rowspan="1">二</td><td colspan="2" rowspan="1"></td></tr><tr><td colspan="1" rowspan="1">组装线</td><td></td><td colspan="2" rowspan="1">条</td><td colspan="2" rowspan="1">0</td><td colspan="2" rowspan="1">+1</td><td colspan="2" rowspan="1">一</td><td colspan="2" rowspan="1"></td></tr><tr><td colspan="1" rowspan="1">电火花</td><td colspan="2" rowspan="1">台</td><td colspan="2" rowspan="1">1</td><td colspan="2" rowspan="1">-1</td><td colspan="2" rowspan="1">0</td><td colspan="2" rowspan="1"></td></tr><tr><td colspan="1" rowspan="8">主要原辅材料</td><td colspan="1" rowspan="1">ABS</td><td colspan="2" rowspan="1">吨/年</td><td colspan="2" rowspan="1">70</td><td colspan="2" rowspan="1">+20</td><td colspan="2" rowspan="1">90</td><td colspan="2" rowspan="1"></td></tr><tr><td colspan="1" rowspan="1">PP</td><td colspan="2" rowspan="1">吨／年</td><td colspan="2" rowspan="1">0</td><td colspan="2" rowspan="1">+30</td><td colspan="2" rowspan="1">30</td><td colspan="2" rowspan="1"></td></tr><tr><td colspan="1" rowspan="1">PC</td><td colspan="2" rowspan="1">吨/年</td><td colspan="2" rowspan="1">0</td><td colspan="2" rowspan="1">+60</td><td colspan="2" rowspan="1">60</td><td colspan="2" rowspan="1"></td></tr><tr><td colspan="1" rowspan="1">钢材</td><td colspan="2" rowspan="1">吨/年</td><td colspan="2" rowspan="1">18</td><td colspan="2" rowspan="1">-13</td><td colspan="2" rowspan="1">5</td><td colspan="2" rowspan="1"></td></tr><tr><td colspan="1" rowspan="1">电器线束组装配件</td><td colspan="2" rowspan="1">万套／年</td><td colspan="2" rowspan="1">0</td><td colspan="2" rowspan="1">+1000</td><td colspan="2" rowspan="1">1000</td><td colspan="2" rowspan="1">包括接线子、绝缘包扎导线等</td></tr><tr><td colspan="1" rowspan="1">乳化液</td><td colspan="2" rowspan="1">升/年</td><td colspan="2" rowspan="1">80</td><td colspan="2" rowspan="1">-40</td><td colspan="2" rowspan="1">40</td><td colspan="2" rowspan="1"></td></tr><tr><td colspan="1" rowspan="1">电火花液</td><td colspan="2" rowspan="1">吨/年</td><td colspan="2" rowspan="1">0.04</td><td colspan="2" rowspan="1">-0.04</td><td colspan="2" rowspan="1">0</td><td colspan="2" rowspan="1">损耗量</td></tr><tr><td colspan="1" rowspan="1">无铅焊锡</td><td colspan="2" rowspan="1">吨/年</td><td colspan="2" rowspan="1">0</td><td colspan="2" rowspan="1">+0.01</td><td colspan="2" rowspan="1">0.01</td><td colspan="2" rowspan="1"></td></tr></table>
+
+以
+
+![](images/922e5901c4591af2679c002ab8492c263574f5aeb0fa7e2716106412cb925f6c.jpg)  
+市西市顺鱼区环境运输和城市管理局 建设项自审批 章 2 #C 1806961124768
+
+![](images/674f77e41c8d19acdd4c7730e135297c024dc050769673d76cddb209707997d7.jpg)  
+福 N 福 P
+
+# 佛山市顺德区环境运输和城市管理局容桂分局关于佛山市顺德区卓展塑料制品有限公司项目竣工环境保护验收意见的函
+
+佛山市顺德区卓展塑料制品
+
+![](images/8f9924e71c9ddf5a496da2731a9ac2bbc3e7df08984bdfdff716e6c0a716e415.jpg)
+
+主动公开
+
+佛环0302环审[2022]第0064号
+
+# 佛山市生态环境局关于佛山市卓展电器科技有限公司迁扩建项目环境影响报告表的批复
+
+佛山市卓展电器科技有限公司：
+
+你单位报批的《佛山市卓展电器科技有限公司迁扩建项目环境影响报告表》（以下简称“报告表”）等材料收悉。经研究，批复如下：
+
+一、你单位对报告表的内容和结论负责，东莞市合欢环保科技有限公司对报告表承担相应责任。
+
+![](images/2b8a3ac25ecb4a269c0a9c43bdfd6aa95fe6c101dd359eb2d1ac4f676efd0b53.jpg)
+
+二、佛山市卓展电器科技有限公司迁扩建项目选址于佛山市顺德区容桂街道海尾社区文海中路8号海尾置业园7座首层、二层、三层，拟年产塑料制品350吨、模具60套、电器线束1000万条。项目的规模和工艺见报告表内容。
+
+根据报告表的评价结论，在全面落实报告表提出的各项污染防治和环境风险防范等环境保护措施，并确保污染物排放稳定达标且符合总量控制要求的前提下，项目按照报告表中所列的性质、规模、地点进行建设，从生态环境保护角度可行。
+
+![](images/daa1aa393b81620586bc1f2281d08846de0f5bc9d3ba15cccf8f8aa80e837d15.jpg)
+
+领（或变更）排污许可证前，通过排污权交易取得，其新增的排污总量指标数量按本批复意见确定。
+
+六、环境影响报告表经批准后，该工程的性质、规模、地点、生产工艺和环境保护措施发生重大变动，且可能导致环境影响显著变化（特别是不利环境影响加重）的，应当重新报批环境影响报告表。自环境影响报告表批复文件批准之日起，工程超过5年方决定开工建设的，环境影响报告表应当报我局重新审核。
+
+七、项目建设应严格执行配套建设的环境保护设施与主体工  
+程同时设计、同时施工、同时投产使用的“三同时”制度。项目  
+竣工后，你单位应当按照有关规定向所在地生态环境部门申请领  
+取排污许可证，并在配套建设的环境保护设施验收合格后，方可
+
+![](images/9cfa7417a17d06b0dfbe8938acef563956095770a500b36be6b38872a0393455.jpg)  
+佛山市生态环境局 业务专用章 (3）
+
+抄送：东莞市合欢环保科技有限公司
+
+![](images/e2abbeeba8d1acbce8a3a2117134a54bd3d97f5b591ad9cc555465c60f406b65.jpg)  
+3 ：
+
+# 建设项目环境影响评价委托合同
+
+标准规定拟定为10000（壹万）元（不含税）。
+
+：二、委托方应积极配合受委托方开展环境影响评价工作，并提供工作所需的有关资料文件和项目位置周围的环境情况。委托方应对所提供的资料文件，说明的真实性、合法性负责，因委托方配合不当、弄虚作假导致受委托方出具的环境影响评价报告表有偏差的，委托方应承担相关法律责任。
+
+三、委托方应安排专人负责现场调查的组织协调和准备工作，协助受委托方做好现场环境影响评价调查。
+
+四、受委托方应充分征询委托方的意见，严格遵循国家有关环境影响评价的有关规定，：严谨、正确、客观、真实、科学地展开环境评价工作，并于本价报告表。
+
+：五、正式的环境影响评价报告表编写完成后，委托方须确认环境影响评价报告表的内容
+
+六、本协
+
+款后生效。
+
+七、本协
+
+委托方：佛山市
+
+受委托方：佛山
+
+协议签订日期：
+
+## 声明
+
+根据《中华人民共和国环境影响评价法》、《中华人民共和国行政许可法》、《建设项目环境影响评价政府信息公开指南（试行）》（环办（2013）103号）、《环境影响评价公众参与办法》（生态环境部令第4号），特对环境影响评价文件（公开版）作出如下声明：=我单位提供的佛山市卓展电器科技有限公司迁建项目环境影响报告表（公开版）不含国家秘密、商业秘密和个人隐私，同意按照相关规定予以公开。
+
+建设单位
+
+法定代表人（
+
+2073年8月）1日
+
+本声明书原件交环保审批部门，声明单位可保留复印件

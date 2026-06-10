@@ -1,0 +1,155 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "eia_judge_schema",
+  "title": "EIA Review Output Evaluation Schema",
+  "description": "Structured evaluation schema for LLM outputs in EIA review tasks, adapted from Chen et al. 2026 ES&T evaluation framework.",
+  "type": "object",
+  "required": [
+    "sample_id",
+    "task_type",
+    "overall_score",
+    "dimension_scores",
+    "final_judgment",
+    "need_human_review"
+  ],
+  "properties": {
+    "sample_id": {
+      "type": "string",
+      "description": "Unique identifier for the evaluation sample"
+    },
+    "task_type": {
+      "type": "string",
+      "enum": [
+        "L1_信息抽取",
+        "L2_规则匹配",
+        "L3_审核推理",
+        "L4_经验归纳"
+      ],
+      "description": "Cognitive task level"
+    },
+    "overall_score": {
+      "type": "integer",
+      "minimum": 10,
+      "maximum": 100,
+      "description": "Overall quality score (10-100 scale)"
+    },
+    "dimension_scores": {
+      "type": "object",
+      "required": [
+        "evidence_grounding",
+        "industry_classification",
+        "standard_accuracy",
+        "pollutant_completeness",
+        "measure_approval_alignment",
+        "actionability",
+        "hallucination_control",
+        "review_point_compliance"
+      ],
+      "properties": {
+        "evidence_grounding": {
+          "type": "integer",
+          "minimum": 10,
+          "maximum": 100,
+          "description": "可追溯性：每条结论是否有报告/批复/标准原文支撑"
+        },
+        "industry_classification": {
+          "type": "integer",
+          "minimum": 10,
+          "maximum": 100,
+          "description": "行业判断准确性：行业代码和名称是否与报告一致"
+        },
+        "standard_accuracy": {
+          "type": "integer",
+          "minimum": 10,
+          "maximum": 100,
+          "description": "标准引用准确性：标准编号、名称、适用条款是否正确"
+        },
+        "pollutant_completeness": {
+          "type": "integer",
+          "minimum": 10,
+          "maximum": 100,
+          "description": "污染因子识别完整性：是否遗漏报告中明确列出的污染因子"
+        },
+        "measure_approval_alignment": {
+          "type": "integer",
+          "minimum": 10,
+          "maximum": 100,
+          "description": "治理措施与批复要求对应性：报告措施是否覆盖批复中要求的各项措施"
+        },
+        "actionability": {
+          "type": "integer",
+          "minimum": 10,
+          "maximum": 100,
+          "description": "审核建议可操作性：建议是否具体、可执行、有明确依据"
+        },
+        "hallucination_control": {
+          "type": "integer",
+          "minimum": 10,
+          "maximum": 100,
+          "description": "幻觉控制：是否存在无原文依据的推断或编造内容"
+        },
+        "review_point_compliance": {
+          "type": "integer",
+          "minimum": 10,
+          "maximum": 100,
+          "description": "审核要点合规性：AI回复是否覆盖生态环境部第14号令规定的十一项审查要点"
+        }
+      }
+    },
+    "strengths": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "主要优点列表"
+    },
+    "weaknesses": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "主要不足列表"
+    },
+    "missing_evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "claim": { "type": "string", "description": "缺乏证据的断言" },
+          "expected_source": { "type": "string", "description": "期望的证据来源类型" }
+        }
+      },
+      "description": "缺乏原文证据支撑的断言"
+    },
+    "unsupported_claims": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "无依据推断或幻觉内容"
+    },
+    "final_judgment": {
+      "type": "string",
+      "enum": [
+        "高度可靠_证据充分",
+        "基本可靠_少量遗漏",
+        "部分正确_证据不足",
+        "严重缺漏_明显错误",
+        "大部分错误_存在幻觉"
+      ],
+      "description": "最终评级"
+    },
+    "need_human_review": {
+      "type": "boolean",
+      "description": "是否需要人工复核"
+    },
+    "review_priority": {
+      "type": "string",
+      "enum": ["低", "中", "高", "紧急"],
+      "description": "人工复核优先级"
+    },
+    "evaluator_notes": {
+      "type": "string",
+      "description": "评估者附加说明"
+    },
+    "evaluation_timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "评估时间戳"
+    }
+  }
+}
